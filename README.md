@@ -6,7 +6,7 @@ refererence data and computing pipeline for high throughput phenotyping to suppo
 
 ## Quick Links
 
-* [github organization](https://github.com/terraref)
-* Box Account
+* Terraref Github organization: https://github.com/terraref)
+* Example data: https://uofi.box.com/terraref-sample-data 
 * Computing
 * Communication
