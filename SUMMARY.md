@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [Background](01-Background.md)
 * [Collaboration Tools](collaboration_tools.md)
 
