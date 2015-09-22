@@ -4,7 +4,7 @@
 * [Background](chapter1.md)
 * [People](people.md)
 * [Collaboration Tools](collaboration_tools.md)
-* [\Data Standards](data_standards.md)
+* [\Data Standards](datastandards.md)
    * [Data Levels](data_levels.md)
 * [Existing Software](existing_software.md)
 * [Use Cases](use_cases.md)
