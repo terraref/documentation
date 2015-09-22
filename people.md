@@ -56,4 +56,12 @@ Collaborating Research Groups at NCSA:
 * **National Data Service** NDS will provide a computing platform on top of OpenStack with the ability to publish data products and data access tools
 
 
-## Advisors
+## Board of Advisors
+
+| Name | Institution |
+|---|----|
+| Yuliy Barishnakov | University of Illinois |
+| Steven P. Long | University of Illinois |
+| Patrick Mulrooney | San Diego Supercomputing Center |
+| Sanjay Patel | University of Illinois |
+
