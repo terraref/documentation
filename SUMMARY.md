@@ -8,5 +8,4 @@
 * [Existing Software](existing_software.md)
 * [Use Cases](use_cases.md)
 * [Breeding 101](breeding_101.md)
-* layouts/footer.md
 
