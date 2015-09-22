@@ -37,16 +37,28 @@ curated, open-source, integrated data resource for comparative functional genomi
 
 ## APIs
 
-OADA Open Ag Data Alliance
-academic-industry collaboration to define a common API for ag data
- http://openag.io/
-iPlant / Agave 
-BETYdb: see API documentation [2] 
+### MODAPS NASA MODIS Satellite data 
+
+https://ladsweb.nascom.nasa.gov/data/api.html
+
+This Application Programming Interface (API) encompasses a library of functions that provides programmatic data access and processing services to MODIS Level 1 and Atmosphere data products. These routines enable both SOAP and REST based web service calls against the data archives maintained by MODAPS. These routines mirror existing LAADS Web services.
+
+
+### BETYdb: see API documentation [2] 
+
+To query trait vectors; can be extended to raster data once available. 
 
 https://www.betydb.org/search?&search=switchgrass+sla
 https://www.betydb.org/search.csv?&search=switchgrass+sla
 https://www.betydb.org/search.xml?&search=switchgrass+sla
 https://www.betydb.org/search.json?&search=switchgrass+sla
+
+
+### OADA Open Ag Data Alliance
+academic-industry collaboration to define a common API for ag data
+ http://openag.io/
+
+
 
 ## Sensor Data
 
@@ -61,22 +73,27 @@ ICASA has specifications for daily met summaries
 
 ### MsTMIP data formats
 
-# Example data 
+* Standardized Met driver data
+* Terrestrial Ecosystem Model output http://mstmipsynthesis.pbworks.com/w/page/25673213/FrontPage
 
-with references can be found in https://uofi.box.com/terraref-sample-data
-<iframe src="https://app.box.com/embed_widget/s/kuscr34y5halh4jome84z1z8txgh285y?view=list&sort=date&direction=ASC&theme=gray" width="330" height="400" frameborder="0"allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
-## Agronomic data (trait vectors)
-## Other
-Generic Standards
-NIEM National Information Exchange Model. “NIEM makes it possible for organizations to share critical data; as a result, people are empowered to make informed decisions that improve efficiency and help organizations advance their missions.”  
-comment: perhaps too generic for our specific needs, but a useful reference point
 
 ### Date-Time: 
 
 YYYY-MM-DD hh:mm:ssZ: 
 based on ISO 8601 . Optional offset for local time; precision determined by data (e.g. could be YYYY-MM-DD and decimals specified by a period.
 
+## Agronomic data (trait vectors)
+## Other
+Generic Standards
+NIEM National Information Exchange Model. “NIEM makes it possible for organizations to share critical data; as a result, people are empowered to make informed decisions that improve efficiency and help organizations advance their missions.”  
+comment: perhaps too generic for our specific needs, but a useful reference point
+
+# Example data 
+
+with references can be found in https://uofi.box.com/terraref-sample-data
+<iframe src="https://app.box.com/embed_widget/s/kuscr34y5halh4jome84z1z8txgh285y?view=list&sort=date&direction=ASC&theme=gray" width="330" height="400" frameborder="0"allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+
 ## References
 
-[1] BETYdb constraints documentation, see section "uniqueness constraints"  https://www.authorea.com/users/5574/articles/6719/_show_article
-[2] BETYdb data access section on API https://www.authorea.com/users/5574/articles/7062/_show_article
+* [1] BETYdb constraints documentation, see section "uniqueness constraints"  https://www.authorea.com/users/5574/articles/6719/_show_article
+* [2] BETYdb data access section on API https://www.authorea.com/users/5574/articles/7062/_show_article
