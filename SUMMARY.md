@@ -3,7 +3,6 @@
 * [Introduction](README.md)
 * [Background](chapter1.md)
    * [Breeding 101](breeding_101.md)
-* [Collaboration Tools](collaboration_tools.md)
 * [Data Standards](datastandards.md)
    * [Data Standards Committee](data_standards_committee.md)
    * [Existing Data Standards](existing_data_standards.md)
@@ -14,6 +13,7 @@
    * [Existing Software](existing_software.md)
 * Appendix
    * [Code of Conduct](code_of_conduct.md)
+* [Collaboration Tools](collaboration_tools.md)
 * [layouts](layouts/footer.md)
    * footer
 
