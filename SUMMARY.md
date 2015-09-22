@@ -13,6 +13,7 @@
    * [Technical Team](people.md)
    * [Existing Software](existing_software.md)
    * Appendix
+       * Code of Conduct
 * [layouts](layouts/footer.md)
    * footer
 
