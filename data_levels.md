@@ -1,6 +1,6 @@
 # Data Product Levels
 
-These are derived from NASA[^1] and NEON
+These are derived from NASA[^1] and NEON[^2]
 
 
 
@@ -14,4 +14,7 @@ These are derived from NASA[^1] and NEON
 | 4| 'phenotypes' derived variables associated with a particular plant or genotype rather than a spatial location |  |  |
 
 
-[1](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/): 
+___
+[1](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/): Earth Observing System Data Processing Levels, NASA
+
+[2](http://www.neoninc.org/science-design/data-processing) National Ecological Observatory Network Data Processing. 
