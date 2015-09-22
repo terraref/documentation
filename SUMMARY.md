@@ -2,16 +2,16 @@
 
 * [Introduction](README.md)
 * [Background](chapter1.md)
-* [People](people.md)
+  * [Breeding 101](breeding_101.md)
 * [Collaboration Tools](collaboration_tools.md)
 * [Data Standards](datastandards.md)
    * [Data Standards Committee](data_standards_committee.md)
    * [Existing Data Standards](existing_data_standards.md)
    * [Data Levels](data_levels.md)
+   * [Use Cases](use_cases.md)
 * [Cyberinfrastructure](cyberinfrastructure.md)
-* [Existing Software](existing_software.md)
-* [Use Cases](use_cases.md)
-* [Breeding 101](breeding_101.md)
+  * [Technical Team](people.md)
+  * [Existing Software](existing_software.md)
 * [layouts](layouts/footer.md)
    * footer
 
