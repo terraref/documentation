@@ -5,7 +5,8 @@ to be used by the TERRA Reference Phenotyping Standards Committee
 
 ## Overview
 
-All of the web-based software below provides the ability to nest sub-projects (e.g, subfolders in box, repositories on github). I have come up with the name 'terraref' for the cat 5 team in particular, and 'reference-data' for this group. One reason I haven't shared yet is that I may change all of the links below - alternatives to 'Terraref' for a project name to use consistently in links are welcome. 
+All of the web-based software below provides the ability to organize projects heirarchically and controll access  (e.g, subfolders in box, repositories on github). The name 'terraref' refers to the team leading the development of ARPA-E TERRA project's reference data and computing pipeline. 
+
 
 Github and Box are the primary tools the group will use for collaboration. 
 
