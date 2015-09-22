@@ -12,8 +12,8 @@
    * [Technical Team](people.md)
    * [Existing Software](existing_software.md)
 * Appendix
+   * [Collaboration Tools](collaboration_tools.md)
    * [Code of Conduct](code_of_conduct.md)
-* [Collaboration Tools](collaboration_tools.md)
 * [layouts](layouts/footer.md)
    * footer
 
