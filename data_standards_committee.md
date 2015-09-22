@@ -33,7 +33,7 @@ The Standards Committee is responsible for defining and advising the development
 
 
 
-## Related projects (and nominated participants
+## Related projects (and nominated participants)
 
 
 * NEON
