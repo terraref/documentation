@@ -4,6 +4,7 @@
 * [Background](chapter1.md)
 * [People](people.md)
 * [Collaboration Tools](collaboration_tools.md)
+   * Cyberinfrastructure
 * [Data Standards](datastandards.md)
    * [Data Standards Committee](data_standards_committee.md)
    * [Existing Data Standards](existing_data_standards.md)
