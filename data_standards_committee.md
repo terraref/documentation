@@ -2,6 +2,14 @@
 
 The Standards Committee is responsible for defining and advising the development of data products and access protocols for the ARPA-E TERRA program.
 
+## Data Standards Participants
+
+* TERRA Project Representatives (6)
+* ARPA-E Program Representatives (2)
+* Board of External Advisors (6)
+
+(numbers in parentheses are targets, for which we have funding)
+
 ## People
 
 | Name | Institution | Email|
@@ -22,3 +30,17 @@ The Standards Committee is responsible for defining and advising the development
 | Cheryl Porter| AgMIP / USDA ||
 | Shawn Serbin | Brookhaven National Lab | sserbin_at_bnl.gov |
 | TBA | NEON | |
+
+
+
+## Related projects (and nominated participants
+
+
+* NEON
+* DataOne (Bertram Ludascher or Matt Jones)
+* [USDA GODAN](http://www-u.ree.usda.gov/godan-background)
+* [USDA Ag data Commons](https://data.nal.usda.gov/)
+* ICASA / USDA / AgMIP (Cheryl Porter)
+  * [ICASA Dictionary](https://tinyurl.com/icasa-mvl) 
+  * [Wright et al ](https://dx.doi.org/10.1016/j.compag.2013.04.003) 
+* [Planteome Phenotype Ontologies](http://jaiswallab.cgrb.oregonstate.edu/node/126)
