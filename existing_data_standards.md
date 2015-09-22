@@ -1,9 +1,5 @@
 # Existing Data Standards
 
-* example data with references can be found in https://uofi.box.com/terraref-sample-data
-
-## Agronomic data (trait vectors)
-
 ### ICASA 
 http://research.agmip.org/display/it/Data+Interoperability
 ag expt data API http://research.agmip.org/display/dev/The+AgMIP+Crop+Experiment+Database+API
@@ -65,7 +61,11 @@ ICASA has specifications for daily met summaries
 
 ### MsTMIP data formats
 
+# Example data 
 
+with references can be found in https://uofi.box.com/terraref-sample-data
+<iframe src="https://app.box.com/embed_widget/s/kuscr34y5halh4jome84z1z8txgh285y?view=list&sort=date&direction=ASC&theme=gray" width="330" height="400" frameborder="0"allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+## Agronomic data (trait vectors)
 ## Other
 Generic Standards
 NIEM National Information Exchange Model. “NIEM makes it possible for organizations to share critical data; as a result, people are empowered to make informed decisions that improve efficiency and help organizations advance their missions.”  
