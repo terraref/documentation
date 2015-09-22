@@ -12,8 +12,8 @@
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
    * [Existing Software](existing_software.md)
-   * Appendix
-       * [Code of Conduct](code_of_conduct.md)
+* Appendix
+   * [Code of Conduct](code_of_conduct.md)
 * [layouts](layouts/footer.md)
    * footer
 
