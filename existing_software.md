@@ -33,3 +33,9 @@ HDF5 / netCDF-4
 * PlantCV http://plantcv.danforthcenter.org (OpenCV wrapper for Lemnatec indoor system)
 * OpenAlea http://openalea.gforge.inria.fr/dokuwiki/doku.php
 * Brown Dog
+
+## Genomics / Breeding
+
+IBP https://github.com/IntegratedBreedingPlatform
+
+https://www.integratedbreeding.net/62/training/bms-user-manual
