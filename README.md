@@ -1,8 +1,21 @@
 TERRAREF Documentation
 =======
 
+#### <span style="color:grey; font-family:Georgia; font-size:2em;">Draft </span> 
+
+The first edition will be published in **November 2016**.
+
+Please contribute via the github repository (github.com/terraref/documentation) or send suggestions / comments / feedback to David LeBauer dlebauer@gmail.com.
+
+## About
+
 Documentation for the specification and development of a 
-refererence data and computing pipeline for high throughput phenotyping to support breeding of biomass Sorghum.
+reference data and computing pipeline for high throughput phenotyping to support breeding of biomass Sorghum.
+
+### Intended audience:
+
+Users and developers of the TERRAREF pipeline.
+
 
 ## Quick Links
 
