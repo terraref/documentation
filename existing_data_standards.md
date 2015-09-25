@@ -1,4 +1,3 @@
-# Existing Data Standards
 
 ### ICASA 
 http://research.agmip.org/display/it/Data+Interoperability
@@ -8,7 +7,10 @@ variables list
 
 ICASA seems the most widely adopted for agronomic management, but also useful to consider these:
 
-### BETYdb Biofuel Ecophysiological Traits and Yields database https://betydb.org
+### BETYdb 
+
+(Biofuel Ecophysiological Traits and Yields database https://betydb.org)
+
 (will be used to store meta-data, provenance, not a standard 'data product')
 API documentation: https://www.authorea.com/users/5574/articles/7062/_show_article
 
