@@ -2,7 +2,8 @@
     "plugins": [
         "mathjax",
         "tufte",
-        "layout"
+        "layout",
+        "header"
     ],
     "pluginsConfig": {        
         "layout": {
