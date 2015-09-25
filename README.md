@@ -5,7 +5,10 @@ TERRAREF Documentation
 
 The first edition will be published in **November 2016**.
 
-Please contribute via the github repository (github.com/terraref/documentation) or send suggestions / comments / feedback to David LeBauer dlebauer@gmail.com.
+How to contribute to this documentation:
+
+* edit files or submit issues via the github repository ([github.com/terraref/documentation](github.com/terraref/documentation))
+* send suggestions / comments / corrections / feedback to David LeBauer dlebauer@gmail.com.
 
 ## About
 
