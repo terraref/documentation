@@ -15,6 +15,15 @@ The data processing system proposed here will deliver reference phenotyping data
 
 We will develop a data storage and computing system that provides researchers with access to all of the `raw' data and derived plant phenotypes (traits). Most of the data volume will come from a [Lemnatec Scanalyzer Field System](http://www.lemnatec.com/products/hardware-solutions/scanalyzer-field/) platform  USDA research station in Maricopa, Arizona, a [Lemnatec greenhouse phenotyping system] at the Donald Danforth Plant Science Center,  and aerial, ground, and tractor-based sensors at Arizona and Kansas.
 
+### Lemnatec Field system:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZjWxqqRynJg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+
+### Lemnatec Indoor system at Danforth:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QCgLuIqiC9E?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
 ## Data Products
 
 
