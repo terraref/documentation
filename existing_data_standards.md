@@ -2,6 +2,8 @@
 
 ## Agronomic data
 
+(including managements and traits)
+
 ### ICASA 
 
 http://research.agmip.org/display/it/Data+Interoperability
@@ -24,7 +26,6 @@ see https://github.com/terraref/reference-data/issues/6
 * Porter et al 2014 https://uofi.box.com/porter2014htc
 * Janssen et al https://uofi.box.com/jansen2012gds
 * Examples and documentation https://uofi.box.com/terraref-icasa 
-
 
 ### BETYdb 
 
@@ -83,8 +84,6 @@ curated, open-source, integrated data resource for comparative functional genomi
 * If any projects want to connect to KBase, please contact David LeBauer with information about specific modules / features you need enabled.
 
 ## APIs
-
-### Clowder
 
 ### MODAPS NASA MODIS Satellite data 
 
