@@ -40,6 +40,10 @@ BETYdb traits: available as web-page, csv, json, xml. This can be extended to al
 
 Will add a new field or new table to uniquely identify each line / accession / etc.. This would be similar to / an extension of the cultivars table What uniquely identifies a 'line' (see 'uniqueness' section of BETYdb documentation[1]? linked to any breeding and/or genomics database to track and visualize lineage, sequencing, and analytical output. 
 
+#### BETYdn References
+
+* [1] BETYdb constraints documentation, see section "uniqueness constraints"  https://www.authorea.com/users/5574/articles/6719/_show_article
+* [2] BETYdb data access section on API https://www.authorea.com/users/5574/articles/7062/_show_article
 
 ## Other Agronomic and Ecological data sources
 
@@ -144,7 +148,3 @@ comment: perhaps too generic for our specific needs, but a useful reference poin
 with references can be found in https://uofi.box.com/terraref-sample-data
 <iframe src="https://app.box.com/embed_widget/s/kuscr34y5halh4jome84z1z8txgh285y?view=list&sort=date&direction=ASC&theme=gray" width="330" height="400" frameborder="0"allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
 
-## References
-
-* [1] BETYdb constraints documentation, see section "uniqueness constraints"  https://www.authorea.com/users/5574/articles/6719/_show_article
-* [2] BETYdb data access section on API https://www.authorea.com/users/5574/articles/7062/_show_article
