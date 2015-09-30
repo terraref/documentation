@@ -5,21 +5,25 @@ For use by the TERRA Reference Phenotyping Standards Committee.
 
 ## Overview
 
-All of the web-based software below provides the ability to organize projects hierarchically, facilitate sharing, and support collaboration.
+All of the web-based software below provides the ability to organize projects hierarchically, facilitate sharing, and support collaboration. Much of this is publicly viewable; request access to dlebauer@illinois.edu for edit access.
 
-### Essential tools
+
+### Key Communication Tools
 
 * **Github and Box**
-     these are the primary tools the group will use for collaboration. 
+  * these are the primary tools the group will use for collaboration. 
 * **Google Docs**
-* 
+* **OSF Portal**
+  * main project https://osf.io/n532g/. access to data and computing sub-projects by request
+  * can log in with Github account
+  * **Open Science Framework** provides a centralized portal to Github, Box, Google Drive and other resources. 
+  * OSF can archive material in any/all of these. This will be used to publish methods (including specifications, documentation, etc). 
 
 ### Additional tools
 
 some of these are optional, many participants will not need to use them.
 
 * **Etherpad** Meeting notes, and other collaborative note taking. Useful content can be transferred to GitHub, Box, or other platforms
-* **Open Science Framework** provides a centralized portal to Github, Box, and other resources. All of these resources can be archived and assigned a doi. This will be useful for publishing specifications. 
 * **ArcGIS online** will make it easy to visualize data.  
 
 
