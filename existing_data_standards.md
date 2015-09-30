@@ -6,18 +6,21 @@
 
 ### ICASA 
 
-http://research.agmip.org/display/it/Data+Interoperability
-
-This is an API for agronomic exptal data
-http://research.agmip.org/display/dev/The+AgMIP+Crop+Experiment+Database+API
-
-based on json data objects with
-lists of variables
+This is an API for agronomic experimental data
 
 ICASA is adopted / developed by USDA - AgMIP - others 
 
 AgMIP, using ICASA standards
 see https://github.com/terraref/reference-data/issues/6
+
+http://research.agmip.org/display/dev/The+AgMIP+Crop+Experiment+Database+API
+
+* Documentation http://research.agmip.org/display/it/Data+Interoperability
+* Variables http://research.agmip.org/display/dev/ICASA+Master+Variable+List
+
+
+* based on json data objects with lists of variables
+
 
 
 #### ICASA References:
