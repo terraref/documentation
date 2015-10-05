@@ -45,6 +45,6 @@
 
 ## Genomics / Breeding
 
-IBP https://github.com/IntegratedBreedingPlatform
-
-https://www.integratedbreeding.net/62/training/bms-user-manual
+* IBP Integrated Breeding Platform
+  * https://github.com/IntegratedBreedingPlatform
+  * https://www.integratedbreeding.net/62/training/bms-user-manual
