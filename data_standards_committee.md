@@ -12,7 +12,7 @@ The Standards Committee is responsible for defining and advising the development
 
 ## People
 
-| Name | Institution | Email|
+| Name | Institution | Contact |
 |:--|:--|:--|
 |**Coordinators** | | | 
 | David Lee | ARPA-E | david.lee2_at_hq.doe.gov|
@@ -20,6 +20,7 @@ The Standards Committee is responsible for defining and advising the development
 |**TERRA Project Representatives** | | | 
 | Jeff White | USDA ALARC | Jeffrey.White_at_ars.usda.gov|
 | Melba Crawford | Purdue | melbac_at_purdue.edu|
+| Paul Bartlett | Near Earth Autonomy | www.nearearth.aero |
 | Carl Bernacchi | UIUC / USDA | bernacch_at_illinois.edu|
 | Matt Colgan | Blue River | matt.c_at_bluerivert.com|
 | Christer Janssen | Pacific Northwest National Laboratory | georg.jansson_at_pnnl.gov|
@@ -28,7 +29,7 @@ The Standards Committee is responsible for defining and advising the development
 |**External Advisors** | | | 
 | Cheryl Porter| AgMIP / USDA ||
 | Shawn Serbin | Brookhaven National Lab | sserbin_at_bnl.gov |
-| TBA | NEON | |
+| Shelly Petroy and Christine Laney | NEON | |
 
 
 
