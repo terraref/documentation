@@ -112,24 +112,22 @@ This Application Programming Interface (API) encompasses a library of functions 
 ## Sensor Data
 
 * Image / Sensor data (https://github.com/terraref/reference-data/issues/2)
+  * NASA AVIRIS airborne mission
+    * http://aviris.jpl.nasa.gov/documents/100625_ortho.readme
+    * http://aviris.jpl.nasa.gov/documents/AVIRIS_HyspIRI_Reflectance_Data.readme
   * NEON data products http://data.neoninc.org/documents
   * ATBDs (Algorithm Theoretical Basis Document) provide protocols for creating data products
   * ISO 19115, adopted (?) by NEON, ICOS, NASA, PEcAn and others; solid effort to adopt common conventions. http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=53798
-
+  
 * Meteorological data (also see https://github.com/terraref/reference-data/issues/3):
-  * Climate Forecasting Conventions
+  * Climate Forecasting Conventions 
+  * Standardized Met driver data
+  * Terrestrial Ecosystem Model output http://mstmipsynthesis.pbworks.com/w/page/25673213/FrontPage
   * ICASA has specifications for daily met summaries
+ 
 
 
-### Sensor Meta-data language (SensorML)
-
-http://www.opengeospatial.org/standards/sensorml
-
-
-### MsTMIP data formats
-
-* Standardized Met driver data
-* Terrestrial Ecosystem Model output http://mstmipsynthesis.pbworks.com/w/page/25673213/FrontPage
+* Sensor Meta-data language (SensorML) http://www.opengeospatial.org/standards/sensorml
 
 
 ### Date-Time: 
