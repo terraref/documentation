@@ -137,6 +137,12 @@ Proposed format: https://github.com/terraref/reference-data/issues/14
 
 
 LAS format http://www.asprs.org/a/society/committees/standards/LAS_1_4_r13.pdf
+* de facto standard for LiDAR, but has limitations
+* is it sufficient for laser scan data?
+* alternatives include Sensor Independent Point Cloud (SIPC) based on HDF. See also http://www.opengeospatial.org/projects/groups/pointclouddwg
+* ply for triangular mesh
+
+
 * Sensor Meta-data language (SensorML) http://www.opengeospatial.org/standards/sensorml
 
 
