@@ -2,59 +2,71 @@
 
 For use by the TERRA Reference Phenotyping Standards Committee.
 
-
 ## Overview
 
-All of the web-based software below provides the ability to organize projects hierarchically, facilitate sharing, and support collaboration.
+All of the web-based software below provides the ability to organize projects hierarchically, facilitate sharing, and support collaboration. Much of this is publicly viewable. 
 
-### Essential tools
+For assistance - to request new integrations, directories, and groups, submit request to David LeBauer. We can set up, provide guideance, manage access, and (manage or transfer) administrative rights as needed.
 
-* **Github and Box**
-     these are the primary tools the group will use for collaboration. 
-* **Google Docs**
-* 
+These are handy off-the shelf tools with nice user-interfaces, but will not be integrated into the computational pipeline itself, which is focused on developing solutions for big data and high-performance computing and providing a suite of tools with permissive open source licenses (e.g. UI/NCSA, MIT, BSD, and compatible licenses).
+
+### Core Communication Tools
+
+* **Github** project management, website content and hosting, collaborative software development 
+* **Box** references, specifications, example datasets, file sharing
+* **Google Drive** collaborative editing of documents that we create (notes, manuscripts, etc)
+* **OSF** central portal to Github, Box, Google Drive and data archiving 
 
 ### Additional tools
 
-some of these are optional, many participants will not need to use them.
+some of these are optional, many participants will not need to use them. Many tools may be useful, and where they provide unique functionality  
 
-* **Etherpad** Meeting notes, and other collaborative note taking. Useful content can be transferred to GitHub, Box, or other platforms
-* **Open Science Framework** provides a centralized portal to Github, Box, and other resources. All of these resources can be archived and assigned a doi. This will be useful for publishing specifications. 
-* **ArcGIS online** will make it easy to visualize data.  
-
+* **Etherpad** Handy for collaborative note taking (e.g. during meetings). This has minimal features, so any useful content can be transferred to Google Drive for further development or Github (e.g. for TODO items and documentation),   
+* **ArcGIS online** User-friendly interface for GIS analysis and visualization, license is available via University of Illinois. Give it a whirl! 
 
 ## Details:
 
-### Github:
+### Terraref sites on Github:
 
-* **Documentation** https://guides.github.com/
+* **Data products repository** https://github.com/terraref/reference-data
+  * issues and milestones: https://github.com/terraref/reference-data/issues
+* **Computational Pipeline Repository** https://github.com/terraref/computational-pipeline
+  * issues and milestones: https://github.com/terraref/computational-pipeline/issues
+* **Website for R&D** : https://terraref.github.io
+
+### Github Documentation:
+
+* **[GitHub Documentation](https://guides.github.com/)** 
 * **Features**
   * Interface to 'git', a specialized command-line tool for version control. 
-  * Wiki
+  * [code management / collaboration](https://github.com/features):  
   * Issue tracking and discussion forum https://guides.github.com/features/issues/
     * participants can reply to issues via email, similar to an email discussion list
-  * website hosting: https://pages.github.com/
-  * code management / collaboration:  https://github.com/features
+  * [GitHub Pages website hosting](https://pages.github.com/)
   * wiki https://guides.github.com/features/wikis/
-* we can create private repositories
-  * Source code repository
-  * Website hosting
+* Can have private repositories (e.g. github.com/terraref/admin for project management). Please contact David for access or to create a new private repository
 
-* **Terraref repository** https://github.com/terraref/reference-data
-  * issues and milestones: https://github.com/terraref/reference-data/issues
 
 
 ### Box 
 
 * https://uofi.box.com/terraref
-* file sharing; UI has provided our group with 500GB of storage which should be plenty for example data and reference documents. 
+* primary portal for sharing sample datasets, external reference documentation 
+* project has 500GB of storage
+* controlled access; 'shared' folder for public resources
+
+### Google Docs
+
+* for sharing and collaborating on documents (e.g. notes, drafts, etc)
+* not for reference documentation, example datasets, that belong in Box 
+* controlled access, 'shared' folder for public resources
 
 ### Open Science Framework (osf.io)
 
-* for sharing files, provides a single portal to Github, Box, Dropbox, Google Drive, Figshare, Dataverse, Zotero, Mendeley
-* makes it easy to archive (get a doi) for 'project snapshots' including subsets of data, documentation and etc. contained in above services
-
-
+* main project https://osf.io/n532g/. access to data and computing sub-projects by request
+  * **Open Science Framework** provides a centralized portal to Github, Box, Google Drive 
+  * Can archive (get a doi) project snapshots that can be referenced (e.g. in publications) that combine material in the linked services
+  * other features: edit text files, link to Figshare, Dataverse, Zotero, Mendeley, many others on the way
 
 ### ArcGIS Online http://arcg.is/1NwgxFe
 
