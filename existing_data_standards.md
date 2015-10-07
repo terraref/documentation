@@ -88,13 +88,6 @@ curated, open-source, integrated data resource for comparative functional genomi
 
 ## APIs
 
-### MODAPS NASA MODIS Satellite data 
-
-https://ladsweb.nascom.nasa.gov/data/api.html
-
-This Application Programming Interface (API) encompasses a library of functions that provides programmatic data access and processing services to MODIS Level 1 and Atmosphere data products. These routines enable both SOAP and REST based web service calls against the data archives maintained by MODAPS. These routines mirror existing LAADS Web services.
-
-
 ### BETYdb: see API documentation [2] 
 
 To query trait vectors; can be extended to raster data once available. 
@@ -109,6 +102,11 @@ https://www.betydb.org/search.json?&search=switchgrass+sla
 academic-industry collaboration to define a common API for ag data
  http://openag.io/
 
+### MODAPS NASA MODIS Satellite data 
+
+https://ladsweb.nascom.nasa.gov/data/api.html
+
+This Application Programming Interface (API) encompasses a library of functions that provides programmatic data access and processing services to MODIS Level 1 and Atmosphere data products. These routines enable both SOAP and REST based web service calls against the data archives maintained by MODAPS. These routines mirror existing LAADS Web services.
 
 
 ## Sensor Data
@@ -121,6 +119,12 @@ academic-industry collaboration to define a common API for ag data
 * Meteorological data (also see https://github.com/terraref/reference-data/issues/3):
   * Climate Forecasting Conventions
   * ICASA has specifications for daily met summaries
+
+
+### Sensor Meta-data language (SensorML)
+
+http://www.opengeospatial.org/standards/sensorml
+
 
 ### MsTMIP data formats
 
