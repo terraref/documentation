@@ -111,7 +111,13 @@ This Application Programming Interface (API) encompasses a library of functions 
 
 ## Sensor Data
 
-* Image / Sensor data (https://github.com/terraref/reference-data/issues/2)
+### LemnaTec output 
+
+https://github.com/terraref/reference-data/issues/2
+
+### Image / spectrometer data 
+
+Proposed format: https://github.com/terraref/reference-data/issues/14
   * NASA AVIRIS airborne mission
     * http://aviris.jpl.nasa.gov/documents/100625_ortho.readme
     * http://aviris.jpl.nasa.gov/documents/AVIRIS_HyspIRI_Reflectance_Data.readme
@@ -119,14 +125,18 @@ This Application Programming Interface (API) encompasses a library of functions 
   * ATBDs (Algorithm Theoretical Basis Document) provide protocols for creating data products
   * ISO 19115, adopted (?) by NEON, ICOS, NASA, PEcAn and others; solid effort to adopt common conventions. http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=53798
   
-* Meteorological data (also see https://github.com/terraref/reference-data/issues/3):
+
+### Meteorological data (also see https://github.com/terraref/reference-data/issues/3):
   * Climate Forecasting Conventions 
   * Standardized Met driver data
   * Terrestrial Ecosystem Model output http://mstmipsynthesis.pbworks.com/w/page/25673213/FrontPage
   * ICASA has specifications for daily met summaries
  
 
+### LiDAR / point cloud
 
+
+LAS format http://www.asprs.org/a/society/committees/standards/LAS_1_4_r13.pdf
 * Sensor Meta-data language (SensorML) http://www.opengeospatial.org/standards/sensorml
 
 
@@ -151,4 +161,3 @@ comment: perhaps too generic for our specific needs, but a useful reference poin
 
 with references can be found in https://uofi.box.com/terraref-sample-data
 <iframe src="https://app.box.com/embed_widget/s/kuscr34y5halh4jome84z1z8txgh285y?view=list&sort=date&direction=ASC&theme=gray" width="330" height="400" frameborder="0"allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
-
