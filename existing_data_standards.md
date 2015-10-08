@@ -1,5 +1,9 @@
 # Existing Data Standards
 
+
+
+## Agronomic data (trait vectors)
+
 ### ICASA 
 http://research.agmip.org/display/it/Data+Interoperability
 ag expt data API http://research.agmip.org/display/dev/The+AgMIP+Crop+Experiment+Database+API
@@ -43,7 +47,6 @@ https://ladsweb.nascom.nasa.gov/data/api.html
 
 This Application Programming Interface (API) encompasses a library of functions that provides programmatic data access and processing services to MODIS Level 1 and Atmosphere data products. These routines enable both SOAP and REST based web service calls against the data archives maintained by MODAPS. These routines mirror existing LAADS Web services.
 
-
 ### BETYdb: see API documentation [2] 
 
 To query trait vectors; can be extended to raster data once available. 
@@ -64,12 +67,13 @@ academic-industry collaboration to define a common API for ag data
 
 Image / Sensor data (https://github.com/terraref/reference-data/issues/2)
 NEON data products http://data.neoninc.org/documents
+
 ATBDs (Algorithm Theoretical Basis Document) provide protocols for creating data products, e.g. 
 ISO 19115, which is how NEON, ICOS, NASA, PEcAn and others are trying to rally around as a single standard. http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=53798
 
 Meteorological data (also see https://github.com/terraref/reference-data/issues/3):
-Climate Forecasting Conventions
-ICASA has specifications for daily met summaries
+
+### Climate Forecasting Conventions
 
 ### MsTMIP data formats
 
@@ -81,12 +85,6 @@ ICASA has specifications for daily met summaries
 
 YYYY-MM-DD hh:mm:ssZ: 
 based on ISO 8601 . Optional offset for local time; precision determined by data (e.g. could be YYYY-MM-DD and decimals specified by a period.
-
-## Agronomic data (trait vectors)
-## Other
-Generic Standards
-NIEM National Information Exchange Model. “NIEM makes it possible for organizations to share critical data; as a result, people are empowered to make informed decisions that improve efficiency and help organizations advance their missions.”  
-comment: perhaps too generic for our specific needs, but a useful reference point
 
 # Example data 
 
