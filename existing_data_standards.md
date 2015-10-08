@@ -65,19 +65,28 @@ academic-industry collaboration to define a common API for ag data
 
 ## Sensor Data
 
-Image / Sensor data (https://github.com/terraref/reference-data/issues/2)
-NEON data products http://data.neoninc.org/documents
+
+### Image / Sensor data 
+
+* https://github.com/terraref/reference-data/issues/2
+* https://github.com/terraref/reference-data/issues/14
+
+### NEON data products http://data.neoninc.org/documents
 
 ATBDs (Algorithm Theoretical Basis Document) provide protocols for creating data products, e.g. 
 ISO 19115, which is how NEON, ICOS, NASA, PEcAn and others are trying to rally around as a single standard. http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=53798
 
-Meteorological data (also see https://github.com/terraref/reference-data/issues/3):
 
 ### Climate Forecasting Conventions
+
+
 
 Dimensions: time, lat, lon, other
 specify time first (unlimited) lat, lon or x, y extent to field boundaries.
 
+### Meteorological data
+
+https://github.com/terraref/reference-data/issues/3
 
 ### MsTMIP data formats
 
