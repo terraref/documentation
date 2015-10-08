@@ -50,7 +50,7 @@ ___
 | David Lee | ARPA-E | david.lee2_at_hq.doe.gov|
 | David LeBauer | UIUC / NCSA | dlebauer_at_illinois.edu|
 |**TERRA Project Representatives** | | | 
-| Paul Bartlett | Near Earth Autonomy | paul_at_nearearth.aero|
+| Paul Bartlett | Near Earth Autonomy | www.nearearth.aero|
 | Jeff White | USDA ALARC | Jeffrey.White_at_ars.usda.gov|
 | Melba Crawford | Purdue | melbac_at_purdue.edu|
 | Carl Bernacchi | UIUC / USDA | bernacch_at_illinois.edu|
@@ -59,20 +59,14 @@ ___
 | Barnabas Poczos | Carnegie Mellon | bapoczos_at_cs.cmu.edu|
 | Alex Thomasson | Texas A&M University | thomasson_at_tamu.edu|
 |**External Advisors** | | | 
-| Cheryl Porter| AgMIP / USDA ||
+| Cheryl Porter| ICASA / AgMIP / USDA |  |
 | Shawn Serbin | Brookhaven National Lab | sserbin_at_bnl.gov |
-| TBA | NEON | |
+| Shelly Petroy and Christine Laney | NEON | |
 
 
+## Other Related projects
 
-## Related projects (and nominated participants)
-
-
-* NEON
 * DataOne (Bertram Ludascher or Matt Jones)
 * [USDA GODAN](http://www-u.ree.usda.gov/godan-background)
 * [USDA Ag data Commons](https://data.nal.usda.gov/)
-* ICASA / USDA / AgMIP (Cheryl Porter)
-  * [ICASA Dictionary](https://tinyurl.com/icasa-mvl) 
-  * [Wright et al ](https://dx.doi.org/10.1016/j.compag.2013.04.003) 
 * [Planteome Phenotype Ontologies](http://jaiswallab.cgrb.oregonstate.edu/node/126)
