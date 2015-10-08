@@ -75,10 +75,15 @@ Meteorological data (also see https://github.com/terraref/reference-data/issues/
 
 ### Climate Forecasting Conventions
 
+Dimensions: time, lat, lon, other
+specify time first (unlimited) lat, lon or x, y extent to field boundaries.
+
+
 ### MsTMIP data formats
 
-* Standardized Met driver data
-* Terrestrial Ecosystem Model output http://mstmipsynthesis.pbworks.com/w/page/25673213/FrontPage
+* One implementation of CF for ecosystem model driver (met, soil) and output (mass, energy dynamics)
+  * Standardized Met driver data
+  * Terrestrial Ecosystem Model output http://mstmipsynthesis.pbworks.com/w/page/25673213/FrontPage
 
 
 ### Date-Time: 
