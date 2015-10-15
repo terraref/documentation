@@ -19,7 +19,6 @@ reference data and computing pipeline for high throughput phenotyping to support
 
 Users and developers of the TERRAref pipeline.
 
-
 ## Quick Links
 
 * Terraref Github organization: https://github.com/terraref
