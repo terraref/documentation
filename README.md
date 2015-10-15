@@ -17,7 +17,7 @@ reference data and computing pipeline for high throughput phenotyping to support
 
 ### Intended audience:
 
-Users and developers of the TERRAREF pipeline.
+Users and developers of the TERRAref pipeline.
 
 
 ## Quick Links
