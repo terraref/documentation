@@ -76,10 +76,14 @@ academic-industry collaboration to define a common API for ag data
 ATBDs (Algorithm Theoretical Basis Document) provide protocols for creating data products, e.g. 
 ISO 19115, which is how NEON, ICOS, NASA, PEcAn and others are trying to rally around as a single standard. http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=53798
 
+### Planet Labs
+
+Planet Labs provides high frequency, medium resolution RGB satellite images.
+
+* [API Docs](https://www.planet.com/docs/?utm_source=intercom&utm_medium=email&utm_campaign=onboard-new-explorer&utm_content=Welcome-2015-10-a#apis)
+* [API Code Samples (use cases)](https://www.planet.com/docs/v0/tutorials/)
 
 ### Climate Forecasting Conventions
-
-
 
 Dimensions: time, lat, lon, other
 specify time first (unlimited) lat, lon or x, y extent to field boundaries.
