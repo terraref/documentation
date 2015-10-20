@@ -29,7 +29,7 @@ We anticipate that standards and data formats will evolve over time as we clarif
 
 TERRA Project representatives are expected to represent the interests of their TERRA team, their research community, and the institutions for which they work. External participants were chosen for specific expertise and will be asked to provide feedback and guidance to help make the TERRA platform interoperable with existing and emerging sensing, informatics, and computing platforms. 
 
-**Specific duties**
+### Specific duties
 
 * Participate in monthly to quarterly teleconferences with the committee.
 * Provide expert advice.
