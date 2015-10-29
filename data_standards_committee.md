@@ -9,7 +9,9 @@ The Standards Committee is responsible for defining and advising the development
 
 
 When NASA began developing earth observing satellites in the 1980s, they produced the
-Report of the Earth Observation System Data Panel[^1]. Despite three decades of technical progress, this document provides an outline for the scope of our work.
+Report of the Earth Observation System Data Panel[^1]. In addition to providing a model for the TERRA reference data and computing platform, the authors also explain the need for active engagement among scientists and developers in the following excerpt:
+
+> There are two imperatives or guiding principles which should be closely followed throughout this evolutionary process. They are (i) involve the scientific research community at the outset and throughout all subsequent activities, since the data will be acquired, transmitted, and processed for scientific research, and (ii) provide a representative group of active researchers with an oversight and review responsibility, since the most successful ex- amples of data base management involve user oversight.
 
 ## Objectives
 
