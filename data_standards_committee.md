@@ -72,7 +72,7 @@ ___
 | Paul Bartlett | Near Earth Autonomy | www.nearearth.aero|
 | Jeff White | USDA ALARC | Jeffrey.White_at_ars.usda.gov|
 | Melba Crawford | Purdue | melbac_at_purdue.edu|
-| Carl Bernacchi | UIUC / USDA | bernacch_at_illinois.edu|
+| Mike Gore  | Cornell | mag87_at_cornell.edu|
 | Matt Colgan | Blue River | matt.c_at_bluerivert.com|
 | Christer Janssen | Pacific Northwest National Laboratory | georg.jansson_at_pnnl.gov|
 | Barnabas Poczos | Carnegie Mellon | bapoczos_at_cs.cmu.edu|
