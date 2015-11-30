@@ -10,7 +10,11 @@ An online overview of installing Clowder is available [here](https://opensource.
  
 Clowder source code is available as a [git repository](https://opensource.ncsa.illinois.edu/stash/projects/CATS). 
 
-## Developing extractors
+## Using existing extractors
+* PlantCV extractor
+ * [Installation & Running](http://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/extractors-plantcv/browse/README.md)
+
+## Developing new extractors
 Coming soon
 https://opensource.ncsa.illinois.edu/confluence/display/CATS/Deploying+Windows+Extractors
 
@@ -38,3 +42,4 @@ Each file has some metadata associated with it. Generally, sources will write sc
 * Embed all desired metadata in the image itself, using something like [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/). Our extractors can parse this metadata.
 * POST a .JSON file with the same name as the primary file to the same Dataset – we write an extractor to search for an existing file to associate the parsed JSON data with. This may be less desirable if it doubles the number of files to transfer.
 * It is desirable for end users to have a means to export available metadata for a file as JSON, XML, YAML, etc.
+
