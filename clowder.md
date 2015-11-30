@@ -43,3 +43,4 @@ Each file has some metadata associated with it. Generally, sources will write sc
 * POST a .JSON file with the same name as the primary file to the same Dataset – we write an extractor to search for an existing file to associate the parsed JSON data with. This may be less desirable if it doubles the number of files to transfer.
 * It is desirable for end users to have a means to export available metadata for a file as JSON, XML, YAML, etc.
 
+An example script illustrating upload of a directory of images to a Clowder dataset is available [here](https://github.com/terraref/computing-pipeline/tree/master/scripts). 
