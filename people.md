@@ -24,7 +24,7 @@ responsible for:
 | Architect / Senior Programmer | Rob Kooper, ISDA |kooper@illinois.edu |
 | Architect / Senior Programmer |  Yan Liu, CyberGIS |yanliu@illinois.edu |
 | Research Programmer  | Max Burnette, ISDA |mburnet2@illinois.edu |
-| Research Programmer  | David Raila |raila@illinois.edu |
+| Research Programmer  | David Raila, NDS |raila@illinois.edu |
 
 Collaborating Research Groups at NCSA:
 
