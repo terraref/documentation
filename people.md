@@ -18,7 +18,7 @@ responsible for:
 | Role | Name | email|
 |---|---|----|
 | NCSA Lead | David LeBauer | dlebauer_at_illinois.edu|
-| Danforth Lead | Noah Fahlgren |nfahlgren_at_@danforthcenter.org | 
+| Danforth Lead | Noah Fahlgren |nfahlgren_at_danforthcenter.org | 
 | Project Manager | Rachel Shekar |shekar_at_illinois.edu |
 | Storage Architect | JD Maloney |malone12_at_illinois.edu |
 | Architect / Senior Programmer | Rob Kooper, ISDA |kooper_at_illinois.edu |
