@@ -18,13 +18,13 @@ responsible for:
 | Role | Name | email|
 |---|---|----|
 | NCSA Lead | David LeBauer | dlebauer@illinois.edu|
-| Danforth Lead | Noah Fahlgren | | 
-| Project Manager | Jay Roloff | |
-| Storage Architect | Brett Bode | |
-| Architect / Senior Programmer | Rob Kooper, ISDA | |
-| Architect / Senior Programmer |  Yan Liu, CyberGIS | |
-| Developer  | ISDA TBA | |
-| Developer  | NDS TBA | |
+| Danforth Lead | Noah Fahlgren |nfahlgren@danforthcenter.org | 
+| Project Manager | Rachel Shekar |shekar@illinois.edu |
+| Storage Architect | JD Maloney |malone12@illinois.edu |
+| Architect / Senior Programmer | Rob Kooper, ISDA |kooper@illinois.edu |
+| Architect / Senior Programmer |  Yan Liu, CyberGIS |yanliu@illinois.edu |
+| Research Programmer  | Max Burnette, ISDA |mburnet2@illinois.edu |
+| Research Programmer  | David Raila |raila@illinois.edu |
 
 Collaborating Research Groups at NCSA:
 
