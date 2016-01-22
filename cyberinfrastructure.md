@@ -23,3 +23,10 @@
 1.	Daily visual inspection by engineers and system operators
 1.	Weekly summaries inspected by scientists
 1.	Post-season quality control and re-analysis with standard algorithms
+
+
+### Globus
+
+#### Summary
+
+#### Installation
