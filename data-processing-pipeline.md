@@ -3,8 +3,6 @@
 
 ## Pipeline overview
 
-
-
 1.	Calibration, Pre-processing
 1.	Transfer data from sensor to storage
 1.	Automated initial QA/QC 
