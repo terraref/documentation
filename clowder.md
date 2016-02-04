@@ -14,31 +14,29 @@ If you will be developing [extractors](#Extractors) you will also need:
 
 **Clowder source code**  
 The source code is available as a collection of [git repositories](https://opensource.ncsa.illinois.edu/stash/projects/CATS). Install [Git](https://git-scm.com/) in order to clone these repositories.
-* The **clowder** repository includes the browser-based UI and is required.  
+
+The **clowder** repository includes the browser-based UI and is required.  
 
     git clone https://opensource.ncsa.illinois.edu/bitbucket/scm/cats/clowder.git
     
-* The **extractors-core** repository includes basic extractors. Other specific extractors are available in their own repositories.  
+The **extractors-core** repository includes basic extractors. Other specific extractors are available in their own repositories.  
 
     git clone https://opensource.ncsa.illinois.edu/bitbucket/scm/cats/extractors-core.git
 
 **Setup**  
 After installing necessary software and cloning the Clowder repository, the UI frontend can be started. 
 
-1. Make sure MongoDB is running 
-
-    cd <mongo installation directory>
+1. Make sure MongoDB is running  
+    cd _mongo installation directory_
     ./bin/mongod.exe
     
-2. Start Clowder frontend
-
-    <clowder directory>
+2. Start Clowder frontend  
+    _clowder directory_
     ./sbt run
     
-3. Set configuration in Clowder directory
-
-    **/conf/application.conf** includes basic configuration entries. To override these, create a file called **/custom/custom.conf** and put new settings there.
-    **/conf/play.plugins** is used to enable or disable specific system functionality. To override these, create a file called **/custom/play.plugins**.
+3. Set configuration in Clowder directory  
+**/conf/application.conf** includes basic configuration entries. To override these, create a file called **/custom/custom.conf** and put new settings there.  
+**/conf/play.plugins** is used to enable or disable specific system functionality. To override these, create a file called **/custom/play.plugins**.
 
 4. Create a user account  
 In a fresh installation Clowder is not configured with an email server, so when someone registers for an account the confirmation email will not be sent correctly. However the Clowder console will still display the contents of the email, so the confirmation URL can be copied from there. 
@@ -59,7 +57,7 @@ In development is the ability to launch an Analysis Environment with a dataset a
 
 ## API
 Clowder also includes a RESTful API that allows programmatic interactions such as creating new datasets and downloading files. For example, one can request a list of datasets using:
-    GET <clowder home URL>/api/datasets
+    GET _clowder home URL_/api/datasets
 The current API schema for a Clowder instance can be accessed by selecting **API** from the **?** Help menu in the upper-right corner of the application.
 
 Two example sources that will be pushing high data volumes into Clowder:
@@ -68,18 +66,19 @@ Two example sources that will be pushing high data volumes into Clowder:
 
 **Scripting against the API**  
 For typical workflows, the following steps are sufficient to push data into Clowder in an organized fashion:
+
 1. Create a collection to hold relevant datasets (optional)
 
-    **POST /api/collections** (provide a name; returns collection ID)
+    **POST /api/collections** (provide a name; returns collection ID)  
     
 2. Create a dataset to hold relevant files and add it to the collection
 
-    **POST /api/datasets/createempty** (provide a name; returns dataset ID)
-    **POST /api/collections/<collection id>/datasets/<dataset id>** 
+    **POST /api/datasets/createempty** (provide a name; returns dataset ID)  
+    **POST /api/collections/<collection id>/datasets/<dataset id>**  
     
 3. Upload files and metadata to dataset
 
-    **POST /api/datasets/uploadToDataset/<dataset id>** (provide file(s) and metadata)
+    **POST /api/datasets/uploadToDataset/<dataset id>** (provide file(s) and metadata)  
 
 ***
 
@@ -89,11 +88,10 @@ Extractors are services that run silently alongside Clowder. They can be configu
 **Examples** (from the [git repository](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS))  
 * **extractors-image** generates thumbnail previews and extracts EXIF metadata from image files
 * **extractors-dbpedia** uses named-entity recognition and [DBpedia](http://wiki.dbpedia.org/) to extract information from text files
-* **extractors-plantcv** invokes appropriate [PlantCV](http://plantcv.danforthcenter.org/) image analysis tools to generate output images and data from uploaded images
- * [read more about this extractor here](http://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/extractors-plantcv/browse)
+* **extractors-plantcv** invokes appropriate [PlantCV](http://plantcv.danforthcenter.org/) image analysis tools to generate output images and data from uploaded images ([read more about this extractor here](http://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/extractors-plantcv/browse))
 
 **Developing new extractors**  
 It is possible to develop extractors for new file types or tasks. 
-* [pyClowder](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/pyclowder/browse) is designed for this purpose.
-* [Development in Windows](https://opensource.ncsa.illinois.edu/confluence/display/CATS/Deploying+Windows+Extractors)
-* More information coming soon.
+* [pyClowder](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/pyclowder/browse) is designed for this purpose.  
+* [Development in Windows](https://opensource.ncsa.illinois.edu/confluence/display/CATS/Deploying+Windows+Extractors)  
+More information coming soon.
