@@ -15,11 +15,11 @@ If you will be developing [extractors](#Extractors) you will also need:
 **Clowder source code**  
 The source code is available as a collection of [git repositories](https://opensource.ncsa.illinois.edu/stash/projects/CATS). Install [Git](https://git-scm.com/) in order to clone these repositories.
 
-The _clowder_ repository includes the browser-based UI and is required.  
+The _clowder_ repository includes the browser-based [user interface](#Interface) and is required.  
 
     git clone https://opensource.ncsa.illinois.edu/bitbucket/scm/cats/clowder.git
     
-The _extractors-core_ repository includes basic extractors. Other specific extractors are available in their own repositories.  
+The _extractors-core_ repository includes basic [extractors](#Extractors). Other specific extractors are available in their own repositories.  
 
     git clone https://opensource.ncsa.illinois.edu/bitbucket/scm/cats/extractors-core.git
 
