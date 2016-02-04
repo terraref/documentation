@@ -38,12 +38,13 @@ After installing necessary software and cloning the Clowder repository, the UI f
     
 3. Set configuration in Clowder directory  
 
-**/conf/application.conf** includes basic configuration entries. To override these, create a file called **/custom/custom.conf** and put new settings there.  
-**/conf/play.plugins** is used to enable or disable specific system functionality. To override these, create a file called **/custom/play.plugins**.
+    **/conf/application.conf** includes basic configuration entries. To override these, create a file called **/custom/custom.conf** and put new settings there. 
+     
+    **/conf/play.plugins** is used to enable or disable specific system functionality. To override these, create a file called **/custom/play.plugins**.
 
 4. Create a user account  
 
-In a fresh installation Clowder is not configured with an email server, so when someone registers for an account the confirmation email will not be sent correctly. However the Clowder console will still display the contents of the email, so the confirmation URL can be copied from there. 
+    In a fresh installation Clowder is not configured with an email server, so when someone registers for an account the confirmation email will not be sent correctly. However the Clowder console will still display the contents of the email, so the confirmation URL can be copied from there. 
 
 A complete overview of installing Clowder is available [here](https://opensource.ncsa.illinois.edu/projects/artifacts/CATS/0.9.1/documentation/manual/installation.html).
 
