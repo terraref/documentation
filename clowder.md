@@ -27,18 +27,22 @@ The **extractors-core** repository includes basic extractors. Other specific ext
 After installing necessary software and cloning the Clowder repository, the UI frontend can be started. 
 
 1. Make sure MongoDB is running  
-    cd _mongo installation directory_
+
+    cd _mongo installation directory_  
     ./bin/mongod.exe
     
 2. Start Clowder frontend  
-    _clowder directory_
+
+    cd _clowder directory_  
     ./sbt run
     
 3. Set configuration in Clowder directory  
+
 **/conf/application.conf** includes basic configuration entries. To override these, create a file called **/custom/custom.conf** and put new settings there.  
 **/conf/play.plugins** is used to enable or disable specific system functionality. To override these, create a file called **/custom/play.plugins**.
 
 4. Create a user account  
+
 In a fresh installation Clowder is not configured with an email server, so when someone registers for an account the confirmation email will not be sent correctly. However the Clowder console will still display the contents of the email, so the confirmation URL can be copied from there. 
 
 A complete overview of installing Clowder is available [here](https://opensource.ncsa.illinois.edu/projects/artifacts/CATS/0.9.1/documentation/manual/installation.html).
@@ -69,16 +73,16 @@ For typical workflows, the following steps are sufficient to push data into Clow
 
 1. Create a collection to hold relevant datasets (optional)
 
-    **POST /api/collections** (provide a name; returns collection ID)  
+    **POST /api/collections** _provide a name; returns collection ID_  
     
 2. Create a dataset to hold relevant files and add it to the collection
 
-    **POST /api/datasets/createempty** (provide a name; returns dataset ID)  
+    **POST /api/datasets/createempty** _provide a name; returns dataset ID_  
     **POST /api/collections/<collection id>/datasets/<dataset id>**  
     
 3. Upload files and metadata to dataset
 
-    **POST /api/datasets/uploadToDataset/<dataset id>** (provide file(s) and metadata)  
+    **POST /api/datasets/uploadToDataset/<dataset id>** _provide file(s) and metadata_  
 
 ***
 
