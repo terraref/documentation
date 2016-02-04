@@ -14,29 +14,34 @@ If you will be developing [extractors](#Extractors) you will also need:
 
 **Clowder source code**  
 The source code is available as a collection of [git repositories](https://opensource.ncsa.illinois.edu/stash/projects/CATS). Install [Git](https://git-scm.com/) in order to clone these repositories.
-* The **clowder** repository includes the browser-based UI and is required.
+* The **clowder** repository includes the browser-based UI and is required.  
+
     git clone https://opensource.ncsa.illinois.edu/bitbucket/scm/cats/clowder.git
-* The **extractors-core** repository includes basic extractors. Other specific extractors are available in their own repositories.
+    
+* The **extractors-core** repository includes basic extractors. Other specific extractors are available in their own repositories.  
+
     git clone https://opensource.ncsa.illinois.edu/bitbucket/scm/cats/extractors-core.git
 
 **Setup**  
 After installing necessary software and cloning the Clowder repository, the UI frontend can be started. 
+
 1. Make sure MongoDB is running 
 
     cd <mongo installation directory>
     ./bin/mongod.exe
     
-2. Start Clowder frontent
+2. Start Clowder frontend
 
     <clowder directory>
     ./sbt run
     
 3. Set configuration in Clowder directory
-* **/conf/application.conf** includes basic configuration entries. To override these, create a file called **/custom/custom.conf** and put new settings there.
-* **/conf/play.plugins** is used to enable or disable specific system functionality. To override these, create a file called **/custom/play.plugins**.
 
-4. Create a user account
-* In a fresh installation Clowder is not configured with an email server, so when someone registers for an account the confirmation email will not be sent correctly. However the Clowder console will still display the contents of the email, so the confirmation URL can be copied from there. 
+    **/conf/application.conf** includes basic configuration entries. To override these, create a file called **/custom/custom.conf** and put new settings there.
+    **/conf/play.plugins** is used to enable or disable specific system functionality. To override these, create a file called **/custom/play.plugins**.
+
+4. Create a user account  
+In a fresh installation Clowder is not configured with an email server, so when someone registers for an account the confirmation email will not be sent correctly. However the Clowder console will still display the contents of the email, so the confirmation URL can be copied from there. 
 
 A complete overview of installing Clowder is available [here](https://opensource.ncsa.illinois.edu/projects/artifacts/CATS/0.9.1/documentation/manual/installation.html).
 
