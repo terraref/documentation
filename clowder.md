@@ -15,11 +15,11 @@ If you will be developing [extractors](#Extractors) you will also need:
 **Clowder source code**  
 The source code is available as a collection of [git repositories](https://opensource.ncsa.illinois.edu/stash/projects/CATS). Install [Git](https://git-scm.com/) in order to clone these repositories.
 
-The **clowder** repository includes the browser-based UI and is required.  
+The _clowder_ repository includes the browser-based UI and is required.  
 
     git clone https://opensource.ncsa.illinois.edu/bitbucket/scm/cats/clowder.git
     
-The **extractors-core** repository includes basic extractors. Other specific extractors are available in their own repositories.  
+The _extractors-core_ repository includes basic extractors. Other specific extractors are available in their own repositories.  
 
     git clone https://opensource.ncsa.illinois.edu/bitbucket/scm/cats/extractors-core.git
 
@@ -79,11 +79,11 @@ For typical workflows, the following steps are sufficient to push data into Clow
 2. Create a dataset to hold relevant files and add it to the collection
 
     **POST /api/datasets/createempty** _provide a name; returns dataset ID_  
-    **POST /api/collections/<collection id>/datasets/<dataset id>**  
+    **POST /api/collections/_collection id_/datasets/_dataset id_**  
     
 3. Upload files and metadata to dataset
 
-    **POST /api/datasets/uploadToDataset/<dataset id>** _provide file(s) and metadata_  
+    **POST /api/datasets/uploadToDataset/_dataset id_** _provide file(s) and metadata_  
 
 ***
 
