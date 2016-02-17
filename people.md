@@ -24,7 +24,8 @@ responsible for:
 | Architect / Senior Programmer | Rob Kooper, ISDA |kooper_at_illinois.edu |
 | Architect / Senior Programmer |  Yan Liu, CyberGIS |yanliu_at_illinois.edu |
 | Research Programmer  | Max Burnette, ISDA |mburnet2_at_illinois.edu |
-| Research Programmer  | David Raila, NDS |raila_at_illinois.edu |
+| Research Programmer  | Dora Cai, NDS |doracai_at_illinois.edu |
+| Image Compression  | Charlie Zender, UCI |zender_at_uci.edu |
 
 Collaborating Research Groups at NCSA:
 
