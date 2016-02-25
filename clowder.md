@@ -3,6 +3,18 @@ Clowder is an open-source data management platform for research. The TERRA proje
 
 More information about Clowder can be found on the [official NCSA website](https://clowder.ncsa.illinois.edu/).
 
+## Interface
+Clowder consists of Datasets, Collections and Spaces.
+* **Datasets** consist of one or more files with associated metadata.
+* **Collections** consist of one or more datasets.
+* **Spaces** consist of collections and datasets. Spaces allow for particular roles to be assigned to particular users.
+
+You can request an account for the [development instance of Clowder](http://141.142.209.122/clowder/) where this is being tested by clicking **Sign up** in the upper-right corner. 
+
+Once access is granted to the desired data, you can explore collections and datasets. Datasets offer a **Metadata** tab that displays associated information; for example, the contents of .json files originally packaged with the data. In development is the ability to launch an Analysis Environment with a dataset attached to facilitate research: when viewing a dataset you can use the **Tool sessions** menu on the lower right sidebar to create new instances of analysis environments where files in the dataset can be examined.
+
+***
+
 ## Installation
 **Software dependencies**  
 At minimum, Clowder requires the following software installed:
@@ -49,16 +61,6 @@ After installing necessary software and cloning the Clowder repository, the UI f
 A complete overview of installing Clowder is available [here](https://opensource.ncsa.illinois.edu/projects/artifacts/CATS/0.9.1/documentation/manual/installation.html).
 
 ***
-
-## Interface
-Clowder consists of Datasets, Collections and Spaces.
-* **Datasets** consist of one or more files with associated metadata.
-* **Collections** consist of one or more datasets.
-* **Spaces** consist of collections and datasets. Spaces allow for particular roles to be assigned to particular users.
-
-There is also a search interface that supports querying by metadata or tags.
-
-In development is the ability to launch an Analysis Environment with a dataset attached to facilitate research.
 
 ## API
 Clowder also includes a RESTful API that allows programmatic interactions such as creating new datasets and downloading files. For example, one can request a list of datasets using:
