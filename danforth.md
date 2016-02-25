@@ -7,7 +7,7 @@ You can read more about the Bellwether Foundation Phenotyping Facility on the [D
 ## Technical Details
 **Capturing images**
 This video overview will help explain the capture system:
-[![LemnaTec Video Screnshot]([http://img.youtube.com/vi/QCgLuIqiC9E/0.jpg])](https://www.youtube.com/watch?v=QCgLuIqiC9E)
+[![LemnaTec Video Screnshot](http://img.youtube.com/vi/QCgLuIqiC9E/0.jpg)](https://www.youtube.com/watch?v=QCgLuIqiC9E)
 
 The Scanalyzer 3D platform consists of multiple digital imaging chambers connected to the Conviron growth house by a conveyor belt system, resulting in a continuous imaging loop. Plants are imaged from the top and/or multiple sides, followed by digital construction of images for analysis.
  
