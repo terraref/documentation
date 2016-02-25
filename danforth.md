@@ -5,7 +5,7 @@ Danforth is developing a pipeline to transfer data from their LemnaTec indoor sy
 You can read more about the Bellwether Foundation Phenotyping Facility on the [DDPSC website](https://www.danforthcenter.org/scientists-research/core-technologies/phenotyping).
 
 ## Technical Details
-**Capturing images**
+**Capturing images**  
 This video overview will help explain the capture system:
 [![LemnaTec Video Screnshot](http://img.youtube.com/vi/QCgLuIqiC9E/0.jpg)](https://www.youtube.com/watch?v=QCgLuIqiC9E)
 
@@ -17,8 +17,8 @@ The Scanalyzer 3D platform consists of multiple digital imaging chambers connect
 
 The LemnaTec software suite is used to program and control the Scanalyzer platform, analyze the digital images and mine resulting data. Data and images are saved and stored on a secure server for further review or reanalysis.
 
-**Transferring images**
+**Transferring images**  
 Processes at Danforth monitor the database repository where images captured from the Scanalyzer are stored. After initial processing, files are transferred to NCSA servers for additional metadata extraction, indexing and storage.
 
-**Transfer volumes**
+**Transfer volumes**  
 The Danforth Center transfers approximately X GB of data to NCSA per week.
