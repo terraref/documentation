@@ -8,6 +8,7 @@
    * [Use Cases](use_cases.md)
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
+   * Data Pipeline (coming soon)
    * [Existing Software](existing_software.md)
      * [Clowder](clowder.md)
         * [Installation](clowder.md#Installation)  
@@ -15,8 +16,15 @@
         * [API](clowder.md#API)
         * [Extractors](clowder.md#Extractors)
      * BETYdb
+        * [Homepage](https://www.betydb.org/)
         * Installation
         * User Guide
+        * [Database schemas](https://www.betydb.org/schemas)
+     * CoGe (Comparative Genomics) platform
+        * [Homepage](https://genomevolution.org/coge/) 
+        * [User Guide](https://genomevolution.org/wiki/index.php?title=LoadExperiment)
+     * PlantCV
+       * [Homepage](http://plantcv.danforthcenter.org/)
 * Appendix
    * Applied Examples
      * [Danforth pipeline](danforth.md)
