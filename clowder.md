@@ -101,4 +101,12 @@ Extractors are services that run silently alongside Clowder. They can be configu
 It is possible to develop extractors for new file types or tasks. 
 * [pyClowder](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/pyclowder/browse) is designed for this purpose.  
 * [Development in Windows](https://opensource.ncsa.illinois.edu/confluence/display/CATS/Deploying+Windows+Extractors)  
+
 More information coming soon.
+
+***
+
+## Searching the database
+Clowder allows users to search metadata and filter datasets and files with particular attributes.
+
+In development is the ability to query BETYdb based on a particular set of resulting images.
