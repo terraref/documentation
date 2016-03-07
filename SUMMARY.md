@@ -20,6 +20,7 @@
 * Appendix
    * Applied Examples
      * [Danforth pipeline](danforth.md)
+     * Maricopa pipeline (coming soon)
      * [Sample data availability](sample_data.md)
    * [Collaboration Tools](collaboration_tools.md)
    * [Code of Conduct](code_of_conduct.md)
