@@ -7,7 +7,6 @@
    * [Data Levels](data_levels.md)
    * [Use Cases](use_cases.md)
 * [Cyberinfrastructure](cyberinfrastructure.md)
-   * [Technical Team](people.md)
    * [Existing Software](existing_software.md)
        * [Clowder](clowder.md)
        * [Breeding Management System](breeding_management_system.md)
