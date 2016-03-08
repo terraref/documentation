@@ -9,7 +9,8 @@
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
    * [Existing Software](existing_software.md)
-     * [Clowder](clowder.md)
+       * [Clowder](clowder.md)
+       * Breeding Management System
 * Appendix
    * [Collaboration Tools](collaboration_tools.md)
    * [Code of Conduct](code_of_conduct.md)
