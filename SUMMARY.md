@@ -10,7 +10,7 @@
    * [Technical Team](people.md)
    * [Existing Software](existing_software.md)
        * [Clowder](clowder.md)
-       * Breeding Management System
+       * [Breeding Management System](breeding_management_system.md)
 * Appendix
    * [Collaboration Tools](collaboration_tools.md)
    * [Code of Conduct](code_of_conduct.md)
