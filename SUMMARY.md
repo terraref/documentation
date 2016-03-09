@@ -25,6 +25,7 @@
         * [User Guide](https://genomevolution.org/wiki/index.php?title=LoadExperiment)
      * PlantCV
        * [Homepage](http://plantcv.danforthcenter.org/)
+     * [Breeding Management System](breeding_management_system.md)
 * Appendix
    * Applied Examples
      * [Danforth pipeline](danforth.md)

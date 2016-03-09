@@ -62,6 +62,21 @@ academic-industry collaboration to define a common API for ag data
  http://openag.io/
 
 
+### ICASA
+
+### Plant Breeders API
+
+Brapi API used by FieldBook http://docs.brapi.apiary.io/#introduction/structure-of-the-response-object:
+ex: https://jsapi.apiary.io/apis/brapi.apib
+
+* The BMS group has implemented a few features to make it compatible with Field Book in its current state sans API.
+* BMS and GOBII are both pushing for the API and both plan on implementing it when it's complete. The GOBII director (Ed Buckler on TERRA MEPP team, with Mike Gore who designed genomics pipeline) said that their group was committed to implementing the API in at least one of his talks at PAG earlier this month.
+* BMS Breeding Management System Standalone Server 
+* genomes2fields is migrating to BMS
+
+
+
+
 
 ## Sensor Data
 

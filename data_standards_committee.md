@@ -69,7 +69,7 @@ ___
 | David Lee | ARPA-E | david.lee2_at_hq.doe.gov|
 | David LeBauer | UIUC / NCSA | dlebauer_at_illinois.edu|
 |**TERRA Project Representatives** | | | 
-| Paul Bartlett | Near Earth Autonomy | www.nearearth.aero|
+| Paul Bartlett | Near Earth Autonomy | paul_at_nearearthautonomy.com|
 | Jeff White | USDA ALARC | Jeffrey.White_at_ars.usda.gov|
 | Melba Crawford | Purdue | melbac_at_purdue.edu|
 | Mike Gore  | Cornell | mag87_at_cornell.edu|
@@ -80,7 +80,11 @@ ___
 |**External Advisors** | | | 
 | Cheryl Porter| ICASA / AgMIP / USDA |  |
 | Shawn Serbin | Brookhaven National Lab | sserbin_at_bnl.gov |
-| Shelly Petroy and Christine Laney | NEON | |
+| Shelly Petroy  | NEON |spetroy_at_neoninc.org |
+| Christine Laney | NEON |claney_at_neoninc.org |
+| Carolyn J. Lawrence-Dill | Iowa State |triffid_at_iastate.edu |
+| Eric Lyons | University of Arizona / iPlant |ericlyons_at_email.arizona.edu
+ |
 
 
 ## Other Related projects
