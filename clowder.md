@@ -64,13 +64,13 @@ A complete overview of installing Clowder is available [here](https://opensource
 
 ## Basic usage
 
-**Searching the database**
+**Searching the database**  
 Clowder allows users to search metadata and filter datasets and files with particular attributes.
 
 In development is the ability to query BETYdb based on a particular set of resulting images.
 
 
-**Uploading data with the web interface**
+**Uploading data with the web interface**  
 The TERRA Ref develomnet instance of Clowder is located at http://141.142.208.144/clowder/
 
 * sign up for an account
@@ -82,7 +82,7 @@ The TERRA Ref develomnet instance of Clowder is located at http://141.142.208.14
 must meta-data be entered automatically then?
 -->
 
-**Recognizing local files without transfer**
+**Recognizing local files without transfer**  
 Some files, e.g. those transferred via Globus, will be moved to the server without triggering Clowder's normal upload paths.
 
 In these cases...
