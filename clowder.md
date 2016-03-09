@@ -62,6 +62,35 @@ A complete overview of installing Clowder is available [here](https://opensource
 
 ***
 
+## Basic usage
+
+**Searching the database**
+Clowder allows users to search metadata and filter datasets and files with particular attributes.
+
+In development is the ability to query BETYdb based on a particular set of resulting images.
+
+
+**Uploading data with the web interface**
+The TERRA Ref develomnet instance of Clowder is located at http://141.142.208.144/clowder/
+
+* sign up for an account
+* click 'datasets' --> 'create', follow instructions
+* click 'files' --> 'upload'
+* add metadata, terms of use, etc.
+
+<!--
+must meta-data be entered automatically then?
+-->
+
+**Recognizing local files without transfer**
+Some files, e.g. those transferred via Globus, will be moved to the server without triggering Clowder's normal upload paths.
+
+In these cases...
+**ADD INSTRUCTIONS HERE**
+
+
+***
+
 ## API
 Clowder also includes a RESTful API that allows programmatic interactions such as creating new datasets and downloading files. For example, one can request a list of datasets using:
     GET _clowder home URL_/api/datasets
@@ -71,7 +100,7 @@ Two example sources that will be pushing high data volumes into Clowder:
 * LemnaTec indoor system at Danforth (running)
 * LemnaTec outdoor system at Maricopa (in progress)
 
-**Scripting against the API**  
+**Uploading with the API**  
 For typical workflows, the following steps are sufficient to push data into Clowder in an organized fashion:
 
 1. Create a collection to hold relevant datasets (optional)
@@ -103,10 +132,3 @@ It is possible to develop extractors for new file types or tasks.
 * [Development in Windows](https://opensource.ncsa.illinois.edu/confluence/display/CATS/Deploying+Windows+Extractors)  
 
 More information coming soon.
-
-***
-
-## Searching the database
-Clowder allows users to search metadata and filter datasets and files with particular attributes.
-
-In development is the ability to query BETYdb based on a particular set of resulting images.
