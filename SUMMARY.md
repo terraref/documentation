@@ -10,7 +10,7 @@
    * [Technical Team](people.md)
    * Data Pipeline (coming soon)
        * [genomics](genomics_pipeline.md)
-   * CoGe (Comparative Genomics) platform
+   * [CoGe (Comparative Genomics) platform](coge_comparative_genomics_platform.md)
        * [Homepage](https:/genomevolution.org/coge/)
        * [User Guide](https:/genomevolution.org/wiki/index.php?title=LoadExperiment)
    * [Existing Software](existing_software.md)
