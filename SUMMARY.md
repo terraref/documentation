@@ -9,6 +9,7 @@
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
    * Data Pipeline (coming soon)
+       * genomics
    * [Existing Software](existing_software.md)
        * [Clowder](clowder.md)
            * [Installation](clowder.md#Installation)
