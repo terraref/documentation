@@ -1,2 +1,0 @@
-# Breeding Management System
-
