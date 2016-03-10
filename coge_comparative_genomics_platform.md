@@ -9,6 +9,19 @@
 2. Use icommands to transfer to data store
 
 
+### CyVerse data store
+
+* project directory: /iplant/home/shared/terraref
+
+To make the datasets public, add the anonymous and public acls by executing these two icommands:
+
+```
+ichmod -r read anonymous /iplant/home/shared/terraref
+ichmod -r read public /iplant/home/shared/terraref
+```
+
+Public allows users logged into CyVerse/iPlant platforms to access the data. Anonymous allows people who are not logged in to see it. People who are not logged in will be able to access the data at the “mirrors” URL (http://mirrors.cyverse.org)
+
 ## References
 
 
