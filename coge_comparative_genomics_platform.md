@@ -11,16 +11,42 @@
 
 ### CyVerse data store
 
-* project directory: /iplant/home/shared/terraref
+* project directory: `/iplant/home/shared/terraref`
+ * raw data goes in subdirectory `raw_data/`, which is only writable for those sending raw reads (Jeremy, Noah). Otherwise, read-only
+* (CoGe output) can go into `output/`
 
-To make the datasets public, add the anonymous and public acls by executing these two icommands:
+#### Uploading data to data store using icommands
+
+[icommands documentation](https://pods.iplantcollaborative.org/wiki/display/DS/Using+iCommands)
+
+Transferring data from Roger to iplant data store
 
 ```
-ichmod -r read anonymous /iplant/home/shared/terraref
-ichmod -r read public /iplant/home/shared/terraref
+# install icommands 
+cd $HOME
+mkdir bin
+cd bin
+wget http://www.iplantcollaborative.org/sites/default/files/irods/icommands.x86_64.tar.bz2 
+tar -xvf icommands.x86_64.tar.bz2
+
+# add icommands directory to $PATH
+export PATH=$HOME/bin/icommands:$PATH
+
+# initialize
+iinit
+# host name: data.iplantcollaborative.org
+# port number:1247
+# user name:(your Cyverse Login)
+# Enter your irods zone:iplant
+# iRODS password:*******
+icd /iplant/home/shared/terraref/raw_data/hudson-alpha/
+
+## transfer test data to iplant data store
+touch checkpoint-file
+iput -P -b -r -T --retries 3 -X checkpoint-file test_data/ 
 ```
 
-Public allows users logged into CyVerse/iPlant platforms to access the data. Anonymous allows people who are not logged in to see it. People who are not logged in will be able to access the data at the “mirrors” URL (http://mirrors.cyverse.org)
+
 
 ## References
 
