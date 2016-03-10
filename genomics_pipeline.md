@@ -8,8 +8,9 @@ Today, all high-impact journals typically ask the author to deposit their genomi
 
 ## Overview of Genomics Pipeline
 
-![image](https://cloud.githubusercontent.com/assets/464871/11194261/b1f51906-8c70-11e5-997b-e603e2322901.png)
+ Process Reads —> Map & Assemble Reads —> Call Variants —> Annotate Variants
 
+![image](https://cloud.githubusercontent.com/assets/464871/11194261/b1f51906-8c70-11e5-997b-e603e2322901.png)
 
 ## Details
 
