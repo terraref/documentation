@@ -9,7 +9,7 @@
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
    * Data Pipeline (coming soon)
-       * genomics
+       * [genomics](genomics_pipeline.md)
    * CoGe (Comparative Genomics) platform
        * [Homepage](https:/genomevolution.org/coge/)
        * [User Guide](https:/genomevolution.org/wiki/index.php?title=LoadExperiment)
@@ -25,8 +25,6 @@
            * User Guide
            * [Database schemas](https:/www.betydb.org/schemas)
        * CoGe (Comparative Genomics) platform
-           * [Homepage](https:/genomevolution.org/coge/)
-           * [User Guide](https:/genomevolution.org/wiki/index.php?title=LoadExperiment)
        * PlantCV
            * [Homepage](http:/plantcv.danforthcenter.org/)
        * [Breeding Management System](breeding_management_system.md)
