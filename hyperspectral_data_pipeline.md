@@ -17,20 +17,25 @@ The pipeline currently depends on three pre-requisites:
 
 Once the pre-requisite libraries above have been installed, the pipeline itself may be installed by checking-out the TERRAREF computing-pipeline repository. The relevant scripts for hyperspectral imagery are:
 
-* Main script [terraref.sh](https://github.com/terraref/computing-pipeline/tree/master/scripts/terraref.sh)
-* NCO/ncap2 script to convert 2D->3D [terraref.nco](https://github.com/terraref/computing-pipeline/tree/master/scripts/terraref.nco)
-* JSON metadata->netCDF4 script [JsonDealer.py](https://github.com/terraref/computing-pipeline/tree/master/scripts/JsonDealer.py)
+* Main script [terraref.sh](https://github.com/terraref/computing-pipeline/tree/master/scripts/hyperspectral/terraref.sh)
+* NCO/ncap2 script to convert 2D->3D [terraref.nco](https://github.com/terraref/computing-pipeline/tree/master/scripts/hyperspectral/terraref.nco)
+* JSON metadata->netCDF4 script [JsonDealer.py](https://github.com/terraref/computing-pipeline/tree/master/scripts/hyperspectral/JsonDealer.py)
 
 **Setup**  
 
 The pipeline currently assumes specific locations and filename conventions. These will be relaxed or modified as the pipeline environment becomes clearer. For now, the following setup will suffice
 
+
+```sh
 mkdir ~/terraref
 cd ~/terraref
 git clone git@github.com:terraref/computing-pipeline.git
 git clone git@github.com:terraref/documentation.git
+```
 
 **Running the Pipeline**
 
+```sh
 terraref.sh -i ${DATA}/terraref/whiteReference -O ${DATA}/terraref
 terraref.sh -I /projects/arpae/terraref/raw_data/lemnatec_field -O /projects/arpae/terraref/outputs/lemnatec_field
+```
