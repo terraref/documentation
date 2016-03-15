@@ -1,0 +1,1 @@
+The documentation can be edited in github but the files are unordered. Easiest to use either the web based ide (which automatically syncs with the github repository)  the desktop ide, or command line tools https://github.com/GitbookIO/gitbook
