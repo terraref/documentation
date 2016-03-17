@@ -5,7 +5,7 @@
 * [Data Products](data_products.md)
    * [Existing Data Standards](existing_data_standards.md)
    * [Data Levels](data_levels.md)
-   * Environmental Data
+   * [Environmental Data](environmental_data.md)
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
    * Data Pipeline (coming soon)
