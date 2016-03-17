@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Background](chapter1.md)
-* [Data Standards Committee](data_standards_committee.md)
+* [Data Products](data_standards_committee.md)
    * [Existing Data Standards](existing_data_standards.md)
    * [Data Levels](data_levels.md)
    * [Use Cases](use_cases.md)
