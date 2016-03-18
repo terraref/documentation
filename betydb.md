@@ -5,7 +5,6 @@
 
 There a few ways to get started using BETYdb:
 
-* **Quick Start**
 * **Data Access** 
   * Go to your project's instance of BETYdb.org, search by species and trait, and download csv. 
   * Use the rOpenSci traits package to search for data in R. 
