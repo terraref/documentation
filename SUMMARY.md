@@ -20,6 +20,7 @@
            * [API](clowder.md#API)
            * [Extractors](clowder.md#Extractors)
        * [BETYdb](betydb.md)
+           * BETYdb Bulk Upload
        * CoGe (Comparative Genomics) platform
        * PlantCV
            * [Homepage](http:/plantcv.danforthcenter.org/)
