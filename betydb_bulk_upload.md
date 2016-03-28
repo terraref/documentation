@@ -49,7 +49,7 @@ Once you have entered all the necessary data to prepare for a bulk upload, you c
 
 There are some key rules for bulk uploading.
 
-1. There are 3 different spreadsheet templates that to choose from.
+1. There are 3 different spreadsheet templates to choose from.
   * [yields.csv](https://docs.google.com/spreadsheets/d/1maK1uKr6i9KERaYdU5zSiXcBndQoiG4Vgn2DTnqdfbA/export?format=csv&gid=0)
   * [yields\_by\_doi.csv](https://docs.google.com/spreadsheets/d/1ExLosMvX05jHWO9UYVE4Dxcl2ZbUgPc0KYoUPruaOtM/export?format=csv&gid=0)
   * [traits.csv](https://docs.google.com/spreadsheets/d/1TK-u-m4SG1KupYCVDUIye1C3zX8b1xgaYIG1fHNkYjs/export?format=csv&gid=0)
