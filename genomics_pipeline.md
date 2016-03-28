@@ -14,7 +14,6 @@ Today, all high-impact journals typically ask the author to deposit their genomi
 
 ## Details
 
-
 ### Raw reads + quality scores 
 
 Raw reads + quality scores are stored in [FASTQ format](http://maq.sourceforge.net/fastq.shtml). FASTQ files can be manipulated for QC with [FASTX-Toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)
@@ -33,7 +32,6 @@ BAM is the preferred format for sra database (sequence read archive).
 ### SNP and genotype variants
 
 SNP and genotype variants are in [VCF format](http://www.1000genomes.org/wiki/Analysis/Variant%20Call%20Format/vcf-variant-call-format-version-40). VCF contains all information about read mapping and SNP and genotype calling quality.  VCF files are typically manipulated with [vcftools](https://vcftools.github.io/index.html)
-
 
 VCF format is also the format required by dbSNP, the largest public repository all SNPs.
 
