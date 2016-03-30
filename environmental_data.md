@@ -20,11 +20,12 @@ Here are some examples (note that we can change from canonical units to match th
 | surface_downwelling_shortwave_flux_in_air| W m-2 |
 | surface_downwelling_photosynthetic_photon_flux_in_air | mol m-2 s-1 |
 | precipitation_flux                    |  kg m-2 s-1 |          
+| irrigation_flux                        | kg m-2 s-1   |
 | wind_speed                                | m/s   | 
 | eastward_wind                         | m/s   |
 | northward_wind                        | m/s   |
 
-* standard_name is CF-convention standard names
+* standard_name is CF-convention standard names (except irrigation)
 * units can be converted by udunits, so these can vary (e.g. the time denominator may change with time frequency of inputs)
 
 
