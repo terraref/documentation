@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Background](chapter1.md)
 * [Data Products](data_products.md)
+   * [Sample data availability](sample_data.md)
    * [Existing Data Standards](existing_data_standards.md)
    * [Data Levels](data_levels.md)
    * [Environmental Data](environmental_data.md)
@@ -29,7 +30,6 @@
    * Applied Examples
        * [Danforth pipeline](danforth.md)
        * Maricopa pipeline (coming soon)
-       * [Sample data availability](sample_data.md)
    * [Collaboration Tools](collaboration_tools.md)
    * [Code of Conduct](code_of_conduct.md)
 
