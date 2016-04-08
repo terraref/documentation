@@ -60,9 +60,8 @@ Analysis tools that  all use SNP data (vcf) as input.
 
 ### Repositories
 
-1. Submit variant calls to Phytozome
-
-Phytozome holds the JGI Sorghum reference genome. For this reason should plan to submit the variant calls to Phytozome. Phytozome has Jbrowse embedded so it can be browsed as a “Population variation” track on JBrowse. 
+1. Submit variant calls to Phytozome 
+    Phytozome holds the JGI Sorghum reference genome. For this reason should plan to submit the variant calls to Phytozome. Phytozome has Jbrowse embedded so it can be browsed as a “Population variation” track on JBrowse.
 
 ## References
 
