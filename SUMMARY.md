@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Background](chapter1.md)
 * [Data Products](data_products.md)
-   * [Sample data availability](sample_data.md)
+   * [Accessing Data](data_access.md)
    * [Existing Data Standards](existing_data_standards.md)
    * [Data Levels](data_levels.md)
    * [Environmental Data](environmental_data.md)
