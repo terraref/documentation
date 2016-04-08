@@ -17,16 +17,19 @@ Instructions for using Jupyter or Rstudio to compute on data and develop code
 1. sign up for globus
 2. send your globus id to David LeBauer (dlebauer@illinois.edu)
 3. wait until after you have access (David or JD will reply)
-1. log into Globus globus.org
-2. add an endpoint https://www.globus.org/app/endpoints/create-gcp
-3. download and setup Globus connect (on that page)
+1. log into Globus https://www.globus.org
+2. add an endpoint for the destination (e.g. your local computer) https://www.globus.org/app/endpoints/create-gcp
+3. download and setup Globus Connect (on that page)
 4. go to the 'transfer files' page: https://www.globus.org/app/transfer
 5. select source
-    * Endpoint: 'Terraref' 
-    * Path: Navigate to sensor you want under "MovingSensor"
-    * select one folder, e.g. at time of writing the latest stereo sensor data is in /MovingSensor/stereoTop/2016-04-07/2016-04-07__16-47-22-087/ 
-7. for destination
-    select the endpoint that you set up above of your local computer or server
-    select the folder (e.g. /~/Downloads
+    * Endpoint: `Terraref` 
+    * Path: Navigate to sensor you want under `/MovingSensor/`
+    * select (click) a folder, e.g., at time of writing the latest stereo sensor data is in `/MovingSensor/stereoTop/2016-04-07/2016-04-07__16-47-22-087/` 
+    * select (highlight) files that you want to download
+7. at destination
+    * select the endpoint that you set up above of your local computer or server
+    * select the destination folder (e.g. `/~/Downloads/`)
 8. click 'go'
 9. files should be on your computer
+
+Globus Documentation: https://docs.globus.org/how-to/get-started/ 
