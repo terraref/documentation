@@ -1,4 +1,4 @@
-# Clowder Overview
+# Clowder Installation, Development, and Use
 Clowder is an open-source data management platform for research. The TERRA project is using Clowder to collect, organize, search and access data products generated from cooperating research platforms.
 
 More information about Clowder can be found on the [official NCSA website](https://clowder.ncsa.illinois.edu/).
