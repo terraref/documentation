@@ -1,14 +1,11 @@
 # BETYdb Bulk Upload
 Basics of Primary Data Upload
-=======
 
 ****Beginning Steps:****
 1. Go to** BETYdb** homepage. 
 2. It's important to understand that the BETYdb is a platform that's used by the Terra-Mepp group. The Terra-Mepp group uses BETYdb to centralize data from research that's done on the project. We are uploading this data to assure that everyone on the team has access to the research done on the Terra-Mepp project. 
 2. On the homepage, there are tabs at the top of the page. (Data, Docs, Runs, Model I/O, Bulk Upload)  
 3. When uploading data, the two tabs that have most of what's needed for data upload are the **Data Tab** and the **Bulk Upload Tab**. 
-
-
 
 
 ##Data Tab:
@@ -43,6 +40,7 @@ If there is any data on the excel sheet that is not also in the system, you will
 
 Once all the data is entered properly, you can go ahead and click on the **Bulk Upload** tab. 
 
+
 # Bulk Upload 
 
 Once you have entered all the necessary data to prepare for a bulk upload, you can then begin the bulk upload process. 
@@ -53,6 +51,8 @@ There are some key rules for bulk uploading.
   * [yields.csv](https://docs.google.com/spreadsheets/d/1maK1uKr6i9KERaYdU5zSiXcBndQoiG4Vgn2DTnqdfbA/export?format=csv&gid=0)
   * [yields\_by\_doi.csv](https://docs.google.com/spreadsheets/d/1ExLosMvX05jHWO9UYVE4Dxcl2ZbUgPc0KYoUPruaOtM/export?format=csv&gid=0)
   * [traits.csv](https://docs.google.com/spreadsheets/d/1TK-u-m4SG1KupYCVDUIye1C3zX8b1xgaYIG1fHNkYjs/export?format=csv&gid=0)
+
+
 2. It is important that text values and column names in the spreadsheet match records in the database. This includes variable names, site names, species and cultivar names, etc.
 
 3. Pick the template that best matches your data set and organize the data in the excel sheet to include all the required info. 
@@ -64,3 +64,4 @@ Sometimes there are issues that arise when trying to bulk upload. It is importan
 One of the most common errors is improper column name in the excel sheet that doesn't match what the system has for that variable. Another frequently made mistake is that the data for the variables in the excel sheet is out of range for that variable. If this happens double check the data and request to have the range in the database adjusted for that variable. 
 
 After the data is bulk uploaded into the system, it will ask for some basic data relating to the data set. It will ask you location, date data uploaded, and treatments. Once this information is fill out, the bulk upload is complete.
+
