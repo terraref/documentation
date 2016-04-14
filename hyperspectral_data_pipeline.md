@@ -8,7 +8,6 @@ The TERRA hyperspectral data pipeline processes imagery from hyperspectral camer
 
 The pipeline currently depends on three pre-requisites:
 * [netCDF Operators (NCO)](http://nco.sf.net).
-* [GDAL](http://gdal.fxm).
 * [Python netCDF4](http://fxm).
 
 ***
@@ -18,12 +17,11 @@ The pipeline currently depends on three pre-requisites:
 Once the pre-requisite libraries above have been installed, the pipeline itself may be installed by checking-out the TERRAREF computing-pipeline repository. The relevant scripts for hyperspectral imagery are:
 
 * Main script [terraref.sh](https://github.com/terraref/computing-pipeline/tree/master/scripts/hyperspectral/terraref.sh)
-* NCO/ncap2 script to convert 2D->3D [terraref.nco](https://github.com/terraref/computing-pipeline/tree/master/scripts/hyperspectral/terraref.nco)
 * JSON metadata->netCDF4 script [JsonDealer.py](https://github.com/terraref/computing-pipeline/tree/master/scripts/hyperspectral/JsonDealer.py)
 
 **Setup**  
 
-The pipeline currently assumes specific locations and filename conventions. These will be relaxed or modified as the pipeline environment becomes clearer. For now, the following setup will suffice
+The pipeline works with input from any location (directories, files, or stdin). Supply the raw image filename(s) (e.g., meat_raw), and the pipeline derives the ancillary filename(s) from this (e.g., meat_raw.hdr, meat_metadata.json). When specifying a directory without a specifice filename, the pipeline processes all files with the suffix "_raw".
 
 
 ```sh
@@ -33,9 +31,9 @@ git clone git@github.com:terraref/computing-pipeline.git
 git clone git@github.com:terraref/documentation.git
 ```
 
-**Running the Pipeline**
+**Run the Hyperspectral Pipeline**
 
 ```sh
-terraref.sh -i ${DATA}/terraref/whiteReference -O ${DATA}/terraref
+terraref.sh -i ${DATA}/terraref/foo_raw -O ${DATA}/terraref
 terraref.sh -I /projects/arpae/terraref/raw_data/lemnatec_field -O /projects/arpae/terraref/outputs/lemnatec_field
 ```
