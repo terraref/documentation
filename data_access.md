@@ -1,11 +1,17 @@
 # Sample Scanner Data
 A set of sample data from LemnaTec field & indoor scanners is available in several formats.
 
-## via Clowder
+We currently have raw sensor outputs and meta-data. 
+We are in the process of defining data products and developing the data processing pipeline. 
+For more information review and comment on GitHub Issues in the [reference-data](https://github.com/terraref/reference-data/issues) and [computing-pipeline](https://github.com/terraref/computing-pipeline/issues) repositories.
 
-The files are also available via the in-development [TERRA Ref Clowder instance](http://141.142.209.122/clowder/spaces).  
+## Accessing Data in Clowder
 
-Sign up for a Clowder account and send an email to David LeBauer dlebauer@illinois.edu to approve.
+Clowder is a tool for organizing the raw data stream and managing the sensor data pipeline.
+
+The files are also available via the in-development [TERRA Ref Clowder instance](http://terraref.ncsa.illinois.edu/clowder/spaces).  
+
+Sign up for an account at terraref.ncsa.illinois.edu/clowder and send an email to David LeBauer dlebauer@illinois.edu to approve. 
 
 * **Field Scanner Sample Data - V4** contains two primary collections (**2016 Feb 09** and **2016 Feb 12**) organized by sensor and timestamp.
 * **Danforth Center Phenotyping Facility** contains snapshots from the [Danforth sorghum pilot experiment](danforth.md). 
