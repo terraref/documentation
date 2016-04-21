@@ -19,9 +19,10 @@ Sign up for an account at terraref.ncsa.illinois.edu/clowder and send an email t
 Instructions for using Jupyter or Rstudio to compute on data and develop code
 
 ## via Globus
+<a href="mailto:dlebauer@illinois.edu?subject=[TERRAREF Globus Access Request]">dlebauer@illinois.edu</a>
 
 1. sign up for globus
-2. send your globus id to David LeBauer (dlebauer@illinois.edu)
+2. send your globus id to David LeBauer (dlebauer@illinois.edu) .
 3. wait until after you have access (David or JD will reply)
 1. log into Globus https://www.globus.org
 2. add an endpoint for the destination (e.g. your local computer) https://www.globus.org/app/endpoints/create-gcp
