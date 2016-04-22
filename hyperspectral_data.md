@@ -7,10 +7,9 @@ This is a draft algorithm to retrieve spectral reflectance based on my understan
 ## Inputs and Outputs 
 
 syntax: `Variable(dimensions) [units]`
-
-$$$
+$$
 I_p(\lambda,y,x) = F_{\lambda}(\lambda) R_p(\lambda) C(\lambda)
-$$$
+$$
 
 ### Inputs: Required known or measured inputs:**
 
