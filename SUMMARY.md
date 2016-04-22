@@ -7,7 +7,7 @@
    * [Existing Data Standards](existing_data_standards.md)
    * [Data Levels](data_levels.md)
    * [Environmental Data](environmental_data.md)
-   * Hyperspectral Data
+   * [Hyperspectral Data](hyperspectral_data.md)
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
    * Data Pipeline (coming soon)
