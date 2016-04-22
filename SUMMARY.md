@@ -7,10 +7,12 @@
    * [Existing Data Standards](existing_data_standards.md)
    * [Data Levels](data_levels.md)
    * [Environmental Data](environmental_data.md)
+   * Hyperspectral Data
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
    * Data Pipeline (coming soon)
        * [genomics](genomics_pipeline.md)
+       * [hyperspectral data](hyperspectral_data_pipeline.md)
    * [Existing Software](existing_software.md)
        * [CoGe (Comparative Genomics) platform](coge_comparative_genomics_platform.md)
            * [Homepage](https:/genomevolution.org/coge/)
