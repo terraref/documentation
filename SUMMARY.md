@@ -8,7 +8,6 @@
    * [Data Levels](data_levels.md)
    * [Environmental Data](environmental_data.md)
    * [Hyperspectral Data](hyperspectral_data.md)
-
    * [Genomics](genomics_pipeline.md)
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
