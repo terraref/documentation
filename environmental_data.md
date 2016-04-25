@@ -16,7 +16,8 @@ Here are some examples (note that we can change from canonical units to match th
 | soil_temperature                          | K     | 
 | relative_humidity                         | % | 
 | specific_humidity                     | 1 | 
-| water_vapor_saturation_deficit            | Pa    |  | surface_downwelling_longwave_flux_in_air | W m-2 |  
+| water_vapor_saturation_deficit            | Pa    |  
+| surface_downwelling_longwave_flux_in_air | W m-2 |  
 | surface_downwelling_shortwave_flux_in_air| W m-2 |
 | surface_downwelling_photosynthetic_photon_flux_in_air | mol m-2 s-1 |
 | precipitation_flux                    |  kg m-2 s-1 |          
