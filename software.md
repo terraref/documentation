@@ -31,11 +31,7 @@ This is a list of software tools and resources that are available for use within
 
 ### Workflow Management
 
-* PEcAn (ISDA/LeBauer)
 * Clowder
-* Cyberintegrator (ISDA group)
-* Yes Workflow (Bertram / NDS?)
-* Pegasus (recommended by Nirav @ iPlant)
 
 ### Feature Extraction
 
