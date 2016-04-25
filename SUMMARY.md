@@ -12,19 +12,17 @@
    * [Genomics](genomics_pipeline.md)
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
-
-
-   * [Existing Software](existing_software.md)
-       * [CoGe (Comparative Genomics) platform](coge_comparative_genomics_platform.md)
-       * [Clowder](clowder.md)
-       * [BETYdb](betydb.md)
-           * [BETYdb Bulk Upload](betydb_bulk_upload.md)
-       * PlantCV
-       * [Breeding Management System](breeding_management_system.md)
-* Appendix
-   * Applied Examples
-       * [Danforth pipeline](danforth.md)
-       * Maricopa pipeline (coming soon)
-   * [Collaboration Tools](collaboration_tools.md)
-   * [Code of Conduct](code_of_conduct.md)
+* [Existing Software](existing_software.md)
+   * [CoGe (Comparative Genomics) platform](coge_comparative_genomics_platform.md)
+   * [Clowder](clowder.md)
+   * [BETYdb](betydb.md)
+       * [BETYdb Bulk Upload](betydb_bulk_upload.md)
+   * [PlantCV](plantcv.md)
+   * [Breeding Management System](breeding_management_system.md)
+       * Appendix
+* Applied Examples
+   * [Danforth pipeline](danforth.md)
+   * Maricopa pipeline (coming soon)
+* [Collaboration Tools](collaboration_tools.md)
+* [Code of Conduct](code_of_conduct.md)
 
