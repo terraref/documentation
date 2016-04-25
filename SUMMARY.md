@@ -8,7 +8,7 @@
    * [Data Levels](data_levels.md)
    * [Environmental Data](environmental_data.md)
    * [Hyperspectral Data](hyperspectral_data.md)
-   * [Hyperspectral Data](hyperspectral_data_pipeline.md)
+
    * [Genomics](genomics_pipeline.md)
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
@@ -18,11 +18,12 @@
    * [BETYdb](betydb.md)
        * [BETYdb Bulk Upload](betydb_bulk_upload.md)
    * [PlantCV](plantcv.md)
+   * [Hyperspectral Data Pipeline](hyperspectral_data_pipeline.md)
    * [Breeding Management System](breeding_management_system.md)
-       * Appendix
-* Applied Examples
-   * [Danforth pipeline](danforth.md)
-   * [Collaboration Tools](collaboration_tools.md)
-   * Maricopa pipeline (coming soon)
+* Appendix
+  * Applied Examples
+    * [Danforth pipeline](danforth.md)
+    * [Collaboration Tools](collaboration_tools.md)
+    * Maricopa pipeline (coming soon)
 * [Code of Conduct](code_of_conduct.md)
 
