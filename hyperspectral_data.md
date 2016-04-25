@@ -66,7 +66,7 @@ More assumptions, input measurements, and/or more sophisticated algorithms would
 
 This is a proposal for spectral and imaging data to be provided as HDF-5 / NetCDF-4 data cubes for computing and downloading by end users.
 
-Following CF naming conventions [1], these would be in a netcdf-4 compatible / well behaved hdf format. Also see [2] for example formats by NOAA
+Following [CF naming conventions](http://cfconventions.org/Data/cf-standard-names/29/build/cf-standard-name-table.html), these would be in a netcdf-4 compatible / well behaved HDF format. 
 
 Questions to address:
 
@@ -105,5 +105,3 @@ note: upwelling_spectral_radiance_in_air may only be an intermediate product (an
 |  sensor_zenith_angle | degrees |
 |  platform_zenith_angle | degrees  |  
 
-[1] http://cfconventions.org/Data/cf-standard-names/29/build/cf-standard-name-table.html
-[2] http://www.nodc.noaa.gov/data/formats/netcdf/v1.1/
