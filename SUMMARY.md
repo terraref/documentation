@@ -12,7 +12,7 @@
    * [Genomics](genomics_pipeline.md)
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
-* [Existing Software](existing_software.md)
+* [Software](existing_software.md)
    * [CoGe (Comparative Genomics) platform](coge_comparative_genomics_platform.md)
    * [Clowder](clowder.md)
    * [BETYdb](betydb.md)
