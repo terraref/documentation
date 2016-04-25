@@ -9,9 +9,11 @@ ag expt data API http://research.agmip.org/display/dev/The+AgMIP+Crop+Experiment
 json data objects
 variables list
 
-### BETYdb Biofuel Ecophysiological Traits and Yields database https://betydb.org
-(will be used to store meta-data, provenance, not a standard 'data product')
-API documentation: https://www.authorea.com/users/5574/articles/7062/_show_article
+### BETYdb Biofuel Ecophysiological Traits and Yields database 
+
+* [website](https://betydb.org)
+
+BETYdb will be used to store meta-data, provenance, and traits information
 
 BETYdb traits: available as web-page, csv, json, xml. This can be extended to allow spatial, temporal, and taxonomic / genomic queries.
 
