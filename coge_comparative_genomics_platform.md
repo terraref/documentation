@@ -50,14 +50,13 @@ iput -P -b -r -T --retries 3 -X checkpoint-file test_data/
 
 ## References
 
-
+* [CoGe Homepage](https:/genomevolution.org/coge/)
+* [CoGe User Guide](https:/genomevolution.org/wiki/index.php?title=LoadExperiment)
+* [CoGe Workflow description](https://genomevolution.org/wiki/index.php?title=LoadExperiment)
 * Related TERRARef GitHub Issues:
   * [Implement Genomics Pipeline](https://github.com/terraref/computing-pipeline/issues/41)
-  * 
 
 * [Using icommands](https://pods.iplantcollaborative.org/wiki/display/DS/Using+iCommands)
-* [CoGe Homepage](https://genomevolution.org/coge/)
-* [CoGe Workflow description](https://genomevolution.org/wiki/index.php?title=LoadExperiment)
 * [Installing CoGe on a Ubuntu server](https://genomevolution.org/wiki/index.php/Install_coge)
 * [REST API documentation](https://docs.google.com/document/d/1GXOPIVvyTwoGR2IRjDNmdd2nj_6d8db7jx9hG8RxTDc/edit)
 * [Yerba](https://github.com/LyonsLab/Yerba) is a job management framework developed for CoGe by Matt Bombhoff
