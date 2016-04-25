@@ -62,20 +62,11 @@ More assumptions, input measurements, and/or more sophisticated algorithms would
 * cross validate with other sensors with know spectral response functions.
 * NB: Three required inputs (xps_wht, rfl_wht, flx_dwn) are not ready to use. Their location, units, and/or sampling intervals are unknown. Only xps_img is ready. Please tell me how to get the other three in the notes below. (@LTBen, @markus-radermacher-lemnatec)
 
-## Data Formats
+## Hyperspectral Data Formats
 
 This is a proposal for spectral and imaging data to be provided as HDF-5 / NetCDF-4 data cubes for computing and downloading by end users.
 
 Following [CF naming conventions](http://cfconventions.org/Data/cf-standard-names/29/build/cf-standard-name-table.html), these would be in a netcdf-4 compatible / well behaved HDF format. 
-
-Questions to address:
-
-* what is the scope of data products can be produced in this format? 
-* what meta-data is required?
-* what tools are available for converting to and from this format?
-* what are other options, advantages / disadvantages?
-
-see also PecanProject/pecan#665
 
 ### Radiance data
 
