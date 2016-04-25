@@ -17,14 +17,9 @@
    * [Existing Software](existing_software.md)
        * [CoGe (Comparative Genomics) platform](coge_comparative_genomics_platform.md)
        * [Clowder](clowder.md)
-           * [Installation](clowder.md#Installation)
-           * [User Guide](clowder.md#Interface)
-           * [API](clowder.md#API)
-           * [Extractors](clowder.md#Extractors)
        * [BETYdb](betydb.md)
            * [BETYdb Bulk Upload](betydb_bulk_upload.md)
        * PlantCV
-           * [Homepage](http:/plantcv.danforthcenter.org/)
        * [Breeding Management System](breeding_management_system.md)
 * Appendix
    * Applied Examples
