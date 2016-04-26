@@ -7,9 +7,9 @@
 These are the metadata terms and formats used to upload PlantCV outputs to iPlant Data Store and BisQue.
 
 | name | type | units | definition| 
-|:---|:---|
-|**snapshot_id** | int | | (internal ID number for the group of images taken for one plant at one time point)|
-|**plant_barcode**| text | | (internal alpha-numeric code for each plant)|
+|---:|:---|:---|:---|
+|**snapshot_id** | int | | internal ID number for the group of images taken for one plant at one time point|
+|**plant_barcode**| text | | internal alpha-numeric code for each plant|
 |**plant_age** | int | days | days after planting| | 
 |**zoom** | numeric | X optical zoom | camera zoom setting|
 |**perspective** | text | side-view or top-view| | 
