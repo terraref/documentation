@@ -1,6 +1,6 @@
 # PlantCV
 
-* Homepage: http:/plantcv.danforthcenter.org/
+* [PlantCV Homepage](http:/plantcv.danforthcenter.org/)
 
 ## Metadata
 
