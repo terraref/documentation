@@ -22,7 +22,7 @@ These are the metadata terms and formats used to upload PlantCV outputs to iPlan
 |**experiment** |text | | |
 |**experimenter** | text | | lead PI|
 |**project** | text | | |
-|**laboratory** |name | | Baxter Lab Donald Danforth Plant Science Center|
+|**laboratory** |name | | Name of PI's lab |
 |**growth_medium** | text | | e.g. MetroMix360 potting mix with Osmocote|
 |**filename** | text | | name of the image file|
 |**species** | text | | |
