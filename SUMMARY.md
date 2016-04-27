@@ -5,7 +5,7 @@
 * [Data Products](data_products.md)
    * [Accessing Data](data_access.md)
    * [Existing Data Standards](existing_data_standards.md)
-   * [Lemnatec Field Scanner Output](lemnatec_field_scanner_output.md)
+   * [Lemnatec Field Scanner](lemnatec_field_scanner_output.md)
    * [Data Levels](data_levels.md)
    * [Environmental Data](environmental_data.md)
    * [Hyperspectral Data](hyperspectral_data.md)
