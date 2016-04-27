@@ -6,6 +6,7 @@
    * [Accessing Data](data_access.md)
    * [Existing Data Standards](existing_data_standards.md)
    * [Data Levels](data_levels.md)
+       * Lemnatec Field Scanner Output
    * [Environmental Data](environmental_data.md)
    * [Hyperspectral Data](hyperspectral_data.md)
    * [Genomics](genomics_pipeline.md)
@@ -20,9 +21,9 @@
    * [Hyperspectral Data Pipeline](hyperspectral_data_pipeline.md)
    * [Breeding Management System](breeding_management_system.md)
 * Appendix
-  * Applied Examples
-    * [Danforth pipeline](danforth.md)
-    * [Collaboration Tools](collaboration_tools.md)
-    * Maricopa pipeline (coming soon)
+   * Applied Examples
+       * [Danforth pipeline](danforth.md)
+       * [Collaboration Tools](collaboration_tools.md)
+       * Maricopa pipeline (coming soon)
 * [Code of Conduct](code_of_conduct.md)
 
