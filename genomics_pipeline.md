@@ -60,10 +60,20 @@ Analysis tools that  all use SNP data (vcf) as input.
 
 ### Repositories
 
-1. Submit variant calls to Phytozome 
-    Phytozome holds the JGI Sorghum reference genome. For this reason should plan to submit the variant calls to Phytozome. Phytozome has Jbrowse embedded so it can be browsed as a “Population variation” track on JBrowse.
+1. Submit variant calls to Phytozome
+  * Phytozome holds the JGI Sorghum reference genome. For this reason should plan to submit the variant calls to Phytozome. Phytozome has Jbrowse embedded so it can be browsed as a “Population variation” track on JBrowse.
+2. A Sorghum GDB?
+  * TBD pending funding and interest.
+
+## Estimated storage and compute
+
+![from https://github.com/terraref/computing-pipeline/issues/37](https://cloud.githubusercontent.com/assets/11720776/11719204/a241a546-9f27-11e5-8985-a2427bb664d2.jpg)
 
 ## References
 
-Based on [GitHub Issue terraref/reference-data/19](https://github.com/terraref/reference-data/issues/19)
+GitHub Issues 
+
+* Genomics data formats: [terraref/reference-data/19](https://github.com/terraref/reference-data/issues/19) 
+* Pipeline implementation: [terraref/computing-pipeline/issues/37](https://github.com/terraref/computing-pipeline/issues/37)
+* Using CoGe [terraref/computing-pipeline/issues/41](https://github.com/terraref/computing-pipeline/issues/41)
 
