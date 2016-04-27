@@ -7,7 +7,6 @@
    * [Existing Data Standards](existing_data_standards.md)
    * Lemnatec Field Scanner Output
    * [Data Levels](data_levels.md)
-       * Lemnatec Field Scanner Output
    * [Environmental Data](environmental_data.md)
    * [Hyperspectral Data](hyperspectral_data.md)
    * [Genomics](genomics_pipeline.md)
