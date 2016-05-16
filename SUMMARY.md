@@ -10,7 +10,7 @@
    * [Environmental Data](environmental_data.md)
    * [Hyperspectral Data](hyperspectral_data.md)
    * [Genomics](genomics_pipeline.md)
-   * Data Backups
+   * [Data Backups](data_backups.md)
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
 * [Software](software.md)
