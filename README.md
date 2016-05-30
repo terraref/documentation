@@ -1,13 +1,24 @@
-TERRAREF Documentation
+<span style="color:grey; font-family:Georgia; font-size:2em;">Draft </span>
+
+# TERRA REF  Documentation
 =======
 
-#### <span style="color:grey; font-family:Georgia; font-size:2em;">Draft </span> 
+## Content
+
+This book describes the TERRA REF data collection, computing, and analysis pipelines. 
+
+
+## Versions
 
 The first edition will be published in **November 2016**.
 
+## Contributing
+
 How to contribute to this documentation:
 
-* edit files or submit issues via the github repository ([github.com/terraref/documentation](github.com/terraref/documentation))
+* Edit contents (both require GitHub account)
+  *  GitHub repository ([github.com/terraref/documentation](https://github.com/terraref/documentation))
+  *  GitBook 
 * send suggestions / comments / corrections / feedback to David LeBauer dlebauer@gmail.com.
 
 ## About
