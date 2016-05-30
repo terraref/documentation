@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Background](chapter1.md)
+   * [Field Scanner Pipeline](field_scanner_pipeline.md)
    * [Experimental Design](experimental_design.md)
    * [Sensors](sensors.md)
    * [Field Measurements](field_measurements.md)
@@ -27,7 +28,6 @@
 * Appendix
    * Applied Examples
        * [Danforth pipeline](danforth.md)
-       * [Field Scanner Pipeline](field_scanner_pipeline.md)
 * [Collaboration Tools](collaboration_tools.md)
 * [Code of Conduct](code_of_conduct.md)
 
