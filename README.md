@@ -18,8 +18,10 @@ How to contribute to this documentation:
 
 * Edit contents (both require GitHub account)
   *  GitHub repository ([github.com/terraref/documentation](https://github.com/terraref/documentation))
-  *  GitBook 
-* send suggestions / comments / corrections / feedback to David LeBauer dlebauer@gmail.com.
+  *  GitBook interface https://www.gitbook.com/book/terraref/terraref-documentation/edit
+* Use the comment bubbles in the [web version of the book](https://terraref.gitbooks.io/terraref-documentation/content/)
+* Email suggestions, comments to [David LeBauer](dlebauer@illinois.edu).
+
 
 ## About
 
