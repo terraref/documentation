@@ -4,7 +4,7 @@
 * [Background](chapter1.md)
    * [Experimental Design](experimental_design.md)
    * [Sensors](sensors.md)
-   * Field Measurements
+   * [Field Measurements](field_measurements.md)
 * [Data Products](data_products.md)
    * [Accessing Data](data_access.md)
    * [Existing Data Standards](existing_data_standards.md)
