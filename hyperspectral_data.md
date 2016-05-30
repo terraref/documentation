@@ -2,7 +2,7 @@
 
 ## Calibration and Correction
 
-This is a draft algorithm to retrieve spectral reflectance based on my understanding of the (possibly soon-to-be) available inputs. Suggestions and correction welcome (the more specific, the better). For simplicity, the algorithm description currently omits the time dimension. It is implicit in all quantities below except rfl_wht.
+This is a draft algorithm to retrieve spectral reflectance based on my understanding of the (possibly soon-to-be) available inputs. Suggestions and correction welcome (the more specific, the better). For simplicity, the algorithm description currently omits the time dimension. It is implicit in all quantities below except rfl_wht. "Exposure" refers to an image taken by the hyperspectral camera. The exposure is measured in "counts". Exposing an image for a longer time results in more counts, yet the reflectance is unchanged. Improvements to terminology are welcome!
 
 ### Inputs and Outputs 
 
@@ -13,14 +13,15 @@ $$
 
 #### Inputs: Required known or measured inputs:
 
-1. `uint16  xps_img(wavelength,y,x) [xps] = `Exposure from experiment image (i.e., plants) (known, VNIR, SWIR sensors)
-2. `uint16  xps_wht(wavelength,x) [xps]   = `Exposure from white reference sheet/panel (measured by VNIR, SWIR sampling period? location?)
-3. `float32 rfl_wht(wavelength) [fraction]      = `Reflectance of white reference (factory calibration) (assume time-constant?)
-4. `float32 flx_dwn(wavelength) [W m-2 um-1]    = `Downwelling spectral irradiance (measured by environmental sensor. units?)
+1. `uint16  xps_img(wavelength,y,x) [cnt] = `Exposure from experiment image (i.e., plants) (known, VNIR, SWIR sensors)
+2. `uint16  xps_wht(wavelength,x) [cnt]   = `Exposure from white reference sheet/panel (measured by VNIR, SWIR sampling period? location?)
+3. `uint16  xps_drk(wavelength,x) [cnt]   = `Exposure from dark reference (same questions as above)
+4. `float32 rfl_wht(wavelength) [fraction]      = `Reflectance of white reference (factory calibration) (assume time-constant?)
+5. `float32 flx_dwn(wavelength) [W m-2 um-1]    = `Downwelling spectral irradiance (measured by environmental sensor. units?)
 
 #### Intermediate derived quantities:
 
-1. `float32 cst_cnv(wavelength) [xps/(W m-2 um-1)] = `Proportionality constant between reflected spectral flux and Exposure (derived)
+1. `float32 cst_cnv(wavelength) [cnt/(W m-2 um-1)] = `Proportionality constant between reflected spectral flux and Exposure (derived)
 2. `float32 flx_upw(wavelength) [W m-2 um-1]                    = `Upwelling  spectral flux (derived. and possibly measured for closure?)
 
 #### Outputs
