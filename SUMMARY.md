@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Background](chapter1.md)
-   * Experimental Design
+   * [Experimental Design](experimental_design.md)
    * [Sensors](sensors.md)
 * [Data Products](data_products.md)
    * [Accessing Data](data_access.md)
