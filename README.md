@@ -5,45 +5,32 @@
 
 ## Content
 
-This book will provide technical details of the TERRA Reference data products.
+This book describes the TERRA REF data collection, computing, and analysis pipelines. 
 
-The intended audience includes:
-
-* Researchers interested in understanding the source of TERRA REF data.
-* Developers interested in extending the pipeline.
-* Anyone interested in developing standardized, interoperable workflows.
-
-This book covers:
-
-* Protocols used to collect data.
-  * Sensor Platforms
-  * Field Measurements
-  * Data processing
-  * Validation and Calibration
-* Computing Pipeline
-  * Architecture
-  * Software
-  * Adding / modifying / extending components?
-* Data Products
-  * Description of products
-  * Accessing Data
-  * Computing on Data
-* Providing feedback and requesting features.
 
 ## Versions
 
-The first version of data products will be published in **November 2016**. Before then, this document is in draft format.
+The first edition will be published in **November 2016**.
 
 ## Contributing
 
 How to contribute to this documentation:
 
-* Use the comment bubbles in the [web version of the book](https://terraref.gitbooks.io/terraref-documentation/content/).
-* Email suggestions, comments to David LeBauer dlebauer@illinois.edu.
-* Edit contents
-  *  [GitHub repository](https://github.com/terraref/documentation)
-  *  [GitBook Editor Interface](https://www.gitbook.com/book/terraref/terraref-documentation/edit)
+* Edit contents (both require GitHub account)
+  *  GitHub repository ([github.com/terraref/documentation](https://github.com/terraref/documentation))
+  *  GitBook interface https://www.gitbook.com/book/terraref/terraref-documentation/edit
+* Use the comment bubbles in the [web version of the book](https://terraref.gitbooks.io/terraref-documentation/content/)
+* Email suggestions, comments to [David LeBauer](mailto:dlebauer@illinois.edu).
 
+
+## About
+
+Documentation for the specification and development of a 
+reference data and computing pipeline for high throughput phenotyping to support breeding of biomass Sorghum.
+
+### Intended audience:
+
+Users and developers of the TERRAref pipeline.
 
 ## Quick Links
 
