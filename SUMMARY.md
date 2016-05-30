@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Background](chapter1.md)
+   * Experimental Design
 * [Data Products](data_products.md)
    * [Accessing Data](data_access.md)
    * [Existing Data Standards](existing_data_standards.md)
