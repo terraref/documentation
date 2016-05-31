@@ -1,7 +1,6 @@
 <span style="color:grey; font-family:Georgia; font-size:2em;">Draft </span>
 
 # TERRA REF  Documentation
-=======
 
 ## Content
 
