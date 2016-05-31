@@ -17,12 +17,12 @@ $$
 2. `uint16  xps_wht(wavelength,x) [cnt]   = `Exposure from white reference sheet/panel (measured by VNIR, SWIR sampling period? location?)
 3. `uint16  xps_drk(wavelength,x) [cnt]   = `Exposure from dark reference (same questions as above)
 4. `float32 rfl_wht(wavelength) [fraction]      = `Reflectance of white reference (factory calibration) (assume time-constant?)
-5. `float32 flx_dwn(wavelength) [W m-2 um-1]    = `Downwelling spectral irradiance (measured by environmental sensor. units?)
+5. `float32 flx_dwn(wavelength) [W m-2 m-1]    = `Downwelling spectral irradiance (measured by environmental sensor. units?)
 
 #### Intermediate derived quantities:
 
-1. `float32 cst_cnv(wavelength) [cnt/(W m-2 um-1)] = `Proportionality constant between reflected spectral flux and Exposure (derived)
-2. `float32 flx_upw(wavelength) [W m-2 um-1]                    = `Upwelling  spectral flux (derived. and possibly measured for closure?)
+1. `float32 cst_cnv(wavelength) [cnt/(W m-2 m-1)] = `Proportionality constant between reflected spectral flux and Exposure (derived)
+2. `float32 flx_upw(wavelength) [W m-2 m-1]                    = `Upwelling  spectral flux (derived. and possibly measured for closure?)
 
 #### Outputs
 
@@ -58,10 +58,10 @@ More assumptions, input measurements, and/or more sophisticated algorithms would
 
 ### Notes
 
-* Units of exposure are vague. Exposure is similar to a photon counter modulated by the spectral response function (SRF) of the sensor. The units are denoted [xps] and range from [0..2^16-1] = [0..65535]. 
+* Units of exposure are vague. Exposure is similar to a photon counter modulated by the spectral response function (SRF) of the sensor. The units are called "counts" and denoted [cnt] and range from [0..2^16-1] = [0..65535]. 
 * add QAQC tests for sensitivity and saturation in each band
 * cross validate with other sensors with know spectral response functions.
-* NB: Three required inputs (xps_wht, rfl_wht, flx_dwn) are not ready to use. Their location, units, and/or sampling intervals are unknown. Only xps_img is ready. Please tell me how to get the other three in the notes below. (@LTBen, @markus-radermacher-lemnatec)
+* NB: Four required inputs (xps_wht, xps_drk, rfl_wht, flx_dwn) are not ready to use. Their location, units, and/or sampling intervals are unknown. Only xps_img is ready. Please tell me how to get the other three in the notes below. (@LTBen, @markus-radermacher-lemnatec)
 
 ## Hyperspectral Data Formats
 
