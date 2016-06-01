@@ -8,7 +8,6 @@
    * [Field Measurements](field_measurements.md)
 * [Accessing Data](data_access.md)
 * [Data Products](data_products.md)
-   * [Accessing Data](data_access.md)
    * [Existing Data Standards](existing_data_standards.md)
    * [Data Levels](data_levels.md)
    * [Lemnatec Field Scanner](lemnatec_field_scanner_output.md)
