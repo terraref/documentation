@@ -41,20 +41,17 @@ Once all the data is entered properly, you can go ahead and click on the **Bulk 
 
 Once you have entered all the necessary data to prepare for a bulk upload, you can then begin the bulk upload process. 
 
-There are some key rules for bulk uploading.
+For entering existing data, download a copy of the trait data bulk upload template ([traits.csv](https://docs.google.com/spreadsheets/d/1TK-u-m4SG1KupYCVDUIye1C3zX8b1xgaYIG1fHNkYjs/export?format=csv&gid=0)) or copy the google spreadsheet template (_enter url here_). 
+For more automated data collection and transfer, the API insertion endpoint accepts tables in this format (as well as XML and json formats beyond the scope here, but described in the data entry documentation). 
 
-1. There are 3 different spreadsheet templates to choose from.
-  * [yields.csv](https://docs.google.com/spreadsheets/d/1maK1uKr6i9KERaYdU5zSiXcBndQoiG4Vgn2DTnqdfbA/export?format=csv&gid=0)
-  * [yields\_by\_doi.csv](https://docs.google.com/spreadsheets/d/1ExLosMvX05jHWO9UYVE4Dxcl2ZbUgPc0KYoUPruaOtM/export?format=csv&gid=0)
-  * [traits.csv](https://docs.google.com/spreadsheets/d/1TK-u-m4SG1KupYCVDUIye1C3zX8b1xgaYIG1fHNkYjs/export?format=csv&gid=0)
+Google Sheets is an useful format that supports collaborative editing as well as programmatic access.
 
+## Common Issues
 
-2. It is important that text values and column names in the spreadsheet match records in the database. This includes variable names, site names, species and cultivar names, etc.
-3. Pick the template that best matches your data set and organize the data in the excel sheet to include all the required info. 
-4. Organize the data in the proper order and bulk upload.
-
-
-Sometimes there are issues that arise when trying to bulk upload. It is important to read what the system is telling you the problem is and fix the problem. 
+1. Text values and column names in the spreadsheet must match records in the database. This includes variable names, site names, species and cultivar names, etc.
+2. misspellings, 
+3. missing references to existing tables, 
+4. Values out of allowable range. 
 
 One of the most common errors is improper column name in the excel sheet that doesn't match what the system has for that variable. Another frequently made mistake is that the data for the variables in the excel sheet is out of range for that variable. If this happens double check the data and request to have the range in the database adjusted for that variable. 
 
