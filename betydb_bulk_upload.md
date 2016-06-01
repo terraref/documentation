@@ -1,36 +1,40 @@
 # BETYdb Bulk Upload
-
 Basics of Primary Data Upload
 
-
-1. Go to the **BETYdb** homepage.
+****Beginning Steps:****
+1. Go to** BETYdb** homepage. 
+2. It's important to understand that the BETYdb is a platform that's used by the Terra-Mepp group. The Terra-Mepp group uses BETYdb to centralize data from research that's done on the project. We are uploading this data to assure that everyone on the team has access to the research done on the Terra-Mepp project. 
 2. On the homepage, there are tabs at the top of the page. (Data, Docs, Runs, Model I/O, Bulk Upload)  
 3. When uploading data, the two tabs that have most of what's needed for data upload are the **Data Tab** and the **Bulk Upload Tab**. 
 
-**NEED SCREENSHOT** or just link / merge with data entry workflow
+
+##Data Tab:
+The Data tab has a lot of features that allow you to search the database through different types of data. The Data tab allows new data of your own to upload if what you search for isn't already uploaded. 
+
+Scroll down on the **data tab** and click on **citations**. A page with a list of citations that are already uploaded into the system appears. 
+
+Citations go by the **first authors last name**.  (For example a Journal article written by Andrew Davis and Kerri Shaw would have the name "Davis" in the author slot.) 
+
+Use the search menu located in the top right corner of each page to search for citations by Author, Year, Title, Journal, Vol, Page, or URL.
+
+*This is also the case for any other tab*
+ **(For example in the cultivars tab you can search cultivars in the system by searching for them by any factors it is organized.) 
+ (Such as Species, Previous ID, Name, Ecotype)** 
+ Keep in mind that when clicking on a new tab (such as cultivars)the database will show all the cultivars of the citations it has on file. 
 
 
-The "Data" tab links to tables containing plant trait and yield data as well as meta-data. 
-Each of these tables provides an interface that allows users to search the entire database as well as investigate and edit (with permission) individual records. The Data entry workflow documentation describes how to use these tables to enter data. 
+#Now that you know how to find data already in the system...
 
-These tables can be accessed via the web browser by clicking 'Data --> tablename' or by typing in the url `https://<hostname>/bety/<tablename>`, for example, `terraref.ncsa.illinois.edu/bety-test/sites`. 
-To download a text-based format for use in your favorite data management software, you can download the entire table by appending `.csv` or `.json` to the table url, e.g. `terraref.ncsa.illinois.edu/bety-test/sites.csv`.
+You can take the next steps towards uploading your data into the system. 
 
-# Meta-data entry required for Bulk Upload:
+#Data Upload Before the Bulk Upload:
 
-The first step is to make sure that all required meta-data is in the database. This includes citations, sites, cultivars, and treatments.
+The initial step you want to take when uploading data is to make sure your citation for the data exists. 
+Search for your citation and if it doesn't already exist in the system then create a new citation. Make sure to fill in all the required data.( Author, Year, Title, Journal, Vulome, Pg., Doi)
 
-In all cases, it is necessary to match the spelling and capitalization of the keys used to lookup records in these tables based on columns in the bulk upload spreadsheet.
+The reason for this is because all the data you enter after this point will tie to a certain citation. You will want to make sure that the citation entered properly.
 
-**Citation** 
-
-Search for your citation and if it doesn't already exist in the system then create a new citation.
-
-Citations can reference published articles as well as unpublished datasets. The minimum requirement is to have the name of the data owner, a descriptive title, and a year.
-
-**Sites**
-
-Verify that all sites are in the sites table. You will want to verify this for variables as well. Make sure to verify that all the variables on your excel sheet match what the system has for variables. 
+Now, to prepare for **bulk upload**, you will want to go to the **Data** tab and click on the **Sites**. You'll want to verify that all your sites on your excel sheet are also on the sites page, and spelled the same on both. You will want to verify this for variables as well. Make sure to verify that all the variables on your excel sheet match what the system has for variables. 
 
 If there is any data on the excel sheet that is not also in the system, you will need to enter that data. (Site name, LAI, traits, variables) 
 
@@ -41,17 +45,21 @@ Once all the data is entered properly, you can go ahead and click on the **Bulk 
 
 Once you have entered all the necessary data to prepare for a bulk upload, you can then begin the bulk upload process. 
 
-For entering existing data, download a copy of the trait data bulk upload template ([traits.csv](https://docs.google.com/spreadsheets/d/1TK-u-m4SG1KupYCVDUIye1C3zX8b1xgaYIG1fHNkYjs/export?format=csv&gid=0)) or copy the google spreadsheet template (_enter url here_). 
-For more automated data collection and transfer, the API insertion endpoint accepts tables in this format (as well as XML and json formats beyond the scope here, but described in the data entry documentation). 
+There are some key rules for bulk uploading.
 
-Google Sheets is an useful format that supports collaborative editing as well as programmatic access.
+1. There are 3 different spreadsheet templates to choose from.
+  * [yields.csv](https://docs.google.com/spreadsheets/d/1maK1uKr6i9KERaYdU5zSiXcBndQoiG4Vgn2DTnqdfbA/export?format=csv&gid=0)
+  * [yields\_by\_doi.csv](https://docs.google.com/spreadsheets/d/1ExLosMvX05jHWO9UYVE4Dxcl2ZbUgPc0KYoUPruaOtM/export?format=csv&gid=0)
+  * [traits.csv](https://docs.google.com/spreadsheets/d/1TK-u-m4SG1KupYCVDUIye1C3zX8b1xgaYIG1fHNkYjs/export?format=csv&gid=0)
 
-## Common Issues
 
-1. Text values and column names in the spreadsheet must match records in the database. This includes variable names, site names, species and cultivar names, etc.
-2. misspellings, 
-3. missing references to existing tables, 
-4. Values out of allowable range. 
+2. It is important that text values and column names in the spreadsheet match records in the database. This includes variable names, site names, species and cultivar names, etc.
+
+3. Pick the template that best matches your data set and organize the data in the excel sheet to include all the required info. 
+4. Organize the data in the proper order and bulk upload.
+
+
+Sometimes there are issues that arise when trying to bulk upload. It is important to read what the system is telling you the problem is and fix the problem. 
 
 One of the most common errors is improper column name in the excel sheet that doesn't match what the system has for that variable. Another frequently made mistake is that the data for the variables in the excel sheet is out of range for that variable. If this happens double check the data and request to have the range in the database adjusted for that variable. 
 
