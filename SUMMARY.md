@@ -2,11 +2,11 @@
 
 * [Introduction](README.md)
 * [Background](chapter1.md)
+   * [Accessing Data](data_access.md)
    * [Data Transfer](field_scanner_pipeline.md)
    * [Experimental Design](experimental_design.md)
    * [Sensors](sensors.md)
    * [Field Measurements](field_measurements.md)
-* [Accessing Data](data_access.md)
 * [Data Products](data_products.md)
    * [Existing Data Standards](existing_data_standards.md)
    * [Data Levels](data_levels.md)
