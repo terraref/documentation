@@ -9,35 +9,28 @@ Basics of Primary Data Upload
 
 **NEED SCREENSHOT** or just link / merge with data entry workflow
 
-## "Data" Tables
 
 The "Data" tab links to tables containing plant trait and yield data as well as meta-data. 
 Each of these tables provides an interface that allows users to search the entire database as well as investigate and edit (with permission) individual records. The Data entry workflow documentation describes how to use these tables to enter data. 
 
-Scroll down on the **data tab** and click on **citations**. A page with a list of citations that are already uploaded into the system appears. 
+These tables can be accessed via the web browser by clicking 'Data --> tablename' or by typing in the url `https://<hostname>/bety/<tablename>`, for example, `terraref.ncsa.illinois.edu/bety-test/sites`. 
+To download a text-based format for use in your favorite data management software, you can download the entire table by appending `.csv` or `.json` to the table url, e.g. `terraref.ncsa.illinois.edu/bety-test/sites.csv`.
 
-Citations go by the **first authors last name**.  (For example a Journal article written by Andrew Davis and Kerri Shaw would have the name "Davis" in the author slot.) 
+# Meta-data entry required for Bulk Upload:
 
-Use the search menu located in the top right corner of each page to search for citations by Author, Year, Title, Journal, Vol, Page, or URL.
+The first step is to make sure that all required meta-data is in the database. This includes citations, sites, cultivars, and treatments.
 
-*This is also the case for any other tab*
- **(For example in the cultivars tab you can search cultivars in the system by searching for them by any factors it is organized.) 
- (Such as Species, Previous ID, Name, Ecotype)** 
- Keep in mind that when clicking on a new tab (such as cultivars)the database will show all the cultivars of the citations it has on file. 
+In all cases, it is necessary to match the spelling and capitalization of the keys used to lookup records in these tables based on columns in the bulk upload spreadsheet.
 
+**Citation** 
 
-# Now that you know how to find data already in the system...
+Search for your citation and if it doesn't already exist in the system then create a new citation.
 
-You can take the next steps towards uploading your data into the system. 
+Citations can reference published articles as well as unpublished datasets. The minimum requirement is to have the name of the data owner, a descriptive title, and a year.
 
-# Data Upload Before the Bulk Upload:
+**Sites**
 
-The initial step you want to take when uploading data is to make sure your citation for the data exists. 
-Search for your citation and if it doesn't already exist in the system then create a new citation. Make sure to fill in all the required data.( Author, Year, Title, Journal, Vulome, Pg., Doi)
-
-The reason for this is because all the data you enter after this point will tie to a certain citation. You will want to make sure that the citation entered properly.
-
-Now, to prepare for **bulk upload**, you will want to go to the **Data** tab and click on the **Sites**. You'll want to verify that all your sites on your excel sheet are also on the sites page, and spelled the same on both. You will want to verify this for variables as well. Make sure to verify that all the variables on your excel sheet match what the system has for variables. 
+Verify that all sites are in the sites table. You will want to verify this for variables as well. Make sure to verify that all the variables on your excel sheet match what the system has for variables. 
 
 If there is any data on the excel sheet that is not also in the system, you will need to enter that data. (Site name, LAI, traits, variables) 
 
@@ -57,7 +50,6 @@ There are some key rules for bulk uploading.
 
 
 2. It is important that text values and column names in the spreadsheet match records in the database. This includes variable names, site names, species and cultivar names, etc.
-
 3. Pick the template that best matches your data set and organize the data in the excel sheet to include all the required info. 
 4. Organize the data in the proper order and bulk upload.
 
