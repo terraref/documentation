@@ -7,10 +7,12 @@ Basics of Primary Data Upload
 2. On the homepage, there are tabs at the top of the page. (Data, Docs, Runs, Model I/O, Bulk Upload)  
 3. When uploading data, the two tabs that have most of what's needed for data upload are the **Data Tab** and the **Bulk Upload Tab**. 
 
+**NEED SCREENSHOT** or just link / merge with data entry workflow
 
-##Data Tab:
+## "Data" Tables
 
-The Data tab has a lot of features that allow you to search the database through different types of data. The Data tab allows new data of your own to upload if what you search for isn't already uploaded. 
+The "Data" tab links to tables containing plant trait and yield data as well as meta-data. 
+Each of these tables provides an interface that allows users to search the entire database as well as investigate and edit (with permission) individual records. The Data entry workflow documentation describes how to use these tables to enter data. 
 
 Scroll down on the **data tab** and click on **citations**. A page with a list of citations that are already uploaded into the system appears. 
 
@@ -24,11 +26,11 @@ Use the search menu located in the top right corner of each page to search for c
  Keep in mind that when clicking on a new tab (such as cultivars)the database will show all the cultivars of the citations it has on file. 
 
 
-#Now that you know how to find data already in the system...
+# Now that you know how to find data already in the system...
 
 You can take the next steps towards uploading your data into the system. 
 
-#Data Upload Before the Bulk Upload:
+# Data Upload Before the Bulk Upload:
 
 The initial step you want to take when uploading data is to make sure your citation for the data exists. 
 Search for your citation and if it doesn't already exist in the system then create a new citation. Make sure to fill in all the required data.( Author, Year, Title, Journal, Vulome, Pg., Doi)
