@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * [Background](chapter1.md)
-   * [Accessing Data](data_access.md)
    * [Data Transfer](field_scanner_pipeline.md)
+   * [Accessing Data](data_access.md)
    * [Experimental Design](experimental_design.md)
    * [Sensors](sensors.md)
    * [Field Measurements](field_measurements.md)
