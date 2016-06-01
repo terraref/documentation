@@ -5,6 +5,8 @@ The Biofuel Ecophysiological Traits and Yields database.
 
 Stores traits, species, genotypes, agronomic managements.
 
+BETYdb is used by multiple groups, and many groups manage their own instance of the database. The original server at [betydb.org](https://betydb.org) imports data that are _actively shared_ by other instances. The [TERRA REF](https://terraref.ncsa.illinois.edu/bety) instance only houses data related to Sorghum. 
+
 ## Documentation
 
 * Data Access
