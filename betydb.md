@@ -1,4 +1,15 @@
 
+# BETYdb
+
+The Biofuel Ecophysiological Traits and Yields database. 
+
+## Documentation
+
+* Data Access
+* Data Entry
+* Management
+* Schema
+
 ## TERRA Instances
 
 ## Getting Started
