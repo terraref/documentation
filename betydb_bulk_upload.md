@@ -1,14 +1,15 @@
 # BETYdb Bulk Upload
+
 Basics of Primary Data Upload
 
-****Beginning Steps:****
-1. Go to** BETYdb** homepage. 
-2. It's important to understand that the BETYdb is a platform that's used by the Terra-Mepp group. The Terra-Mepp group uses BETYdb to centralize data from research that's done on the project. We are uploading this data to assure that everyone on the team has access to the research done on the Terra-Mepp project. 
+
+1. Go to the **BETYdb** homepage.
 2. On the homepage, there are tabs at the top of the page. (Data, Docs, Runs, Model I/O, Bulk Upload)  
 3. When uploading data, the two tabs that have most of what's needed for data upload are the **Data Tab** and the **Bulk Upload Tab**. 
 
 
 ##Data Tab:
+
 The Data tab has a lot of features that allow you to search the database through different types of data. The Data tab allows new data of your own to upload if what you search for isn't already uploaded. 
 
 Scroll down on the **data tab** and click on **citations**. A page with a list of citations that are already uploaded into the system appears. 
