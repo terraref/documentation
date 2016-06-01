@@ -6,7 +6,6 @@ This is a list of software tools and resources that are available for use within
 
 * Clowder: ISDA interface
 * Thredds: Geospatial Data server
-* GeoDjango
 * SQL
 
 ### APIs 
