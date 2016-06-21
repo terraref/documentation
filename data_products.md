@@ -2,9 +2,9 @@
 
 The ARPA-E TERRA program aims to stimulate technical advances in high throughput phenotyping of energy crops in the field. TERRA is funding six teams, and is working with all of them to coordinate data standards that will enable the creation of a core 'reference' data set and also to facilitate the exchange of genomic and phenomic data across teams and external researchers.  
 
-The Danforth Plant Science Research Center is tasked with providing a core set of data products that will be available to all of the research teams and to the public. David LeBauer at the University of Illinois is on the Danforth team, and will coordinate the establishment of a core reference data set from a suite of sensors deployed on Lemnatec field and greenhouse systems. This will provide a common dataset for the development and analysis of new analytical methods.
+David LeBauer at the University of Illinois will coordinate the establishment of a core reference data set from a suite of sensors deployed on Lemnatec field and greenhouse systems. This will provide a common dataset for the development and analysis of new analytical methods.
 
-The Standards Committee is responsible for defining and advising the development of data products and access protocols for the ARPA-E TERRA program. The committee will include twelve participants including one representative from each funded projects and six independent experts. The committee will meet virtually each month and in person each year to discuss, develop, and revise data products, interfaces, and computing infrastructure. 
+The Standards Committee is responsible for defining and advising the development of data products and access protocols for the ARPA-E TERRA program. The committee consists of twelve core participants: one representative from each of the six funded projects and six independent experts. The committee will meet virtually each month and in person each year to discuss, develop, and revise data products, interfaces, and computing infrastructure. 
 
 
 Our objectives are to ensure that the software and data in the reference data and computing pipeline are _interoperable, reusable, extensible, and understandable_. Providing clear definitions of common formats will make it easier to analyze and exchange data and results. The formats will follow best practices in scientific computing and data sharing (Wilson et al., 2014, Stodden & Miguez 2014, White et al., 2013).
@@ -27,19 +27,19 @@ We anticipate that standards and data formats will evolve over time as we clarif
 
 ## Roles and responsibilities
 
-TERRA Project representatives are expected to represent the interests of their TERRA team, their research community, and the institutions for which they work. External participants were chosen for specific expertise and will be asked to provide feedback and guidance to help make the TERRA platform interoperable with existing and emerging sensing, informatics, and computing platforms. 
+TERRA Project Standards Committee representatives are expected to represent the interests of their TERRA team, their research community, and the institutions for which they work. External participants were chosen to represent specific areas of expertise and will provide feedback and guidance to help make the TERRA platform interoperable with existing and emerging sensing, informatics, and computing platforms. 
 
 ### Specific duties
 
 * Participate in monthly to quarterly teleconferences with the committee.
 * Provide expert advice.
 * Provide feedback from other intersted parties.
-* Participate in or send delegate to annual two-day workshops. 
+* Participate in, or send delegate to, annual two-day workshops. 
 
 
 ### Annual Meetings
 
-If we can efficiently agree on and adopt conventions, we will have more flexibility to use these workshops to train researchers, remove obstacles, and identify opportunities. This will be an opportunity for researchers to work with developers at NCSA and from the broader Category 5 informatics and computing teams to identify what works, prioritize features, and move forward on research questions that require advanced computing.
+If we can efficiently agree on and adopt conventions, we will have more flexibility to use these workshops to train researchers, remove obstacles, and identify opportunities. This will be an opportunity for researchers to work with developers at NCSA and from the broader TERRA informatics and computing teams to identify what works, prioritize features, and move forward on research questions that require advanced computing.
 
 
 ## Project Timeline
@@ -85,11 +85,3 @@ ___
 | Carolyn J. Lawrence-Dill | Iowa State |triffid_at_iastate.edu |
 | Eric Lyons | University of Arizona / iPlant |ericlyons_at_email.arizona.edu
  |
-
-
-## Other Related projects
-
-* DataOne (Bertram Ludascher or Matt Jones)
-* [USDA GODAN](http://www-u.ree.usda.gov/godan-background)
-* [USDA Ag data Commons](https://data.nal.usda.gov/)
-* [Planteome Phenotype Ontologies](http://jaiswallab.cgrb.oregonstate.edu/node/126)
