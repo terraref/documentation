@@ -1,8 +1,5 @@
-# Sample Scanner Data
-
-We currently have raw sensor outputs and meta-data. 
-We are in the process of defining data products and developing the data processing pipeline. 
-For more information review and comment on GitHub Issues in the [reference-data](https://github.com/terraref/reference-data/issues) and [computing-pipeline](https://github.com/terraref/computing-pipeline/issues) repositories.
+# Accessing Data
+There are two ways to access data. To search, select, and compute on data in the cloud use Clowder. Clowder simplifies the use use large datasets. You can select data and then open Rstudio and Jupyter interfaces to for analysis. You can also annotate, contribute, and share data. To download data directly to your computer or server, use Globus. Both of these options are described below.
 
 ## Accessing Data in Clowder
 
@@ -13,13 +10,11 @@ The files are available via the TERRA Ref Clowder [web interface](http://terrare
 Data is organized into **datasets**, **collections** and **spaces**.
 
 * **Datasets** consist of one or more files with associated metadata collected by one sensor at one time point. Users can annotate, download, and use these sensor datasets.
-* **Collections** consist of one or more datasets. Currently, we have collections to organize sensors by collection date and sensor. Users can create their own collections.
-* **Spaces** contain collections and datasets. TERRA REF uses one space for each of the phenotyping platforms.
+* **Collections** consist of one or more datasets. Currently, we have collections to organize sensors by acquisition date and sensor. Users can create their own collections.
+* **Spaces** contain collections and datasets. TERRA-REF uses one space for each of the phenotyping platforms.
 
-Sign up for an account at terraref.ncsa.illinois.edu/clowder and send an email to David LeBauer dlebauer@illinois.edu to approve. 
-
-* **Field Scanner Sample Data - V4** contains two primary collections (**2016 Feb 09** and **2016 Feb 12**) organized by sensor and timestamp.
-* **Danforth Center Phenotyping Facility** contains snapshots from the [Danforth sorghum pilot experiment](danforth.md). 
+To create an account, sign up at the [TERRA-REF Clowder site] (terraref.ncsa.illinois.edu/clowder) and wait for your account to be approved. 
+If you have questions or need additional access, send an email to [David LeBauer] (mailto:dlebauer@illinois.edu) for account approval. 
 
 ### Analyzing Data in Clowder
 
