@@ -20,7 +20,7 @@
 * [Cyberinfrastructure](cyberinfrastructure.md)
    * [Technical Team](people.md)
 * [Software](software.md)
-   * [BETYdb](betydb.md)
+  * [BETYdb](betydb.md)
        * [BETYdb Bulk Upload](betydb_bulk_upload.md)
    * [Breeding Management System](breeding_management_system.md)
    * [Clowder](clowder.md)
