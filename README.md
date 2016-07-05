@@ -1,10 +1,10 @@
 <span style="color:grey; font-family:Georgia; font-size:2em;">Draft </span>
 
-# TERRA REF  Documentation
+# TERRA-REF  Documentation
 
 ## Content
 
-This book describes the TERRA REF data collection, computing, and analysis pipelines. 
+This book describes the TERRA-REF data collection, computing, and analysis pipelines. 
 
 
 ## Versions
