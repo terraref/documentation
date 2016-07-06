@@ -7,7 +7,7 @@
    * [Field Sensors](sensors.md)
    * [Field Measurements](field_measurements.md)
 * [Data Products](data_products.md)
-   * [Standards Committee](https://github.com/terraref/documentation/blob/master/standards_committee.md)
+   * [Standards Committee](standards_committee.md)
    * [Accessing Data](data_access.md)
    * [Data Levels](data_levels.md)
    * [Data Backups](data_backups.md)
