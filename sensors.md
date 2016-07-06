@@ -1,6 +1,6 @@
 # Field Sensors
 
-## [Sensors]
+## Sensors
 
 | Description | Camera | Technical Data |
 |:-----|:------|:-----|:-----|
