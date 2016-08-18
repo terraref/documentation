@@ -34,10 +34,10 @@ Users and developers of the TERRAref pipeline.
 ## Quick Links
 
 * [TERRAref on Github](https://github.com/terraref)
-* [Draft Documentation](https://dlebauer.gitbooks.io/terraref-documentation/)
+* [Draft Documentation](https://www.gitbook.com/book/terraref/terraref-documentation/details)
   * [Source code on GitHub](https://github.com/terraref/documentation)
 * [Sample and Example Data](https://uofi.box.com/terraref-sample-data)
-* [Data Products and Standards Committee tasks and milestones](https://https://github.com/terraref/reference-data/issues)
+* [Data Products and Standards Committee tasks and milestones](https://github.com/terraref/reference-data/issues)
 * Chat Room [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/terraref/reference-data?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
