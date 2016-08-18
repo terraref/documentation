@@ -1,29 +1,40 @@
-# Sample Scanner Data
-A set of sample data from LemnaTec field & indoor scanners is available in several formats.
-
-We currently have raw sensor outputs and meta-data. 
-We are in the process of defining data products and developing the data processing pipeline. 
-For more information review and comment on GitHub Issues in the [reference-data](https://github.com/terraref/reference-data/issues) and [computing-pipeline](https://github.com/terraref/computing-pipeline/issues) repositories.
+# Accessing Data
+There are two ways to access data. To search, select, and compute on data in the cloud use Clowder. Clowder simplifies the use use large datasets. You can select data and then open Rstudio and Jupyter interfaces for analysis. You can also annotate, contribute, and share data. To download data directly to your computer or server, use Globus. Both of these options are described below.
 
 ## Accessing Data in Clowder
 
 Clowder is a tool for organizing the raw data stream and managing the sensor data pipeline.
 
-The files are also available via the in-development [TERRA Ref Clowder instance](http://terraref.ncsa.illinois.edu/clowder/spaces).  
+Data files are available from the TERRA-REF Clowder [web interface](http://terraref.ncsa.illinois.edu/clowder/spaces) or [API](https://terraref.ncsa.illinois.edu/clowder/assets/docs/api/index.html). 
 
-Sign up for an account at terraref.ncsa.illinois.edu/clowder and send an email to David LeBauer dlebauer@illinois.edu to approve. 
+Data is organized into **datasets**, **collections** and **spaces**.
 
-* **Field Scanner Sample Data - V4** contains two primary collections (**2016 Feb 09** and **2016 Feb 12**) organized by sensor and timestamp.
-* **Danforth Center Phenotyping Facility** contains snapshots from the [Danforth sorghum pilot experiment](danforth.md). 
+* **Datasets** consist of one or more files with associated metadata collected by one sensor at one time point. Users can annotate, download, and use these sensor datasets.
+* **Collections** consist of one or more datasets. Currently, we have collections to organize sensors by acquisition date and sensor. Users can create their own collections.
+* **Spaces** contain collections and datasets. TERRA-REF uses one space for each of the phenotyping platforms.
 
-Instructions for using Jupyter or Rstudio to compute on data and develop code
+To create an account, sign up at the [TERRA-REF Clowder site](terraref.ncsa.illinois.edu/clowder) and wait for your account to be approved. 
+If you have questions or need additional access, send an email to [David LeBauer](mailto:dlebauer@illinois.edu) for account approval. 
 
-## via Globus
-<a href="mailto:dlebauer@illinois.edu?subject=[TERRAREF Globus Access Request]">dlebauer@illinois.edu</a>
+### Analyzing Data in Clowder
 
-1. sign up for globus
-2. send your globus id to David LeBauer (dlebauer@illinois.edu) .
-3. wait until after you have access (David or JD will reply)
+After selecting a dataset, the **Tool Sessions** menu on the lower right sidebar allows users to launch analysis tools. Currently, users can choose between launching Rstudio or Jupyter.
+These tools support R and Python as well as many familiar programming languages. 
+Additional tools can be added based on user demand. 
+
+If you are willing to share source or compiled code that you have written to process data or metadata please let us know. The easiest way is to [open a new issue](https://github.com/terraref/computing-pipeline/issues/new) or submit a pull request to [Github](github.com/terraref/computing-pipeline) with your code in a new folder in the [`scripts/`](https://github.com/terraref/computing-pipeline/tree/master/scripts) directory.  The basic syntax is `script [inputs] [outputs]`.
+
+See the [Clowder Documentation](https://terraref.gitbooks.io/terraref-documentation/content/clowder.html) for more details.
+
+## Downloading Data via Globus
+
+Globus provides a way for users to transfer large amounts of data. 
+
+To configure Globus to transfer data to your computer or server:
+
+1. sign up for Globus at [globus.org](https://www.globus.org/)
+2. send your Globus id (or University email) to David LeBauer (<a href="mailto:dlebauer@illinois.edu?subject=[TERRAREF Globus Access Request]">dlebauer@illinois.edu</a>) with 'TERRAREF Globus Access Request' in the subject.
+3. you will be notified once you have been granted access
 1. log into Globus https://www.globus.org
 2. add an endpoint for the destination (e.g. your local computer) https://www.globus.org/app/endpoints/create-gcp
 3. download and setup Globus Connect (on that page)
