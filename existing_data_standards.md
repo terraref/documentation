@@ -2,20 +2,21 @@
 
 ## Agronomic data (trait vectors)
 
-### ICASA 
+#### International Consortium for Agricultural Systems Applications (ICASA)  
 
-http://research.agmip.org/display/it/Data+Interoperability
-ag expt data API http://research.agmip.org/display/dev/The+AgMIP+Crop+Experiment+Database+API
-json data objects
-variables list
+[“Integrated Description of Agricultural Field Experiments and Production: The ICASA Version 2.0 Data Standards”](http://www.sciencedirect.com/science/article/pii/S016816991300077X), by Jeffrey W. White and others, published in Computers and Electronics in Agriculture 2013, 
 
-### BETYdb Biofuel Ecophysiological Traits and Yields database 
 
-* [website](https://betydb.org)
+#### Agricultural Model Inter-Comparison and Improvement Project (AgMIP)
 
-BETYdb will be used to store meta-data, provenance, and traits information
+[AgMIP Crop Experiment Database data variables](http://research.agmip.org/display/it/Data+Interoperability)
 
-BETYdb traits: available as web-page, csv, json, xml. This can be extended to allow spatial, temporal, and taxonomic / genomic queries.
+
+#### BETYdb Biofuel Ecophysiological Traits and Yields database 
+
+[BETYdb](https://betydb.org) is used to store TERRA meta-data, provenance, and traits information
+
+BETYdb traits are available as web-page, csv, json, xml. This can be extended to allow spatial, temporal, and taxonomic / genomic queries.
 
 AgMIP, using ICASA standards
 see https://github.com/terraref/reference-data/issues/6
@@ -23,56 +24,58 @@ see https://github.com/terraref/reference-data/issues/6
 
 ## Genomics
 
-Gramene  http://www.gramene.org/
-curated, open-source, integrated data resource for comparative functional genomics in crops and model plant species
+#### Gramane
 
-## APIs
+[Gramene](http://www.gramene.org/) is a curated, open-source, integrated data resource for comparative functional genomics in crops and model plant species
 
-### MODAPS NASA MODIS Satellite data 
+## Application Programming Interface (API)
 
-https://ladsweb.nascom.nasa.gov/data/api.html
+#### Agricultural Model Inter-Comparison and Improvement Project (AgMIP)
 
-This Application Programming Interface (API) encompasses a library of functions that provides programmatic data access and processing services to MODIS Level 1 and Atmosphere data products. These routines enable both SOAP and REST based web service calls against the data archives maintained by MODAPS. These routines mirror existing LAADS Web services.
+[AgMIP API](http://research.agmip.org/display/dev/The+AgMIP+Crop+Experiment+Database+API)
 
-### BETYdb: see API documentation [2] 
+#### MODAPS NASA MODIS Satellite data 
 
-To query trait vectors; can be extended to raster data once available. 
+The [MODAPS NASA MODIS Satellite](https://ladsweb.nascom.nasa.gov/data/api.html) data encompasses a library of functions that provides programmatic data access and processing services to MODIS Level 1 and Atmosphere data products. These routines enable both SOAP and REST based web service calls against the data archives maintained by MODAPS. These routines mirror existing LAADS Web services.
 
-https://www.betydb.org/search?&search=switchgrass+sla
-https://www.betydb.org/search.csv?&search=switchgrass+sla
-https://www.betydb.org/search.xml?&search=switchgrass+sla
-https://www.betydb.org/search.json?&search=switchgrass+sla
+#### BETYdb
+[BETYdb](https://www.authorea.com/users/5574/articles/7062/_show_article) can be used to query trait vectors and its functionality will be extended to raster data. 
 
-### ICASA
+Sample query with:
+* [HTML output](https://www.betydb.org/search?&search=switchgrass+sla)
+* [csv output](https://www.betydb.org/search.csv?&search=switchgrass+sla)
+* [xml output](https://www.betydb.org/search.xml?&search=switchgrass+sla)
+* [Json-compatible output](https://www.betydb.org/search.json?&search=switchgrass+sla)
 
-### Plant Breeders API
+#### Plant Breeders API
 
-Brapi API used by FieldBook http://docs.brapi.apiary.io/#introduction/structure-of-the-response-object:
-ex: https://jsapi.apiary.io/apis/brapi.apib
+[The Plant Breeder's API](http://docs.brapi.apiary.io/#introduction/structure-of-the-response-object:
+ex: https://jsapi.apiary.io/apis/brapi.apib) specifies a standard interface for plant phenotype/genotype databases to serve their data to crop breeding applications.  This is the API used by [FieldBook](https://fieldbook.com/), which allows users to turn spreadsheets into databases.
 
-* The BMS group has implemented a few features to make it compatible with Field Book in its current state sans API.
-* BMS and GOBII are both pushing for the API and both plan on implementing it when it's complete. The GOBII director (Ed Buckler on TERRA MEPP team, with Mike Gore who designed genomics pipeline) said that their group was committed to implementing the API in at least one of his talks at PAG earlier this month.
-* BMS Breeding Management System Standalone Server 
-* genomes2fields is migrating to BMS
+Updates
+
+* The [Breeding Management System (BMS)](https://www.integratedbreeding.net/breeding-management-system) group has implemented a few features to make it compatible with Field Book in its current state without the use of API.
+* BMS and the [Genomic & Open-source Breeding Informatics Initiative (GOBII)](http://cbsugobii05.tc.cornell.edu/wordpress/) are both pushing for the API and plan on implementing it when it's complete. 
+* Read news about the [BMS Breeding Management System Standalone Server](https://www.integratedbreeding.net/206/news-events/news?id=150) and [genomes2fields migrating to BMS](https://www.integratedbreeding.net/206/news-events/news?id=142)
 
 ## Sensor Data
 
 
 
-### Climate Forecasting Conventions
+#### Climate Forecasting Conventions
 
 Dimensions: time, lat, lon, other
 specify time first (unlimited) lat, lon or x, y extent to field boundaries.
 
-### Meteorological data
+#### Meteorological data
 
-https://github.com/terraref/reference-data/issues/3
+[Proposed format for meteorological variables exported from Lemnatec platform](https://github.com/terraref/reference-data/issues/3)
 
-### MsTMIP data formats
+#### Multi-scale Synthesis and Terrestrial Model Intercomparison Project (MsTMIP) data formats
 
 * One implementation of CF for ecosystem model driver (met, soil) and output (mass, energy dynamics)
   * Standardized Met driver data
-  * Terrestrial Ecosystem Model output http://mstmipsynthesis.pbworks.com/w/page/25673213/FrontPage
+  * [Terrestrial Ecosystem Model output](http://mstmipsynthesis.pbworks.com/w/page/25673213/FrontPage)
 
 
 ### Date-Time: 
