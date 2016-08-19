@@ -6,30 +6,19 @@ This page summarizes existing standards, conventions, controlled vocabularies, a
 
 ### International Consortium for Agricultural Systems Applications (ICASA)
 
-The ICASA Version 2.0 Data standard defines an abstract model and data dictionary for the representation of agricultural field expirements. ICASA is explicitly designed to support implementations in a variety of formats, including plain text. More recently, the AgMIP project has developed a [JSON-based format](http://research.agmip.org/display/dev/JSON+Data+Objects).
+The ICASA Version 2.0 data standard defines an abstract model and data dictionary for the representation of agricultural field expirements. ICASA is explicitly designed to support implementations in a variety of formats, including plain text, spreadsheets or structured formats. It is important to note that ICASA is both the data dictionary and a format used to describe experiments.
+
+More recently, the AgMIP project has developed a [JSON-based format](http://research.agmip.org/display/dev/JSON+Data+Objects) for use with the AgMIP Crop Experiment (ACE) database and API.
 
 Currently, the ICASA data dictionary is represented as a [Google Spreadsheet](http://research.agmip.org/display/dev/ICASA+Master+Variable+List) and is not suitable for linked-data applications. However, it may be possible to render ICASA in RDF for the TERRA-REF project with minimal effort. This would allow TERRA-REF to produce data that leverages the ICASA vocabulary as well as other external or custom vocabularies in a single metadata format.
 
-The ICASA data dictionary is being mapped to various ontologies as part of the [Agronomy Ontology](http://www.obofoundry.org/ontology/agro.html) project. With this, it may be possible in the future to represent ICASA concepts using formal ontologies.
-
+The ICASA data dictionary is also being mapped to various ontologies as part of the [Agronomy Ontology](http://www.obofoundry.org/ontology/agro.html) project. With this, it may be possible in the future to represent ICASA concepts using formal ontologies or to create mappings/crosswalks between them.
 
 See also:
 <small>
 * White et al (2013). [Integrated Description of Agricultural Field Experiments and Production: The ICASA Version 2.0 Data Standards](http://www.sciencedirect.com/science/article/pii/S016816991300077X). Computers and Electronics in Agriculture.
-* [AgMIP JSON Data Objects](http://research.agmip.org/display/dev/JSON+Data+Objects)
+* AgMIP [JSON Data Objects format description](http://research.agmip.org/display/dev/JSON+Data+Objects)
 * [ICASA Master Variable List](http://research.agmip.org/display/dev/ICASA+Master+Variable+List)
-</small>
-
-
-### Dublin Core Application Profiles
-
-While some communities define explicit metadata schema (e.g., [Ecological Metadata Language](http://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language)), another approach is the use of "application profiles."  An application profile is declaration of metadata terms adopted by a community or an organization along with the source of the terms. Application profiles are composed of terms drawn from multiple vocubularies or ontologies to define a "schema" or "profile" for metadata.  For example, the Dryad metadata profile draws on the Dublin Core, Darwin Core, and Dryad-specific elements.
-
-*See also:*
-<small>
-* DCMI [Guidelines for Dublin Core Application Profiles](http://dublincore.org/documents/profile-guidelines/index.shtml).
-* [Dryad Metadata Profile](http://wiki.datadryad.org/Metadata_Profile)
-* [Singapore Framework](http://dublincore.org/documents/singapore-framework/)
 </small>
 
 ### Minimum Information About a Plant Phenotyping Experiment (MIAPPE)
@@ -58,12 +47,28 @@ It is worth noting that linked-data methods are supported but optional when depo
 * [Minimum Information about a Plant Phenotyping Experiment](http://cropnet.pl/phenotypes/wp-content/uploads/2016/04/MIAPPE.pdf)
 </small>
 
+### Dublin Core Application Profiles
 
-## Trait Dictionary Format (Crop Ontology)
+While some communities define explicit metadata schema (e.g., [Ecological Metadata Language](http://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language)), another approach is the use of "application profiles."  An application profile is declaration of metadata terms adopted by a community or an organization along with the source of the terms. Application profiles are composed of terms drawn from multiple vocubularies or ontologies to define a "schema" or "profile" for metadata.  For example, the Dryad metadata profile draws on the Dublin Core, Darwin Core, and Dryad-specific elements.
 
-TBD
+*See also:*
+<small>
+* DCMI [Guidelines for Dublin Core Application Profiles](http://dublincore.org/documents/profile-guidelines/index.shtml).
+* Example [Dryad Metadata Profile](http://wiki.datadryad.org/Metadata_Profile)
+* DCMI [Singapore Framework](http://dublincore.org/documents/singapore-framework/)
+</small>
 
-# Vocabularies
+### Trait Dictionary Format (Crop Ontology)
+
+The Crop Ontology curation tool supports import and export of trait information in a trait dictionary format. 
+
+*See also:*
+<small>
+* [The Crop Ontology Improving the Quality of 18 Crop Trait Dictionaries](https://www.researchgate.net/publication/266088335_The_Crop_Ontology_Improving_the_Quality_of_18_Crop_Trait_Dictionaries_for_the_Breeding_Management_System_and_Adding_New_Crops)
+</small>
+
+# Vocabularies and Ontologies
+This section reviews related controlled vocabularies, data dictionaries, and ontologies.
 
 ### Biofuel Ecophysiological Traits and Yields Database (BETYdb)
 
@@ -72,7 +77,7 @@ While BETYdb is not a controlled vocabulary itself, the relational schema models
 The BETYdb “variables” table defines variables used to represent traits in the BETYdb relational model. There has been some effort to standardize variable names according to the CF conventions.  A variable is represented as a name, description, units, as well as min/max values.
 
 For example:
-```
+```json
 "variable": {
     "created_at": "2016-03-07T11:23:58-06:00",
     "description": "",
@@ -89,6 +94,7 @@ For example:
     "updated_at": "2016-03-07T11:26:07-06:00"
 }
 ```
+
 *See also:*
 <small>
 * [BETYdb](https://www.betydb.org/variables)
@@ -191,9 +197,11 @@ See also:
 ### Crop Research Ontology (CRO)
 Describes experimental design, environmental conditions and methods associated with the crop study/experiment/trial and their evaluation. CRO is part of the Crop Ontology platform, originally developed for the International Crop Information System (ICIS). CRO is recommended in the MIAPPE standard for general metadata, environment, treatments, and experimental design fields.
 
-See also:
-http://www.cropontology.org/ontology/CO_715/Crop%20Research
-http://irri.org/our-work/locations/55-resources/tools/201-international-crop-information-system
+*See also:*
+<small>
+* [Crop Research Ontology](http://www.cropontology.org/ontology/CO_715/Crop%20Research)
+* [International Crop Information System](http://irri.org/our-work/locations/55-resources/tools/201-international-crop-information-system)
+</small>
 
 ### Extensible Observation Ontology (OBOE)
 Cited in Kattge et al (2011) as an example of an ontology used in ecology and environmental sciences to represent measurements and observations. However, the CRO may be better suited for TERRA-REF.
@@ -280,20 +288,23 @@ Standard formats, ontologies, and controlled vocabularies are typically used in 
 
 ## Repositories and Databases
 
-### Agricultural Model Inter-Comparison and Improvement Project (AgMIP)
+### Agricultural Model Inter-Comparison and Improvement Project (AgMIP) Crop Experiment (ACE) Database
+
+AgMIP "seeks to improve the capability of ecophysiological and economic models to describe the potential impacts of climate
+change on agricultural systems.  AgMIP protocols emphasize the use of multiple models; consequently, data harmonization is essential. This interoperability was achieved by establishing a data exchange mechanism with variables defined in accordance with international standards; implementing a flexibly structured data schema to store experimental data; and designing a method to fill gaps in model-required input data."
+
+The data exchange format is based on a [JSON rendering of the ICASA Master Variable List](http://research.agmip.org/display/dev/JSON+Data+Objects). Data are transfer into and out of the AgMIP Crop Experiment (ACE) and AgMIP Crop Model (ACMO) databases via REST apis using these JSON objects.
+
 
 *See also*
 <small>
 * [AgMIP Crop Expirement Database](http://www.agmip.org/it-team/)
-
-[AgMIP Crop Experiment Database data variables](http://research.agmip.org/display/it/Data+Interoperability)
-
-
-[AgMIP API](http://research.agmip.org/display/dev/The+AgMIP+Crop+Experiment+Database+API)
-
-
-AgMIP, using ICASA standards
-see https://github.com/terraref/reference-data/issues/6
+* Porter et al (2014). [Harmonization and translation of crop modeling data to ensure interoperability](http://dx.doi.org/10.1016/j.envsoft.2014.09.004). Environmental Modelling and Software. 62:495-508.
+* [AgMIP Data Products](http://research.agmip.org/download/attachments/3866652/11_+IT_Porter_10Oct.pdf) presentation
+* [AgMIP on Github](https://github.com/agmip)
+* [AgMIP Crop Experiment Database data variables](http://research.agmip.org/display/it/Data+Interoperability)
+* [AgMIP API](http://research.agmip.org/display/dev/The+AgMIP+Crop+Experiment+Database+API)
+* [AgMIP using ICASA standards](https://github.com/terraref/reference-data/issues/6)</small>
 
 
 ### Biofuel Ecophysiological Traits and Yields Database (BETYdb) 
@@ -311,11 +322,11 @@ BETYdb traits are available as web-page, csv, json, xml. This can be extended to
 *See also*
 <small>
 * [BETYdb Data Access](https://www.authorea.com/users/5574/articles/7062/_show_article)
-* BETYdb constraints documentation, see section "uniqueness constraints"  https://www.authorea.com/users/5574/articles/6719/_show_article
-* BETYdb data access section on API https://www.authorea.com/users/5574/articles/7062/_show_article
+* BETYdb [constraints documentation](https://www.authorea.com/users/5574/articles/6719/_show_article), see section "uniqueness constraints"  
+* BETYdb [data access section](https://www.authorea.com/users/5574/articles/7062/_show_article) on API 
 </small>
 
-#### Gramene
+### Gramene
 
 [Gramene](http://www.gramene.org/) is a curated, open-source, integrated data resource for comparative functional genomics in crops and model plant species
 
@@ -330,12 +341,23 @@ System for managing the breeding process including lists of germplasms, defining
 * [BMS Site](https://www.integratedbreeding.net/)
 </small>
 
+### International Crop Information System
 
+ICIS is "a database system that provides integrated management of global information on crop improvement and management both for individual crops and for farming systems." ICIS is developed by Consultative Group for International Agricultural Research (CGIAR).
 
-#### MODAPS NASA MODIS Satellite data 
+*See also*
+<small>
+* Fox and Skovmand (1996). "The International Crop Information System (ICIS) - connects genebank to breeder to farmer’s field." Plant adaptation and crop improvement, CAB International. 
+</small>
+
+### MODAPS NASA MODIS Satellite data 
 
 The [MODAPS NASA MODIS Satellite](https://ladsweb.nascom.nasa.gov/data/api.html) data encompasses a library of functions that provides programmatic data access and processing services to MODIS Level 1 and Atmosphere data products. These routines enable both SOAP and REST based web service calls against the data archives maintained by MODAPS. These routines mirror existing LAADS Web services.
 
+*See also:*
+<small>
+* [NDISC Modis Data Summaries](https://nsidc.org/data/modis/data_summaries)
+</small>
 
 ### Phenomics Ontology Driven Database (PODD)
 http://www.plantphenomics.org.au/projects/podd/
@@ -353,8 +375,7 @@ Specifies a standard interface for plant phenotype/genotype databases to serve d
 
 However, in general the BRAPI returned JSON data without linking context (i.e., not JSON-LD), so it is in essence it’s own data structure.
 
-Updates
-
+Other notes:
 * The [Breeding Management System (BMS)](https://www.integratedbreeding.net/breeding-management-system) group has implemented a few features to make it compatible with Field Book in its current state without the use of API.
 * BMS and the [Genomic & Open-source Breeding Informatics Initiative (GOBII)](http://cbsugobii05.tc.cornell.edu/wordpress/) are both pushing for the API and plan on implementing it when it's complete. 
 * Read news about the [BMS Breeding Management System Standalone Server](https://www.integratedbreeding.net/206/news-events/news?id=150) and [genomes2fields migrating to BMS](https://www.integratedbreeding.net/206/news-events/news?id=142)
@@ -368,9 +389,10 @@ Updates
 German repository for plant research data including image collections from plant phenotyping and microscopy, unfinished genomes, genotyping data, visualizations of morphological plant models, data from mass spectrometry as well as software and documents.
 
 See also:
+<small>
 * Arend et al (2016). [PGP repository: a plant phenomics and genomics data publication infrastructure](http://database.oxfordjournals.org/content/2016/baw033.full). Database.
 * [PGP Repository](http://edal.ipk-gatersleben.de/science/papers.html)
-
+</small>
 
 ### USDA Plants
 
@@ -384,6 +406,7 @@ See also:
 ### USDA Quick Stats
 
 Web based application supports querying the agricultural census and survey statistics. Also available via API.
+
 *See also*
 <small>
 * [USDA Quick Stats Website](https://quickstats.nass.usda.gov/)
