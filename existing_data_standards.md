@@ -118,7 +118,8 @@ Information is encoded in the variable name itself. The basic format is (optiona
 ```[surface] [component] standard_name [at surface] [in medium] [due to process] [assuming condition]```
 
 For example:
-```acoustic_signal_roundtrip_travel_time_in_sea_water```
+```acoustic_signal_roundtrip_travel_time_in_sea_water
+```
 
 Standard names have optional canonical units, AMIP and GRIB (GRidded Binary) codes.
 
