@@ -445,6 +445,6 @@ based on ISO 8601 . Optional offset for local time; precision determined by data
 
 # Example data 
 
-with references can be found in https://uofi.box.com/terraref-sample-data
+Example data with references can be found in https://uofi.box.com/terraref-sample-data
 <iframe src="https://app.box.com/embed_widget/s/kuscr34y5halh4jome84z1z8txgh285y?view=list&sort=date&direction=ASC&theme=gray" width="330" height="400" frameborder="0"allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
 
