@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+  * [Data Use Policy](data_release_policy.md)
 * [Field Scanner Background](chapter1.md)
    * [Field Scanner Pipeline](field_scanner_pipeline.md)
    * [Field Experimental Design](experimental_design.md)
@@ -27,7 +28,6 @@
    * [CoGe (Comparative Genomics) platform](coge_comparative_genomics_platform.md)
    * [Hyperspectral Data Pipeline](hyperspectral_data_pipeline.md)
    * [PlantCV](plantcv.md)
-
 * Appendix
    * Applied Examples
        * [Danforth pipeline](danforth.md)
