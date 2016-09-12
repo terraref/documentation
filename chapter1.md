@@ -15,7 +15,7 @@ The ARPA-E TERRA program aims to transform plant breeding by using remote sensin
 The data processing system proposed here will deliver reference phenotyping data of unprecedented quality and quantity and analytics resources that will drive improved breeding of new high-yielding Sorghum cultivars. This data processing system will facilitate data sharing and re-use of data by providing metadata, provenance for derived data sets, and standardized data processing workflows.
 
 
-We will develop a data storage and computing system that provides researchers with access to all of the `raw' data and derived plant phenotypes (traits). Most of the data volume will come from a [Lemnatec Scanalyzer Field System](http://www.lemnatec.com/products/hardware-solutions/scanalyzer-field/) platform  USDA research station in Maricopa, Arizona, a [Lemnatec greenhouse phenotyping system] (https://www.danforthcenter.org/scientists-research/core-technologies/phenotyping) at the Donald Danforth Plant Science Center,  and aerial, ground, and tractor-based sensors at Arizona and Kansas.
+We will develop a data storage and computing system that provides researchers with access to all of the `raw' data and derived plant phenotypes (traits). Most of the data volume will come from a [Lemnatec Scanalyzer Field System](http://www.lemnatec.com/products/hardware-solutions/scanalyzer-field/) platform  USDA research station in Maricopa, Arizona, a [Lemnatec greenhouse phenotyping system](https://www.danforthcenter.org/scientists-research/core-technologies/phenotyping) at the Donald Danforth Plant Science Center,  and aerial, ground, and tractor-based sensors at Arizona and Kansas.
 
 ### Lemnatec Field system:
 
