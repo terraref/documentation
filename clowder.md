@@ -102,6 +102,18 @@ In this way Clowder indexes a pointer to the file on disk rather than making a n
 
 Extractors are services that run silently alongside Clowder. They can be configured to wait for specific file types to be uploaded into Clowder, and automatically execute operations on those files to extract metadata. 
 
+Max Burnette developed a tutorial that is summarized in [these slides](https://onedrive.live.com/embed?cid=62A7CDC1353EF6B0&resid=62A7CDC1353EF6B0%211988&authkey=ALJbJ7PqsDaYAxU&em=2&wdAr=1.7777777777777777) and [this video](https://www.youtube.com/embed/lP3vqh6HLG4).
+
+### Next steps
+
+Please get in touch or create a github issue once you are starting to actually develop your extractor and I can help get you off to a good start.
+
+Contact Max Burnette via [email, phone](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=mburnet2), on GitHub, or on our [Slack Channel](https://terra-ref.slack.com/)
+
+
+
+
+
 **Source code**  
 The source code is available as a collection of Git repositorie. Install [Git](https://git-scm.com/) in order to clone them.
 
