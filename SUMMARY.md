@@ -24,6 +24,7 @@
     * [BETYdb](betydb.md)
         * [BETYdb Bulk Upload](betydb_bulk_upload.md)
     * [Clowder](clowder.md)
+        * [Developing Clowder Extractors](developing-clowder-extractors.md)
     * [PlantCV](plantcv.md)
     * [Hyperspectral Data Pipeline](hyperspectral_data_pipeline.md)
     * [CoGe \(Comparative Genomics\) platform](coge_comparative_genomics_platform.md)
