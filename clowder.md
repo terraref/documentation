@@ -110,20 +110,14 @@ Please get in touch or create a github issue once you are starting to actually d
 
 Contact Max Burnette via [email, phone](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=mburnet2), on GitHub, or on our [Slack Channel](https://terra-ref.slack.com/)
 
-
-
-
-
-**Source code**  
-The source code is available as a collection of Git repositories. Install [Git](https://git-scm.com/) in order to clone them.
+**Source code**: The source code is available as a collection of Git repositories. Install [Git](https://git-scm.com/) in order to clone them.
 
 **Examples** (from the [git repository](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS))  
 * **extractors-core** includes basic extractors, such as image thumbnail extraction.
 * **extractors-dbpedia** uses named-entity recognition and [DBpedia](http://wiki.dbpedia.org/) to extract information from text files
 * **extractors-plantcv** invokes appropriate [PlantCV](http://plantcv.danforthcenter.org/) image analysis tools to generate output images and data from uploaded images ([read more about this extractor here](http://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/extractors-plantcv/browse))
 
-**Developing new extractors**  
-It is possible to develop extractors for new file types or tasks. 
+**Developing new extractors**: It is possible to develop extractors for new file types or tasks. 
 * [pyClowder](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/pyclowder/browse) is designed for this purpose.  
 * [Development in Windows](https://opensource.ncsa.illinois.edu/confluence/display/CATS/Deploying+Windows+Extractors)  
 
