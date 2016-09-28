@@ -115,7 +115,7 @@ Contact Max Burnette via [email, phone](http://www.ncsa.illinois.edu/assets/php/
 
 
 **Source code**  
-The source code is available as a collection of Git repositorie. Install [Git](https://git-scm.com/) in order to clone them.
+The source code is available as a collection of Git repositories. Install [Git](https://git-scm.com/) in order to clone them.
 
 **Examples** (from the [git repository](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS))  
 * **extractors-core** includes basic extractors, such as image thumbnail extraction.
