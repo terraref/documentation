@@ -19,8 +19,6 @@ After selecting a dataset, the **Analysis Environment Instances** menu on the lo
 **Searching the database**  
 Clowder allows users to search metadata and filter datasets and files with particular attributes. In development is the ability to query BETYdb based on a particular set of resulting images.
 
-
-
 ## Uploading data
 
 ### Web Interface Data Uploads
@@ -101,6 +99,17 @@ In this way Clowder indexes a pointer to the file on disk rather than making a n
 ## Developing Clowder Extractors
 
 Extractors are services that run silently alongside Clowder. They can be configured to wait for specific file types to be uploaded into Clowder, and automatically execute operations on those files to extract metadata. 
+
+* Extractor Pipeline Overview
+* Setting up a test environment
+ * Installing required software
+ * Running sample extractor
+* Extractor Basic Design
+ * PyClowder library
+* Writing an extractor
+ * Handling inputs and outputs
+ * Testing extractors
+
 
 Max Burnette developed a tutorial that is summarized in [these slides](https://onedrive.live.com/embed?cid=62A7CDC1353EF6B0&resid=62A7CDC1353EF6B0%211988&authkey=ALJbJ7PqsDaYAxU&em=2&wdAr=1.7777777777777777) and [this video](https://www.youtube.com/embed/lP3vqh6HLG4).
 
