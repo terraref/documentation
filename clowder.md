@@ -96,22 +96,4 @@ Some files, e.g. those transferred via Globus, will be moved to the server witho
 
 In this way Clowder indexes a pointer to the file on disk rather than making a new copy of the file; thus the file will still be accessible via Globus, FTP, or other methods directed at the filesystem.
 
-### References 
-
-* **Source code**: The source code is available as a collection of Git repositories.
-* Tutorial
- * [slides](https://onedrive.live.com/embed?cid=62A7CDC1353EF6B0&resid=62A7CDC1353EF6B0%211988&authkey=ALJbJ7PqsDaYAxU&em=2&wdAr=1.7777777777777777) 
- * [video](https://www.youtube.com/embed/lP3vqh6HLG4).
-* [pyClowder](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/pyclowder/browse) is designed for this purpose.
-* [Development in Windows](https://opensource.ncsa.illinois.edu/confluence/display/CATS/Deploying+Windows+Extractors)
-* [Using Clowder via National Data Service interface](https://www.youtube.com/embed/dCNYEl3ld0s)
-
-
-* Contacts: Max Burnette via [email, phone](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=mburnet2), on GitHub, or on our [Slack Channel](https://terra-ref.slack.com/)
-
-**Examples** (from the [git repository](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS))  
-* **extractors-core** includes basic extractors, such as image thumbnail extraction.
-* **extractors-dbpedia** uses named-entity recognition and [DBpedia](http://wiki.dbpedia.org/) to extract information from text files
-* **extractors-plantcv** invokes appropriate [PlantCV](http://plantcv.danforthcenter.org/) image analysis tools to generate output images and data from uploaded images ([read more about this extractor here](http://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/extractors-plantcv/browse))
-
 
