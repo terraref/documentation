@@ -12,6 +12,8 @@
     * [How to Access Data](how-to-access-data.md)
         * [Data Use Policy](data_release_policy.md)
         * [Release \/ reprocessing schedule](s.md)
+        * [Using Clowder](using-clowder.md)
+        * Using BETYdb
     * [User Tutorials](user-tutorials.md)
 * [Architecture Documentation](architecture-documentation.md)
 * [Technical Documentation](technical-documentation.md)
