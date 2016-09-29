@@ -9,8 +9,10 @@
     * [Scientific objectives and experimental design](scientific-objectives-and-experimental-design.md)
     * [Data formatting](data-formatting.md)
     * [What data is available](what-data-is-available.md)
+    * [How to Access Data](how-to-access-data.md)
+        * [Data Use Policy](data_release_policy.md)
         * [Release \/ reprocessing schedule](s.md)
-    * [Data Use Policy](data_release_policy.md)
+    * [User Tutorials](user-tutorials.md)
 * [Architecture Documentation](architecture-documentation.md)
 * [Technical Documentation](technical-documentation.md)
 * Developer Manual
