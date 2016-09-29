@@ -14,7 +14,7 @@
         * [Release \/ reprocessing schedule](s.md)
         * [Using Clowder](using-clowder.md)
         * [Using BETYdb](using-betydb.md)
-        * Using CoGe
+        * [Using CoGe](using-coge.md)
     * [User Tutorials](user-tutorials.md)
 * [Architecture Documentation](architecture-documentation.md)
 * [Technical Documentation](technical-documentation.md)
