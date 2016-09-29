@@ -1,86 +1,24 @@
 #Using BETYdb
 
-**BETYdb** contains plot locations and other geolocations of interest (e.g. fields, rows, plants) that are associated with agronomic experimental design / meta-data (what was planted where, field boundaries, treatments, etc).
+[**BETYdb**](https://terraref.ncsa.illinois.edu/bety/) contains plot locations and other geolocations of interest (e.g. fields, rows, plants) that are associated with agronomic experimental design / meta-data (what was planted where, field boundaries, treatments, etc).
 
+###You must have an account to use [BETYdb](https://terraref.ncsa.illinois.edu/bety/)
 
+### Using the Advanced Search box
 
-### Metadata from Maricopa Agricultural Center Lemnatec Scanalyzer Field Gantry System 
+Most tables in BETYdb have search boxes, for example betydb.org/citations and betydb.org/sites. We describe below how to queried and downloaded these pages as .csv, .json, or .xml. The advanced search box is the easiest way to download summary datasets designed to have enough information (location, time, species, citations) to be useful for a wide range of use cases.
 
-Six different kinds of metadata are currently available:
+### Using the Search Box
 
-* user_given_data
- * an arbitrary number of key value pairs, provided by the user within the measurement.
- * The key value pairs here are fully flexible. They can even be changed between any to sensor measurements.
+On the welcome page of BETYdb there is a search option for trait and yield data (Figure \ref{fig:textsearch}). This tool allows users to search the entire collection of trait and yield data for specific sites, citations, species, and traits.+
 
-* gantry_fixed_data
- * all information about the gantry system that will not change during a measurement run. Once we have figured out the final set of key value pairs the entries here are fixed.
+The results page provides a map interface and the option to download a file containing search results.
+The downloaded file is in CSV format. This file provides meta-data and provenance information, including: the SQL query used to extract the data, the date and time the query was made, the citation source of each result row, and a citation for BETYdb itself.
 
-* gantry_variable_data
- * all the current settings of the gantry hardware during a measurement like current location of all axis and state of the lights. Once we have figured out the final set of key value pairs the entries here are fixed.
+_Instructions_: Using the search box to search trait and yield data is very simple: Type the site (city or site name), species (scientific or common name), citation (author and/or year), or trait (variable name or description) into the search box and the results will show contents of BETYdb that match the search. The number of records per page can be changed to viewer preference and the search results can be downloaded in the Excel-compatible CSV format.
 
-* sensor_fixed_data
- * fixed dataset of the specific sensor. The key value pairs will be different from sensor to sensor but will be fixed for the same sensor.
+The search map may be used in conjunction with search terms to restrict search results to a particular geographical area or even a specific site by clicking on a map. Clicking on a particular site will restrict results to that site. Clicking in the vicinity of a group of sites but not on a particular site will restrict the search to the region around the point clicked. Alternatively, if a search using search terms is done without clicking on the map, all sites associated with the returned results are highlighted on the map. Sites, species and traits can be searched further by clicking on or near highlighted locations on the map. The color of each site indicates which sites match the search terms. Results can be downloaded by clicking the "Download Results" button on the upper right hand corner of the page.
 
-* sensor_variable_data
+[More information on using BETYdb](https://pecan.gitbooks.io/betydb-data-access/content/)
 
- * all current settings of the specific sensor. The key value pairs will be different from sensor to sensor but will be fixed for the same sensor.
-
-* measurement_additional_data
-
- * all additional information that is available for a specific sensor measurement like start and end time of the measurement.
-
-
-example:
-
-```json
-
-{
-
- "lemnatec_measurement_metadata": {
- "user_given_data": {
- "treamtment": "water stress",
- "plant id": "plantName",
- "experiment": "name"
- },
- "gantry_fixed_data": {
- "dimension_x [m]": "200",
- "dimension_y [m]": "20",
- "dimension_z [m]": "6"
- },
- "gantry_variable_data": {
- "location x [m]": "20",
- "location y [m]": "10",
- "location z [m]": "3",
- "vel x [m/s]": "0.1",
- "vel y [m/s]": "0.1",
- "vel z [m/s]": "0.0",
- "light1 is on": "true",
- "light2 is on": "true",
- "light3 is on": "true",
- "light4 is on": "false"
- },
- "sensor_fixed_data": {
- "sensor type": "stereo camera",
- "cameraA model": "allied vision GT3300",
- "cameraB model": "allied vision GT3300",
- "cameraA_serial_number": "1234567",
- "cameraB_serial_number": "2345678",
- "location_on_gantry": "side at higher y values",
- "image_width": "3296",
- "image_height": "2472",
- "rgb_bayer_pattern": "BayerGR8",
- "another_data_field": "..."
- },
- "sensor_variable_data": {
- "gain": "2.4",
- "exporsure [ms]": "12",
- "red balance ratio": "34",
- "blue balance ratio": "45"
- },
- "measurement_additional_data": {
- "measurement_starts_at": "2015.12.16 11:11:22:801",
- "measurement_ends_at": "2015.12.16 11:11:56:808"
- }
- }
-}
-```
+[Extracting information from figures](https://pecan.gitbooks.io/betydbdoc-dataentry/content/Extracting%20Data%20From%20Figures.html)

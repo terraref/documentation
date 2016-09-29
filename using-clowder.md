@@ -17,7 +17,7 @@ Datasets offer a Metadata tab that displays associated information; for example,
 
 Clowder allows users to search metadata and filter datasets and files with particular attributes. In development is the ability to query BETYdb based on a particular set of resulting images.
 
-### Analyzing data in Clowder
+###Analyzing data in Clowder
 After selecting a dataset, the **Tool Sessions** menu on the lower right sidebar allows users to launch analysis tools. Currently, users can choose between launching Rstudio or Jupyter.
 
 These tools support R and Python as well as many familiar programming languages.
