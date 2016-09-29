@@ -3,7 +3,7 @@
 * [Introduction](README.md)
     * [About](about.md)
     * [Workbench Overview](workbench-overview.md)
-    * Tools Overview
+    * [Tools Overview](tools-overview.md)
     * [Data sources](data-sources.md)
     * Software
 * [Architecture Documentation](architecture-documentation.md)
