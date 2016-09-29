@@ -2,16 +2,16 @@
 
 ## Calibration and Correction
 
-This is a draft algorithm to retrieve spectral reflectance based on my understanding of the (possibly soon-to-be) available inputs. Suggestions and correction welcome (the more specific, the better). For simplicity, the algorithm description currently omits the time dimension. It is implicit in all quantities below except rfl_wht. "Exposure" refers to an image taken by the hyperspectral camera. The exposure is measured in "counts". Exposing an image for a longer time results in more counts, yet the reflectance is unchanged. Improvements to terminology are welcome!
+This is a draft algorithm to retrieve spectral reflectance. Suggestions and corrections are welcome and should be directed to [Charlie Zender](mailto:zender@uci.edu) at UCI. For simplicity, the algorithm description currently omits the time dimension. It is implicit in all quantities below except rfl_wht. "Exposure" refers to an image taken by the hyperspectral camera. The exposure is measured in "counts". Exposing an image for a longer time results in more counts, yet the reflectance is unchanged. Improvements to terminology are welcome!
 
-### Inputs and Outputs 
+#### Inputs and Outputs 
 
 syntax: `Variable(dimensions) [units]`
 $$
 I_p(\lambda,y,x) = F_{\lambda}(\lambda) R_p(\lambda) C(\lambda)
 $$
 
-#### Inputs: Required known or measured inputs:
+##### Inputs: Required known or measured inputs:
 
 1. `uint16  xps_img(wavelength,y,x) [cnt] = `Exposure from experiment image (i.e., plants) (known, VNIR, SWIR sensors)
 2. `uint16  xps_wht(wavelength,x) [cnt]   = `Exposure from white reference sheet/panel (measured by VNIR, SWIR sampling period? location?)
@@ -19,7 +19,7 @@ $$
 4. `float32 rfl_wht(wavelength) [fraction]      = `Reflectance of white reference (factory calibration) (assume time-constant?)
 5. `float32 flx_dwn(wavelength) [W m-2 m-1]    = `Downwelling spectral irradiance (measured by environmental sensor. units?)
 
-#### Intermediate derived quantities:
+##### Intermediate derived quantities:
 
 1. `float32 cst_cnv(wavelength) [cnt/(W m-2 m-1)] = `Proportionality constant between reflected spectral flux and Exposure (derived)
 2. `float32 flx_upw(wavelength) [W m-2 m-1]                    = `Upwelling  spectral flux (derived. and possibly measured for closure?)
@@ -28,7 +28,7 @@ $$
 
 2. `float32 rfl_img(wavelength,y,x) [fraction]     = `Reflectance of image (i.e., plants)
 
-### Proposed Algorithm to retrieve reflectance from measurements:
+#### Proposed Algorithm to retrieve reflectance from measurements:
 
 1. Assume image exposure linear with incident spectral flux, this implies
   * `xps_wht=flx_dwn*rfl_wht*cst_cnv`
@@ -43,10 +43,8 @@ $$
 6. (Optional) Apply PAR-sensor SRF to downwelling irradiance, integrate, compare to measured PAR for closure (integration would require detailed information or assumptions about bandpass of each spectral channel).
 7. More?
 
-Before implementing this, I would like feedback and/or sign-off by @dlebauer @nfahlgren @max-zilla @pless @solmazhajmohammadi and @LTBen. 
 
-
-### Next steps
+#### Next steps
 
 More assumptions, input measurements, and/or more sophisticated algorithms would incorporate these additional sources of information:
 
@@ -55,13 +53,14 @@ More assumptions, input measurements, and/or more sophisticated algorithms would
 3. BRDF (angular reflectance) of calibration sheet
 4. Direct/diffuse partitioning of downwelling flux
 
+BRDF - Bi-directional Reflectance Distribution Function
 
-### Notes
+#### Notes
 
 * Units of exposure are vague. Exposure is similar to a photon counter modulated by the spectral response function (SRF) of the sensor. The units are called "counts" and denoted [cnt] and range from [0..2^16-1] = [0..65535]. 
 * add QAQC tests for sensitivity and saturation in each band
 * cross validate with other sensors with know spectral response functions.
-* NB: Four required inputs (xps_wht, xps_drk, rfl_wht, flx_dwn) are not ready to use. Their location, units, and/or sampling intervals are unknown. Only xps_img is ready. Please tell me how to get the other three in the notes below. (@LTBen, @markus-radermacher-lemnatec)
+* NB: Four required inputs (xps_wht, xps_drk, rfl_wht, flx_dwn) are not ready to use. Their location, units, and/or sampling intervals are unknown. Only xps_img is ready. 
 
 ## Hyperspectral Data Formats
 
@@ -69,9 +68,9 @@ This is a proposal for spectral and imaging data to be provided as HDF-5 / NetCD
 
 Following [CF naming conventions](http://cfconventions.org/Data/cf-standard-names/29/build/cf-standard-name-table.html), these would be in a netcdf-4 compatible / well behaved HDF format. 
 
-### Radiance data
+#### Radiance data
 
-#### Variables
+##### Variables
 
 | variable name | units | dim 1 | dim 2 | dim 3 | dim 4 | dim 5 |
 |----|----|----|----|----|----|----|----|
@@ -91,9 +90,9 @@ note: upwelling_spectral_radiance_in_air may only be an intermediate product (an
 | longitude | degrees_east |  (or alt. porjection_x_coordinate below)|
 | _projection_x_coordinate_ | m | can be mapped to lat/lon with grid_mapping attribute |
 | _projection_y_coordinate_ | m |   can be mapped to lat/lon with grid_mapping attribute | 
-| radiation_wavelength | m  |
-| zenith_angle | degrees |
-|  _optional_  |    |
-|  sensor_zenith_angle | degrees |
-|  platform_zenith_angle | degrees  |  
+| radiation_wavelength | m  |   |
+| zenith_angle | degrees |   |
+|  _optional_  |    |   |   |
+|  sensor_zenith_angle | degrees |   |
+|  platform_zenith_angle | degrees  |     |
 
