@@ -2,7 +2,7 @@
 
 [**BETYdb**](https://terraref.ncsa.illinois.edu/bety/) contains plot locations and other geolocations of interest (e.g. fields, rows, plants) that are associated with agronomic experimental design / meta-data (what was planted where, field boundaries, treatments, etc).
 
-###You must have an account to use [BETYdb](https://terraref.ncsa.illinois.edu/bety/)
+###You must create an account to use [BETYdb](https://terraref.ncsa.illinois.edu/bety/)
 
 ### Using the Advanced Search box
 
