@@ -19,6 +19,7 @@
 * [Technical Documentation](technical-documentation.md)
     * [Data Standards](data-standards.md)
         * [Environmental Data](environmental-data.md)
+        * [Existing Data Standards](existing-data-standards.md)
     * [Data Standards Committee](data-standards-committee.md)
 * [Architecture Documentation](architecture-documentation.md)
 * Developer Manual
