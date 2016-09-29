@@ -8,7 +8,8 @@
 * [User Manual](user-manual.md)
     * [Scientific objectives and experimental design](scientific-objectives-and-experimental-design.md)
     * [Data formatting](data-formatting.md)
-    * What data is available
+    * [What data is available](what-data-is-available.md)
+        * [Release \/ reprocessing schedule](s.md)
     * [Data Use Policy](data_release_policy.md)
 * [Architecture Documentation](architecture-documentation.md)
 * [Technical Documentation](technical-documentation.md)
