@@ -16,8 +16,11 @@
     * [Data Use Policy](data_release_policy.md)
     * [Release \/ reprocessing schedule](s.md)
     * [User Tutorials](user-tutorials.md)
-* [Architecture Documentation](architecture-documentation.md)
 * [Technical Documentation](technical-documentation.md)
+    * [Data Standards](data-standards.md)
+        * [Environmental Data](environmental-data.md)
+    * [Data Standards Committee](data-standards-committee.md)
+* [Architecture Documentation](architecture-documentation.md)
 * Developer Manual
 * [Appendix](appendix.md)
 * [Collaboration Tools](collaboration_tools.md)
