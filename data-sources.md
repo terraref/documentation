@@ -30,6 +30,6 @@ The Bellwether Foundation Phenotyping Facility is a climate controlled 70 m2 gro
 
 ### HudsonAlpha - Genomics
 
-[*https://terraref.gitbooks.io/terraref-documentation/content/genomics\_pipeline.html*](https://terraref.gitbooks.io/terraref-documentation/content/genomics_pipeline.html)
+
 
 

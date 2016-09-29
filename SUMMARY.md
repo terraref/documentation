@@ -3,14 +3,16 @@
 * [Introduction](README.md)
     * [About](about.md)
     * [Workbench Overview](workbench-overview.md)
-    * [Tools Overview](tools-overview.md)
     * [Data sources](data-sources.md)
-    * Software
-* [Architecture Documentation](architecture-documentation.md)
+    * [Software](software.md)
 * [User Manual](user-manual.md)
-    * Scientific objectives and experimental design
+    * [Scientific objectives and experimental design](scientific-objectives-and-experimental-design.md)
+    * What data is available
+        * f
+    * [Data formatting](data-formatting.md)
     * [Data Use Policy](data_release_policy.md)
-* Technical Documentation
+* [Architecture Documentation](architecture-documentation.md)
+* [Technical Documentation](technical-documentation.md)
 * Developer Manual
 * [Appendix](appendix.md)
 * [Collaboration Tools](collaboration_tools.md)
