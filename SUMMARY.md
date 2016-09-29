@@ -1,11 +1,11 @@
 # Summary
 
 * [Introduction](README.md)
-    * Workbench Overview
+    * [About](about.md)
+    * [Workbench Overview](workbench-overview.md)
     * Tools Overview
     * [Data sources](data-sources.md)
     * Software
-* About
 * [Architecture Documentation](architecture-documentation.md)
 * [User Manual](user-manual.md)
     * Scientific objectives and experimental design
