@@ -16,12 +16,18 @@
     * [Data Use Policy](data_release_policy.md)
     * [Release \/ reprocessing schedule](s.md)
     * [User Tutorials](user-tutorials.md)
-* [Technical Documentation](technical-documentation.md)
+* [Architecture Documentation](architecture-documentation.md)
     * [Data Standards](data-standards.md)
         * [Environmental Data](environmental-data.md)
         * [Existing Data Standards](existing-data-standards.md)
-    * [Data Standards Committee](data-standards-committee.md)
-* [Architecture Documentation](architecture-documentation.md)
+        * [Data Standards Committee](data-standards-committee.md)
+    * Directory Structure
+    * [Quality Assurance and Quality Control](qaqc.md)
+* [Technical Documentation](technical-documentation.md)
+    * Data Backup
+    * Data Storage
+    * Data Transfer
+    * Data Processing Pipeline
 * Developer Manual
 * [Appendix](appendix.md)
 * [Collaboration Tools](collaboration_tools.md)
