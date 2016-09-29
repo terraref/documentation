@@ -1,9 +1,15 @@
 # Summary
 
 * [Introduction](README.md)
+    * Workbench Overview
+    * Tools Overview
+    * [Data sources](data-sources.md)
+    * Software
+* About
+* [Architecture Documentation](architecture-documentation.md)
+* [User Manual](user-manual.md)
+    * Scientific objectives and experimental design
     * [Data Use Policy](data_release_policy.md)
-* Architecture Documentation
-* User Manual
 * Technical Documentation
 * Developer Manual
 * [Appendix](appendix.md)
