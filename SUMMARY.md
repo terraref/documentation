@@ -27,8 +27,8 @@
     * [Data Storage](data-storage.md)
     * [Data Backup](data-backup.md)
     * [Data Transfer](data-transfer.md)
-    * Data Processing Pipeline
-* Developer Manual
+    * [Data Processing Pipeline](data-processing-pipeline.md)
+* [Developer Manual](developer-manual.md)
 * [Appendix](appendix.md)
 * [Collaboration Tools](collaboration_tools.md)
 * [Code of Conduct](code_of_conduct.md)
