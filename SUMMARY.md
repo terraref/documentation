@@ -24,9 +24,9 @@
     * Directory Structure
     * [Quality Assurance and Quality Control](qaqc.md)
 * [Technical Documentation](technical-documentation.md)
-    * Data Backup
-    * Data Storage
-    * Data Transfer
+    * [Data Storage](data-storage.md)
+    * [Data Backup](data-backup.md)
+    * [Data Transfer](data-transfer.md)
     * Data Processing Pipeline
 * Developer Manual
 * [Appendix](appendix.md)
