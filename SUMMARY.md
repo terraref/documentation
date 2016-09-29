@@ -13,7 +13,8 @@
         * [Data Use Policy](data_release_policy.md)
         * [Release \/ reprocessing schedule](s.md)
         * [Using Clowder](using-clowder.md)
-        * Using BETYdb
+        * [Using BETYdb](using-betydb.md)
+        * Using CoGe
     * [User Tutorials](user-tutorials.md)
 * [Architecture Documentation](architecture-documentation.md)
 * [Technical Documentation](technical-documentation.md)
