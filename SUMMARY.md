@@ -33,6 +33,8 @@
         * [Hyperspectral data](hyperspectral-data.md)
         * [Genomic Data](genomic-data.md)
 * [Developer Manual](developer-manual.md)
+    * [Submitting data to Clowder](submitting-data-to-clowder.md)
+    * Submitting data to BETYdb
 * [Appendix](appendix.md)
 * [Collaboration Tools](collaboration_tools.md)
 * [Code of Conduct](code_of_conduct.md)
