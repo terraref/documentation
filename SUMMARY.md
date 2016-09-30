@@ -34,7 +34,8 @@
         * [Genomic Data](genomic-data.md)
 * [Developer Manual](developer-manual.md)
     * [Submitting data to Clowder](submitting-data-to-clowder.md)
-    * Submitting data to BETYdb
+    * [Submitting data to BETYdb](submitting-data-to-betydb.md)
+    * [Submitting Data to CoGe](submitting-data-to-coge.md)
 * [Appendix](appendix.md)
 * [Collaboration Tools](collaboration_tools.md)
 * [Code of Conduct](code_of_conduct.md)
