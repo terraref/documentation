@@ -38,8 +38,8 @@
     * [Submitting Data to CoGe](submitting-data-to-coge.md)
     * [Developing Clowder Extractors](developing-clowder-extractors.md)
         * [Running a Sample Extractor](running-a-sample-extractor.md)
-        * Extractor Basic Design
-        * Writing an extractor
+        * [Extractor Basic Design](extractor-basic-design.md)
+        * [Writing an extractor](writing-an-extractor.md)
 * [Appendix](appendix.md)
 * [Collaboration Tools](collaboration_tools.md)
 * [Code of Conduct](code_of_conduct.md)
