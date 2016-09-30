@@ -18,7 +18,8 @@
     * [User Tutorials](user-tutorials.md)
 * [Architecture Documentation](architecture-documentation.md)
     * [Data Standards](data-standards.md)
-        * [Environmental Data](environmental-data.md)
+        * [Environmental Data Standards](environmental-data.md)
+        * Genomic Data Standards
         * [Existing Data Standards](existing-data-standards.md)
         * [Data Standards Committee](data-standards-committee.md)
     * Directory Structure
