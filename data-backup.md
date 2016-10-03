@@ -4,7 +4,7 @@
 
 Running nightly on ROGER.
 
-Script is hosted at: xxxx
+Script is hosted at: xxxxx
 
 Script selects data from all 2 days prior and bundles it into a .tar file, then uses pigz to compress it in parallel across 18 threads. This script is run as a job in the batch system, with variables passed with the date so if the batch system is busy, the backups won't need to preclude each other. The .tgz files are then sent over to NCSA Nearline using Globus, then purged from file system.
 
