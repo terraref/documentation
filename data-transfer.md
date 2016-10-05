@@ -2,6 +2,8 @@
 
 ### Maricopa Agricultural Center, Arizona
 
+Environmental Sensors
+https://github.com/terraref/reference-data/issues/26
 
 ------------------------
 ### Automated controlled-environment phenotyping, Missouri

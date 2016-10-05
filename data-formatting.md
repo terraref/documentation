@@ -1,7 +1,14 @@
 #Data Formatting
 
 ##Maricopa Agricultural Center, Arizona
-text
+
+
+Hyperspecral
+https://github.com/terraref/reference-data/issues/14
+https://github.com/terraref/reference-data/issues/27
+
+
+
 
 metadata 
 
@@ -57,6 +64,11 @@ Genome annotations are in [*GFF format*](http://useast.ensembl.org/info/website/
 
 ####Visualizing and annotating Genomes
 [*Gbrowse*](http://gmod.org/wiki/GBrowse) is a comprehensive database + interactive web application for manipulating and displaying annotations on genomes. [Jbrowse](http://jbrowse.org/) is Javascript-based replacement for Gbrows that has a more responsive interface. Jbrows is a component of the [Generic Model Organism Database (GMOD)](http://gmod.org/wiki/Main_Page) project. It's compatible with the same data formats as Gbrowse, so not much has to change.
+
+ -------------------
+
+##General formats for traits, phenotypes, and agronomic managements
+https://github.com/terraref/reference-data/issues/18
 
 
 
