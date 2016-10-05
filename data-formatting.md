@@ -3,9 +3,24 @@
 ##Maricopa Agricultural Center, Arizona
 text
 
+metadata 
+
+https://github.com/terraref/reference-data/issues/2  
+
+https://github.com/terraref/reference-data/issues/25
+
+https://github.com/terraref/reference-data/issues/32
+
+
 -------------------
 ##Automated controlled-environment phenotyping, Missouri 
 text
+
+metadata
+
+https://github.com/terraref/computing-pipeline/issues/36
+
+
 
 -------------------
 ##Kansas State University 
