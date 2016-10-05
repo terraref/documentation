@@ -37,6 +37,7 @@
         * [Downwelling Spectral Radiances Data](downwelling-spectral-radiances-data.md)
         * [Demosaiked RGB Images](demosaiced-rgb-image-product-creation.md)
         * [Spatial Reference System Data](spatial-reference-system-data.md)
+        * [Plant Height Data](plant-height-data.md)
     * [Sensor Calibration](sensor-calibration.md)
 * [Developer Manual](developer-manual.md)
     * [Submitting data to Clowder](submitting-data-to-clowder.md)

@@ -8,3 +8,5 @@
 - Roger: CyberGIS R&D server for GIS applications, 7PB storage + variety of nodes, including large memory. roger.ncsa.illinois.edu (CyberGIS; total 7 PB)
 
 
+https://github.com/terraref/computing-pipeline/issues/87
+ 

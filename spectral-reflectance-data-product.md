@@ -1,5 +1,8 @@
 #Spectral Reflectance Data Product Creation
 
+https://github.com/terraref/computing-pipeline/issues/88
+
+
 ## Calibration and Correction
 
 This is a draft algorithm to retrieve spectral reflectance. Suggestions and corrections are welcome and should be directed to [Charlie Zender](mailto:zender@uci.edu) at UCI. For simplicity, the algorithm description currently omits the time dimension. It is implicit in all quantities below except rfl_wht. "Exposure" refers to an image taken by the hyperspectral camera. The exposure is measured in "counts". Exposing an image for a longer time results in more counts, yet the reflectance is unchanged. Improvements to terminology are welcome!

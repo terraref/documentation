@@ -5,6 +5,8 @@
 Environmental Sensors
 https://github.com/terraref/reference-data/issues/26
 
+Using Logstash https://github.com/terraref/computing-pipeline/issues/106
+
 ------------------------
 ### Automated controlled-environment phenotyping, Missouri
 
