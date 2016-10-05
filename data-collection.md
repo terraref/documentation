@@ -3,10 +3,22 @@
 
 
 ### Maricopa Agricultural Center, Arizona
-Sensor missions
+- The Lemnatec Scanalyzer Field Gantry System
+ - Sensor missions
+ - Scientific Motivation
+ - What sensors, how often etc. 
+- Tractor
 
-1. Scientific Motivation
-1. What sensors, how often etc.
+- UAV
+
+- Manually Collected Field Data
+
+
+
+https://docs.google.com/document/d/1iP8b97kmOyPmETQI_aWbgV_1V6QiKYLblq1jIqXLJ84/edit#heading=h.3w6iuawxkjl6
+https://github.com/terraref/reference-data/issues/45
+
+
 
 ------------------------
 ### Automated controlled-environment phenotyping, Missouri
