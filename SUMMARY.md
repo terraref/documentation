@@ -31,7 +31,7 @@
     * [Data Processing Pipeline](data-processing-pipeline.md)
     * [Data collection](data-collection.md)
     * [Data Product Creation](data-product-creation.md)
-        * [Hyperspectral data](hyperspectral-data.md)
+        * [Hyperspectral data](hyperspectral-data-product.md)
         * [Genomic Data](genomic-data.md)
 * [Developer Manual](developer-manual.md)
     * [Submitting data to Clowder](submitting-data-to-clowder.md)
