@@ -36,11 +36,12 @@
         * [Genomic Data](genomic-data-product.md)
         * [Plant Height Data](plant-height-data.md)
         * [PSII Fluorescence Data](psii-fluorescence-data.md)
+        * [Meterological Data](meterological-data.md)
         * [NDVI Data](ndvi-data.md)
         * [Spectral Reflectance Data](spectral-reflectance-data-product.md)
         * [PlantCV Data](plantcv-data-product.md)
         * [Spatial Reference System Data](spatial-reference-system-data.md)
-        * PSII Fluorescence Data
+        * Meterological Data
     * [Sensor Calibration](sensor-calibration.md)
 * [Developer Manual](developer-manual.md)
     * [Submitting data to Clowder](submitting-data-to-clowder.md)

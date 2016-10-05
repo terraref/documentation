@@ -1,5 +1,5 @@
 #Environmental Data Product Creation
-CO2, PRI and environmental logger sensors, and lightning, weather, and irrigation data 
+CO2, PRI and environmental logger sensors, and lightning, weather, and irrigation data at the Maricopa Site
 
 These extractors process data originating from:
 - GMP 343 CO2 sensor

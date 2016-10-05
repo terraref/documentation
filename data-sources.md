@@ -6,9 +6,9 @@ Over 300 sorghum accessions and recombinant inbred lines were planted at the Uni
 
 - The [*Lemnatec Scanalyzer Field System*](http://www.lemnatec.com/products/hardware-solutions/scanalyzer-field/) is the largest field crop analytics robot in the world. This high-throughput phenotyping field-scanning robot has a 30-ton steel gantry that autonomously moves along two 200-meter steel rails while continuously imaging the crops growing below it with a diverse array of [*cameras and sensors*](http://terraref.org/articles/lemnatec-scanalyzer-field-sensors/).
 
-- Tractor
+- Tractor (release V1)
 
-- UAV
+- UAV (release V1)
 
 - Manually Collected Field Data - Data will be collected manually to verify the sensor-collected data.
 
