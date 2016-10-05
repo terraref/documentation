@@ -19,7 +19,7 @@
 * [Architecture Documentation](architecture-documentation.md)
     * [Data Standards](data-standards.md)
         * [Environmental Data Standards](environmental-data.md)
-        * Genomic Data Standards
+        * [Genomic Data Standards](genomic-data-standards.md)
         * [Existing Data Standards](existing-data-standards.md)
         * [Data Standards Committee](data-standards-committee.md)
     * Directory Structure
@@ -32,7 +32,7 @@
     * [Data collection](data-collection.md)
     * [Data Product Creation](data-product-creation.md)
         * [Hyperspectral data](hyperspectral-data-product.md)
-        * [Genomic Data](genomic-data.md)
+        * [Genomic Data](genomic-data-product.md)
 * [Developer Manual](developer-manual.md)
     * [Submitting data to Clowder](submitting-data-to-clowder.md)
     * [Submitting data to BETYdb](submitting-data-to-betydb.md)
