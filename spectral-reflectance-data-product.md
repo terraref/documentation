@@ -1,4 +1,4 @@
-#Hyperspectral Data Product Creation
+#Spectral Reflectance Data Product Creation
 
 ## Calibration and Correction
 
