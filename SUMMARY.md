@@ -33,6 +33,7 @@
         * [Hyperspectral Data](hyperspectral-data-product.md)
         * [Genomic Data](genomic-data-product.md)
         * [Environmental Data](environmental-data-product.md)
+        * [PlantCV-data-product](plantcv-data-product.md)
 * [Developer Manual](developer-manual.md)
     * [Submitting data to Clowder](submitting-data-to-clowder.md)
     * [Submitting data to BETYdb](submitting-data-to-betydb.md)
