@@ -1,4 +1,4 @@
-#Hyperspectral data
+#Hyperspectral Data Product Creation
 
 ## Calibration and Correction
 
