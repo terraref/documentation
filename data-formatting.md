@@ -19,6 +19,12 @@ https://github.com/terraref/reference-data/issues/25
 https://github.com/terraref/reference-data/issues/32
 
 
+weather station
+
+https://github.com/terraref/reference-data/issues/48
+
+
+
 -------------------
 ##Automated controlled-environment phenotyping, Missouri 
 text
