@@ -12,11 +12,11 @@ Given a gantry(x, y), the MAC(x, y) in UTM zone 13 is calculated using the [line
 
 `ax = 3659974.971 ; bx = 1.0002 ; cx = 0.0078 ;`
 
-`ay = 409012.2032 ; by = 0.009 ; cy = 0.9986 ;`
+`ay = 409012.2032 ; by = 0.009 ; cy = - 0.9986 ;`
 
-`Mx = ax + bx * Gx - cx * Gy`
+`Mx = ax + bx * Gx + cx * Gy`
 
-`My = ay + by * Gx - cy * Gy`
+`My = ay + by * Gx + cy * Gy`
 
 Note: Assume `Gx = -Gx'`, where `Gx'` is the raw X coord (Gantry uses right --> left X axis).
 
