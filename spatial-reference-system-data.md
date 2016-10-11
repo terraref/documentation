@@ -10,9 +10,9 @@ Pylon coordinates in both MAC and USDA GPS; SE SW CW CE NW NE coord in MAC
 ### Gantry --> MAC (G2M)
 Given a gantry(x, y), the MAC(x, y) in UTM zone 12 is calculated using the [linear transformation formula](https://docs.google.com/spreadsheets/d/15OxGNJCMsQC4xUCvMiv8i-ERBx1hAKp_LiDIW31tIVA/edit?usp=sharing):
 
-`ax = 3659974.971 ; bx = 1.0002 ; cx = 0.0078 ;`
+`ay = 3659974.971 ; by = 1.0002 ; cy = 0.0078 ;`
 
-`ay = 409012.2032 ; by = 0.009 ; cy = - 0.9986 ;`
+`ax = 409012.2032 ; bx = 0.009 ; cx = - 0.9986 ;`
 
 `Mx = ax + bx * Gx + cx * Gy`
 
@@ -23,9 +23,9 @@ Note: Assume `Gx = -Gx'`, where `Gx'` is the raw X coord (Gantry uses right --> 
 ### MAC --> USDA (M2U)
 We do a [linear shifting](https://docs.google.com/spreadsheets/d/1pTgmpf9kltYW1SHo_K51cynVTYs6-JdS6rt4usfwV10/edit?usp=sharing) to convert MAC coord in (lat, lon) to USDA (lat, lon):
 
-Longitude: `Ux = Mx - 0.000015258894`
+Latitude: `Ux = Mx - 0.000015258894`
 
-Latitude: `Uy = My + 0.000020308287`
+Longitude: `Uy = My + 0.000020308287`
 
 The coefficients are calculated by averaging the difference of the four points in the linked excel sheet row 4-7. 
 
