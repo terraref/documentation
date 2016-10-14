@@ -23,9 +23,9 @@ Note: Assume `Gx = -Gx'`, where `Gx'` is the raw X coord (Gantry uses right --> 
 ### MAC --> USDA (M2U)
 We do a [linear shifting](https://docs.google.com/spreadsheets/d/1pTgmpf9kltYW1SHo_K51cynVTYs6-JdS6rt4usfwV10/edit?usp=sharing) to convert MAC coord in (lat, lon) to USDA (lat, lon):
 
-Latitude: `Ux = Mx - 0.000015258894`
+Latitude: `Uy = My - 0.000015258894`
 
-Longitude: `Uy = My + 0.000020308287`
+Longitude: `Ux = Mx + 0.000020308287`
 
 The coefficients are calculated by averaging the difference of the four points in the linked excel sheet row 4-7. 
 
