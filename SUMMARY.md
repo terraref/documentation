@@ -34,13 +34,13 @@
         * [Downwelling Spectral Radiances Data](downwelling-spectral-radiances-data.md)
         * [Environmental Data](environmental-data-product.md)
         * [Genomic Data](genomic-data-product.md)
+        * [Geographic Coordinate Data](geographic-coordinate-data.md)
         * [Hyperspectral Data](hyperspectral-data.md)
         * [Meterological Data](meterological-data.md)
+        * [NDVI Data](ndvi-data.md)
         * [Plant Height Data](plant-height-data.md)
         * [PSII Fluorescence Data](psii-fluorescence-data.md)
-        * [NDVI Data](ndvi-data.md)
-        * Hyperspectral Data
-        * [Spatial Reference System Data](spatial-reference-system-data.md)
+        * Geographic Coordinate Data
     * [Sensor Calibration](sensor-calibration.md)
 * [Developer Manual](developer-manual.md)
     * [Submitting data to Clowder](submitting-data-to-clowder.md)
