@@ -14,7 +14,7 @@
         * [Using CoGe](using-coge.md)
     * [What Data is Available](what-data-is-available.md)
     * [Data Use Policy](data_release_policy.md)
-    * [Release \/ reprocessing schedule](s.md)
+    * [Release \/ reprocessing schedule](user/release_schedule)
     * [User Tutorials](user-tutorials.md)
 * [Architecture Documentation](architecture-documentation.md)
     * [Data Standards](data-standards.md)
