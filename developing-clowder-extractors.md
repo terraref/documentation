@@ -8,8 +8,8 @@ It is possible to develop extractors for new file types or tasks.
 
 * **Source code** is available as a collection of Git repositories.
 * Tutorial
- * [slides](https://onedrive.live.com/embed?cid=62A7CDC1353EF6B0&resid=62A7CDC1353EF6B0%211988&authkey=ALJbJ7PqsDaYAxU&em=2&wdAr=1.7777777777777777)
- * [video](https://www.youtube.com/embed/lP3vqh6HLG4).
+ * [overview](https://opensource.ncsa.illinois.edu/confluence/display/CATS/Extractor+Development)
+ * [video](https://www.youtube.com/embed/lP3vqh6HLG4)
 * [pyClowder](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/pyclowder/browse) is designed for this purpose.
 * [Development in Windows](https://opensource.ncsa.illinois.edu/confluence/display/CATS/Deploying+Windows+Extractors)
 * [Using Clowder via National Data Service interface](https://www.youtube.com/embed/dCNYEl3ld0s)
