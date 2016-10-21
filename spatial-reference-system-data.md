@@ -4,6 +4,9 @@ Raw data comes with gantry coord (images, sites table) or MAC coord (UTM zone 12
 
 Gantry coord (x,y) is in meters and refer (0,0) to the bottom right of the gantry. MAC GPS is on all tractors; it has good precision but a static calibration error (2.5m discrepency); USDA GPS has similar precision and is accurate. Therefore, the geo coord we will concert to will all use USDA as reference.
 
+* UAV: georegistered to USDA
+* Tractor: uses MAC
+
 ### Availability of reference data
 Pylon coordinates in both MAC and USDA GPS; SE SW CW CE NW NE coord in MAC
 
