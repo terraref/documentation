@@ -1,3 +1,3 @@
 #Extractor Basic Design
 
-PyClowder Library
+https://opensource.ncsa.illinois.edu/confluence/display/CATS/Extractor+Development#ExtractorDevelopment-Extractorbasics
