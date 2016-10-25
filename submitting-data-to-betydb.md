@@ -162,39 +162,191 @@ Once you have entered all the necessary data to prepare for a bulk upload, you c
 
 There are some key rules for bulk uploading:
 
-1. There are 3 different spreadsheet templates to choose from.
+1. There are four different spreadsheet templates to choose from.
 
-   * [yields.csv](https://docs.google.com/spreadsheets/d/1maK1uKr6i9KERaYdU5zSiXcBndQoiG4Vgn2DTnqdfbA/export?format=csv&gid=0)
+   * [yields_template_by_citation_author_year_title.csv](https://docs.google.com/spreadsheets/d/1-Ry2xae14iSKQlNLkY3TzyaVd_1_wYhr_dLDgAfwjII/export?format=csv&gid=0)
 
-   * [yields_by_doi.csv](https://docs.google.com/spreadsheets/d/1ExLosMvX05jHWO9UYVE4Dxcl2ZbUgPc0KYoUPruaOtM/export?format=csv&gid=0)
+       Use this template if you are uploading yields and you wish to specify the citations by author, year, and title.
 
-   * [traits.csv](https://docs.google.com/spreadsheets/d/1TK-u-m4SG1KupYCVDUIye1C3zX8b1xgaYIG1fHNkYjs/export?format=csv&gid=0)
+   * [yields_template_by_citation_doi.csv](https://docs.google.com/spreadsheets/d/1ExLosMvX05jHWO9UYVE4Dxcl2ZbUgPc0KYoUPruaOtM/export?format=csv&gid=0)
 
-   * [traits_by_doi.csv](https://docs.google.com/spreadsheets/d/1Bv4dAPKU6YDJ6yB0DC4bAmHoGxSLgKybMpTR7qBvCu0/export?format=csv&gid=0)
+       Use this template if you are uploading yields and you wish to specify the citations by DOI.
+
+   * [traits_template_by_citation_author_year_title.csv](https://docs.google.com/spreadsheets/d/1TK-u-m4SG1KupYCVDUIye1C3zX8b1xgaYIG1fHNkYjs/export?format=csv&gid=0)
+
+       Use this template if you are uploading traits and you wish to specify the citations by author, year, and title.
+
+   * [traits_template_by_citation_doi.csv](https://docs.google.com/spreadsheets/d/1Bv4dAPKU6YDJ6yB0DC4bAmHoGxSLgKybMpTR7qBvCu0/export?format=csv&gid=0)
+
+       Use this template if you are uploading traits and you wish to specify the citations by DOI.
+
+   These "templates" consist of a single line of text showing a
+   typical header row for a CSV file.  In the traits templates, the
+   headings of the form "[trait variable 1]" or "[covariate 1]" must
+   be replace with actual variable names corresponding to a trait
+   variable or covariate, respectively.
+
+   These templates show all possible columns that may be included.  In
+   most cases, fewer columns will be needed and the unneeded column
+   headings should be removed.  The only programmatically _required_
+   headings are "yield" (for uploads of yield data), or, for uploads
+   of trait data, the name of at least one recognized trait variable.
+   All other data required for an upload&mdash;the citation, site,
+   species, treatment, access level, and date&mdash;may all be
+   specified interactively provided that they have a uniform value for
+   all of the data in the file being uploaded.  (Specification of a
+   cultivar is not required, but it too may be specified interactively
+   if it has a uniform value for all of the data in the file.)
                   
 2. It is important that text values and column names in the
 spreadsheet match records in the database. This includes variable
-names, site names, species and cultivar names, etc.
+names, site names, species and cultivar names, etc.  Note, however,
+that matching is somewhat lax: the matching is done
+case-insensitively, and extraneous spaces in value in the data file
+are ignored.  In the case of `citation_title`, the supplied value need
+only match an initial substring of the title specified in the database
+as long as the combination of author, year, and the initial portion of
+the title uniquely identifies a citation stored in the database.  And
+in the case of species names, the letter 'x' may be used to match the
+times symbol '×' used in names of hybrid species.
 
-3. Pick the template that best matches your data set and organize the
-data in the excel sheet to include all the required info.
+3. The order of columns in the data file is immaterial; in making the
+template files, an arbitrary order was chosen.  But because the data
+in the data file is displayed for review during the bulk upload
+process, it may be that some orderings are easier to work with than
+others.
 
-4. Organize the data in the proper order and bulk upload.
+4. Since commas are used to delineate columns in CSV files, and data
+value containing a comma must be surrounding by double quotes.
+(Single quotes are interpreted as part of the value.)  If the value
+itself contains a double-quote, this double-quote must be doubled ("")
+in addition to surrounding the value with double quotes.
 
+5. Non-ASCII characters must use UTF-8 encoding.
 
-Sometimes there are issues that arise when trying to bulk upload. It
-is important to read what the system is telling you the problem is and
-fix the problem.
+6. There can be no blank lines in the file, either between data rows
+or at the end of the file.
 
-One of the most common errors is improper column name in the excel
-sheet that doesn't match what the system has for that
-variable. Another frequently made mistake is that the data for the
-variables in the excel sheet is out of range for that variable. If
-this happens double check the data and request to have the range in
-the database adjusted for that variable.
+#### Troubleshooting.
 
-After the data is bulk uploaded into the system, it will ask for some
-basic data relating to the data set. It will ask you location, date
-data uploaded, and treatments. Once this information is fill out, the
-bulk upload is complete.
+Immediately after uploading a data file (or after specifying the
+citation if this is done interactively), the Bulk Upload Wizard tries
+to validate the uploaded file and displays the results of this
+validation.
+
+The types of errors one may encounter fall into roughly three categories:
+
+1. Parsing errors
+
+These are errors at the stage of parsing the CSV file, before the
+header or data values are even checked.  An error at this stage
+returns one to the file-upload page.
+
+2. Header errors
+
+These are errors caused by having an incongruous set of headings in
+the header row.  Here are some examples:
+
+    a. There is `citation_author` column heading without a
+    corresponding `citation_year` and `citation_title` heading.  It is
+    an error to use one of these headings without the other two.
+
+    b. There is both of `citation_doi` heading and a
+    `citation_author`, `citation_year`, or `citation_title` heading.
+    If `citation_doi` is used, none of the other citation-related
+    headings is allowed.
+
+    c. There is an `SE` heading without an 'n' heading or vice versa.
+
+    d. There is neither a `yield` heading nor a heading corresponding
+    to a recognized trait variable.
+
+    e. There is both a `yield` heading and a heading corresponding to
+    a recognized trait variable.  A data file can be used to insert
+    data into the traits table or the yields table but not both at
+    once.
+
+    f. There is a `cultivar` heading but no `species` heading.
+
+There may be other errors associated with the header row that aren't
+treated as errors as such.  For example, if you intend to supply two
+trait variables per row but misspell one of them, the data in the
+column headed by the misspelled variable name will simply be ignored.
+That column will be grayed-out, but the file may still be used to
+insert data corresponding to the "good" variable (provided there are
+no other errors).
+
+3. Value errors
+
+Valid values will be highlighted in green.  Ignored columns will be
+highlighted in gray.  (This will warn you, for example, if you have
+misspelled the name of a trait variable.)  Other colors signify
+various sorts of errors.  A summary of errors is shown at the top of
+the page with links to rows in which the various errors occur.
+
+Each row of the CSV file must be associated with a unique citation,
+site, species, and treatment and _may_ be associated with a unique
+cultivar.  These associations may either be specified in the CSV file
+or, if a particular association is constant for all rows of the file,
+it may be specified interactively.  If they _are_ specified in the
+file, problems that may arise include:
+
+    a. The combination of values for `citation_author`,
+    `citation_year`, and `citation_title` do not uniquely identify a
+    citation in the database.  (This may be because there are no
+    matches or too many (i.e., more than one) matches.  (There should
+    never be multiple database rows having the same combination of
+    author, year, and title, but this is not currently enforced.)
+
+    b. The value for `citation_doi` does not uniquely match a citation
+    in the database.  (Again, citation DOIs _should_ be unique, but
+    the database schema doesn't enforce this.)
+
+    c. The value for `site` does not uniquely match the sitename of a
+    site in the database.  (`site.sitename` _should_ be unique, but
+    this again is not enforced.)
+
+    d. The site specified in a given row is not consistent with the
+    citation specified in that row.  (If you visit the "Show" page for
+    the site, you should see the citation listed at the top of the
+    page right under "Viewing Site".)
+
+    e. The value for `species` does not match the value of
+    `scientificname` for a unique row of the species table.
+    (`species.scientificname` should be unique, but the database
+    scheme doesn't currently enforce this.)
+
+    f. The value for `treatment` does not match the value of the name
+    of any treatment row in the database.
+
+    g. The value for `treatment` in a particular row matches one or
+    more treatments in the database, but none are associated with the
+    citation specified by that row.
+
+    h. The value for `treatment` in a particular row matches more that
+    one treatment in the database that is associated with the citation
+    specified by that row.  (This error is rare.  Names of treatments
+    associated with a particular citation should be unique, but this
+    is not yet enforced.)
+
+    i. The value for `cultivar` specified in a particular row is not
+    consistent with the species specified in that row.
+
+Other value errors, not having to do with associated attributes of the
+data, are as follows:
+
+    * A value for a trait is out of range.  An obvious example would
+      be giving a negative number as the value for annual yield.  If a
+      variable value is flagged as being out of range, double check
+      the data.  If you determine that the value is indeed correct,
+      you should request to have the range in the database adjusted
+      for that variable.
+
+    * A value for the measurement date is not in the correct format or
+      is out of range.
+
+    * A value for the access level is not 1, 2, 3, or 4.
+
+    * A value of the wrong type is given.  Examples would be giving a
+      text value for `yield` or a floating point number for `n`.
 
