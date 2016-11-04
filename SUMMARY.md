@@ -18,7 +18,7 @@
         * [Stereo imaging data](user/stereo-imaging-data.md)
         * [Environmental conditions](user/environmental-conditions.md)
         * [Meteorological data](user/meteorological-data.md)
-        * Trait data
+        * [Trait data](user/trait-data.md)
         * Genomics data
     * [How to Access Data](user/how-to-access-data.md)
         * [Using Clowder](user/using-clowder.md)
