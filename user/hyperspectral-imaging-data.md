@@ -28,10 +28,10 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 ### Computational pipeline
 
-[**Hyperspectral extractor**](https://github.com/terraref/extractors-hyperspectral)
+**[Hyperspectral extractor](https://github.com/terraref/extractors-hyperspectral)**
 
 * **Description**: Processes HDF files into netCDF
-* **Output**: \/sites\/ua\_mac\/Level\_1\/???
+* **Output**: `/sites/ua_mac/Level_1/hyperspectral`
 
 ### See also
 
@@ -40,4 +40,5 @@ For details about using this data via Clowder or Globus, please see [Data Access
 * [Hyperspectral data pipeline](/hyperspectral-data.md)
 
 * [Geospatial information](/user/geospatial-information.md)
+
 
