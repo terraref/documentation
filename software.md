@@ -22,3 +22,7 @@ CoGe contains genomic information and sequence data. For more information, see [
 
 [Plant CV](http://plantcv.danforthcenter.org/) is an imaging processing package specific for plants that is built upon open-source software platforms [OpenCV](http://opencv.org/), [NumPy](http://www.numpy.org/), and [MatPlotLib](http://matplotlib.org/). Plant CV is used for trait identification, the output is stored in both Clowder and BETYdb.
 
+### Analysis Tools
+
+The Clowder platform supports launching 
+

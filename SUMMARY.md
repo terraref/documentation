@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
     * [About](about.md)
-    * [Workbench Overview](workbench-overview.md)
     * [Data Sources](data-sources.md)
     * [Software](software.md)
 * [Scientific Objectives and Experimental Design](user/scientific-objectives-and-experimental-design.md)
