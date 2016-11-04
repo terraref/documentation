@@ -72,3 +72,6 @@ locations on the map.
 * [More information on using BETYdb](https://pecan.gitbooks.io/betydb-data-access/content/)
 
 * [Extracting information from figures](https://pecan.gitbooks.io/betydbdoc-dataentry/content/Extracting%20Data%20From%20Figures.html)
+
+---
+Produced with Gitbook version {{gitbook.version}}
