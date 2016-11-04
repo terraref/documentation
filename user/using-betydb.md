@@ -1,10 +1,15 @@
 # Using BETYdb
 
+### About BETYdb
+BETYdb is used to manage and distribute agricultural and ecological data.
+
+
 [**BETYdb**](https://terraref.ncsa.illinois.edu/bety/) contains plot locations
 and other geolocations of interest (e.g. fields, rows, plants) that are
 associated with agronomic experimental design / meta-data (what was planted
 where, field boundaries, treatments, etc).
 
+### Requesting Access
 **You must create an account to use
   [BETYdb](https://terraref.ncsa.illinois.edu/bety/)**
 
