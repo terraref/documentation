@@ -21,3 +21,8 @@ For details about using this data via Clowder or Globus, please see [Data Access
 * **Description**: Raw image output is converted to a raster format \(netCDF\/GeoTIFF\) 
 * **Output**: \/sites\/ua\_mac\/Level\_1\/???
 
+### Details
+
+There are 102 bin files. The first (index 0) is an image taken right before the LED are switched on (dark reference). Frame 1 to 100 are the 100 images taken, with the LEDs on. In binary file 102 (index 101) is a list with the timestamps of each frame of the 100 frames.
+
+Right now the LED on timespan is 1s thus the first 50 frames are taken with LEDs on the latter 50 frames with LED off..
