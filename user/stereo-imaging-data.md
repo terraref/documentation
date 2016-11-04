@@ -16,13 +16,13 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 ### Computation pipeline
 
-[**Demosaic extractor**](https://github.com/terraref/extractors-stereo-rgb)
+**[Demosaic extractor](https://github.com/terraref/extractors-stereo-rgb)**
 
 * **Description**: Binary stereo images are converted to demosaicked JPG and TIFF images.
 * **Output**: `/ua-mac/Level_1/demosaic/`
 
 **Full-field mosaic extractor**
 * **Description: **
-
 * **Output**
+
 
