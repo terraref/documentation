@@ -16,5 +16,8 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 ### Extractors
 
-* PLY data is converted to LAS using the 3D point cloud extractor
+[ply2las](https://github.com/terraref/extractors-3dscanner)
+* **Description**: PLY data is converted to LAS using the 3D point cloud extractor
+* **Output**: ```/sites/ua\_mac/Level\_1/scanner3DTop```
 
+### Output
