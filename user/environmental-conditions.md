@@ -28,7 +28,7 @@ Data is available via Clowder and Globus:
 
 ### Computational pipeline
 
-[**Environmental Logger**](https://github.com/terraref/extractors-environmental)**\*\*** extractors. \*\*
+**[Environmental Logger](https://github.com/terraref/extractors-environmental)**
 
 * **Description:** EnvironmentalLogger raw files are converted to netCDF.
 * **Output**: `/ua-mac/Level_1/EnvironmentLogger`
