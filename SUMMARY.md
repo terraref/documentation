@@ -10,6 +10,7 @@
     * [Scientific Objectives and Experimental Design](user/scientific-objectives-and-experimental-design.md)
     * [How to Access Data](user/how-to-access-data.md)
         * [Using Clowder](user/using-clowder.md)
+        * [Using Globus](user/using-globus.md)
         * [Using BETYdb](user/using-betydb.md)
         * [Using CoGe](user/using-coge.md)
     * [Data Formatting](user/data-formatting.md)
