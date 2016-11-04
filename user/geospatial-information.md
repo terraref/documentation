@@ -17,43 +17,46 @@ Several different sensors include geospatial information in the dataset metadata
 **Coordinate reference systems**  
 ISSUES 180
 
-Three coordinate systems exist in these data:
-* Field coordinate frame (Xf , Yf , Zf)
-* Camera coordinate (Xc , Yc , Zc)
-* Image coordinate (Xp , Yp)
+The Scanalyzer system itself does not have a reliable GPS unit on the sensor box. Sensor position information is captured relative to the southeast corner of the Scanalyzer system in meters. 
 
-*Lat/Long*  
+*Lat/Long coordinates*  
 Coordinates for the four corners of the Scanalyzer system are as follows:
 * **NW**: 33° 04.592' N, -111° 58.505' W
 * **NE**: 33° 04.591' N, -111° 58.487' W
 * **SW**: 33° 04.474' N, -111° 58.505' W
 * **SE**: 33° 04.470' N, -111° 58.485' W
 
-*Scanalyzer coordinate system*  
-Sensor position information is captured relative to the southeast corner of the Scanalyzer system in meters. The field itself beg
+*Scanalyzer coordinates*  
+In offset meter measurements from the southeast corner of the Scanalyzer system, the field itself is defined as follows:
 * **NW**: (207.3, 22.135, 5.5)
 * **SE**: (3.8,	0, 0)  
 
-**Captured field descriptions**
+*Translating Scanalyzer to Lat/Long*  
+The extrinsic calibration parameters specify the transformation from the field to the camera coordinates, and it is represented as:  
+```[Xc Yc Zc]'= Ro [Xf Yf Zf]'+ to``` 
 
-*location of sensor in camera box (X, Y, Z)*
+Since there is no rotation (```Ro```), MEX is only translating vector ```to```. ```to``` is transition vector from the control point (0,0,0) to camera position [Xc Yc Zc]. Considering that the sensor is moving with constant speed in x direction, and metadata information shows the starting time and start position of a scan:  
+```to = [+xg+Vx*(t) +yg +zg]'```
+* ```(xg ,yg ,zg)``` is the camera position in sensor box
+* ```Vx``` is velocity in x direction
+* ```t``` represents time difference.
+* ```()'``` is transpose operation
 
-* 
+*Determining Lat/Long of pixels*  
+The intrinsic calibration parameters specify the transformation from the camera coordinate to the pixel coordinates. Coordinate transformation between camera plane and image plane:  
+```[Xp Yp f]'= A [ I 0 ] [Xc Yc Zc]'```   
+Simple orientation matrix is:  
+![](https://cloud.githubusercontent.com/assets/17046539/13890132/e71ffdf0-ed17-11e5-9dad-ccf39e0459bd.png)  
+```αx = αy =α``` and its focal length divided by pixel pitch. ```u0``` and ```v0``` denote the principal point (ideally center of image).
+* The geometric distortions that exist between the 272 bands are considered to be small.
+* No rectification is done.
+* No distortion and lens model is considered.
+* Mirror angle change is not considered.
+
+
+
 
 **ISSUES: 7, 25** 
-
-
-the position of the 0,0,0 -> 
-we have one fixed coordinate system of the gantry, that can not be changed. But of course there should be a well defined transformation of this coordinate system to either a customer coordinate system (in which the seeding locations are defined) with a fixed point on the field or GPS coordinates. 
-Furthermore once this transformation is available we are planning to include GPS coordinates in all meta data.
-
-additional time information -> 
-For the hyperspec cameras you have to calculate the time on your own, based on the gantry scan speed or frame period.
-In the final setup there will be two modes for hyperspec cameas:
-
-free running, then you have to derive the point in time from the start timestamp and the frame period
-position trigger (still under construction), each 1mm of scan movement a hardware trigger leads to a hyperspec measurement, then you have to use the speed
-For PS2 Sensor->
 
 
 
