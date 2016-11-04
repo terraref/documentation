@@ -11,7 +11,7 @@
 * [User Manual](user/user-manual.md)
     * [Data Products](user/data-products.md)
         * [Point Cloud Data](products/point-cloud-data.md)
-        * Fluorescence intensity imaging
+        * [Fluorescence intensity imaging](user/fluorescence-intensity-imaging.md)
         * Hyperspectral imaging data
         * Infrared heat imaging data
         * Multispectral imaging data
