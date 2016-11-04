@@ -170,3 +170,22 @@ cropCircle
     },
 ```
 
+**field scanner plots**
+
+There are 864 (54*16) plots in total  and the plot layout is described in the [plot plan](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo) table. 
+
+
+| dimension | value |
+| --- | --- |
+| # rows | 32 |
+| # rows / plot | 2 |
+| # plots (2 rows ea) | 864 |
+| # ranges | 54 |
+| # columns | 16 |
+| row width (m) | 0.762 |
+| plot length (m) | 4 |
+| row length (m) | 3.5 |
+| alley length (m) | 0.5 |
+
+
+The boundary of each plot changes slightly each planting season. The scanalyzer coordinates of each row and each range of the two planting seasons is available in the [field book]( https://docs.google.com/spreadsheets/d/1eQSeVMPfrWS9Li4XlJf3qs2F8txmddbwZhjOfMGAvt8/edit#gid=883764630). The scanalyzer coordinates of each plot are transformed into the (EPSG:4326) USDA coordinates using the equations above. After that, a polygon of each plot can be generated using ST_GeomFromText funtion and inserted into the BETYdb through SQL statements.
