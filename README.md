@@ -2,41 +2,28 @@
 
 ## Content
 
-This book describes the TERRA-REF data collection, computing, and analysis pipelines. 
-
+This book describes the TERRA-REF data collection, computing, and analysis pipelines.
 
 ## Versions
 
 The first edition will be published in **November 2016**.
 
-## Contributing
+### About TERRA-REF
 
-How to contribute to this documentation:
+The ARPA-E-funded Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform \(TERRA-REF\) program aims to transform plant breeding by using remote sensing to quantify plant traits such as plant architecture, carbon uptake, tissue chemistry, water use, and other features to predict the yield potential and stress resistance of 300+ diverse Sorghum lines.
 
-* Edit contents (both require GitHub account)
-  *  GitHub repository ([github.com/terraref/documentation](https://github.com/terraref/documentation))
-  *  GitBook interface https://www.gitbook.com/book/terraref/terraref-documentation/edit
-* Use the comment bubbles in the [web version of the book](https://terraref.gitbooks.io/terraref-documentation/content/)
-* Email suggestions, comments to [David LeBauer](mailto:dlebauer@illinois.edu).
+The data storage and computing system provides researchers with access to the reference phenotyping data and analytics resources using a high performance computing environment. The reference phenotyping data includes direct measurements and sensor observations, derived plant phenotypes, and genetic and genomic data.
 
+Our objectives are to ensure that the software and data in the reference data and computing pipeline are interoperable, reusable, extensible, and understandable. Providing clear definitions of common formats will make it easier to analyze and exchange data and results.
 
-## About
+### About this book
 
-Documentation for the specification and development of a 
-reference data and computing pipeline for high throughput phenotyping to support breeding of biomass Sorghum.
+\[Intro\]
 
-### Intended audience:
+* [What data is available?](/user/what-data-is-available.md)
 
-Users and developers of the TERRAref pipeline.
+* [Where do I get the data?](/user/how-to-access-data.md)
 
-## Quick Links
-
-* [TERRAref on Github](https://github.com/terraref)
-* [Draft Documentation](https://www.gitbook.com/book/terraref/terraref-documentation/details)
-  * [Source code on GitHub](https://github.com/terraref/documentation)
-* [Sample and Example Data](https://uofi.box.com/terraref-sample-data)
-* [Data Products and Standards Committee tasks and milestones](https://github.com/terraref/reference-data/issues)
-* Chat Room [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/terraref/reference-data?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
+* [Tutorials](/tutorials.md)
 
 

@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-    * [About](about.md)
     * [Data Sources](data-sources.md)
     * [Software](software.md)
 * [Scientific Objectives and Experimental Design](user/scientific-objectives-and-experimental-design.md)
@@ -13,10 +12,11 @@
         * [Protocols UAV](user/protocols-UAV.md)
     * [Experimental Design](user/experimental-design.md)
         * [Experimental Design MAC](user/experimental-design-mac.md)
+        * [Experimental Design Danforth](user/experimental-design-danforth.md)
 * [User Manual](user/user-manual.md)
     * [Data Products](user/data-products.md)
         * [Point Cloud Data](products/point-cloud-data.md)
-        * [Fluorescence intensity imaging](user/fluorescence-intensity-imaging.md)
+        * [Fluorescence intensity imaging](user/products/fluorescence-intensity-imaging.md)
         * [Hyperspectral imaging data](user/hyperspectral-imaging-data.md)
         * [Infrared heat imaging data](user/infrared-heat-imaging-data.md)
         * [Multispectral imaging data](user/multispectral-imaging-data.md)
