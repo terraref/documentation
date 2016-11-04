@@ -19,7 +19,7 @@
         * [Environmental conditions](user/environmental-conditions.md)
         * [Meteorological data](user/meteorological-data.md)
         * [Trait data](user/trait-data.md)
-        * Genomics data
+        * [Genomics data](user/genomics-data.md)
     * [How to Access Data](user/how-to-access-data.md)
         * [Using Clowder](user/using-clowder.md)
         * [Using Globus](user/using-globus.md)
