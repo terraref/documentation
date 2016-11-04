@@ -60,6 +60,8 @@
     * [Submitting data to BETYdb](submitting-data-to-betydb.md)
     * [Submitting Data to CoGe](submitting-data-to-coge.md)
     * [Developing Clowder Extractors](developing-clowder-extractors.md)
+* [Tutorials](tutorials.md)
+  * [Accessing Sensor Metadata](tutorials/accessing_sensor_information.md)
 * [Appendix](appendix.md)
     * [Collaboration Tools](collaboration_tools.md)
     * [Code of Conduct](code_of_conduct.md)
