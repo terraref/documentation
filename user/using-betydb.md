@@ -5,24 +5,30 @@ SearchBox: /assets/textsearch.png
 # Using BETYdb
 
 ### About BETYdb
-BETYdb is used to manage and distribute agricultural and ecological data.
 
-[**BETYdb**]({{book.BETYdb_URL}}) contains plot locations
-and other geolocations of interest (e.g. fields, rows, plants) that are
-associated with agronomic experimental design / meta-data (what was planted
-where, field boundaries, treatments, etc).
+[BETYdb]({{book.BETYdb_URL}}) is used to manage and distribute agricultural and ecological data. It contains phenotype and agronomic data includeing plot locations and other geolocations of interest \(e.g. fields, rows, plants\).
 
-### Requesting Access
-**You must create an account to use
-  [BETYdb]({{book.BETYdb_URL}}/)**
+### Requesting access
+
+To request access to BETYdb, register on the[ BETYdb web site]({{book.BETYdb_URL}}). You will be notified once you have been granted access.
+
+### Data organization
+
+The primary BETYdb [User's Guide ](/BETYdb User's Guide)is largely relevant here, noting the following differences:
+
+* Genotypes are stored in the `cultivars` table
+
+* Plots are stored in the `sites` table. Plots are nested hierarchically based on geolocation.
+
+
+
 
 ### Using the Advanced Search box
 
-Most tables in BETYdb have search boxes; for example,
-{{book.BETYdb_URL}}/citations and {{book.BETYdb_URL}}/sites. We describe below how
+Most tables in BETYdb have search boxes. We describe below how
 to query these tables and download the results as CSV, JSON, or XML. The
 Advanced Search box is the easiest way to download summary datasets designed to
-have enough information (location, time, species, citations) to be useful for a
+have enough information \(location, time, species, citations\) to be useful for a
 wide range of use cases.
 
 ### Using the Search Box
@@ -39,7 +45,7 @@ provides meta-data and provenance information, including the SQL query used to
 extract the data, the date and time the query was made, the citation source of
 each result row, and a citation for BETYdb itself.
 
-#### Instructions
+### Instructions
 
 Using the search box to search trait and yield data is very simple: Type the
 site (city or site name), species (scientific or common name), cultivar,
@@ -59,6 +65,10 @@ associated with the returned results are highlighted on the map.  Then, to zero
 in on results for a particular geographic area, click on or near highlighted
 locations on the map.
 
-[More information on using BETYdb](https://pecan.gitbooks.io/betydb-data-access/content/)
+### See also
 
-[Extracting information from figures](https://pecan.gitbooks.io/betydbdoc-dataentry/content/Extracting%20Data%20From%20Figures.html)
+* [BETYdb User's Guide](https://pecan.gitbooks.io/betydb-data-access/content/)
+
+* [More information on using BETYdb](https://pecan.gitbooks.io/betydb-data-access/content/)
+
+* [Extracting information from figures](https://pecan.gitbooks.io/betydbdoc-dataentry/content/Extracting%20Data%20From%20Figures.html)
