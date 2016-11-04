@@ -24,5 +24,5 @@ CoGe contains genomic information and sequence data. For more information, see [
 
 ### Analysis Tools
 
-The Clowder platform supports launching 
+The Clowder system supports launching external analysis environments such as RStudio and Jupyter Notebooks for anlaysis.
 
