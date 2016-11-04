@@ -4,7 +4,7 @@ The following table lists available TERRA-REF data products. The table will be u
 
 | Data product | Category | Description |
 | --- | --- | --- |
-| [3D point cloud data](/point-cloud-data.md) | Imaging | 3D point cloud data \(LAS\) of the field constructed from the Fraunhofer 3D scanner output \(PLY\). |
+| [3D point cloud data](/products/point-cloud-data.md) | Imaging | 3D point cloud data \(LAS\) of the field constructed from the Fraunhofer 3D scanner output \(PLY\). |
 | [Fluorescence intesity imaging](/fluorescence-intensity-imaging.md) | Imaging | Fluorescence intensity imaging is collected using the PSII camera. Raw camera output is converted to \(netCDF\/GeoTIFF?\) |
 | [Hyperspectral imaging data](/hyperspectral-imaging-data.md) | Imaging | Hyperspectral imaging data from the SWIR and VNIR sensors are converted to netCDF output using the hyperspectral extractor. |
 | [Infrared heat imaging data](/infrared.md) | Imaging | Infrared heat imaging data is collected using FLIR sensor. Raw output is converted to GeoTIFF using the FLIR extractor. |
@@ -16,9 +16,9 @@ The following table lists available TERRA-REF data products. The table will be u
 | Genomics data | Genomics |  |
 | UAV and Phenotractor |  |  |
 
-
 In addition to the above data products, the following information is also available:
-| Collection | Category | Description |
-| --- | --- | --- |
-| Device and sensor information | General | Datasheets and specifications for sensors and calibration targets |
-| 
+\| Collection \| Category \| Description \|
+\| --- \| --- \| --- \|
+\| Device and sensor information \| General \| Datasheets and specifications for sensors and calibration targets \|
+\|
+

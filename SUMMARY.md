@@ -11,6 +11,15 @@
 * [User Manual](user/user-manual.md)
     * [Data Products](user/data-products.md)
         * [Point Cloud Data](products/point-cloud-data.md)
+        * Fluorescence intensity imaging
+        * Hyperspectral imaging data
+        * Infrared heat imaging data
+        * Multispectral imaging data
+        * Stereo imaging data
+        * Environmental conditions
+        * Meteorological data
+        * Trait data
+        * Genomics data
     * [How to Access Data](user/how-to-access-data.md)
         * [Using Clowder](user/using-clowder.md)
         * [Using Globus](user/using-globus.md)
