@@ -19,6 +19,7 @@ The following table lists available TERRA-REF data products. The table will be u
 ## See also
 
 * [What data is available](/user/what-data-is-available.md)?
-* [Sensor information ](/user/sensor-information.md)and [Sensor calibration](/sensor-calibration.md)
+* [Sensor calibration](/sensor-calibration.md)
+* [Data standards](/data-standards.md)
 * [Geospatial information](/user/geospatial-information.md)
 
