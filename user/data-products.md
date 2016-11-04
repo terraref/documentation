@@ -5,9 +5,9 @@ The following table lists available TERRA-REF data products. The table will be u
 | Data product | Category | Description |
 | --- | --- | --- |
 | [3D point cloud data](/products/point-cloud-data.md) | Imaging | 3D point cloud data \(LAS\) of the field constructed from the Fraunhofer 3D scanner output \(PLY\). |
-| [Fluorescence intesity imaging](/fluorescence-intensity-imaging.md) | Imaging | Fluorescence intensity imaging is collected using the PSII camera. Raw camera output is converted to \(netCDF\/GeoTIFF?\) |
+| [Fluorescence intesity imaging](/user/fluorescence-intensity-imaging.md) | Imaging | Fluorescence intensity imaging is collected using the PSII camera. Raw camera output is converted to \(netCDF\/GeoTIFF?\) |
 | [Hyperspectral imaging data](/user/hyperspectral-imaging-data.md) | Imaging | Hyperspectral imaging data from the SWIR and VNIR sensors are converted to netCDF output using the hyperspectral extractor. |
-| [Infrared heat imaging data](/infrared.md) | Imaging | Infrared heat imaging data is collected using FLIR sensor. Raw output is converted to GeoTIFF using the FLIR extractor. |
+| [Infrared heat imaging data](/user/infrared-heat-imaging-data.md) | Imaging | Infrared heat imaging data is collected using FLIR sensor. Raw output is converted to GeoTIFF using the FLIR extractor. |
 | [Multispectral imaging data](/user/multispectral-imaging-data.md) | Imaging | Multispectral imaging data is collected using the PRI and NDVI sensors. Raw output is converted to timeseries data using the multispectral extractor. |
 | [Stereo imaging data](/user/stereo-imaging-data.md) | Imaging | Stereo imaging data is collected using the Prosilica cameras. Full-color images are reconstructed in GeoTIFF format using the de-mosaic extractor. A full-field mosaic is generated using the full-field mosaic extractor. |
 | [Environmental conditions](/user/environmental-conditions.md) | Environmental | Environment conditions are collected through the CO2 sensor and Theis Clima. Raw output is converted to netCFG using the environmental-logger extractor. |
@@ -16,9 +16,5 @@ The following table lists available TERRA-REF data products. The table will be u
 | Genomics data | Genomics |  |
 | UAV and Phenotractor |  |  |
 
-In addition to the above data products, the following information is also available:
-\| Collection \| Category \| Description \|
-\| --- \| --- \| --- \|
-\| Device and sensor information \| General \| Datasheets and specifications for sensors and calibration targets \|
-\|
+
 
