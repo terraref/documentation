@@ -1,39 +1,20 @@
 #Protocols for Maricopa Agricultural Center, Arizona
 
-##Field Scanner
-
-**Experimental Design**:
-
-**Data Collection**
-
+###Field Scanner
 
 
 _________________________
 
-##Tractor
+###Tractor
 
 
-
-**Experimental Design**
-
-
-**Data Collection**
 
 
 ______________________________
 ####UAV
 
-**Experimental Design**
-
-
-**Data Collection**
-
-_______________
-
-
-
-
-**Data Collection**
+____________________
+####Manually Collected Field Data
 
 | Variable | Method |
 | --- |--- |
