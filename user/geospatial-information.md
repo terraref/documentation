@@ -18,6 +18,8 @@ Several different sensors include geospatial information in the dataset metadata
 ISSUES 180
 
 The Scanalyzer system itself does not have a reliable GPS unit on the sensor box. Sensor position information is captured relative to the southeast corner of the Scanalyzer system in meters. 
+![](https://cloud.githubusercontent.com/assets/464871/15622807/5e86cb98-2432-11e6-901d-967d6ac0f70d.png)
+
 
 *Lat/Long coordinates*  
 Coordinates for the four corners of the Scanalyzer system are as follows:
