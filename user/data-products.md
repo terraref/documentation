@@ -12,9 +12,7 @@ The following table lists available TERRA-REF data products. The table will be u
 | [Stereo imaging data](/user/stereo-imaging-data.md) | Imaging | Stereo imaging data is collected using the Prosilica cameras. Full-color images are reconstructed in GeoTIFF format using the de-mosaic extractor. A full-field mosaic is generated using the full-field mosaic extractor. |
 | [Environmental conditions](/user/environmental-conditions.md) | Environmental | Environment conditions are collected through the CO2 sensor and Theis Clima. Raw output is converted to netCFG using the environmental-logger extractor. |
 | [Meteorological data](/meteorological-data.md) | Environmental | postGIS\/netCDF |
-| [Trait data](/trait-data.md) |  | Trait data is derived from sensor output using the PlantCV extractor and imported into BETYdb. |
+| [Phenotype data](/trait-data.md) |  | Phenotype data is derived from sensor output using the PlantCV extractor and imported into BETYdb. |
 | Genomics data | Genomics |  |
 | UAV and Phenotractor |  |  |
-
-
 
