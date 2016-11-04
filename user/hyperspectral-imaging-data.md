@@ -4,9 +4,9 @@
 
 Hyperspectral imaging data is collected using the Headwall VNIR and SWIR sensors.
 
-### Data access
+### Raw data access
 
-Hyperspectral data is available via Clowder and Globus:_ _
+Hyperspectral data is available via Clowder and Globus:
 
 * Clowder:  Link to collection
 
@@ -16,10 +16,7 @@ Hyperspectral data is available via Clowder and Globus:_ _
 * Globus:
 
   * \/ua-mac\/raw\_data\/SWIR
-
   * \/ua-mac\/raw\_data\/VNIR
-
-
 
 * Sensor information:
 
@@ -29,7 +26,16 @@ Hyperspectral data is available via Clowder and Globus:_ _
 
 For details about using this data via Clowder or Globus, please see [Data Access](/how-to-access-data.md) section.
 
-### Extractor
+### Computational pipeline
 
-Hyperspectral imaging data is converted to netCDF format using the [Hyperspectral extractor](https://github.com/terraref/extractors-hyperspectral).
+[Hyperspectral extractor](https://github.com/terraref/extractors-hyperspectral)
+
+* **Description**: Processes HDF files into netCDF
+* **Output**: \/sites\/ua\_mac\/Level\_1\/???
+
+### See also
+
+* [Sensor calibration](/sensor-calibration.md)
+
+* [Hyperspectral data pipeline](/hyperspectral-data.md)
 
