@@ -28,11 +28,10 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 ### Computational pipeline
 
-[**Multispectral extractor**](https://github.com/terraref/extractors-multispectral)
+**[Multispectral extractor](https://github.com/terraref/extractors-multispectral)**
 
 * **Description:** NDVI binary files are converted to png thumbnail + geoTIFF\/netCDF
-* **Output**: ?
-* 
+* **Output**: 
 
 ### See also
 
