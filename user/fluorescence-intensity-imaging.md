@@ -18,3 +18,8 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 * Fluorescence imaging data is converted to \(netCDF\/GeoTIFF\) format using the [PSII extractor](https://github.com/terraref/extractors-multispectral)
 
+
+
+https://github.com/terraref/computing-pipeline/issues/152
+
+Binary files are convereted to to png thumbnail + netCDF raster data product.

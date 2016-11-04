@@ -28,4 +28,15 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 ### Extractor
 
-https://github.com/terraref/extractors-multispectral
+[https:\/\/github.com\/terraref\/extractors-multispectral](https://github.com/terraref/extractors-multispectral)
+
+#NDVI Data Products
+
+The normalized difference vegetation index (NDVI) is a simple graphical indicator that can be used to analyze remote sensing measurements
+
+https://github.com/terraref/computing-pipeline/issues/150
+
+NDVI binary files were converted to png thumbnail + geoTIFF or netCDF data product.
+
+
+
