@@ -15,7 +15,7 @@
         * [Hyperspectral imaging data](user/hyperspectral-imaging-data.md)
         * [Infrared heat imaging data](user/infrared-heat-imaging-data.md)
         * [Multispectral imaging data](user/multispectral-imaging-data.md)
-        * Stereo imaging data
+        * [Stereo imaging data](user/stereo-imaging-data.md)
         * Environmental conditions
         * Meteorological data
         * Trait data
