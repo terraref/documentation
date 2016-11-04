@@ -3,3 +3,4 @@
 
 
 https://github.com/terraref/documentation/issues/7
+https://github.com/terraref/computing-pipeline/blob/master/scripts/geospatial/field_scanner_plots.R
