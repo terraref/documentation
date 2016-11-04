@@ -6,7 +6,7 @@ SearchBox: /assets/textsearch.png
 
 ### About BETYdb
 
-[BETYdb]({{book.BETYdb_URL}}) is used to manage and distribute agricultural and ecological data. It contains phenotype and agronomic data includeing plot locations and other geolocations of interest \(e.g. fields, rows, plants\).
+[BETYdb]({{book.BETYdb_URL}}) is used to manage and distribute agricultural and ecological data. It contains phenotype and agronomic data including plot locations and other geolocations of interest \(e.g. fields, rows, plants\).
 
 ### Requesting access
 
