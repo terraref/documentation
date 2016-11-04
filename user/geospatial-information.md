@@ -196,7 +196,7 @@ The range.csv should be in the following format:
 
 | range | x_south | x_north |
 | -- | -- | -- |
-| 54 | ... | ... |
+| 54 | | |
 | 53 | ... | ... |
 | 52 | ... | ... |
 | ... | ... | ... |
