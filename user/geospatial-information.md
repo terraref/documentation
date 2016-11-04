@@ -195,7 +195,7 @@ An [Rcode](https://github.com/terraref/computing-pipeline/blob/master/scripts/ge
 The range.csv should be in the following format:
 
 | range | x_south | x_north |
-| -- | -- | -- |
+|:---|:---|:---|
 | 1 | ... | ... |
 | 2 | ... | ... |
 | 3 | ... | ... |
