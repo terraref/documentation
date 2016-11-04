@@ -194,12 +194,12 @@ An [Rcode](https://github.com/terraref/computing-pipeline/blob/master/scripts/ge
 
 The range.csv should be in the following format:
 
-| range | x_south | x_north |
+| 0:0 | 1:0 | 2:0 |
 | -- | -- | -- |
-| 54 | ... | ... |
-| 53 | ... | ... |
-| 52 | ... | ... |
-| ... | ... | ... |
+| 0:2 | 1:2 | 2:2 |
+| 0:3 | 1:3 | 2:3 |
+
+
 
 And the row.csv should look like:
 
