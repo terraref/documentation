@@ -16,7 +16,7 @@
         * [Infrared heat imaging data](user/infrared-heat-imaging-data.md)
         * [Multispectral imaging data](user/multispectral-imaging-data.md)
         * [Stereo imaging data](user/stereo-imaging-data.md)
-        * Environmental conditions
+        * [Environmental conditions](user/environmental-conditions.md)
         * Meteorological data
         * Trait data
         * Genomics data
