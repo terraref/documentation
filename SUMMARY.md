@@ -48,7 +48,6 @@
        * [Geographic Coordinate Data](geographic-coordinate-data.md)
        * [Hyperspectral Data](hyperspectral-data.md)
        * [NDVI Data](ndvi-data.md)
-       * [Plant Height Data](plant-height-data.md)
        * [PSII Fluorescence Data](psii-fluorescence-data.md)
    * [Sensor Calibration](sensor-calibration.md)
 * [Developer Manual](developer-manual.md)
