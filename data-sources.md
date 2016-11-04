@@ -22,14 +22,14 @@ The Bellwether Foundation Phenotyping Facility is a climate controlled 70 m2 gro
 ------------------
 ### Kansas State University
 
-- Tractor
+- Tractor - coming 2017
 
-- UAV
+- UAV - coming 2017
 
 ------------------
 
 ### HudsonAlpha - Genomics
 
-
+coming 2017
 
 
