@@ -4,7 +4,7 @@ Several different sensors include geospatial information in the dataset metadata
 
 **Coordinate reference systems**  
 The Scanalyzer system itself does not have a reliable GPS unit on the sensor box. There are 3 different coordinate systems that occur in the data:
-* Most common is EPSG:4326 USDA coordinates
+* Most common is EPSG:4326 (WGS84) USDA coordinates
 * Tractor planting & sensor data is in UTM Zone 12
 * Sensor position information is captured relative to the southeast corner of the Scanalyzer system in meters
 
