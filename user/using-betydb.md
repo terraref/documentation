@@ -1,6 +1,5 @@
 ---
 SearchBox: /assets/textsearch.png
-BETYdb_URL: https://terraref.ncsa.illinois.edu/bety
 ---
 
 # Using BETYdb
@@ -8,19 +7,19 @@ BETYdb_URL: https://terraref.ncsa.illinois.edu/bety
 ### About BETYdb
 BETYdb is used to manage and distribute agricultural and ecological data.
 
-[**BETYdb**]({{page.BETYdb_URL}}) contains plot locations
+[**BETYdb**]({{book.BETYdb_URL}}) contains plot locations
 and other geolocations of interest (e.g. fields, rows, plants) that are
 associated with agronomic experimental design / meta-data (what was planted
 where, field boundaries, treatments, etc).
 
 ### Requesting Access
 **You must create an account to use
-  [BETYdb]({{page.BETYdb_URL}}/)**
+  [BETYdb]({{book.BETYdb_URL}}/)**
 
 ### Using the Advanced Search box
 
 Most tables in BETYdb have search boxes; for example,
-{{page.BETYdb_URL}}/citations and {{page.BETYdb_URL}}/sites. We describe below how
+{{book.BETYdb_URL}}/citations and {{book.BETYdb_URL}}/sites. We describe below how
 to query these tables and download the results as CSV, JSON, or XML. The
 Advanced Search box is the easiest way to download summary datasets designed to
 have enough information (location, time, species, citations) to be useful for a
