@@ -16,15 +16,8 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 ### Computational pipeline
 
-Raw image output is converted to a raster format \(netCDF\/GeoTIFF\) using the `multispectral extractor`
+[**Multispectral extractor**](https://github.com/terraref/extractors-multispectral)
 
-
-Description: PLY data is converted to LAS using the 3D point cloud extractor
-
-Output: /sites/ua_mac/Level_1/scanner3DTop
-
-* 
-* 
-* 
-* Fluorescence imaging data is converted to \(netCDF\/GeoTIFF\) format using the [PSII extractor](https://github.com/terraref/extractors-multispectral)
+* **Description**: Raw image output is converted to a raster format \(netCDF\/GeoTIFF\) 
+* **Output**: \/sites\/ua\_mac\/Level\_1\/???
 
