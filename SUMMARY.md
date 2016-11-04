@@ -12,7 +12,7 @@
     * [Data Products](user/data-products.md)
         * [Point Cloud Data](products/point-cloud-data.md)
         * [Fluorescence intensity imaging](user/fluorescence-intensity-imaging.md)
-        * Hyperspectral imaging data
+        * [Hyperspectral imaging data](user/hyperspectral-imaging-data.md)
         * Infrared heat imaging data
         * Multispectral imaging data
         * Stereo imaging data
