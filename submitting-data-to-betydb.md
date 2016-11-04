@@ -1,4 +1,4 @@
-# Submitting Data to BETYdb
+# Submitting Data to BETYdb[^additional_information]
 
 BETYdb is a database used to centralize data from research done in all TERRA
 projects.  (It is also the name of the Web interface to that database.)
@@ -392,3 +392,7 @@ specified are really the ones that you intended.
 Once you have verified the data, clicking the _Insert Data_ button will complete
 the upload.  The insertions are done in an SQL transaction: if any insertion
 fails, the entire transaction is rolled back.
+
+---
+<!--- This footnote text must all be on one line for proper formatting.  It is to be hoped that this anti-feature will be fixed. --->
+[^additional_information]: For additional documentation of the bulk upload feature, see the [BETYdb data entry documentation](https://pecan.gitbooks.io/betydbdoc-dataentry/content/bulk%20upload.html).  For information about submitting data via the API (not covered here), see [Adding Traits via the Beta API](https://pecan.gitbooks.io/betydbdoc-dataentry/content/trait_insertion_api.html).
