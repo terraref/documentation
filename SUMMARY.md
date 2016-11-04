@@ -6,7 +6,7 @@
    * [Data Sources](data-sources.md)
    * [Software](software.md)
 * [Scientific Objectives and Experimental Design](user/scientific-objectives-and-experimental-design.md)
-   * Protocols
+   * [Protocols](user/protocols.md)
 * [User Manual](user/user-manual.md)
    * [Data Products](user/data-products.md)
    * [How to Access Data](user/how-to-access-data.md)
@@ -51,6 +51,6 @@
    * [Submitting Data to CoGe](submitting-data-to-coge.md)
    * [Developing Clowder Extractors](developing-clowder-extractors.md)
 * [Appendix](appendix.md)
-  * [Collaboration Tools](collaboration_tools.md)
-  * [Code of Conduct](code_of_conduct.md)
+   * [Collaboration Tools](collaboration_tools.md)
+   * [Code of Conduct](code_of_conduct.md)
 
