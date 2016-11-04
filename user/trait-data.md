@@ -12,9 +12,10 @@ For details about accessing BETYdb, please see [Data Access](../user/how-to-acce
 
 ## Computational pipeline
 
-[**PlantCV extractor**](https://github.com/terraref/extractors-lemnatec-indoor)
+**[PlantCV extractor](https://github.com/terraref/extractors-lemnatec-indoor)**
 
 * **Description**: Processes VIS\/NIR images captured at several angles to generate trait metadata. The trait metadata is associated with the source images in Clowder, and uploaded to the configured BETYdb instance.
 
-* **Output**: `/sites/danforth/Level_1/<experiment name>`
+* **Output CSV**: `/sites/danforth/Level_1/<experiment name>`
+
 
