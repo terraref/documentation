@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-    * [About](about.md)
-    * [Workbench Overview](workbench-overview.md)
     * [Data Sources](data-sources.md)
     * [Software](software.md)
 * [Scientific Objectives and Experimental Design](user/scientific-objectives-and-experimental-design.md)
@@ -17,7 +15,7 @@
 * [User Manual](user/user-manual.md)
     * [Data Products](user/data-products.md)
         * [Point Cloud Data](products/point-cloud-data.md)
-        * [Fluorescence intensity imaging](user/fluorescence-intensity-imaging.md)
+        * [Fluorescence intensity imaging](user/products/fluorescence-intensity-imaging.md)
         * [Hyperspectral imaging data](user/hyperspectral-imaging-data.md)
         * [Infrared heat imaging data](user/infrared-heat-imaging-data.md)
         * [Multispectral imaging data](user/multispectral-imaging-data.md)
@@ -61,6 +59,8 @@
     * [Submitting data to BETYdb](submitting-data-to-betydb.md)
     * [Submitting Data to CoGe](submitting-data-to-coge.md)
     * [Developing Clowder Extractors](developing-clowder-extractors.md)
+* [Tutorials](tutorials.md)
+    * [Accessing Sensor Metadata](tutorials/accessing_sensor_information.md)
 * [Appendix](appendix.md)
     * [Collaboration Tools](collaboration_tools.md)
     * [Code of Conduct](code_of_conduct.md)

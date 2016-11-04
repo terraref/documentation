@@ -9,5 +9,8 @@
             "align": "left",
             "variable_name": "pictures"
         }
+    },
+    "variables": {
+        "BETYdb_URL": "https://terraref.ncsa.illinois.edu/bety"
     }
 }

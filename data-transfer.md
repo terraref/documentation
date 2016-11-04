@@ -1,13 +1,14 @@
-![](/assets/Transfer.jpg)#Data Transfer
+![](/assets/Transfer.jpg)\#Data Transfer
 
 ### Maricopa Agricultural Center, Arizona
 
 Environmental Sensors
-https://github.com/terraref/reference-data/issues/26
+[https:\/\/github.com\/terraref\/reference-data\/issues\/26](https://github.com/terraref/reference-data/issues/26)
 
-Using Logstash https://github.com/terraref/computing-pipeline/issues/106
+Using Logstash [https:\/\/github.com\/terraref\/computing-pipeline\/issues\/106](https://github.com/terraref/computing-pipeline/issues/106)
 
-------------------------
+---
+
 ### Automated controlled-environment phenotyping, Missouri
 
 **Transferring images**
@@ -16,18 +17,17 @@ Processes at Danforth monitor the database repository where images captured from
 
 At the start of the transfer process, metadata collected and derived during Danforth's initial processing will be pushed.
 
-The current "beta" Python script can be viewed [on GitHub](https://github.com/terraref/computing-pipeline/blob/master/scripts/PlantcvClowderUploader.py). During transfer tests of data from Danforth's sorghum pilot experiment, 2,725 snapshots containing 10 images each were uploaded in 775 minutes (3.5 snapshots/minute).
+The current "beta" Python script can be viewed [on GitHub](https://github.com/terraref/computing-pipeline/blob/master/scripts/PlantcvClowderUploader.py). During transfer tests of data from Danforth's sorghum pilot experiment, 2,725 snapshots containing 10 images each were uploaded in 775 minutes \(3.5 snapshots\/minute\).
 
 **Transfer volumes**
 
 The Danforth Center transfers approximately X GB of data to NCSA per week.
 
-------------------------
-
-
+---
 
 ### Kansas State University
 
-------------------
+---
 
 ### HudsonAlpha - Genomics
+
