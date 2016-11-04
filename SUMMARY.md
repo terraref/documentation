@@ -36,7 +36,7 @@
         * [Agronomic and Phenotype Data Standards](agronomic-and-phenotype-data-standards.md)
         * [Environmental Data Standards](environmental-data.md)
         * [Genomic Data Standards](genomic-data-standards.md)
-        * Sensor Data Standards
+        * [Sensor Data Standards](sensor-data-standards.md)
         * [Data Standards Committee](data-standards-committee.md)
     * [Directory Structure](directory-structure.md)
     * [Quality Assurance and Quality Control](qaqc.md)
