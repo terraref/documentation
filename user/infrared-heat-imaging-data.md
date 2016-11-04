@@ -16,8 +16,12 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 ### Computational pipeline
 
-[**Multispectral extractor**](https://github.com/terraref/extractors-multispectral)
+**[Multispectral extractor](https://github.com/terraref/extractors-multispectral)**
 
 * **Description**: Raw sensor output is converted to PNG and GeoTIFF format
 * **Output**: `/ua-mac/Level_1/flirIrCamera`
+
+### See also
+
+* [Geospatial information](/user/geospatial-information.md)
 
