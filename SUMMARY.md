@@ -47,7 +47,6 @@
        * [Genomic Data](genomic-data-product.md)
        * [Geographic Coordinate Data](geographic-coordinate-data.md)
        * [Hyperspectral Data](hyperspectral-data.md)
-       * [Meterological Data](meterological-data.md)
        * [NDVI Data](ndvi-data.md)
        * [Plant Height Data](plant-height-data.md)
        * [PSII Fluorescence Data](psii-fluorescence-data.md)
