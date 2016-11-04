@@ -7,6 +7,7 @@
    * [Software](software.md)
 * [Scientific Objectives and Experimental Design](user/scientific-objectives-and-experimental-design.md)
    * [Protocols](user/protocols.md)
+       * protocol_template.md
 * [User Manual](user/user-manual.md)
    * [Data Products](user/data-products.md)
    * [How to Access Data](user/how-to-access-data.md)
