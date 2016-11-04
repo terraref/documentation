@@ -1,36 +1,35 @@
 # Environmental conditions data
 
-CO2, PRI and environmental logger sensors, and lightning, weather, and irrigation data at the Maricopa Site
+Environment conditions data is collected using the Vaisala CO2, Skye PRI, and Thies Clima weather sensors as well as lightning, irrigation, and weather data collected at the Maricopa site.
 
-These extractors process data originating from:- GMP 343 CO2 sensor- Skye PRI sensor- Thies Clima environmental sensors- Maricopa lightning\/irrigation\/weather data
-
-## Data access
+## Raw data access
 
 Data is available via Clowder and Globus:
 
-* Clowder:
+* **Clowder**:
 
   * [co2sensor](https://terraref.ncsa.illinois.edu/clowder/collection/57226fc1e4b082fbf2a94702) collection
   * [priSensor](https://terraref.ncsa.illinois.edu/clowder/collection/5728bb6ae4b03269d7078844) collection
   * [weather](https://terraref.ncsa.illinois.edu/clowder/collection/57e043964f0cb775be5f158c) collection
 
-* Globus:
+* **Globus**:
 
-  * \/ua-mac\/raw\_data\/co2sensor
-  * \/ua-mac\/raw\_data\/priSensor
+  * `/ua-mac/raw_data/co2sensor`
+  * `/ua-mac/raw_data/priSensor`
 
-  * \/ua-mac\/raw\_data\/weather
+  * `/ua-mac/raw_data/weather`
 
-  * \/ua-mac\/raw\_data\/EnvironmentLogger
-  * \/ua-mac\/Level\_1\/EnvironmentLogger
+  * `/ua-mac/raw_data/EnvironmentLogger`
 
-* Sensor information:
+
+* **Sensor information**:
+
   * [Vaisala CO2 Sensor collection](https://terraref.ncsa.illinois.edu/clowder/datasets/581787d94f0ce77b6655b819)
   * [Skye PRI Sensor collection](https://terraref.ncsa.illinois.edu/clowder/datasets/581789524f0ce77b6655ccf9)
   * [Theis Clima Sensor collection ](https://terraref.ncsa.illinois.edu/clowder/datasets/58178a744f0ce77b6655d38a)
 
 
-### Extractor
+### Computational pipeline
 
 This extractor processes environmental logger stream data .JSON files into a netCDF
 
@@ -43,5 +42,5 @@ _Input_
 
 [https:\/\/github.com\/terraref\/computing-pipeline\/issues\/115](https://github.com/terraref/computing-pipeline/issues/115)
 
-
 ### Output
+
