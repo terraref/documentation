@@ -17,7 +17,6 @@
         * [Multispectral imaging data](user/multispectral-imaging-data.md)
         * [Stereo imaging data](user/stereo-imaging-data.md)
         * [Environmental conditions](user/environmental-conditions.md)
-        * [Meteorological data](user/meteorological-data.md)
         * [Trait data](user/trait-data.md)
         * [Genomics data](user/genomics-data.md)
     * [How to Access Data](user/how-to-access-data.md)
@@ -54,7 +53,7 @@
         * [NDVI Data](ndvi-data.md)
         * [Plant Height Data](plant-height-data.md)
         * [PSII Fluorescence Data](psii-fluorescence-data.md)
-        * Geographic Coordinate Data
+        * [Geographic Coordinate Data](geographic-coordinate-data.md)
     * [Sensor Calibration](sensor-calibration.md)
 * [Developer Manual](developer-manual.md)
     * [Submitting data to Clowder](submitting-data-to-clowder.md)
