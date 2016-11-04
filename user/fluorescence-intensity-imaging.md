@@ -8,15 +8,15 @@ Fluorescence intensity data is collected using the PSII camera.
 
 Fluorescence intensity data is available via Clowder and Globus:
 
-* Clowder: _ _[ps2Top collection](https://terraref.ncsa.illinois.edu/clowder/collection/572a7c2be4b03269d70a82f7)
-* Globus path:  `/sites/ua-mac/raw_data/ps2top`
-* Sensor information: [LemnaTec PSII](https://terraref.ncsa.illinois.edu/clowder/datasets/581789834f0ce77b6655cee4)
+* **Clowder**: _ _[ps2Top collection](https://terraref.ncsa.illinois.edu/clowder/collection/572a7c2be4b03269d70a82f7)
+* **Globus path**:  `/sites/ua-mac/raw_data/ps2top`
+* **Sensor information**: [LemnaTec PSII](https://terraref.ncsa.illinois.edu/clowder/datasets/581789834f0ce77b6655cee4)
 
 For details about using this data via Clowder or Globus, please see [Data Access](/how-to-access-data.md) section.
 
 ### Computational pipeline
 
-**[Multispectral extractor](https://github.com/terraref/extractors-multispectral)**
+[**Multispectral extractor**](https://github.com/terraref/extractors-multispectral)
 
 * **Description**: Raw image output is converted to a raster format \(netCDF\/GeoTIFF\) 
 * **Output**: \/sites\/ua\_mac\/Level\_1\/???
