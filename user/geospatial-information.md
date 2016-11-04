@@ -2,15 +2,9 @@
 
 TODO: Describe geospatial information
 
-
-
-
-
 https:\/\/github.com\/terraref\/documentation\/issues\/7
 
 * Describe multiple coordinate refere
-
-
 
 Yan created 3 spatial reference systems based on Gantry, USDA, etc
 
@@ -21,6 +15,4 @@ Geospatial metadata
 NetCDF
 \* Applies to netCDF data
     \* Exif metadata for images
-
-[https:\/\/github.com\/terraref\/documentation\/issues\/7](https://github.com/terraref/documentation/issues/7)
 
