@@ -11,6 +11,8 @@
         * [Protocols KSU](user/protocols-ksu.md)
         * [Protocols MAC](user/protocols-mac.md)
         * [protocol\_template.md](user/protocol_template.md)
+    * [Experimental Design](user/experimental-design.md)
+        * [Experimental Design MAC](user/experimental-design-mac.md)
 * [User Manual](user/user-manual.md)
     * [Data Products](user/data-products.md)
         * [Point Cloud Data](products/point-cloud-data.md)
