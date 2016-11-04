@@ -14,7 +14,7 @@
         * [Fluorescence intensity imaging](user/fluorescence-intensity-imaging.md)
         * [Hyperspectral imaging data](user/hyperspectral-imaging-data.md)
         * [Infrared heat imaging data](user/infrared-heat-imaging-data.md)
-        * Multispectral imaging data
+        * [Multispectral imaging data](user/multispectral-imaging-data.md)
         * Stereo imaging data
         * Environmental conditions
         * Meteorological data
