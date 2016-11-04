@@ -206,7 +206,7 @@ The range.csv should be in the following format:
 And the row.csv should look like:
 
 | row | y_west | y_east |
-| -- | -- | -- |
+| :--- |:--- |:--- |
 | 1 | ... | ... |
 | 2 | ... | ... |
 | 3 | ... | ... |
