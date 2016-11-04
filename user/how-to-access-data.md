@@ -2,17 +2,9 @@
 
 ### Overview
 
-TERRA-REF data is stored in four locations: Globus Online, Clowder, BETYdb, and CoGe. Raw data is transfered to the primary compute pipeline using Globus Online. Data is ingested into Clowder to support exploratory analysis.  The Clowder extractor system is used to transform the data and create derived data products, which are either available via Clowder or published to specialized services, such as BETYdb.
+TERRA-REF data is available through four different approaches: Globus Connect, Clowder, BETYdb, and CoGe. Raw data is transfered to the primary compute pipeline using Globus Online. Data is ingested into Clowder to support exploratory analysis.  The Clowder extractor system is used to transform the data and create derived data products, which are either available via Clowder or published to specialized services, such as BETYdb.
 
 For more information, see the [Architecture Documentation](/architecture-documentation.md).
-
-### Globus Online
-
-Raw data is transferred to the primary TERRA-REF compute pipeline on the [Resource Open Geospatial Education and Research](https://wiki.ncsa.illinois.edu/display/ROGER/ROGER+System+Information?src=contextnavchildmode) \(ROGER\) system using Globus Online. Data is available for Globus transfer via the [Terraref endpoint](https://www.globus.org/app/endpoints/403204c4-6004-11e6-8316-22000b97daec/overview). Direct access to ROGER is restricted.
-
-Use Globus Online when you want to transfer data from the TERRA-REF system for local analysis.
-
-For more information, see Using Globus.
 
 ### Clowder
 
@@ -21,6 +13,14 @@ Clowder is the primary system used to organize, annotate, and process raw data g
 Use Clowder to explore the raw TERRA-REF data, perform exploratory analysis, and develop custom extractors.
 
 For more information, see [Using Clowder](/user/using-clowder.md).
+
+### Globus Connect
+
+Raw data is transferred to the primary TERRA-REF compute pipeline on the [Resource Open Geospatial Education and Research](https://wiki.ncsa.illinois.edu/display/ROGER/ROGER+System+Information?src=contextnavchildmode) \(ROGER\) system using Globus Online. Data is available for Globus transfer via the [Terraref endpoint](https://www.globus.org/app/endpoints/403204c4-6004-11e6-8316-22000b97daec/overview). Direct access to ROGER is restricted.
+
+Use Globus Online when you want to transfer data from the TERRA-REF system for local analysis. 
+
+For more information, see [Using Globus](/user/using-globus.md).
 
 ### **BETYdb**
 
@@ -41,6 +41,7 @@ For more information, see [Using CoGe](/user/using-coge.md).
 * Field protocols
 
 * Calibration protocols
+
 * Field scanner operational log [https:\/\/github.com\/terraref\/computing-pipeline\/issues\/128](https://github.com/terraref/computing-pipeline/issues/128)
 
 

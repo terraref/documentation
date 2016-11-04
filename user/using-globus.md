@@ -1,51 +1,58 @@
 # Using Globus
 
-### About Globus
+### About Globus Connect
 
-The _[Globus](https://www.globus.org/)_ transfer service provides high-performance, secure, file transfer and synchronization between endpoints. It also allows you to securely share your data with other Globus users.
+The [Globus Connect](https://www.globus.org/globus-connect) service provides high-performance, secure, file transfer and synchronization between endpoints. It also allows you to securely share your data with other Globus users.
+
+### Installing Globus
+
+To access data via Globus, you must first have a Globus account and endpoint.
+
+1. Sign up for Globus at [globus.org](https://www.globus.org/)
+
+2. Download and install Globus Connect [Personal](https://www.globus.org/globus-connect-personal) or [Server.](https://www.globus.org/globus-connect-server)
+
 
 ### Requesting Access
 
+To request access to the Terraref endpoint, send your Globus id \(or University email\) to David LeBauer \(dlebauer@illinois.edu\) with 'TERRAREF Globus Access Request' in the subject. You will be notified once you have been granted access.
+
 ### Accessing Data via Globus
 
-Globus provides a way for users to transfer large amounts of data.
+To transfer data to your computer or server:
 
-To configure Globus to transfer data to your computer or server:
+1. Log into Globus [https:\/\/www.globus.org](https://www.globus.org/)
 
-1. sign up for Globus at [globus.org](https://www.globus.org/)
+2. Add an endpoint for the destination \(e.g. your local computer\) [https:\/\/www.globus.org\/app\/endpoints\/create-gcp](https://www.globus.org/app/endpoints/create-gcp)
 
-2. send your Globus id \(or University email\) to David LeBauer \(dlebauer@illinois.edu\) with 'TERRAREF Globus Access Request' in the subject.
+3. Go to the 'transfer files' page: [https:\/\/www.globus.org\/app\/transfer](https://www.globus.org/app/transfer)
 
-3. you will be notified once you have been granted access
-
-4. log into Globus [https:\/\/www.globus.org](https://www.globus.org/)
-
-5. add an endpoint for the destination \(e.g. your local computer\) [https:\/\/www.globus.org\/app\/endpoints\/create-gcp](https://www.globus.org/app/endpoints/create-gcp)
-
-6. download and setup Globus Connect \(on that page\)
-
-7. go to the 'transfer files' page: [https:\/\/www.globus.org\/app\/transfer](https://www.globus.org/app/transfer)
-
-8. select source
+4. Select source
 
   * Endpoint: Terraref
 
-  * Path: Navigate to sensor you want under\/MovingSensor\/
+  * Path: Navigate to the subdirectory that you want.
 
-  * select \(click\) a folder, e.g., at time of writing the latest stereo sensor data is in\/MovingSensor\/stereoTop\/2016-04-07\/2016-04-07\_\_16-47-22-087\/
+  * Select \(click\) a folder
 
-  * select \(highlight\) files that you want to download at destination
+  * Select \(highlight\) files that you want to download at destination
 
-  * select the endpoint that you set up above of your local computer or server
+  * Select the endpoint that you set up above of your local computer or server
 
-  * select the destination folder \(e.g. \/~\/Downloads\/\)
-
-
-
-1. click 'go'
-
-2. files should be on your computer
+  * Select the destination folder \(e.g. \/~\/Downloads\/\)
 
 
-[Globus step-by-step guide](https://docs.globus.org/how-to/get-started/)
+
+1. Click 'go'
+
+2. Files will be transfered to your computer
+
+
+### See also
+
+* Globus [Getting Started](https://docs.globus.org/how-to/get-started/)
+* [Transfer API Documentation](https://docs.globus.org/api/transfer/)
+
+
+
 
