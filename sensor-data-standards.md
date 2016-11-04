@@ -18,10 +18,17 @@ Runtime metadata for each sensor run is stored in the `metadata.json` files in e
 
 Additional reference data is available for some sensors:
 
+* Factory calibration data for the LabSphere and SphereOptics calibration targets.
+
+* Relative spectral response \(RSR\) information for sensors
 * Calibration data for the environmental logger
 
 * Dark\/white reference data for the SWIR and VNIR sensors.
 
 
 ### Standardization Efforts
+
+The TERRA-REF team is currently investigating available standards for the representation of sensor information.  Preliminary work has been done using OGC SensorML vocabularies in a custom JSON-LD context.
+
+
 
