@@ -44,7 +44,6 @@
    * [Data Collection](data-collection.md)
    * [Data Product Creation](data-product-creation.md)
        * [Downwelling Spectral Radiances Data](downwelling-spectral-radiances-data.md)
-       * [Environmental Data](environmental-data-product.md)
        * [Genomic Data](genomic-data-product.md)
        * [Geographic Coordinate Data](geographic-coordinate-data.md)
        * [Hyperspectral Data](hyperspectral-data.md)
