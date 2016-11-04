@@ -16,10 +16,10 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 ### Computational pipeline
 
-**[Multispectral extractor](https://github.com/terraref/extractors-multispectral)**
+[**Multispectral extractor**](https://github.com/terraref/extractors-multispectral)
 
 * **Description**: Raw image output is converted to a raster format \(netCDF\/GeoTIFF\) 
-* **Output**: \/sites\/ua\_mac\/Level\_1\/???
+* **Output**: `/sites/ua_mac/Level_1/ps2top`
 
 ### Details
 
@@ -30,5 +30,4 @@ Right now the LED on timespan is 1s thus the first 50 frames are taken with LEDs
 ### See also
 
 * [Geospatial information](/user/geospatial-information.md)
-
 
