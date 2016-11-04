@@ -20,6 +20,7 @@
         * [Trait data](user/trait-data.md)
         * [Genomics data](user/genomics-data.md)
         * [Geospatial information](user/geospatial-information.md)
+        * [Sensor information](user/sensor-information.md)
     * [How to Access Data](user/how-to-access-data.md)
         * [Using Clowder](user/using-clowder.md)
         * [Using Globus](user/using-globus.md)
