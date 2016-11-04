@@ -9,6 +9,7 @@ Multispectral data is collected using the Skye NDVI and PRI sensors. The normali
 Data is available via Clowder and Globus:
 
 * **Clowder**:
+
   * [ndviSensor collection](https://terraref.ncsa.illinois.edu/clowder/collection/5728bb50e4b03269d7078786)
   * [priSensor collection](https://terraref.ncsa.illinois.edu/clowder/collection/5728bb6ae4b03269d7078844)
 
@@ -27,8 +28,12 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 ### Computational pipeline
 
-**[Multispectral extractor](https://github.com/terraref/extractors-multispectral)**
+[**Multispectral extractor**](https://github.com/terraref/extractors-multispectral)
 
 * **Description:** NDVI binary files are converted to png thumbnail + geoTIFF\/netCDF
-* **Output**: ?
+* **Output**: `/sites/ua-mac/Level_1/priSensor`
+
+### See also
+
+* [Geospatial information](/user/geospatial-information.md)
 

@@ -56,3 +56,6 @@ Note: Assume left --> right X axis for `Gx`; need to do `Gx' = -Gx` to create X 
 
 # References
 https://github.com/terraref/reference-data/issues/51
+
+# Rcode
+https://github.com/terraref/computing-pipeline/blob/master/scripts/geospatial/field_scanner_plots.R
