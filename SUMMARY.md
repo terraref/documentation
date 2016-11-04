@@ -17,7 +17,7 @@
         * [Multispectral imaging data](user/multispectral-imaging-data.md)
         * [Stereo imaging data](user/stereo-imaging-data.md)
         * [Environmental conditions](user/environmental-conditions.md)
-        * Meteorological data
+        * [Meteorological data](user/meteorological-data.md)
         * Trait data
         * Genomics data
     * [How to Access Data](user/how-to-access-data.md)
