@@ -2,11 +2,39 @@
 
 ##Field Scanner
 
- **Experimental Design**: 7 experiments were conducted during the sorghum first-year planting.
+**Experimental Design**:
+
+**Data Collection**
 
 
 
+_________________________
 
+##Tractor
+
+
+
+**Experimental Design**
+
+
+**Data Collection**
+
+
+______________________________
+####UAV
+
+**Experimental Design**
+
+
+**Data Collection**
+
+_______________
+
+##Manually Collected Field Data
+
+Data collected manually to verify the sensor-collected data.
+
+**Experimental Design**: 7 experiments were conducted during the sorghum first-year planting.
 
 |Experiment|Experimental Design|
 | --- | --- |
@@ -25,76 +53,7 @@ PI=photoperiod insensitive PS=photoperiod sensitive MPS= moderately photoperiod 
 
 
 **Data Collection**
-_________________________
-##Tractor
 
-**Experimental Design**
-
-
-
-
-
-
-
-
-
-
-
-**Data Collection**
-
-
-
-
-
-
-
-
-
-####UAV
-
-**Experimental Design**
-
-
-
-
-
-
-
-
-
-
-
-**Data Collection**
-
-
-
-
-
-
-
-
-
-
-_______________
-##Manually Collected Field Data
-
-Data will be collected manually to verify the sensor-collected data.
-
-
-
-**Experimental Design**
-
-
-
-
-
-
-
-
-
-
-
-**Data Collection**
 
 
 
