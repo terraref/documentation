@@ -28,3 +28,4 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 ### Extractor
 
+https://github.com/terraref/extractors-multispectral
