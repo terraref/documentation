@@ -22,6 +22,7 @@ Data is available via Clowder and Globus:
   * `/ua-mac/raw_data/EnvironmentLogger`
 
 
+
 * **Sensor information**:
 
   * [Vaisala CO2 Sensor collection](https://terraref.ncsa.illinois.edu/clowder/datasets/581787d94f0ce77b6655b819)
@@ -31,16 +32,9 @@ Data is available via Clowder and Globus:
 
 ### Computational pipeline
 
-This extractor processes environmental logger stream data .JSON files into a netCDF
+[**Environmental Logger**](https://github.com/terraref/extractors-environmental)** extractors. **
 
-_Input_
+* **Description:** EnvironmentalLogger raw files are converted to netCDF.
 
-* Evaluation is triggered whenever a file is added to a dataset - Checks whether the file is an _environmentlogger.json file \_Output_
-
-* The dataset containing the .JSON file will get a corresponding .nc netCDF file
-
-
-[https:\/\/github.com\/terraref\/computing-pipeline\/issues\/115](https://github.com/terraref/computing-pipeline/issues/115)
-
-### Output
+* **Output**: `/ua-mac/Level_1/EnvironmentLogger`
 
