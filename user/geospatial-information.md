@@ -48,13 +48,14 @@ Gx = ( (My/cy - ay/cy) - (Mx/cx - ax/cx) ) / (by/cy - bx/cx)
 Gy = ( (My/by - ay/by) - (Mx/bx - ax/bx) ) / (cy/by - cx/bx)
 ```
 
-*MAC -> EPSG:4326*  
-We do a linear shifting to convert MAC coordinates in to EPSG:4326
+*MAC -> EPSG:4326 USDA*  
+We do a linear shifting to convert MAC coordinates in to EPSG:4326 USDA
 
 ```
 Latitude: Uy = My - 0.000015258894
 Longitude: Ux = Mx + 0.000020308287
 ```
+
 
 
 **Sensors with geospatial metadata**
