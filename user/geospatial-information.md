@@ -189,3 +189,5 @@ There are 864 (54*16) plots in total  and the plot layout is described in the [p
 
 
 The boundary of each plot changes slightly each planting season. The scanalyzer coordinates of each row and each range of the two planting seasons is available in the [field book]( https://docs.google.com/spreadsheets/d/1eQSeVMPfrWS9Li4XlJf3qs2F8txmddbwZhjOfMGAvt8/edit#gid=883764630). The scanalyzer coordinates of each plot are transformed into the (EPSG:4326) USDA coordinates using the equations above. After that, a polygon of each plot can be generated using ST_GeomFromText funtion and inserted into the BETYdb through SQL statements.
+
+An [Rcode](https://github.com/terraref/computing-pipeline/blob/master/scripts/geospatial/field_scanner_plots.R) is available for generating SQL statements, which takes range.csv and row.csv as an standard input.
