@@ -8,7 +8,7 @@
         * [Protocols Field Scanner](user/protocols-field-scanner.md)
         * [Protocols Manual Field Data](user/protocols-manual.md)
         * [Protocols Phenotractor](user/protocols-tractor.md)
-        * [protocol\_template.md](user/protocol_template.md)
+        * [Protocol Template](user/protocol_template.md)
         * [Protocols UAV](user/protocols-UAV.md)
     * [Experimental Design](user/experimental-design.md)
         * [Experimental Design MAC](user/experimental-design-mac.md)
