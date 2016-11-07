@@ -1,2 +1,2 @@
-# Protocol for Genomics
+# Genomics Pipeline Protocol
 
