@@ -1,3 +1,5 @@
+#Glossary
+
 **Accession** - plant materials collected from a particular area. 
 
 **Active reflectance** - measurement of light originating from a sensor that reflects off of an object and back to the sensor
