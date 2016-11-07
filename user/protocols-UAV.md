@@ -1,2 +1,14 @@
 # UAV Sensor Protocols
-In Progress
+    Authors:
+
+### Abstract
+
+### Materials
+
+### Equipment
+
+### Procedure
+
+### Recipes
+
+### References
