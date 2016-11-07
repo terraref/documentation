@@ -5,7 +5,7 @@ The following table lists available TERRA-REF data products. The table will be u
 | Data product | Category | Description |
 | --- | --- | --- |
 | [3D point cloud data](/products/point-cloud-data.md) | Imaging | 3D point cloud data \(LAS\) of the field constructed from the Fraunhofer 3D scanner output \(PLY\). |
-| [Fluorescence intesity imaging](/user/fluorescence-intensity-imaging.md) | Imaging | Fluorescence intensity imaging is collected using the PSII camera. Raw camera output is converted to \(netCDF\/GeoTIFF?\) |
+| [Fluorescence intesity imaging](/user/products/fluorescence-intensity-imaging.md) | Imaging | Fluorescence intensity imaging is collected using the PSII camera. Raw camera output is converted to \(netCDF\/GeoTIFF?\) |
 | [Hyperspectral imaging data](/user/hyperspectral-imaging-data.md) | Imaging | Hyperspectral imaging data from the SWIR and VNIR sensors are converted to netCDF output using the hyperspectral extractor. |
 | [Infrared heat imaging data](/user/infrared-heat-imaging-data.md) | Imaging | Infrared heat imaging data is collected using FLIR sensor. Raw output is converted to GeoTIFF using the FLIR extractor. |
 | [Multispectral imaging data](/user/multispectral-imaging-data.md) | Imaging | Multispectral imaging data is collected using the PRI and NDVI sensors. Raw output is converted to timeseries data using the multispectral extractor. |
