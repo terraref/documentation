@@ -14,7 +14,9 @@ To request access to BETYdb, register on the[ BETYdb web site]({{book.BETYdb_URL
 
 ### Data organization
 
-The primary BETYdb [User's Guide ](/BETYdb User's Guide)is largely relevant here, noting the following differences:
+The primary BETYdb [Data Access
+Guide](https://pecan.gitbooks.io/betydb-data-access/content/) is
+largely relevant here, noting the following differences:
 
 * Genotypes are stored in the `cultivars` table
 
@@ -67,11 +69,7 @@ locations on the map.
 
 ### See also
 
-* [BETYdb User's Guide](https://pecan.gitbooks.io/betydb-data-access/content/)
-
-* [More information on using BETYdb](https://pecan.gitbooks.io/betydb-data-access/content/)
-
-* [Extracting information from figures](https://pecan.gitbooks.io/betydbdoc-dataentry/content/Extracting%20Data%20From%20Figures.html)
+* [BETYdb Data Access Guide](https://pecan.gitbooks.io/betydb-data-access/content/)
 
 ---
 Produced with Gitbook version {{gitbook.version}}
