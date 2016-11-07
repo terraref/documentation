@@ -33,6 +33,7 @@
    * [Data Formatting](user/data-formatting.md)
    * [What Data is Available](user/what-data-is-available.md)
    * [Data Use Policy](user/data_release_policy.md)
+   * [Manuscripts and Authorship Guidelines](manuscripts-and-authorship.md)
    * [Release / reprocessing schedule](user/release_schedule.md)
    * [User Tutorials](user/user-tutorials.md)
 * [Architecture Documentation](architecture-documentation.md)
