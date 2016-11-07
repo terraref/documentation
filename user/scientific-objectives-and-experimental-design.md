@@ -23,9 +23,7 @@ The [*Lemnatec Scanalyzer Field Gantry System*](http://www.lemnatec.com/products
 Twelve sensors are attached to the gantry system. Detailed information for each sensor including name, variable measured, and field of view are [*available here*](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=1886254108&single=true&widget=true&headers=false). The planned sensor missions and their objectives for 2016 are [*available here*](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=2092320800&single=true&widget=true&headers=false).
 
 -------------------
-### Automated controlled-environment phenotyping, Missouri
-
-Experimental design, lines
+### Controlled-environment phenotyping, Missouri
 
 The Scanalyzer 3D platform consists of multiple digital imaging chambers connected to the Conviron growth house by a conveyor belt system, resulting in a continuous imaging loop. Plants are imaged from the top and/or multiple sides, followed by digital construction of images for analysis.
 
