@@ -35,7 +35,6 @@
    * [Data Use Policy](user/data_release_policy.md)
    * [Manuscripts and Authorship Guidelines](manuscripts-and-authorship.md)
    * [Release / reprocessing schedule](user/release_schedule.md)
-   * [User Tutorials](user/user-tutorials.md)
 * [Architecture Documentation](architecture-documentation.md)
    * [Data Standards](data-standards.md)
        * [Agronomic and Phenotype Data Standards](agronomic-and-phenotype-data-standards.md)
