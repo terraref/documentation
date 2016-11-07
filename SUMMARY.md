@@ -64,7 +64,7 @@
    * [Using Sensor Metadata](tutorials/accessing_sensor_information.md)
    * [Using Phenotype Data](tutorials/phenotype_analysis.md)
 * [Appendix](appendix.md)
-   * [Collaboration Tools](collaboration_tools.md)
    * [Code of Conduct](code_of_conduct.md)
+   * [Collaboration Tools](collaboration_tools.md)
    * [Glossary](glossary.md)
 
