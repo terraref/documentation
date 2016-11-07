@@ -24,9 +24,7 @@ In progress
 -------------------
 ### Automated controlled-environment phenotyping, Missouri
 
-Experimental design, lines
-
-The Scanalyzer 3D platform consists of multiple digital imaging chambers connected to the Conviron growth house by a conveyor belt system, resulting in a continuous imaging loop. Plants are imaged from the top and/or multiple sides, followed by digital construction of images for analysis.
+The Scanalyzer 3D platform at the [Bellwether Foundation Phenotyping Facility at the Donald Danforth Plant Science Center ](https://www.danforthcenter.org/scientists-research/core-technologies/phenotyping)consists of multiple digital imaging chambers connected to the Conviron growth house by a conveyor belt system, resulting in a continuous imaging loop. Plants are imaged from the top and/or multiple sides, followed by digital construction of images for analysis.
 
 - RGB imaging allows visualization and quantification of plant color and structural morphology, such as leaf area, stem diameter and plant height.
 
