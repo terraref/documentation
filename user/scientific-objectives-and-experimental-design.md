@@ -16,7 +16,7 @@ Twelve sensors are attached to the  system. Detailed information for each sensor
 The PhenoTractor at MAC is fitted with a sensor frame that supports a real time kinematic (RTK) satellite navigation antenna, a sonar transducer, an infrared temperature (IRT) scanner, and [three GreenSeeker crop sensing systems](https://www.gitbook.com/book/terraref/terraref-documentation/edit).
 
 #####UAV
-In progress. 
+Coming 2017 
 
 #####Manually collected field data
 In progress
@@ -39,11 +39,12 @@ The LemnaTec software suite is used to program and control the Scanalyzer platfo
 
 ### Kansas State University
 
-- Tractor
+- **PhenoTractor** - Coming 2017
 
-- UAV
+- **UAV** - Coming 2017
 
-- Manually collected field data
+- **Manually collected field data** - Coming 2017
 
 -------------------
 ### HudsonAlpha - Genomics
+ Coming 2017
