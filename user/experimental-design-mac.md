@@ -26,7 +26,7 @@
 PI=photoperiod insensitive PS=photoperiod sensitive MPS= moderately photoperiod sensitive
 
 ____________________________
-###Field Scanner
+###Lemnatec Scanalyzer Field System
 | **Location**   | **Experiment**     | **Reps** | **Treatments**                                                                      | **Experimental design**                              |
 |----------------|--------------------|----------|-------------------------------------------------------------------------------------|------------------------------------------------------|
 | Gantry         | BAP                | 3        | 30 lines (12 PS, 12 sweet, 6 grain)                                                 | RCB with sorghum types nested in groups              |
