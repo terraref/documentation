@@ -1,7 +1,6 @@
 #Experimental Design for Maricopa Agricultural Center, Arizona
 
-###
-Manually Collected Field Data
+###Manually Collected Field Data
 
 
 7 experiments were conducted during the sorghum first-year planting.
