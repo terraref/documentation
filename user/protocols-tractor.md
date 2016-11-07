@@ -11,11 +11,17 @@
 
 ### Sensors
 
-![Phenotractor Sensors](./assets/phenotractor/phenotractor_sensors.jpg)
+#### Sonar Transducer
 
-![Phenotractor Sensor Diagaram](./assets/phenotractor/phenotractor_sensor_diagram.jpg)
+#### GreenSeeker Multispectral Radiometer
 
-![Phenotractor Sensors Offset](./assets/phenotractor/phenotractor_sensor_offset.jpg)
+#### Infrared Thermal Sensor
+
+<img src="../assets/phenotractor_sensors.JPG" width=350>
+
+<img src="../assets/phenotractor_sensor_diagram.JPG" width=350>
+
+<img src="../assets/phenotractor_sensor_offset.JPG" width=350>
 
 ## Methods
 
