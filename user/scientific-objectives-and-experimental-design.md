@@ -6,9 +6,20 @@ Three hundred thirty one [lines were planted in 2016](https://docs.google.com/sp
  - [Experiments planned for 2016](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=890543376&single=true&widget=true&headers=false)
  - Field layouts [under the gantry](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=1231399646&single=true&widget=true&headers=false) and [west of the gantry](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=728631369&single=true&widget=true&headers=false) in 2016.
 
-The [Lemnatec Scanalyzer Field Gantry System](http://www.lemnatec.com/products/hardware-solutions/scanalyzer-field/) is the largest field crop analytics robot in the world. This high-throughput phenotyping field-scanning robot has a 30-ton steel gantry that autonomously moves along two 200-meter steel rails while continuously imaging the crops growing below it with a diverse array of [cameras and sensors](http://terraref.org/articles/lemnatec-scanalyzer-field-sensors/).
+#####Automated Field Scanner System
 
-Twelve sensors are attached to the gantry system. Detailed information for each sensor including name, variable measured, and field of view are [available here](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=1886254108&single=true&widget=true&headers=false). The planned sensor missions and their objectives for 2016 are [available here](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=2092320800&single=true&widget=true&headers=false).
+The [Lemnatec Scanalyzer Field Scanner System](http://www.lemnatec.com/products/hardware-solutions/scanalyzer-field/) is the largest field crop analytics robot in the world. This high-throughput phenotyping field-scanning robot has a 30-ton steel gantry that autonomously moves along two 200-meter steel rails while continuously imaging the crops growing below it with a diverse array of [cameras and sensors](http://terraref.org/articles/lemnatec-scanalyzer-field-sensors/).
+
+Twelve sensors are attached to the  system. Detailed information for each sensor including name, variable measured, and field of view are [available here](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=1886254108&single=true&widget=true&headers=false). The planned sensor missions and their objectives for 2016 are [available here](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=2092320800&single=true&widget=true&headers=false).
+
+#####Phenotractor
+The PhenoTractor is fitted with a sensor frame that supports a real time kinematic (RTK) satellite navigation antenna, a sonar transducer, an infrared temperature (IRT) scanner, and [three GreenSeeker crop sensing systems](https://www.gitbook.com/book/terraref/terraref-documentation/edit).
+
+#####UAV
+In progress. 
+
+#####Manually collected field data
+In progress
 
 -------------------
 ### Automated controlled-environment phenotyping, Missouri
@@ -34,7 +45,7 @@ The LemnaTec software suite is used to program and control the Scanalyzer platfo
 
 - UAV
 
-- Field Collected data
+- Manually collected field data
 
 -------------------
 ### HudsonAlpha - Genomics
