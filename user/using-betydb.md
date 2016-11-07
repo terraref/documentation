@@ -6,15 +6,21 @@ SearchBox: /assets/textsearch.png
 
 ### About BETYdb
 
-[BETYdb]({{book.BETYdb_URL}}) is used to manage and distribute agricultural and ecological data. It contains phenotype and agronomic data including plot locations and other geolocations of interest \(e.g. fields, rows, plants\).
+[BETYdb]({{book.BETYdb_URL}}) is used to manage and distribute agricultural and
+ecological data. It contains phenotype and agronomic data including plot
+locations and other geolocations of interest \(e.g. fields, rows, plants\).
 
 ### Requesting access
 
-To request access to BETYdb, register on the[ BETYdb web site]({{book.BETYdb_URL}}). You will be notified once you have been granted access.
+To request access to BETYdb, register on the[ BETYdb web
+site]({{book.BETYdb_URL}}). You will be notified once you have been granted
+access.
 
 ### Data organization
 
-The primary BETYdb [User's Guide ](/BETYdb User's Guide)is largely relevant here, noting the following differences:
+The primary BETYdb [Data Access
+Guide](https://pecan.gitbooks.io/betydb-data-access/content/) is
+largely relevant here, noting the following usages:
 
 * Genotypes are stored in the `cultivars` table
 
@@ -25,11 +31,16 @@ The primary BETYdb [User's Guide ](/BETYdb User's Guide)is largely relevant here
 
 ### Using the Advanced Search box
 
-Most tables in BETYdb have search boxes. We describe below how
-to query these tables and download the results as CSV, JSON, or XML. The
-Advanced Search box is the easiest way to download summary datasets designed to
-have enough information \(location, time, species, citations\) to be useful for a
-wide range of use cases.
+Most tables in BETYdb have search boxes. We describe below how to use the
+_Advanced Search_ box to query data from these tables and download the results
+as a CSV file.
+
+The Advanced Search box is the easiest way to download summary datasets designed
+to have enough information \(location, time, species, citations\) to be useful
+for a wide range of use cases.
+
+(For more information about querying data from specific tables, see the BETYdb
+[Data Access Guide](https://pecan.gitbooks.io/betydb-data-access/content/).)
 
 ### Using the Search Box
 
@@ -67,11 +78,7 @@ locations on the map.
 
 ### See also
 
-* [BETYdb User's Guide](https://pecan.gitbooks.io/betydb-data-access/content/)
-
-* [More information on using BETYdb](https://pecan.gitbooks.io/betydb-data-access/content/)
-
-* [Extracting information from figures](https://pecan.gitbooks.io/betydbdoc-dataentry/content/Extracting%20Data%20From%20Figures.html)
+* [BETYdb Data Access Guide](https://pecan.gitbooks.io/betydb-data-access/content/)
 
 ---
 Produced with Gitbook version {{gitbook.version}}

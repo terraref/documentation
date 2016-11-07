@@ -1,5 +1,9 @@
 #Experimental Design for Maricopa Agricultural Center, Arizona
 
+- [Field Scanner Plot layout](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=1066629008)
+- [West of Field Scanner Plot layout](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=193038411)
+- [Plot plan](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=796817704)
+
 ###Manually Collected Field Data
 
 
@@ -23,6 +27,17 @@ PI=photoperiod insensitive PS=photoperiod sensitive MPS= moderately photoperiod 
 
 ____________________________
 ###Field Scanner
+| **Location**   | **Experiment**     | **Reps** | **Treatments**                                                                      | **Experimental design**                              |
+|----------------|--------------------|----------|-------------------------------------------------------------------------------------|------------------------------------------------------|
+| Gantry         | BAP                | 3        | 30 lines (12 PS, 12 sweet, 6 grain)                                                 | RCB with sorghum types nested in groups              |
+| Gantry         | Night illumination | 3        | 5 illumination levels x 2 PS lines (with check line separating illumination levels) | RCB                                                  |
+| Gantry         | Row \#             | 3        | 6 adjacent plot scenarios: 3 lines (forage, sweet, PS) x 2 sides (east or west)     | RCB but not balanced with all treatments in all reps |
+| Gantry         | Biomass            | 3        | 5 sampling times x 3 lines (forage, sweet, PS)                                      | RCB with sampling time as a repeated measure         |
+| Gantry         | Density            | 3        | 3 densities (5, 15, 30 cm) x 3 lines (forage, sweet, PS)                            | RCB                                                  |
+| Gantry         | RILs               | 3        | 130 RILs plus 10 repeats of a single line/rep                                       | Incomplete Block (row-column alpha lattice design)   |
+| Gantry         | Uniformity         | 17       | 2 lines (forage, PS)                                                                | None - Same line planted in single range             |
+| West of gantry | BAP                | 1        | 30 lines (12 PS, 12 sweet, 6 grain)                                                 | None - single rep planted for observation            |
+| West of gantry | RILs               | 3        | 60 RILs                                                                             | Incomplete Block (row-column alpha lattice design)   |
 
 _________________________
 
