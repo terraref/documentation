@@ -11,7 +11,11 @@
 
 ### Sensors
 
-![Phenotractor](./assets/phenotractor.png)
+![Phenotractor Sensors](./assets/phenotractor/phenotractor_sensors.jpg)
+
+![Phenotractor Sensor Diagaram](./assets/phenotractor/phenotractor_sensor_diagram.jpg)
+
+![Phenotractor Sensors Offset](./assets/phenotractor/phenotractor_sensor_offset.jpg)
 
 ## Methods
 
