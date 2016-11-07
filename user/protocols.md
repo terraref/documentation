@@ -1,23 +1,14 @@
 # Protocols
 
 
-## Kansas State University
+### Kansas State University
 
-
-
-####Tractor - coming 2017
-
-
-####UAV - coming 2017
-
-
+- Tractor - coming 2017
+- UAV - coming 2017
 
 ------------------
 
-
-
-## HudsonAlpha - Genomics
-
+### HudsonAlpha - Genomics
 
 
 coming 2017
