@@ -7,15 +7,15 @@
 
 ## Materials
 
-### Tractor
+- Tractor
 
-### Sensors
+- Sensors
 
-#### Sonar Transducer
+  - Sonar Transducer
 
-#### GreenSeeker Multispectral Radiometer
+  - GreenSeeker Multispectral Radiometer
 
-#### Infrared Thermal Sensor
+  - Infrared Thermal Sensor
 
 <img src="../assets/phenotractor_sensors.JPG" width=350>
 
@@ -25,11 +25,11 @@
 
 ## Methods
 
-### Georeferencing
+- Georeferencing
 
-#### Computing sensor location from sensor offset + tractor direction
+- Computing sensor location from sensor offset + tractor direction
 
-### Calibration
+- Calibration
 
 ## References
 
