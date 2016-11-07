@@ -1,9 +1,16 @@
 {
     "plugins": [
-        "mathjax",
-        "tufte",
-        "layout",
-        "comment"
+        "footnote-string-to-number",
+        "image-captions"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "image-captions": {
+            "caption": "_CAPTION_",
+            "align": "left",
+            "variable_name": "pictures"
+        }
+    },
+    "variables": {
+        "BETYdb_URL": "https://terraref.ncsa.illinois.edu/bety"
+    }
 }

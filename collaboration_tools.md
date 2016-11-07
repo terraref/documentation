@@ -18,8 +18,6 @@ These are handy off-the shelf tools with nice user-interfaces, but will not be i
 * **OSF** central portal to Github, Box, Google Drive and data archiving 
 
 
-## Details:
-
 ## GitHub 
 
 ### TERRA Ref sites on Github:
