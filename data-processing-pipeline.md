@@ -1,99 +1,31 @@
-# Data Processing Pipeline
+# Data processing pipeline
+
+![](/assets/pipeline.jpg)
+
+### Maricopa Agricultural Center, Arizona
+
+---
+
+### Automated controlled-environment phenotyping, Missouri
+
+![](/assets/terraref-danforth-pipline-v3.jpg)
+
+At two points in the processing pipeline, metadata derived from collected data is inserted into BETYdb:
+
+* At the start of the transfer process, metadata collected and derived during Danforth's initial processing will be pushed.
+* After transfer to NCSA, extractors running in Clowder will derive further metadata that will be pushed. This is a subset of the metadata that will also be stored in Clowder's database. The complete metadata definitions are still being determined, but will likely include:
+
+  * plant identifiers
+  * experiment and experimenter
+  * plant age, date, growth medium, and treatment
+  * camera metadata
 
 
-## Pipeline overview
+---
 
-1.	Calibration, Pre-processing
-1.	Transfer data from sensor to storage
-1.	Automated initial QA/QC 
-1.	messages to operators
-1.	Apply metadata (geospatial, environmental, biological, time, calibration settings)
-1.	Geospatial (ortho-rectification) and image stitching
-1.	Import to array database
-1.	Phenotype extraction pipeline
-1.	Import phenotypes and metadata to database
-1.	Store files
-1.	Post summaries to web:
-1.	 Generate and update daily, monthly and seasonal summaries of data
-  *	Post logs, QA/QC, data summaries, and visualizations to the web
-  *	Plots for QA/QC
-  *	Publicize availability 
-1.	Daily visual inspection by engineers and system operators
-1.	Weekly summaries inspected by scientists
-1.	Post-season quality control and re-analysis with standard algorithms
+### Kansas State University
 
-## Data Transfer Pipelines
+---
 
-We designed and initiated implementation and testing of data transfer pipelines from the two LemnaTec Systems. 
-These will differ slightly because of the much larger volume of data being produced at MAC. 
-To support the MAC system, we have deployed a 70TB (two week) cache server at MAC.
-
-### Maricopa Agricultural Center
-
-MAC data transfer - Data will be continually transferred from the Lemnatec Gantry to the 70TB Cache Server at MAC. 
-From there, it will be pushed via Globus to the 1PB allocation on the ROGER supercomputer at NCSA.  
-We estimate it will take twelve hours to transfer five TB (upper end of estimated collection rate).  
-Data will be stored on the ROGER GPFS file system in a MongoDB database.
-
-### Danforth
-
-Data will be pushed using Globus from the Danforth center to land on the ROGER System at NCSA.
-
-* apollo server 
-
-### Globus
-
-#### Summary
-
-#### Installation
-
-## Workflow Management
-
-### Clowder
-
-Clowder is the workflow manager. 
-Clowder enables data-sets to be operated on by any tool that can be deployed on a server, virtual machine, or Docker container, including web-based computational and analytical tools such as web-based ipython and RStudio as well as purely computational tools.  
-
-The system consists of a web-based controller and a set of data adapters that manage importing data into the tool directly from clouder as well as from web-based data resources and repositories.   
-The controller manages the allocation of data volumes and connection to any Docker based tool though a setup process that negotiates  parameter such as identity, credentials, access mechanisms, and any other parameters required by the data adapter to transfer data.   
-Data source modules have been developed for clowder, globus, http, git, rsync, and sshfs.   
-The system is extensible dynamically through the creation and publishing of simple data adapter modules and JSON descriptions or required parameters.
-
-Clowder allows both local and remote computational resources to be applied to datasets directly from the dataset view.
-Computational resource sites can offer tool-based services simply, by running the controller container and registering available tools in the distributed system.
-
-### Sensor Data Pipeline
-
-#### Overview
-
-A variety of data is collected about each snapshot directly from the Lemnatec systems including sensor orientation, timing, and plant identifiers. 
-These data are transferred directly from the Lemnatec database and associated with the file on upload in Clowder, so that Clowder collections can be queried accordingly. 
-Agronomically relevant metadata such as cultivars and treatments will be loaded into BETYdb, a searchable phenomics data repository.
-
-The image metadata extractor will capture embedded EXIF metadata from image files to describe technical aspects such as resolution, color format and camera model. These data are associated in Clowder with the file itself in order to support querying and filtering of image collections by these attributes. 
-This metadata content is distinct from the scientific metadata described above.
-
-#### PlantCV
-
-We have deployed a PlantCV extractor to extract tabular statistical metadata from images generated by the indoor Lemnatec system at Danforth. 
-This is a prototype for the pipelines that we will develop for the MAC Lemnatec Gantry.
- 
-The PlantCV extractor is implemented using event-driven programming model and HPC- and cloud-based computation to provide high throughput computational capabilities for processing massive TerraRef input images. 
-The prototype extractor is integrated in the Clowder data management system in order to respond to data upload through manual or batch uploads (via user interface or REST API, respectively) in realtime.  
-The PlantCV extractor is installed with all dependencies (e.g., OpenCV 2.4.8, PlantCV in github) as a virtualized server for scalable deployment. 
-The ROGER supercomputer can provide up to 500 cores simultaneously for PlantCV computation.
-
-PlantCV example: http://141.142.208.144/clowder/files/5642094fe4b086fa6db90fe5
-
-
-### Genomics Pipeline
-
-#### Overview
-
-#### CoGe
-
-In collaboration with Mike Gore and the genomics component of the reference data committee, we have identified and tested the CoGe web-based pipeline that has been developed Eric Lyons at the University of Arizona. 
-We have conducted a single run of the pipeline with sample datasets (https://genomevolution.org/r/j8c7). 
-Our next step will be to deploy a Clowder extractor that uses the main instance of CoGe running at UA in Eric Lyon’s lab. 
-If the computing demands increase beyond current capacity, we will either deploy CoGe or the compute-intensive components of the pipeline (e.g. de-novo alignment) on NCSA HPC resources. 
+### HudsonAlpha - Genomics
 

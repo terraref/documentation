@@ -281,6 +281,7 @@ Recommended by MIAPPE for general metadata, timing and location, and experimenta
 ### Phenotype and Attribute Ontology (PATO)
 
 Phenotypic qualities (properties).
+
 Recommended in MAIPPE for use in the observed values field.
 
 *See also:*
@@ -333,15 +334,39 @@ Recommended by MIAPPE for experimental design.
 * [Minimum Information about a Plant Phenotyping Experiment](http://cropnet.pl/phenotypes/wp-content/uploads/2016/04/MIAPPE.pdf)
 </small>
 
-
 ### Units of Measurement Ontology (UO)
 
-Metric units for PATO.
-Mentioned in relation to the Agronomy Ontology (AGRO), but PATO is also recommended by MIAPPE for observed values fields
+Metric units for PATO. This OBO ontology defines a set of prefixes (giga, hecto, kilo, etc) and units (area/square meter, volume/liter, rate/count per second, temperature/degree Fahrenheit). The two top-level classes are prefixes and units.
+
+UO is mentioned in relation to the Agronomy Ontology (AGRO), but PATO is also recommended by MIAPPE for observed values fields
+
+While there are general standard units, it seems unlikely that these would ever be gathered in a single place.  It seems more useful to define a high-level ontology to represent a "unit" and allow domains and communities to publish their own authoritative lists.
 
 ### XEML Environment Ontology (XEO) 
 
 Created to help plant scientists in documenting and sharing metadata describing the abiotic environment.
+
+
+### DDI-RDF Discovery Vocabulary
+
+### Data Catalog Vocabulary (DCAT)
+
+The [Data Catalog Vocabulary](https://www.w3.org/TR/vocab-dcat/) is an RDF vocabulary intended to facilitate interoperability between data catalogs published on the Web. DCAT defines a set of classes including Dataset, Catalog, CatalogRecord, and Distribution. 
+
+### Data Cite Ontology 
+
+The [DataCite Ontology](http://www.sparontologies.net/ontologies/datacite/source.html)
+
+### Data Cube Vocabulary
+
+The [Data Cube Vocabulary](https://www.w3.org/TR/vocab-data-cube/) is an RDF-based model for publishing multi-dimentional datasets, based in part on the SDMX guidelines. 
+DataCube defines a set of classes including DataSet, Observation, and MeasureProperty that may be relevant to the TERRA project. 
+
+
+### Statistical Data and Metadata Exchange (SDMX)
+
+[SDMX](https://sdmx.org/) is an international initiative for the standarization of the exchange of statistical data and metadata among international organizations.  Sponsors of the initiative include Eurostat, European Central Bank, the OECD, World Bank and the UN Statistical Division. They have defined a framework and an exchange format, SDMX-ML, for data exchange. Community members have also developed RDF encodings of the SDMX guidelines that are heavily referenced in the Data Cube vocabulary examples.
+
 
 ## Related Software, Services, and Databases
 
