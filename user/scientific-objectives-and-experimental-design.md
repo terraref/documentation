@@ -1,6 +1,6 @@
  #Scientific objectives / experimental design
 
- ### Maricopa Agricultural Center, Arizona
+ ### Maricopa Agricultural Center (MAC), Arizona
 
 Three hundred thirty one [lines were planted in 2016](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=239932660&single=true&widget=true&headers=false). Plantings occurred both under and west of the gantry system. 
  - [Experiments planned for 2016](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=890543376&single=true&widget=true&headers=false)
@@ -13,7 +13,7 @@ The [Lemnatec Scanalyzer Field Scanner System](http://www.lemnatec.com/products/
 Twelve sensors are attached to the  system. Detailed information for each sensor including name, variable measured, and field of view are [available here](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=1886254108&single=true&widget=true&headers=false). The planned sensor missions and their objectives for 2016 are [available here](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=2092320800&single=true&widget=true&headers=false).
 
 #####Phenotractor
-The PhenoTractor is fitted with a sensor frame that supports a real time kinematic (RTK) satellite navigation antenna, a sonar transducer, an infrared temperature (IRT) scanner, and [three GreenSeeker crop sensing systems](https://www.gitbook.com/book/terraref/terraref-documentation/edit).
+The PhenoTractor at MAC is fitted with a sensor frame that supports a real time kinematic (RTK) satellite navigation antenna, a sonar transducer, an infrared temperature (IRT) scanner, and [three GreenSeeker crop sensing systems](https://www.gitbook.com/book/terraref/terraref-documentation/edit).
 
 #####UAV
 In progress. 
