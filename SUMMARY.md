@@ -5,7 +5,7 @@
    * [Software](software.md)
 * [Scientific Objectives and Experimental Design](user/scientific-objectives-and-experimental-design.md)
    * [Protocols](user/protocols.md)
-       * [Protocols Field Scanner](user/protocols-field-scanner.md)
+       * [Field Scanner Protocol](user/protocols-field-scanner.md)
        * [Protocol for Genomics](user/protocol_for_genomics.md)
        * [Protocols Manual Field Data](user/protocols-manual.md)
        * [Protocols Phenotractor](user/protocols-tractor.md)
