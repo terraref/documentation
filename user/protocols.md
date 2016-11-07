@@ -1,9 +1,9 @@
 # Protocols
 
 
-- **[Field Scanner](/user/protocols-field-scanner.md)**
-- **[Manually Collected Field Data](/user/protocols-manual.md)**
-- **Phenotractor**
+- **[Field Scanner](../user/protocols-field-scanner.md)**
+- **[Manually Collected Field Data](../user/protocols-manual.md)**
+- **[Phenotractor](../user/protocols-phenotractor.md)**
 - **UAV** - coming 2017
 - **Genomics** - coming 2017
 
