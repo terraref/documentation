@@ -2,7 +2,7 @@
 
 
 - **[Field Scanner](/user/protocols-field-scanner.md)**
-- **Manually Collected Field Data**
+- **[Manually Collected Field Data](/user/protocols-manual.md)**
 - **Phenotractor**
 - **UAV** - coming 2017
 - **Genomics** - coming 2017
