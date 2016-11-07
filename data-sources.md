@@ -1,7 +1,7 @@
 #Data Sources
 
 ## Field phenotyping
-####Maricopa Agricultural Center, Arizona
+####Maricopa Agricultural Center (MAC), Arizona
 
 Over 300 sorghum accessions and recombinant inbred lines were planted at the University of Arizona Maricopa Agricultural Center and USDA Arid Land Research Station in Maricopa, Arizona. Field Scanner
 
