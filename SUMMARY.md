@@ -10,6 +10,7 @@
        * [Protocols Phenotractor](user/protocols-tractor.md)
        * [Protocol Template](user/protocol_template.md)
        * [Protocols UAV](user/protocols-UAV.md)
+       * Protocol for Genomics
    * [Experimental Design](user/experimental-design.md)
        * [Experimental Design MAC](user/experimental-design-mac.md)
        * [Experimental Design Danforth](user/experimental-design-danforth.md)
