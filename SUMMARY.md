@@ -69,5 +69,5 @@
     * [Collaboration Tools](collaboration_tools.md)
     * [Code of Conduct](code_of_conduct.md)
     * [Data Release, Use and Attribution](data-release-use-and-attribution.md)
-    * [Manuscript and Authorship Guidelines](manuscript-and-authorship-guidelines.md)
+    * [Manuscript and Authorship Guidelines](authorshipguidelinesmd.md)
 
