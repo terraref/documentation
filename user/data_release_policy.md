@@ -1,4 +1,4 @@
-# TERRA REF Data Use Policy
+# TERRA REF Data and Software Use Policy
 
 ## Release with Attribution
 
