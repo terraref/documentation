@@ -11,6 +11,7 @@
         * [Phenotractor Protocols](user/protocols-tractor.md)
         * [Template Protocol](user/protocol_template.md)
         * [UAV Protocols](user/protocols-UAV.md)
+        * [Controlled Environment Protocols](user/controlled-environment-protocols.md)
     * [Experimental Design](user/experimental-design.md)
         * [Experimental Design MAC](user/experimental-design-mac.md)
             * [Sorghum Lines MAC](user/sorghum_MAC_1.md)
