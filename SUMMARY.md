@@ -11,6 +11,7 @@
        * [Phenotractor Protocols](user/protocols-tractor.md)
        * [Template Protocol](user/protocol_template.md)
        * [UAV Protocols](user/protocols-UAV.md)
+   * [Experimental Design Danforth](user/experimental-design-danforth.md)
    * [Experimental Design](user/experimental-design.md)
        * [Experimental Design MAC](user/experimental-design-mac.md)
        * [Sorghum Lines](user/sorghum_lines.md)
