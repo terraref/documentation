@@ -2,7 +2,7 @@
 
 TERRA-REF uses the following software.
 
-![](/assets/terraref-pipeline-simple-v4.jpg)
+
 
 ### Clowder \(web user interface\)
 
