@@ -1,6 +1,6 @@
 # Environmental conditions data
 
-Environment conditions data is collected using the Vaisala CO2, Thies Clima weather sensors as well as lightning, irrigation, and weather data collected at the Maricopa site.
+Environment conditions data is collected using the Vaisala CO<sub>2</sub>, Thies Clima weather sensors as well as lightning, irrigation, and weather data collected at the Maricopa site.
 
 ## Data access
 
@@ -8,7 +8,7 @@ Data is available via Clowder and Globus:
 
 * **Clowder**:
 
-  * [co2sensor](https://terraref.ncsa.illinois.edu/clowder/collection/57226fc1e4b082fbf2a94702) collection \(Viasala CO2\)
+  * [co2sensor](https://terraref.ncsa.illinois.edu/clowder/collection/57226fc1e4b082fbf2a94702) collection \(Viasala CO<sub>2</sub>\)
   * EnvironmentalLogger \(Theis Clima\)
   * irrigation, lightning and [weather ](https://terraref.ncsa.illinois.edu/clowder/collection/57e043964f0cb775be5f158c)collections \(MAC Weather Station\)
 
@@ -22,7 +22,7 @@ Data is available via Clowder and Globus:
 
 * **Sensor information**:
 
-  * [Vaisala CO2 Sensor collection](https://terraref.ncsa.illinois.edu/clowder/datasets/581787d94f0ce77b6655b819)
+  * [Vaisala CO<sub>2</sub> Sensor collection](https://terraref.ncsa.illinois.edu/clowder/datasets/581787d94f0ce77b6655b819)
   * [Theis Clima Sensor collection ](https://terraref.ncsa.illinois.edu/clowder/datasets/58178a744f0ce77b6655d38a)
 
 
