@@ -15,7 +15,7 @@
         * [Experimental Design MAC](user/experimental-design-mac.md)
             * [Sorghum Lines MAC](user/sorghum_MAC_1.md)
         * [Experimental Design Danforth](user/experimental-design-danforth.md)
-            * [Sorghum Lines Danforth](user/sorghum-lines-danforth.md)
+            * [Sorghum Lines Danforth](user/sorghum_danforth_1.md)
 * [User Manual](user/user-manual.md)
     * [What Data is Available](user/what-data-is-available.md)
     * [Data Products](user/data-products.md)
