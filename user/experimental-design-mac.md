@@ -3,7 +3,7 @@
 - [Field Scanner Plot layout](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=1066629008)
 - [West of Field Scanner Plot layout](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=193038411)
 - [Plot plan](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=796817704)
-- [Recombinant inbred lines (RILs) ](../user/sorghum_RIL.md)
+- [Sorghum lines planted at MAC in year 1 ](../user/sorghum_RIL.md)
 
 ###Manually Collected Field Data
 
