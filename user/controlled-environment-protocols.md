@@ -2,11 +2,12 @@
 
 
 
-    Authors:Mockler Lab
+    Authors: Mockler Lab
 
 
 
 ### Abstract
+Automated VIS and NIR imaging in a controlled growth environment
 
 
 
