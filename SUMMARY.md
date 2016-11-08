@@ -15,7 +15,6 @@
        * [Experimental Design Danforth](user/experimental-design-danforth.md)
        * [Experimental Design MAC](user/experimental-design-mac.md)
            * [Sorghum Lines MAC Year 1](user/sorghum_RIL.md)
-           * [d](user/d.md)
        * [Sorghum BAP Lines](user/bap_lines.md)
 * [User Manual](user/user-manual.md)
    * [What Data is Available](user/what-data-is-available.md)
