@@ -1,4 +1,4 @@
-# Sorghum Association Panel Lines
+# Sorghum Recombinant Inbred Lines (RILs) 
 
 | **Entry** | **Code** | **Source** | **Pedigree**                                 | **Pedigree2**                                                                | **Seed color (R=red, W=white, Bn=brown)** | **Plant color (T=tan, P=pigmented, TP=segregating)** | **Ht (in)** | **Maturity group (e=early, m=medium, l=late)** | **Photoperiod Sensitivity** |
 |-----------|----------|------------|----------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------|------------------------------------------------------|-------------|------------------------------------------------|-----------------------------|
