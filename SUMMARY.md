@@ -14,7 +14,7 @@
    * [Experimental Design](user/experimental-design.md)
        * [Experimental Design Danforth](user/experimental-design-danforth.md)
        * [Experimental Design MAC](user/experimental-design-mac.md)
-       * [Sorghum Lines](user/sorghum_lines.md)
+       * [Association Panel Lines](user/sorghum_lines.md)
 * [User Manual](user/user-manual.md)
    * [What Data is Available](user/what-data-is-available.md)
    * [Data Products](user/data-products.md)
