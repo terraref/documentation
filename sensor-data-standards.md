@@ -28,7 +28,7 @@ Additional reference data is available for some sensors:
 
 ### Standardization Efforts
 
-The TERRA-REF team is currently investigating available standards for the representation of sensor information.  Preliminary work has been done using OGC SensorML vocabularies in a custom JSON-LD context.
+The TERRA-REF team is currently investigating available standards for the representation of sensor information.  Preliminary work has been done using OGC SensorML vocabularies in a custom JSON-LD context. For more information, please see the [sensor-metadata](https://github.com/terraref/sensor-metadata/) repository on Github.
 
 
 
