@@ -47,5 +47,53 @@ Genome annotations are in [GFF format](http://useast.ensembl.org/info/website/up
 
 [Gbrowse](http://gmod.org/wiki/GBrowse) is a comprehensive database + interactive web application for manipulating and displaying annotations on genomes.
 
+### **Software versions:**
++Trimmomatic v 0.35
++bwa v 0.7.12-r1039
++samtools v 1.3.1
++picard-tools-2.0.1
++GATK v3.5-0-g36282e4
+
+### **Preparing reference genome**
+
+Download Sorghum bicolor v3.1 from Phytozome https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Sbicolor
+
+**Generate:**
+####**BWA index:**
+`bwa index –a bwtsw Sbicolor_313_v3.0.fa`
+
+####**fasta file index:**
+`samtools faidx Sbicolor_313_v3.0.fa`
+
+####**sequence dictionary:**
+`java –jar picard.jar CreateSequenceDictionary R=Sbicolor_313_v3.0.fa O=Sbicolor_313_v3.0.dict`
+
+### **Quality trimming and filtering of paired end reads**
+`java –jar Trimmomatic-0.35/trimmomatic-0.35.jar PE -threads 40 -phred33 -trimlog trimlogPE.txt SampleA_R1.fastq.gz SampleA_R2.fastq.gz SampleA_R1.PE.fastq.gz SampleA_R1.SE.fastq.gz SampleA_R2.PE.fastq.gz SampleA_R2.SE.fastq.gz ILLUMINACLIP:adapters.fa:2:30:10 SLIDINGWINDOW:5:20 LEADING:20 TRAILING:20 MINLEN:60 2> trim.out`
+
+### **Aligning reads to the reference**
+`bwa mem –t 8 –M –R “@RG\tIDSAMPLEA_RG1\tPL:illumine\tPU: FLOWCELL_BARCODE.LANE.SAMPLE_BARCODE_RG_UNIT\tLB:libraryprep-lib1\tSM:SAMPLEA” Sbicolor_313_v3.0.fa SampleA_R1.PE.fastq.gz SampleA_R2.PE.fastq.gz > SAMPLEA.bwa.sam`
+
+### **Convert and Sort bam**
+`Samtools view –bS SAMPLEA.bwa.sam | samtools sort - SAMPLEA.bwa.sorted`
+
+### **Mark Duplicates**
+`java –Xmx8g –jar picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=1000 REMOVE_DUPLICATES=true INPUT=SAMPLEA.bwa.sorted.bam OUTPUT=SAMPLEA.dedup.bam METRICS_FILES=SAMPLEA.dedup.metrics` 
+
+### **Index bam files**
+`samtools index SAMPLEA.dedup.bam`
+
+### **Find intervals to analyze**
+`java –Xmx8g –jar GenomeAnalysisTK.jar –T RealignerTargetCreator –R Sbicolor_313_v3.0.fa –I SAMPLEA.dedup.bam –o SAMPLEA.realignment.intervals`
+
+### **Realign**
+`java –Xmx8g –jar GenomeAnalysisTK.jar –T IndelRealigner –R Sbicolor_313_v3.0.fa –I SAMPLEA.dedup.bam –targetIntervals SAMPLEA.realignment.intervals –o SAMPLEA.dedup.realigned.bam`
+
+### **Variant Calling with GATK HaplotypeCaller**
+`java –Xmx8g –jar GenomeAnalysisTK.jar –T HaplotypeCaller –R Sbicolor_313_v3.0.fa –I SAMPLEA.dedup.realigned.bam --emitRefConfidence GVCF --pcr_indel_model NONE -o SAMPLEA.output.raw.snps.indels.g.vcf`
+
+
+
+
 
 
