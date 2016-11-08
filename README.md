@@ -1,14 +1,16 @@
-# TERRA-REF  Documentation
+# TERRA-REF Documentation
 
-## Content
+## About this book
 
 This book describes the TERRA-REF data collection, computing, and analysis pipelines.
 
-## Versions
+* [What data is available?](/user/what-data-is-available.md)
 
-The first edition will be published in **November 2016**.
+* [Where do I get the data?](/user/how-to-access-data.md)
 
-### About TERRA-REF
+* [User tutorials](/tutorials.md)
+
+## About TERRA-REF
 
 The ARPA-E-funded Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform \(TERRA-REF\) program aims to transform plant breeding by using remote sensing to quantify plant traits such as plant architecture, carbon uptake, tissue chemistry, water use, and other features to predict the yield potential and stress resistance of 300+ diverse Sorghum lines.
 
@@ -16,14 +18,10 @@ The data storage and computing system provides researchers with access to the re
 
 Our objectives are to ensure that the software and data in the reference data and computing pipeline are interoperable, reusable, extensible, and understandable. Providing clear definitions of common formats will make it easier to analyze and exchange data and results.
 
-### About this book
+## Versions
 
-\[Intro\]
+The first edition will be published in **November 2016**.
 
-* [What data is available?](/user/what-data-is-available.md)
 
-* [Where do I get the data?](/user/how-to-access-data.md)
-
-* [Tutorials](/tutorials.md)
 
 
