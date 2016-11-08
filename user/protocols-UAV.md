@@ -47,15 +47,3 @@ QGIS software was used to confirm geospatial alignment of NDVI geotiffs with sha
 * SenseFly https://www.sensefly.com
 * QGIS https://www.qgis.org
 
-<!--
-TODO:
-* link to plot polygons
-* information about pilot, company
-* link to data
-* add sensor, standard object meta-data (bands, etc)
-  * white, grey, black tarps
-* figures: 
- * uav + hexacopter
- * sample image (?)
--->
-
