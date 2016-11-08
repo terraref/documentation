@@ -2,15 +2,16 @@
 
 This section describes sensor calibration processes and how to access additional information about specific  calibration protocols, calibration targets, and associated reference data.
 
-## Calibration protocols
 
-**LemnaTec Scanalyzer Field**
+
+##LemnaTec Scanalyzer Field
+### Calibration protocols
 
 Calibration protocols have been defined by LemnaTec in cooperation with vendors and the TERRA-REF Sensor Steering Committee. Draft calibration protocols are currently in [Google Drive ](https://docs.google.com/document/d/132_dkGAIQJ3cG7bQkPIkX7-RgXyWLDoQWJFDj5c-5uU/edit)and have been incorporated into the [LemnaTec Scanalyzer Field sensor documentation](https://terraref.ncsa.illinois.edu/clowder/datasets/58178ee54f0ce77b66561602).
 
 A detailed calibration process is also provided for the [Hyperspectral sensors](https://docs.google.com/document/d/1w_zHHlrPVKsy1mnW9wrVzAU2edVqZH8i1IZa5BZxVpo/edit#heading=h.jjfbhbos05cc), with further information below.
 
-## Calibration targets
+### Calibration targets
 
 The following calibration targets are available:
 
@@ -21,15 +22,15 @@ The following calibration targets are available:
 * Aluminum 3D test object
 
 
-## Sensor Calibration
+### Sensor Calibration
 
-### Environmental sensor calibration
+#### Environmental sensor calibration
 
 The environmental sensor has been calibrated by LemnaTec. The output of the spectrometer is raw counts, users will need to use the calibration files to convert to units of  µW m-2 s-1, taking into account the bandwidth of the chip \(0.4nm\) if converting to µmol m-2 s-1.
 
 Calibration reference data is available via Globus `/sites/ua-mac/EnvironmentLogger/CalibrationData `or in Github [Calibrations.zip](https://github.com/terraref/reference-data/files/250620/Calibrations.zip)
 
-### Hyperspectral calibration
+#### Hyperspectral calibration
 
 Sources:
 
@@ -74,11 +75,13 @@ To convert the hyperspectral exposure image to reflectance requires the waveleng
     Let me know if you have issue with opening the files. 
 
 
-### Stereo 3D height scanner
+#### Stereo 3D height scanner
 
 LemnaTec applied calibration matrix to the 3D scanners.
 
-### UAV calibration
+__________________________
+
+## UAV calibration
 
 Source: https:\/\/github.com\/terraref\/computing-pipeline\/issues\/185
 
@@ -115,7 +118,7 @@ Relative spectral response data is available for the following sensors:
 
 
 
-### Calibration data
+#### Calibration data
 
 Where available, per device calibration certificates are included in the [Device and Sensor information](https://terraref.ncsa.illinois.edu/clowder/datasets/5818bb544f0c63f2a8d20963) collections.
 
