@@ -48,13 +48,13 @@ Genome annotations are in [GFF format](http://useast.ensembl.org/info/website/up
 [Gbrowse](http://gmod.org/wiki/GBrowse) is a comprehensive database + interactive web application for manipulating and displaying annotations on genomes.
 
 #**Genomics pipeline**
-Outlined below are the steps taken to create a raw vcf file from paired end raw FASTQ files.  This was done for each sequenced accession so a HTCondor DAG Workflow was been written to streamline the processing of those ~200 accessions.  While some cpu and memory parameters have been included within some of the example steps below those parameters varied from sample to sample and the workflow has been honed to accomodate that variation.  This pipeline is subject to modification based on updates to software and changes to software best practices.
+Outlined below are the steps taken to create a raw vcf file from paired end raw FASTQ files.  This was done for each sequenced accession so a HTCondor DAG Workflow was been written to streamline the processing of those ~200 accessions.  While some cpu and memory parameters have been included within the example steps below those parameters varied from sample to sample and the workflow has been honed to accomodate that variation.  This pipeline is subject to modification based on software updates and changes to software best practices.
 
 ### **Software versions:**
 * [Trimmomatic v 0.35](http://www.usadellab.org/cms/?page=trimmomatic)
 * [bwa v 0.7.12-r1039](http://bio-bwa.sourceforge.net)
 * [samtools v 1.3.1](http://samtools.sourceforge.net)
-* [picard-tools-2.0.1[(https://broadinstitute.github.io/picard)
+* [picard-tools-2.0.1](https://broadinstitute.github.io/picard)
 * [GATK v3.5-0-g36282e4](https://software.broadinstitute.org/gatk)
 
 ### **Preparing reference genome**
