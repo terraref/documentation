@@ -34,7 +34,6 @@
         * [Using Globus](user/using-globus.md)
         * [Using BETYdb](user/using-betydb.md)
         * [Using CoGe](user/using-coge.md)
-    * [Data Formatting](user/data-formatting.md)
     * [Data Use Policy](user/data_release_policy.md)
     * [Manuscripts and Authorship Guidelines](manuscripts-and-authorship.md)
     * [Release \/ reprocessing schedule](user/release_schedule.md)
