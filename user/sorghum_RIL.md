@@ -1,4 +1,4 @@
-# Sorghum Recombinant Inbred Lines (RILs) 
+# Sorghum Lines Planted at MAC (Year 1)
 
 | **Entry** | **Code** | **Source** | **Pedigree**                                 | **Pedigree2**                                                                | **Seed color (R=red, W=white, Bn=brown)** | **Plant color (T=tan, P=pigmented, TP=segregating)** | **Ht (in)** | **Maturity group (e=early, m=medium, l=late)** | **Photoperiod Sensitivity** |
 |-----------|----------|------------|----------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------|------------------------------------------------------|-------------|------------------------------------------------|-----------------------------|
