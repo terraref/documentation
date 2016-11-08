@@ -14,6 +14,7 @@
    * [Experimental Design](user/experimental-design.md)
        * [Experimental Design MAC](user/experimental-design-mac.md)
        * [Experimental Design Danforth](user/experimental-design-danforth.md)
+   * Sorghum Lines
 * [User Manual](user/user-manual.md)
    * [Data Products](user/data-products.md)
        * [Environmental conditions](user/environmental-conditions.md)
