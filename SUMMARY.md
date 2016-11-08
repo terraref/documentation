@@ -14,7 +14,7 @@
    * [Experimental Design](user/experimental-design.md)
        * [Experimental Design MAC](user/experimental-design-mac.md)
            * [Sorghum Lines MAC Year 1](../user/sorghum_MAC_1.md)
-           * s
+           * [s](../user/sorghum_MAC_1.md)
        * [Experimental Design Danforth](user/experimental-design-danforth.md)
        * [Sorghum BAP Lines](user/bap_lines.md)
 * [User Manual](user/user-manual.md)
