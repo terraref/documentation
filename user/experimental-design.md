@@ -3,11 +3,7 @@
 ### Field phenotyping
 - [Maricopa Agricultural Center (MAC), Arizona](../user/experimental-design-mac.md)
 
-- Kansas State University
-
-  - Tractor - coming 2017
-
-  - UAV - coming 2017
+- Kansas State University - coming 2017
 
 
 ### Controlled-environment phenotyping
