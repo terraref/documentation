@@ -15,7 +15,7 @@
        * [Experimental Design Danforth](user/experimental-design-danforth.md)
        * [Experimental Design MAC](user/experimental-design-mac.md)
        * [Association Panel Lines](user/sorghum_lines.md)
-       * BAP lines
+       * [BAP lines](user/bap_lines.md)
 * [User Manual](user/user-manual.md)
    * [What Data is Available](user/what-data-is-available.md)
    * [Data Products](user/data-products.md)
