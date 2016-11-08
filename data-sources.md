@@ -27,7 +27,7 @@ The [Bellwether Foundation Phenotyping Facility](https://www.danforthcenter.org/
 ------------------
 ## Genomics
 
-#### HudsonAlpha
+#### HudsonAlpha Institute for Biotechnology. Alabama
 
 coming 2017
 
