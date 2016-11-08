@@ -48,11 +48,11 @@ Genome annotations are in [GFF format](http://useast.ensembl.org/info/website/up
 [Gbrowse](http://gmod.org/wiki/GBrowse) is a comprehensive database + interactive web application for manipulating and displaying annotations on genomes.
 
 ### **Software versions:**
-.*Trimmomatic v 0.35
-.*bwa v 0.7.12-r1039
-.*samtools v 1.3.1
-.*picard-tools-2.0.1
-.*GATK v3.5-0-g36282e4
++Trimmomatic v 0.35
++bwa v 0.7.12-r1039
++samtools v 1.3.1
++picard-tools-2.0.1
++GATK v3.5-0-g36282e4
 
 ### **Preparing reference genome**
 
