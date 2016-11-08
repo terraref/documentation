@@ -4,28 +4,32 @@
 **Phenotyping**
 
 The TERRA-REF project is phenotyping the same genotypes of sorghum at multiple locations
- - Automated Lemnatec Scanalyzer Field System at Maricopa Agricultural Center (MAC)
- - PhenoTractors on parallel plots at MAC and Kansas State University (KSU)
- - UAV platform on parallel plots at KSU
- - Controlled-environment phenotyping systems at the Danforth Center
+ - [Automated Lemnatec Scanalyzer Field System ](/user/protocols-field-scanner.md)at [Maricopa Agricultural Center ](/user/experimental-design-mac.md)(MAC)
+ - [PhenoTractors ](/user/protocols-tractor.md)on parallel plots at [MAC ](/user/experimental-design-mac.md)and Kansas State University (KSU)
+ - [UAV ](/user/protocols-UAV.md)platform on parallel plots at KSU
+ - [Controlled-environment phenotyping systems](/user/controlled-environment-protocols.md) at the [Danforth Center](/user/experimental-design-danforth.md)
+- [Manually collected field data](/user/protocols-manual.md) at all locations
 
 **Genotyping**
 
-Whole genome resequencing is being carried out on ~400 sorghum accessions to understand the landscape of genetic variation in the selected germplasm and enable high-resolution mapping of bioenergy traits with genome wide association studies (GWAS). Additionally, ~200 sorghum recombinant inbred lines (RILs) will be characterized with ~400,000 genetic markers using genotyping-by-sequencing ([Morris et al., 2013](http://www.g3journal.org/content/early/2013/09/13/g3.113.008417)) for trait dissection in the RIL population and testcross hybrids of the RIL population.
+[Whole genome resequencing](/user/experimental-design-genomics.md) is being carried out on ~[400 sorghum accessions](/user/sorghum-lines-genomics.md) to understand the landscape of genetic variation in the selected germplasm and enable high-resolution mapping of bioenergy traits with genome wide association studies (GWAS). Additionally, ~200 sorghum recombinant inbred lines (RILs) will be characterized with ~400,000 genetic markers using genotyping-by-sequencing ([Morris et al., 2013](http://www.g3journal.org/content/early/2013/09/13/g3.113.008417)) for trait dissection in the RIL population and testcross hybrids of the RIL population.
  
  -----------------------------------------------
  ### Maricopa Agricultural Center, Arizona
 
-Three hundred thirty one [*lines were planted in 2016*](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=239932660&single=true&widget=true&headers=false). Plantings occurred both under and west of the gantry system. Access the [*experiments planned for 2016*](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=890543376&single=true&widget=true&headers=false). Access the field layouts [*under the gantry*](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=1231399646&single=true&widget=true&headers=false) and [*west of the gantry*](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=728631369&single=true&widget=true&headers=false) in 2016.
 
-The [*Lemnatec Scanalyzer Field Gantry System*](http://www.lemnatec.com/products/hardware-solutions/scanalyzer-field/) is the largest field crop analytics robot in the world. This high-throughput phenotyping field-scanning robot has a 30-ton steel gantry that autonomously moves along two 200-meter steel rails while continuously imaging the crops growing below it with a diverse array of [*cameras and sensors*](http://terraref.org/articles/lemnatec-scanalyzer-field-sensors/).
 
-Twelve sensors are attached to the gantry system. Detailed information for each sensor including name, variable measured, and field of view are [*available here*](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=1886254108&single=true&widget=true&headers=false). The planned sensor missions and their objectives for 2016 are [*available here*](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=2092320800&single=true&widget=true&headers=false).
+- PhenoTractor
+
+- UAV
+
+- Manually Collected Field Data
+
 
 -------------------
 ### Controlled-environment phenotyping, Missouri
 
-The Scanalyzer 3D platform consists of multiple digital imaging chambers connected to the Conviron growth house by a conveyor belt system, resulting in a continuous imaging loop. Plants are imaged from the top and/or multiple sides, followed by digital construction of images for analysis.
+The [Scanalyzer 3D platform](https://www.danforthcenter.org/scientists-research/core-technologies/phenotyping) consists of multiple digital imaging chambers connected to the Conviron growth house by a conveyor belt system, resulting in a continuous imaging loop. Plants are imaged from the top and/or multiple sides, followed by digital construction of images for analysis.
 
 - RGB imaging allows visualization and quantification of plant color and structural morphology, such as leaf area, stem diameter and plant height.
 
@@ -40,7 +44,7 @@ The LemnaTec software suite is used to program and control the Scanalyzer platfo
 
 ### Kansas State University
 
-- Tractor
+- PhenoTractor
 
 - UAV
 

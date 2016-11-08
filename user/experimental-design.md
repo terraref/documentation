@@ -17,4 +17,4 @@
 
 ### Genomics
 
--  HudsonAlpha - coming 2017
+-  HudsonAlpha Institute for Biotechnology, Alabama - coming 2017
