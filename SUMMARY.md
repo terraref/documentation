@@ -30,9 +30,9 @@
         * [Infrared heat imaging data](user/infrared-heat-imaging-data.md)
         * [Multispectral imaging data](user/multispectral-imaging-data.md)
         * [Meteorological data](user/meteorological-data.md)
-        * [Phenotype data](/products/trait-data.md)
+        * [Phenotype data](products/trait-data.md)
         * [Point Cloud Data](products/point-cloud-data.md)
-        * Phenotype data
+        * [Phenotype data](trait-data)
     * [How to Access Data](user/how-to-access-data.md)
         * [Using Clowder](user/using-clowder.md)
         * [Using Globus](user/using-globus.md)
