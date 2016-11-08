@@ -2,7 +2,7 @@
 
 
 
- Authors:
+    Authors:Mockler Lab
 
 
 
@@ -12,13 +12,21 @@
 
 ### Materials
 
+ProMix BRK20 + 14-14-14 Osmocote pots; pre-filled by Hummert
+Sorghum seed
 
 
 ### Equipment
+- Conviron Growth House
+- LemnaTec moving field conveyor belt system 
+- Scanalyzer 3D platform
 
 
+### Procedures
+**Planting**
+- Plant directly into phenotyping pots 
 
-### Procedure
+
 **Chamber Conditions**
 
 Pre-growth (11 days) and Phenotying (11 days)
@@ -28,19 +36,15 @@ Pre-growth (11 days) and Phenotying (11 days)
  - 700 umol/m<sup>2</sup>/s light
 
 
-
-
 **Watering Conditions**
 
  - Prior to phenotyping, plants watered daily
  - The first night after loading, plants watered 1× by treatment group to 100% field capacity (fc)
  - Days 2 – 12, plants watered 2× daily by treatment group (100% or 30% FC) to target weight
 
-Target Weights
- - 100% field capacity = 480 g
- - 30% field capacity = 421 g
-
-
+**Automation**
+- Left shift lane rotation within each GH, during overnight watering jobs
+- VIS (TV and 2 x SV), NIR (TV and 2 x SV) imaging daily
 
 
 ### Recipes
