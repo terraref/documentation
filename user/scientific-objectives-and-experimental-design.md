@@ -3,7 +3,7 @@
 ####Phenotyping
 
 The TERRA-REF project is phenotyping the same genotypes of sorghum at multiple locations
- - [Automated Lemnatec Scanalyzer Field System ](/user/protocols-field-scanner.md)at [Maricopa Agricultural Center ](/user/experimental-design-mac.md)(MAC)
+ - Automated Lemnatec Scanalyzer Field System at [Maricopa Agricultural Center ](/user/experimental-design-mac.md)(MAC)
  - [PhenoTractors ](/user/protocols-tractor.md)on parallel plots at [MAC ](/user/experimental-design-mac.md)and Kansas State University (KSU)
  - [UAV ](/user/protocols-UAV.md)platform on parallel plots at KSU
  - [Controlled-environment phenotyping systems](/user/controlled-environment-protocols.md) at the [Danforth Center](/user/experimental-design-danforth.md)
