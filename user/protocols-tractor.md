@@ -1,4 +1,4 @@
-# Protocols for PhenoTractors
+# PhenoTractor Sensor Protocols 
 
     Authors:
 
