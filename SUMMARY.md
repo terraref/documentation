@@ -32,7 +32,6 @@
         * [Meteorological data](products/meteorological_data.md)
         * [Phenotype data](products/trait-data.md)
         * [Point Cloud Data](products/point-cloud-data.md)
-        * [Phenotype data](products/trait-data.md)
     * [How to Access Data](user/how-to-access-data.md)
         * [Using Clowder](user/using-clowder.md)
         * [Using Globus](user/using-globus.md)
