@@ -1,6 +1,4 @@
-# Environmental Data
-
-## Meteorology
+# Meteorological data
 
 Meteorological data will use [Climate Forecasting 'standard names' and 'canonical units'](http://cfconventions.org/Data/cf-standard-names/29/build/cf-standard-name-table.html) conventions. CF is widely used in climate, meteorology, and earth sciences.
 
