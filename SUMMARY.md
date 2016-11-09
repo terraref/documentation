@@ -6,8 +6,6 @@
 * [Scientific Objectives and Experimental Design](user/scientific-objectives-and-experimental-design.md)
     * [Protocols](user/protocols.md)
         * [Controlled Environment Protocols](user/controlled-environment-protocols.md)
-        * [Field Scanner Protocol](user/protocols-field-scanner.md)
-        * [Genomics Protocol](user/protocol_for_genomics.md)
         * [Manual Field Data Protocols](user/protocols-manual.md)
         * [Phenotractor Protocols](user/protocols-tractor.md)
         * [Template Protocol](user/protocol_template.md)

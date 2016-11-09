@@ -1,8 +1,8 @@
 # Protocols
 
 The following protocols have been contributed by TERRA-REF team members:
-* **[Field Scanner](/user/protocols-field-scanner.md)**
-* **[Genomics](/user/protocols-genomics.md)**
+* **Field Scanner** - Coming 2017
+* **Genomics** - Coming 2017
 * **[Manually Collected Field Data](/user/protocols-manual.md)**
 * **[Phenotractor](/user/protocols-tractor.md)**
 * **[UAV](/user/protocols-UAV.md)**
