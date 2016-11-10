@@ -11,12 +11,17 @@ Also see the full documentation for accessing data from BETYdb.
     mykey = readLines(con = file('~/.betykey'))
     site <- betydb_site(id = 6000000866, betyurl = terraref_betyurl, key = mykey)
 
-    sorghum <- betydb_search(query = 'Sorghum', 
+    sorghum_all <- betydb_search(query = 'Sorghum', 
                              betyurl = terraref_betyurl, 
-                             key = mykey) %>% 
-      select(author, date, scientificname, cultivar, entity, trait, mean, units, city, sitename)
+                             key = mykey) 
 
     ## Warning: closing unused connection 5 (~/.betykey)
+
+    #save(sorghum_all, file = '~/terraref/documentation/tutorials/data/sorghum_all.RData')
+    #load('~/terraref/documentation/tutorials/data/sorghum_all.RData')
+
+    sorghum <- sorghum_all %>% 
+      select(author, date, scientificname, cultivar, entity, trait, mean, units, city, sitename)
 
     head(sorghum)
 
@@ -31,6 +36,8 @@ Also see the full documentation for accessing data from BETYdb.
     ## 6 Fahlgren, Noah 2014 Jun 16 Sorghum bicolor    Tx430 Fa001AB006947
     ## # ... with 5 more variables: trait <chr>, mean <dbl>, units <chr>,
     ## #   city <chr>, sitename <chr>
+
+### Summary of Available Data
 
 ### Danfoth Phenotyping Facility
 
