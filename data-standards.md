@@ -13,7 +13,7 @@ We anticipate that standards and data formats will evolve over time as we clarif
 ### See also
 
 * [Agronomic and Phenotype Data Standards](/agronomic-and-phenotype-data-standards.md)
-* [Environmental Data Standards](/environmental-data.md)
+* [Environmental Data Standards](/products/meteorological_data.md)
 * [Genomic Data Standards](/genomic-data-standards.md)
 * [Sensor Data Standards](/sensor-data-standards.md)
 * [Data Standards Committee](/data-standards-committee.md)
