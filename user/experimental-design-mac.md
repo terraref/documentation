@@ -49,13 +49,6 @@ ____________
 
 PI=photoperiod insensitive PS=photoperiod sensitive MPS= moderately photoperiod sensitive
 
-_________________________
+## Season 2 (April - July 2016)
 
-
-###PhenoTractor
-Coming 2017
-
-______________________________
-
-####UAV
-Coming 2017
+COMING SOON
