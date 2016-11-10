@@ -29,12 +29,23 @@ terraref_betyurl <- "https://terraref.ncsa.illinois.edu/bety/"
 mykey = readLines(con = file('~/.betykey'))
 site <- betydb_site(id = 6000000866, betyurl = terraref_betyurl, key = mykey)
 
-sorghum <- betydb_search(query = 'Sorghum', 
+sorghum_all <- betydb_search(query = 'Sorghum', 
                          betyurl = terraref_betyurl, 
-                         key = mykey) %>% 
+                         key = mykey) 
+#save(sorghum_all, file = '~/terraref/documentation/tutorials/data/sorghum_all.RData')
+#load('~/terraref/documentation/tutorials/data/sorghum_all.RData')
+
+sorghum <- sorghum_all %>% 
   select(author, date, scientificname, cultivar, entity, trait, mean, units, city, sitename)
 
 head(sorghum)
+
+```
+
+### Summary of Available Data
+
+```{r}
+
 
 ```
 
