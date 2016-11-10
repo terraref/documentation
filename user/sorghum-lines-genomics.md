@@ -1,196 +1,197 @@
-# Sorghum Lines for Genomics Experiment (Year 1)
+# Sorghum Lines for Genomics Experiment \(Year 1\)
 
-| **Accession** | **sample name**                                                         |
-|---------------|-------------------------------------------------------------------------|
-| PI562985      | IDTX\_PCRfree\_PI562985\_ATTACTCG-ATAGAGGC\_Sorghum\_I549\_L1           |
-| PI455307      | IDZR\_PCRfree\_PI455307\_TCCGGAGA-CCTATCCT\_Sorghum\_I555\_L4           |
-| PI257600      | IECS\_PCRfree\_PI257600\_TCTCGCGC-GGCTCTGA\_Sorghum\_I558\_L4           |
-| PI653616      | IEDC\_PCRfree\_PI653616\_AGCGATAG-AGGCGAAG\_Sorghum\_I558\_L7           |
-| PI562897      | IDZT\_PCRfree\_PI562897\_TCCGGAGA-AGGCGAAG\_Sorghum\_I555\_L5           |
-| PI535783      | IECR\_PCRfree\_PI535783\_TCTCGCGC-CCTATCCT\_Sorghum\_I558\_L4           |
-| PI152971      | IECC\_PCRfree\_PI152971\_CGGCTATG-AGGCGAAG\_Sorghum\_I557\_L7           |
-| PI152751      | IECT\_PCRfree\_PI152751\_TCTCGCGC-AGGCGAAG\_Sorghum\_I558\_L5           |
-| PI329518      | IEAC\_PCRfree\_PI329518\_CGCTCATT-AGGCGAAG\_Sorghum\_I555\_L7           |
-| BTx623        | IEDD\_PCRfree\_BTx623genome\_AGCGATAG-TAATCTTA\_SorghumBTx623\_I558\_L8 |
-| PI535793      | IECQ\_PCRfree\_PI535793\_TCTCGCGC-ATAGAGGC\_Sorghum\_I558\_L4           |
-| PI562971      | IDUI\_PCRfree\_PI562971\_TCCGGAGA-AGGCGAAG\_Sorghum\_I549\_L5           |
-| PI585966      | IDUA\_PCRfree\_PI585966\_ATTACTCG-AGGCGAAG\_Sorghum\_I549\_L2           |
-| PI586541      | IDYT\_PCRfree\_PI586541\_AGCGATAG-CAGGACGT\_Sorghum\_I552\_L8           |
-| PI157035      | IECW\_PCRfree\_PI157035\_TCTCGCGC-CAGGACGT\_Sorghum\_I558\_L5           |
-| PI152728      | IDWH\_PCRfree\_PI152728\_ATTCAGAA-GGCTCTGA\_Sorghum\_I550\_L4           |
-| PI365512      | IDTW\_PCRfree\_PI365512\_ATTACTCG-TATAGCCT\_Sorghum\_I549\_L1           |
-| PI562991      | IDZU\_PCRfree\_PI562991\_TCCGGAGA-TAATCTTA\_Sorghum\_I555\_L5           |
-| PI152816      | IEDB\_PCRfree\_PI152816\_AGCGATAG-GGCTCTGA\_Sorghum\_I558\_L7           |
-| PI506030      | IEBP\_PCRfree\_PI506030\_TAATGCGC-TATAGCCT\_Sorghum\_I557\_L3           |
-| PI155516      | IEBG\_PCRfree\_PI155516\_CTGAAGCT-TATAGCCT\_Sorghum\_I557\_L1           |
-| PI170787      | IECK\_PCRfree\_PI170787\_TCCGCGAA-AGGCGAAG\_Sorghum\_I558\_L2           |
-| PI329471      | IDUR\_PCRfree\_PI329471\_CGCTCATT-AGGCGAAG\_Sorghum\_I549\_L7           |
-| PI152966      | IECD\_PCRfree\_PI152966\_CGGCTATG-TAATCTTA\_Sorghum\_I557\_L8           |
-| PI152963      | IDWS\_PCRfree\_PI152963\_GAATTCGT-TAATCTTA\_Sorghum\_I550\_L8           |
-| rio           | IEDE\_PCRfree\_rio\_AGCGATAG-CAGGACGT\_SorghumRio\_I558\_L8             |
-| PI329480      | IDZY\_PCRfree\_PI329480\_CGCTCATT-TATAGCCT\_Sorghum\_I555\_L6           |
-| PI563002      | IDZP\_PCRfree\_PI563002\_TCCGGAGA-TATAGCCT\_Sorghum\_I555\_L3           |
-| PI152961      | IECJ\_PCRfree\_PI152961\_TCCGCGAA-GGCTCTGA\_Sorghum\_I558\_L2           |
-| PI583832      | IEDA\_PCRfree\_PI583832\_AGCGATAG-CCTATCCT\_Sorghum\_I558\_L7           |
-| PI534120      | IEBY\_PCRfree\_PI534120\_CGGCTATG-TATAGCCT\_Sorghum\_I557\_L6           |
-| PI552851      | IECB\_PCRfree\_PI552851\_CGGCTATG-GGCTCTGA\_Sorghum\_I557\_L7           |
-| rio           | IEDF\_PCRfree\_rio\_AGCGATAG-GTACTGAC\_SorghumRio\_I558\_L8             |
-| PI156890      | IDXJ\_PCRfree\_PI156890\_TAATGCGC-TAATCTTA\_Sorghum\_I551\_L5           |
-| PI196598      | IDXB\_PCRfree\_PI196598\_CTGAAGCT-TAATCTTA\_Sorghum\_I551\_L2           |
-| PI152923      | IDUB\_PCRfree\_PI152923\_ATTACTCG-TAATCTTA\_Sorghum\_I549\_L2           |
-| PI455301      | IDUG\_PCRfree\_PI455301\_TCCGGAGA-CCTATCCT\_Sorghum\_I549\_L4           |
-| PI329465      | IDXN\_PCRfree\_PI329465\_CGGCTATG-ATAGAGGC\_Sorghum\_I551\_L6           |
-| PI570087      | IDUZ\_PCRfree\_PI570087\_GAGATTCC-GGCTCTGA\_Sorghum\_I550\_L2           |
-| PI145626      | IECP\_PCRfree\_PI145626\_TCTCGCGC-TATAGCCT\_Sorghum\_I558\_L3           |
-| PI570145      | IEAP\_PCRfree\_PI570145\_ATTCAGAA-TATAGCCT\_Sorghum\_I556\_L3           |
-| PI145632      | IDYS\_PCRfree\_PI145632\_AGCGATAG-TAATCTTA\_Sorghum\_I552\_L8           |
-| PI452692      | IDUE\_PCRfree\_PI452692\_TCCGGAGA-TATAGCCT\_Sorghum\_I549\_L3           |
-| PI291246      | IDXS\_PCRfree\_PI291246\_CGGCTATG-TAATCTTA\_Sorghum\_I551\_L8           |
-| PI152694      | IDYB\_PCRfree\_PI152694\_TCCGCGAA-TAATCTTA\_Sorghum\_I552\_L2           |
-| PI303658      | IECU\_PCRfree\_PI303658\_TCTCGCGC-TAATCTTA\_Sorghum\_I558\_L5           |
-| PI156326      | IDZK\_PCRfree\_PI156326\_ATTACTCG-AGGCGAAG\_Sorghum\_I555\_L2           |
-| PI563020      | IDWP\_PCRfree\_PI563020\_GAATTCGT-CCTATCCT\_Sorghum\_I550\_L7           |
-| PI221548      | IDXF\_PCRfree\_PI221548\_TAATGCGC-ATAGAGGC\_Sorghum\_I551\_L4           |
-| PI181080      | IDZW\_PCRfree\_PI181080\_TCCGGAGA-CAGGACGT\_Sorghum\_I555\_L5           |
-| PI527045      | IEBS\_PCRfree\_PI527045\_TAATGCGC-GGCTCTGA\_Sorghum\_I557\_L4           |
-| PI329256      | IECF\_PCRfree\_PI329256\_CGGCTATG-GTACTGAC\_Sorghum\_I557\_L8           |
-| PI329506      | IDZZ\_PCRfree\_PI329506\_CGCTCATT-ATAGAGGC\_Sorghum\_I555\_L6           |
-| PI562990      | IEBK\_PCRfree\_PI562990\_CTGAAGCT-AGGCGAAG\_Sorghum\_I557\_L2           |
-| PI570091      | IDWA\_PCRfree\_PI570091\_GAGATTCC-AGGCGAAG\_Sorghum\_I550\_L2           |
-| PI655978      | IECA\_PCRfree\_PI655978\_CGGCTATG-CCTATCCT\_Sorghum\_I557\_L7           |
-| PI157804      | IDUJ\_PCRfree\_PI157804\_TCCGGAGA-TAATCTTA\_Sorghum\_I549\_L5           |
-| PI656056      | IEBX\_PCRfree\_PI656056\_TAATGCGC-GTACTGAC\_Sorghum\_I557\_L6           |
-| PI570073      | IEAG\_PCRfree\_PI570073\_GAGATTCC-TATAGCCT\_Sorghum\_I556\_L1           |
-| PI534165      | IEBT\_PCRfree\_PI534165\_TAATGCGC-AGGCGAAG\_Sorghum\_I557\_L5           |
-| PI157033      | IECH\_PCRfree\_PI157033\_TCCGCGAA-ATAGAGGC\_Sorghum\_I558\_L1           |
-| PI329585      | IDUU\_PCRfree\_PI329585\_CGCTCATT-GTACTGAC\_Sorghum\_I549\_L8           |
-| PI329517      | IEAB\_PCRfree\_PI329517\_CGCTCATT-GGCTCTGA\_Sorghum\_I555\_L7           |
-| PI534047      | IDWX\_PCRfree\_PI534047\_CTGAAGCT-ATAGAGGC\_Sorghum\_I551\_L1           |
-| PI570096      | IEAK\_PCRfree\_PI570096\_GAGATTCC-AGGCGAAG\_Sorghum\_I556\_L2           |
-| PI329351      | IDUQ\_PCRfree\_PI329351\_CGCTCATT-GGCTCTGA\_Sorghum\_I549\_L7           |
-| PI250583      | IECM\_PCRfree\_PI250583\_TCCGCGAA-CAGGACGT\_Sorghum\_I558\_L3           |
-| PI152771      | IECY\_PCRfree\_PI152771\_AGCGATAG-TATAGCCT\_Sorghum\_I558\_L6           |
-| PI267573      | IDWD\_PCRfree\_PI267573\_GAGATTCC-GTACTGAC\_Sorghum\_I550\_L3           |
-| PI656026      | IDXD\_PCRfree\_PI656026\_CTGAAGCT-GTACTGAC\_Sorghum\_I551\_L3           |
-| PI255744      | IDWK\_PCRfree\_PI255744\_ATTCAGAA-CAGGACGT\_Sorghum\_I550\_L5           |
-| PI266927      | IDTZ\_PCRfree\_PI266927\_ATTACTCG-GGCTCTGA\_Sorghum\_I549\_L2           |
-| PI329570      | IEAE\_PCRfree\_PI329570\_CGCTCATT-CAGGACGT\_Sorghum\_I555\_L8           |
-| PI563355      | IDZJ\_PCRfree\_PI563355\_ATTACTCG-GGCTCTGA\_Sorghum\_I555\_L2           |
-| PI521290      | IDXH\_PCRfree\_PI521290\_TAATGCGC-GGCTCTGA\_Sorghum\_I551\_L4           |
-| PI562998      | IEBH\_PCRfree\_PI562998\_CTGAAGCT-ATAGAGGC\_Sorghum\_I557\_L1           |
-| PI562970      | IDUH\_PCRfree\_PI562970\_TCCGGAGA-GGCTCTGA\_Sorghum\_I549\_L4           |
-| PI656035      | IDZS\_PCRfree\_PI656035\_TCCGGAGA-GGCTCTGA\_Sorghum\_I555\_L4           |
-| PI144134      | IDXX\_PCRfree\_PI144134\_TCCGCGAA-ATAGAGGC\_Sorghum\_I552\_L1           |
-| PI196586      | IECL\_PCRfree\_PI196586\_TCCGCGAA-TAATCTTA\_Sorghum\_I558\_L2           |
-| PI156217      | IEBI\_PCRfree\_PI156217\_CTGAAGCT-CCTATCCT\_Sorghum\_I557\_L1           |
-| PI329286      | IDUK\_PCRfree\_PI329286\_TCCGGAGA-CAGGACGT\_Sorghum\_I549\_L5           |
-| PI585452      | IEAS\_PCRfree\_PI585452\_ATTCAGAA-GGCTCTGA\_Sorghum\_I556\_L4           |
-| PI570371      | IDWB\_PCRfree\_PI570371\_GAGATTCC-TAATCTTA\_Sorghum\_I550\_L2           |
-| PI253986      | IEBJ\_PCRfree\_PI253986\_CTGAAGCT-GGCTCTGA\_Sorghum\_I557\_L2           |
-| PI145619      | IECE\_PCRfree\_PI145619\_CGGCTATG-CAGGACGT\_Sorghum\_I557\_L8           |
-| PI154944      | IDWG\_PCRfree\_PI154944\_ATTCAGAA-CCTATCCT\_Sorghum\_I550\_L4           |
-| PI562981      | IDUC\_PCRfree\_PI562981\_ATTACTCG-CAGGACGT\_Sorghum\_I549\_L3           |
-| PI521281      | IDWM\_PCRfree\_PI521281\_GAATTCGT-TATAGCCT\_Sorghum\_I550\_L6           |
-| PI524475      | IEBL\_PCRfree\_PI524475\_CTGAAGCT-TAATCTTA\_Sorghum\_I557\_L2           |
-| PI329569      | IEAD\_PCRfree\_PI329569\_CGCTCATT-TAATCTTA\_Sorghum\_I555\_L8           |
-| PI196049      | IDXR\_PCRfree\_PI196049\_CGGCTATG-AGGCGAAG\_Sorghum\_I551\_L7           |
-| PI329394      | IECG\_PCRfree\_PI329394\_TCCGCGAA-TATAGCCT\_Sorghum\_I558\_L1           |
-| PI573193      | IDZG\_PCRfree\_PI573193\_ATTACTCG-TATAGCCT\_Sorghum\_I555\_L1           |
-| PI329519      | IDUS\_PCRfree\_PI329519\_CGCTCATT-TAATCTTA\_Sorghum\_I549\_L8           |
-| PI526905      | IDWU\_PCRfree\_PI526905\_GAATTCGT-GTACTGAC\_Sorghum\_I550\_L8           |
-| PI329310      | IDXM\_PCRfree\_PI329310\_CGGCTATG-TATAGCCT\_Sorghum\_I551\_L6           |
-| PI156018      | IDWI\_PCRfree\_PI156018\_ATTCAGAA-AGGCGAAG\_Sorghum\_I550\_L5           |
-| PI181899      | IDUX\_PCRfree\_PI181899\_GAGATTCC-ATAGAGGC\_Sorghum\_I550\_L1           |
-| PI619807      | IDXU\_PCRfree\_PI619807\_CGGCTATG-GTACTGAC\_Sorghum\_I551\_L8           |
-| PI329319      | IDUM\_PCRfree\_PI329319\_CGCTCATT-TATAGCCT\_Sorghum\_I549\_L6           |
-| PI329299      | IDUL\_PCRfree\_PI329299\_TCCGGAGA-GTACTGAC\_Sorghum\_I549\_L6           |
-| PI585608      | IEAY\_PCRfree\_PI585608\_GAATTCGT-TATAGCCT\_Sorghum\_I556\_L6           |
-| PI570090      | IEAJ\_PCRfree\_PI570090\_GAGATTCC-GGCTCTGA\_Sorghum\_I556\_L2           |
-| PI540518      | IDWR\_PCRfree\_PI540518\_GAATTCGT-AGGCGAAG\_Sorghum\_I550\_L7           |
-| PI653617      | IDXZ\_PCRfree\_PI653617\_TCCGCGAA-GGCTCTGA\_Sorghum\_I552\_L2           |
-| PI620072      | IDWE\_PCRfree\_PI620072\_ATTCAGAA-TATAGCCT\_Sorghum\_I550\_L3           |
-| PI452544      | IDUD\_PCRfree\_PI452544\_ATTACTCG-GTACTGAC\_Sorghum\_I549\_L3           |
-| PI152828      | IEBR\_PCRfree\_PI152828\_TAATGCGC-CCTATCCT\_Sorghum\_I557\_L4           |
-| PI152862      | IDYA\_PCRfree\_PI152862\_TCCGCGAA-AGGCGAAG\_Sorghum\_I552\_L2           |
-| PI221651      | IDWT\_PCRfree\_PI221651\_GAATTCGT-CAGGACGT\_Sorghum\_I550\_L8           |
-| PI329510      | IEAA\_PCRfree\_PI329510\_CGCTCATT-CCTATCCT\_Sorghum\_I555\_L7           |
-| PI570393      | IEAZ\_PCRfree\_PI570393\_GAATTCGT-ATAGAGGC\_Sorghum\_I556\_L6           |
-| PI641824      | IDXY\_PCRfree\_PI641824\_TCCGCGAA-CCTATCCT\_Sorghum\_I552\_L1           |
-| PI329605      | IDUW\_PCRfree\_PI329605\_GAGATTCC-TATAGCCT\_Sorghum\_I550\_L1           |
-| PI155885      | IDWJ\_PCRfree\_PI155885\_ATTCAGAA-TAATCTTA\_Sorghum\_I550\_L5           |
-| PI521019      | IDZI\_PCRfree\_PI521019\_ATTACTCG-CCTATCCT\_Sorghum\_I555\_L1           |
-| PI535795      | IDYJ\_PCRfree\_PI535795\_TCTCGCGC-TAATCTTA\_Sorghum\_I552\_L5           |
-| PI455217      | IDUF\_PCRfree\_PI455217\_TCCGGAGA-ATAGAGGC\_Sorghum\_I549\_L4           |
-| PI329338      | IDZX\_PCRfree\_PI329338\_TCCGGAGA-GTACTGAC\_Sorghum\_I555\_L6           |
-| PI563009      | IDWF\_PCRfree\_PI563009\_ATTCAGAA-ATAGAGGC\_Sorghum\_I550\_L4           |
-| PI585454      | IEAT\_PCRfree\_PI585454\_ATTCAGAA-AGGCGAAG\_Sorghum\_I556\_L5           |
-| PI452619      | IDXL\_PCRfree\_PI452619\_TAATGCGC-GTACTGAC\_Sorghum\_I551\_L6           |
-| PI521280      | IDWL\_PCRfree\_PI521280\_ATTCAGAA-GTACTGAC\_Sorghum\_I550\_L6           |
-| PI563022      | IDZQ\_PCRfree\_PI563022\_TCCGGAGA-ATAGAGGC\_Sorghum\_I555\_L4           |
-| PI656015      | IDXG\_PCRfree\_PI656015\_TAATGCGC-CCTATCCT\_Sorghum\_I551\_L4           |
-| PI180348      | IECI\_PCRfree\_PI180348\_TCCGCGAA-CCTATCCT\_Sorghum\_I558\_L1           |
-| PI152860      | IDYD\_PCRfree\_PI152860\_TCCGCGAA-GTACTGAC\_Sorghum\_I552\_L3           |
-| PI563196      | IEBC\_PCRfree\_PI563196\_GAATTCGT-AGGCGAAG\_Sorghum\_I556\_L7           |
-| PI576399      | IECZ\_PCRfree\_PI576399\_AGCGATAG-ATAGAGGC\_Sorghum\_I558\_L6           |
-| PI585461      | IEAU\_PCRfree\_PI585461\_ATTCAGAA-TAATCTTA\_Sorghum\_I556\_L5           |
-| PI585406      | IEAQ\_PCRfree\_PI585406\_ATTCAGAA-ATAGAGGC\_Sorghum\_I556\_L4           |
-| PI329584      | IDUT\_PCRfree\_PI329584\_CGCTCATT-CAGGACGT\_Sorghum\_I549\_L8           |
-| PI570074      | IDUY\_PCRfree\_PI570074\_GAGATTCC-CCTATCCT\_Sorghum\_I550\_L1           |
-| PI585448      | IEAR\_PCRfree\_PI585448\_ATTCAGAA-CCTATCCT\_Sorghum\_I556\_L4           |
-| PI564163      | IDWY\_PCRfree\_PI564163\_CTGAAGCT-CCTATCCT\_Sorghum\_I551\_L1           |
-| PI218112      | IDXT\_PCRfree\_PI218112\_CGGCTATG-CAGGACGT\_Sorghum\_I551\_L8           |
-| PI155149      | IDXI\_PCRfree\_PI155149\_TAATGCGC-AGGCGAAG\_Sorghum\_I551\_L5           |
-| PI562732      | IDYC\_PCRfree\_PI562732\_TCCGCGAA-CAGGACGT\_Sorghum\_I552\_L3           |
-| PI563021      | IEBN\_PCRfree\_PI563021\_CTGAAGCT-GTACTGAC\_Sorghum\_I557\_L3           |
-| PI329326      | IDUN\_PCRfree\_PI329326\_CGCTCATT-ATAGAGGC\_Sorghum\_I549\_L6           |
-| PI276837      | IDXQ\_PCRfree\_PI276837\_CGGCTATG-GGCTCTGA\_Sorghum\_I551\_L7           |
-| PI562982      | IDZM\_PCRfree\_PI562982\_ATTACTCG-CAGGACGT\_Sorghum\_I555\_L3           |
-| PI562781      | IEBB\_PCRfree\_PI562781\_GAATTCGT-GGCTCTGA\_Sorghum\_I556\_L7           |
-| PI561072      | IDWZ\_PCRfree\_PI561072\_CTGAAGCT-GGCTCTGA\_Sorghum\_I551\_L2           |
-| PI641834      | IECX\_PCRfree\_PI641834\_TCTCGCGC-GTACTGAC\_Sorghum\_I558\_L6           |
-| PI145633      | IEBQ\_PCRfree\_PI145633\_TAATGCGC-ATAGAGGC\_Sorghum\_I557\_L4           |
-| PI156463      | IDZL\_PCRfree\_PI156463\_ATTACTCG-TAATCTTA\_Sorghum\_I555\_L2           |
-| PI329333      | IDUP\_PCRfree\_PI329333\_CGCTCATT-CCTATCCT\_Sorghum\_I549\_L7           |
-| PI155760      | IDWN\_PCRfree\_PI155760\_GAATTCGT-ATAGAGGC\_Sorghum\_I550\_L6           |
-| PI196583      | IDYF\_PCRfree\_PI196583\_TCTCGCGC-ATAGAGGC\_Sorghum\_I552\_L4           |
-| PI514456      | IEAF\_PCRfree\_PI514456\_CGCTCATT-GTACTGAC\_Sorghum\_I555\_L8           |
-| PI329511      | IDXP\_PCRfree\_PI329511\_CGGCTATG-CCTATCCT\_Sorghum\_I551\_L7           |
-| PI550604      | IDXE\_PCRfree\_PI550604\_TAATGCGC-TATAGCCT\_Sorghum\_I551\_L3           |
-| PI257599      | IDYL\_PCRfree\_PI257599\_TCTCGCGC-GTACTGAC\_Sorghum\_I552\_L6           |
-| PI562717      | IDWQ\_PCRfree\_PI562717\_GAATTCGT-GGCTCTGA\_Sorghum\_I550\_L7           |
-| PI167093      | IDXW\_PCRfree\_PI167093\_TCCGCGAA-TATAGCCT\_Sorghum\_I552\_L1           |
-| PI452542      | IDXK\_PCRfree\_PI452542\_TAATGCGC-CAGGACGT\_Sorghum\_I551\_L5           |
-| PI570106      | IEAL\_PCRfree\_PI570106\_GAGATTCC-TAATCTTA\_Sorghum\_I556\_L2           |
-| PI329440      | IDYH\_PCRfree\_PI329440\_TCTCGCGC-GGCTCTGA\_Sorghum\_I552\_L4           |
-| PI513898      | IDZH\_PCRfree\_PI513898\_ATTACTCG-ATAGAGGC\_Sorghum\_I555\_L1           |
-| PI593916      | IDWW\_PCRfree\_PI593916\_CTGAAGCT-TATAGCCT\_Sorghum\_I551\_L1           |
-| PI533998      | IDXA\_PCRfree\_PI533998\_CTGAAGCT-AGGCGAAG\_Sorghum\_I551\_L2           |
-| PI181083      | IEBD\_PCRfree\_PI181083\_GAATTCGT-TAATCTTA\_Sorghum\_I556\_L8           |
-| PI535794      | IDXC\_PCRfree\_PI535794\_CTGAAGCT-CAGGACGT\_Sorghum\_I551\_L3           |
-| PI570110      | IEAM\_PCRfree\_PI570110\_GAGATTCC-CAGGACGT\_Sorghum\_I556\_L3           |
-| PI570076      | IEAH\_PCRfree\_PI570076\_GAGATTCC-ATAGAGGC\_Sorghum\_I556\_L1           |
-| PI570085      | IEAI\_PCRfree\_PI570085\_GAGATTCC-CCTATCCT\_Sorghum\_I556\_L1           |
-| PI92270       | IDYE\_PCRfree\_PI92270\_TCTCGCGC-TATAGCCT\_Sorghum\_I552\_L3            |
-| PI152965      | IDYR\_PCRfree\_PI152965\_AGCGATAG-AGGCGAAG\_Sorghum\_I552\_L7           |
-| PI533902      | IEBW\_PCRfree\_PI533902\_TAATGCGC-CAGGACGT\_Sorghum\_I557\_L5           |
-| PI585467      | IEAW\_PCRfree\_PI585467\_ATTCAGAA-CAGGACGT\_Sorghum\_I556\_L5           |
-| PI251672      | IDYG\_PCRfree\_PI251672\_TCTCGCGC-CCTATCCT\_Sorghum\_I552\_L4           |
-| PI563032      | IDYM\_PCRfree\_PI563032\_AGCGATAG-TATAGCCT\_Sorghum\_I552\_L6           |
-| PI146890      | IDYQ\_PCRfree\_PI146890\_AGCGATAG-GGCTCTGA\_Sorghum\_I552\_L7           |
-| PI156871      | IEBM\_PCRfree\_PI156871\_CTGAAGCT-CAGGACGT\_Sorghum\_I557\_L3           |
-| PI585961      | IDWC\_PCRfree\_PI585961\_GAGATTCC-CAGGACGT\_Sorghum\_I550\_L3           |
-| PI570400      | IEBF\_PCRfree\_PI570400\_GAATTCGT-GTACTGAC\_Sorghum\_I556\_L8           |
-| PI651493      | IDYN\_PCRfree\_PI651493\_AGCGATAG-ATAGAGGC\_Sorghum\_I552\_L6           |
-| PI273969      | IECN\_PCRfree\_PI273969\_TCCGCGAA-GTACTGAC\_Sorghum\_I558\_L3           |
-| PI570114      | IEAN\_PCRfree\_PI570114\_GAGATTCC-GTACTGAC\_Sorghum\_I556\_L3           |
-| PI535796      | IDYK\_PCRfree\_PI535796\_TCTCGCGC-CAGGACGT\_Sorghum\_I552\_L5           |
-| PI535785      | IDYI\_PCRfree\_PI535785\_TCTCGCGC-AGGCGAAG\_Sorghum\_I552\_L5           |
-| PI656065      | IEBE\_PCRfree\_PI656065\_GAATTCGT-CAGGACGT\_Sorghum\_I556\_L8           |
-| PI585577      | IEAX\_PCRfree\_PI585577\_ATTCAGAA-GTACTGAC\_Sorghum\_I556\_L6           |
-| PI655981      | IEBZ\_PCRfree\_PI655981\_CGGCTATG-ATAGAGGC\_Sorghum\_I557\_L6           |
-| PI511355      | IDYP\_PCRfree\_PI511355\_AGCGATAG-CCTATCCT\_Sorghum\_I552\_L7           |
-| PI619838      | IEBA\_PCRfree\_PI619838\_GAATTCGT-CCTATCCT\_Sorghum\_I556\_L7           |
-| PI562997      | IDZN\_PCRfree\_PI562997\_ATTACTCG-GTACTGAC\_Sorghum\_I555\_L3           |
-| PI152967      | IDYU\_PCRfree\_PI152967\_AGCGATAG-GTACTGAC\_Sorghum\_I552\_L8           |
-| PI535792      | IEBU\_PCRfree\_PI535792\_TAATGCGC-TAATCTTA\_Sorghum\_I557\_L5           |
-| PI157030      | IDTY\_PCRfree\_PI157030\_ATTACTCG-CCTATCCT\_Sorghum\_I549\_L1           |
+| **accession** | [**taxid**](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4558) | [**organism common name**](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4558) | **subspecific genetic lineage rank** | **subspecific genetic lineage name** | [**ploidy**](https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Sbicolor) | [**number of replicons**](https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Sbicolor) | [**estimated size**](https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Sbicolor) | [**source material identifiers**](https://www.genesys-pgr.org/) | **sample name** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BTx623 | 4558 | sorghum | cultivar | PI 564163 | diploid | 10 | 366100000 | [0ba28636-e634-428a-aa58-4346a20de326](https://purl.org/germplasm/id/0ba28636-e634-428a-aa58-4346a20de326) | IEDD\_PCRfree\_BTx623genome\_AGCGATAG-TAATCTTA\_SorghumBTx623\_I558\_L8 |
+| PI 144134 | 4558 | sorghum | cultivar | PI 144134 | diploid | 10 | 366100000 | [025567e3-5e53-4c24-987c-f161e5f294e8](https://purl.org/germplasm/id/025567e3-5e53-4c24-987c-f161e5f294e8) | IDXX\_PCRfree\_PI144134\_TCCGCGAA-ATAGAGGC\_Sorghum\_I552\_L1 |
+| PI 145619 | 4558 | sorghum | cultivar | PI 145619 | diploid | 10 | 366100000 | [8c3f09f8-d28b-4e1a-b310-2fc7813c6a0f](https://purl.org/germplasm/id/8c3f09f8-d28b-4e1a-b310-2fc7813c6a0f) | IECE\_PCRfree\_PI145619\_CGGCTATG-CAGGACGT\_Sorghum\_I557\_L8 |
+| PI 145626 | 4558 | sorghum | cultivar | PI 145626 | diploid | 10 | 366100000 | [4ed0c854-7001-4ec9-ab4f-c4332c273dd0](https://purl.org/germplasm/id/4ed0c854-7001-4ec9-ab4f-c4332c273dd0) | IECP\_PCRfree\_PI145626\_TCTCGCGC-TATAGCCT\_Sorghum\_I558\_L3 |
+| PI 145632 | 4558 | sorghum | cultivar | PI 145632 | diploid | 10 | 366100000 | [10f58551-1bbf-4c77-8577-e0e92b8fe8f7](https://purl.org/germplasm/id/10f58551-1bbf-4c77-8577-e0e92b8fe8f7) | IDYS\_PCRfree\_PI145632\_AGCGATAG-TAATCTTA\_Sorghum\_I552\_L8 |
+| PI 145633 | 4558 | sorghum | cultivar | PI 145633 | diploid | 10 | 366100000 | [943bbef8-a81f-4dc2-8d09-dc249a9df85f](https://purl.org/germplasm/id/943bbef8-a81f-4dc2-8d09-dc249a9df85f) | IEBQ\_PCRfree\_PI145633\_TAATGCGC-ATAGAGGC\_Sorghum\_I557\_L4 |
+| PI 146890 | 4558 | sorghum | cultivar | PI 146890 | diploid | 10 | 366100000 | [76aa5697-3d1d-449f-954f-ecfd526f1c5a](https://purl.org/germplasm/id/76aa5697-3d1d-449f-954f-ecfd526f1c5a) | IDYQ\_PCRfree\_PI146890\_AGCGATAG-GGCTCTGA\_Sorghum\_I552\_L7 |
+| PI 152694 | 4558 | sorghum | cultivar | PI 152694 | diploid | 10 | 366100000 | [fe511f9b-5ecf-45ee-bc10-11b625dbdada](https://purl.org/germplasm/id/fe511f9b-5ecf-45ee-bc10-11b625dbdada) | IDYB\_PCRfree\_PI152694\_TCCGCGAA-TAATCTTA\_Sorghum\_I552\_L2 |
+| PI 152728 | 4558 | sorghum | cultivar | PI 152728 | diploid | 10 | 366100000 | [824aeee1-0c0b-4bd3-b45b-601a341cb158](https://purl.org/germplasm/id/824aeee1-0c0b-4bd3-b45b-601a341cb158) | IDWH\_PCRfree\_PI152728\_ATTCAGAA-GGCTCTGA\_Sorghum\_I550\_L4 |
+| PI 152751 | 4558 | sorghum | cultivar | PI 152751 | diploid | 10 | 366100000 | [0beaa3a7-d72e-4426-85d5-dd26dcd6dedf](https://purl.org/germplasm/id/0beaa3a7-d72e-4426-85d5-dd26dcd6dedf) | IECT\_PCRfree\_PI152751\_TCTCGCGC-AGGCGAAG\_Sorghum\_I558\_L5 |
+| PI 152771 | 4558 | sorghum | cultivar | PI 152771 | diploid | 10 | 366100000 | [4b85adcf-d98f-4620-ae27-3f429634318a](https://purl.org/germplasm/id/4b85adcf-d98f-4620-ae27-3f429634318a) | IECY\_PCRfree\_PI152771\_AGCGATAG-TATAGCCT\_Sorghum\_I558\_L6 |
+| PI 152816 | 4558 | sorghum | cultivar | PI 152816 | diploid | 10 | 366100000 | [4f1e0621-a862-4d1e-ae7c-96b3cf242eb2](https://purl.org/germplasm/id/4f1e0621-a862-4d1e-ae7c-96b3cf242eb2) | IEDB\_PCRfree\_PI152816\_AGCGATAG-GGCTCTGA\_Sorghum\_I558\_L7 |
+| PI 152828 | 4558 | sorghum | cultivar | PI 152828 | diploid | 10 | 366100000 | [c2de5f68-dae5-4593-975c-50c4a09263a4](https://purl.org/germplasm/id/c2de5f68-dae5-4593-975c-50c4a09263a4) | IEBR\_PCRfree\_PI152828\_TAATGCGC-CCTATCCT\_Sorghum\_I557\_L4 |
+| PI 152860 | 4558 | sorghum | cultivar | PI 152860 | diploid | 10 | 366100000 | [43991c5e-2444-468f-b837-c30a05bc7001](https://purl.org/germplasm/id/43991c5e-2444-468f-b837-c30a05bc7001) | IDYD\_PCRfree\_PI152860\_TCCGCGAA-GTACTGAC\_Sorghum\_I552\_L3 |
+| PI 152862 | 4558 | sorghum | cultivar | PI 152862 | diploid | 10 | 366100000 | [d4c949fa-2fa1-4aa7-ad9e-b93c15258ba5](https://purl.org/germplasm/id/d4c949fa-2fa1-4aa7-ad9e-b93c15258ba5) | IDYA\_PCRfree\_PI152862\_TCCGCGAA-AGGCGAAG\_Sorghum\_I552\_L2 |
+| PI 152923 | 4558 | sorghum | cultivar | PI 152923 | diploid | 10 | 366100000 | [661932d9-e35e-400b-a851-6703e94a0b1e](https://purl.org/germplasm/id/661932d9-e35e-400b-a851-6703e94a0b1e) | IDUB\_PCRfree\_PI152923\_ATTACTCG-TAATCTTA\_Sorghum\_I549\_L2 |
+| PI 152961 | 4558 | sorghum | cultivar | PI 152961 | diploid | 10 | 366100000 | [385ef655-5649-4df2-a7f2-57608f6d2ee9](https://purl.org/germplasm/id/385ef655-5649-4df2-a7f2-57608f6d2ee9) | IECJ\_PCRfree\_PI152961\_TCCGCGAA-GGCTCTGA\_Sorghum\_I558\_L2 |
+| PI 152963 | 4558 | sorghum | cultivar | PI 152963 | diploid | 10 | 366100000 | [e48c52bf-a399-4b61-bbca-cd04ce0ae295](https://purl.org/germplasm/id/e48c52bf-a399-4b61-bbca-cd04ce0ae295) | IDWS\_PCRfree\_PI152963\_GAATTCGT-TAATCTTA\_Sorghum\_I550\_L8 |
+| PI 152965 | 4558 | sorghum | cultivar | PI 152965 | diploid | 10 | 366100000 | [78b3990e-7bd4-48b3-9690-c8eedc324d75](https://purl.org/germplasm/id/78b3990e-7bd4-48b3-9690-c8eedc324d75) | IDYR\_PCRfree\_PI152965\_AGCGATAG-AGGCGAAG\_Sorghum\_I552\_L7 |
+| PI 152966 | 4558 | sorghum | cultivar | PI 152966 | diploid | 10 | 366100000 | [456eb93c-d4b4-4655-85d9-8660aa2453ed](https://purl.org/germplasm/id/456eb93c-d4b4-4655-85d9-8660aa2453ed) | IECD\_PCRfree\_PI152966\_CGGCTATG-TAATCTTA\_Sorghum\_I557\_L8 |
+| PI 152967 | 4558 | sorghum | cultivar | PI 152967 | diploid | 10 | 366100000 | [2ad313d9-aba2-446d-9ff7-7db4c478fafc](https://purl.org/germplasm/id/2ad313d9-aba2-446d-9ff7-7db4c478fafc) | IDYU\_PCRfree\_PI152967\_AGCGATAG-GTACTGAC\_Sorghum\_I552\_L8 |
+| PI 152971 | 4558 | sorghum | cultivar | PI 152971 | diploid | 10 | 366100000 | [4cf7b446-9b9e-4950-9226-a883112c4f97](https://purl.org/germplasm/id/4cf7b446-9b9e-4950-9226-a883112c4f97) | IECC\_PCRfree\_PI152971\_CGGCTATG-AGGCGAAG\_Sorghum\_I557\_L7 |
+| PI 154944 | 4558 | sorghum | cultivar | PI 154944 | diploid | 10 | 366100000 | [e667112b-99c3-4c13-8fbf-f6627d6afcea](https://purl.org/germplasm/id/e667112b-99c3-4c13-8fbf-f6627d6afcea) | IDWG\_PCRfree\_PI154944\_ATTCAGAA-CCTATCCT\_Sorghum\_I550\_L4 |
+| PI 155149 | 4558 | sorghum | cultivar | PI 155149 | diploid | 10 | 366100000 | [1c9133ef-8ebd-4708-b2eb-c3f5bc57f903](https://purl.org/germplasm/id/1c9133ef-8ebd-4708-b2eb-c3f5bc57f903) | IDXI\_PCRfree\_PI155149\_TAATGCGC-AGGCGAAG\_Sorghum\_I551\_L5 |
+| PI 155516 | 4558 | sorghum | cultivar | PI 155516 | diploid | 10 | 366100000 | [a5128d54-3509-4cfa-9770-870d51122c59](https://purl.org/germplasm/id/a5128d54-3509-4cfa-9770-870d51122c59) | IEBG\_PCRfree\_PI155516\_CTGAAGCT-TATAGCCT\_Sorghum\_I557\_L1 |
+| PI 155760 | 4558 | sorghum | cultivar | PI 155760 | diploid | 10 | 366100000 | [2c443cb1-b34c-4122-9759-d2801e8894fc](https://purl.org/germplasm/id/2c443cb1-b34c-4122-9759-d2801e8894fc) | IDWN\_PCRfree\_PI155760\_GAATTCGT-ATAGAGGC\_Sorghum\_I550\_L6 |
+| PI 155885 | 4558 | sorghum | cultivar | PI 155885 | diploid | 10 | 366100000 | [70aad7e5-c344-497c-8746-c642d6586bce](https://purl.org/germplasm/id/70aad7e5-c344-497c-8746-c642d6586bce) | IDWJ\_PCRfree\_PI155885\_ATTCAGAA-TAATCTTA\_Sorghum\_I550\_L5 |
+| PI 156018 | 4558 | sorghum | cultivar | PI 156018 | diploid | 10 | 366100000 | [cde5f42b-0ae5-43b1-a4e4-8153b81fc8b2](https://purl.org/germplasm/id/cde5f42b-0ae5-43b1-a4e4-8153b81fc8b2) | IDWI\_PCRfree\_PI156018\_ATTCAGAA-AGGCGAAG\_Sorghum\_I550\_L5 |
+| PI 156217 | 4558 | sorghum | cultivar | PI 156217 | diploid | 10 | 366100000 | [40d2a60c-c26a-4bfe-ab33-3022aa316841](https://purl.org/germplasm/id/40d2a60c-c26a-4bfe-ab33-3022aa316841) | IEBI\_PCRfree\_PI156217\_CTGAAGCT-CCTATCCT\_Sorghum\_I557\_L1 |
+| PI 156326 | 4558 | sorghum | cultivar | PI 156326 | diploid | 10 | 366100000 | [f837bfe8-ea20-4b51-a295-dac651f4af9c](https://purl.org/germplasm/id/f837bfe8-ea20-4b51-a295-dac651f4af9c) | IDZK\_PCRfree\_PI156326\_ATTACTCG-AGGCGAAG\_Sorghum\_I555\_L2 |
+| PI 156463 | 4558 | sorghum | cultivar | PI 156463 | diploid | 10 | 366100000 | [ff58f9df-314f-4b9a-a12a-ee1fc0001657](https://purl.org/germplasm/id/ff58f9df-314f-4b9a-a12a-ee1fc0001657) | IDZL\_PCRfree\_PI156463\_ATTACTCG-TAATCTTA\_Sorghum\_I555\_L2 |
+| PI 156871 | 4558 | sorghum | cultivar | PI 156871 | diploid | 10 | 366100000 | [5e02f50e-e2b1-4be0-9a4b-8bd19bd6b686](https://purl.org/germplasm/id/5e02f50e-e2b1-4be0-9a4b-8bd19bd6b686) | IEBM\_PCRfree\_PI156871\_CTGAAGCT-CAGGACGT\_Sorghum\_I557\_L3 |
+| PI 156890 | 4558 | sorghum | cultivar | PI 156890 | diploid | 10 | 366100000 | [19ce55f4-5435-40c3-a8ba-5654a90c3ae9](https://purl.org/germplasm/id/19ce55f4-5435-40c3-a8ba-5654a90c3ae9) | IDXJ\_PCRfree\_PI156890\_TAATGCGC-TAATCTTA\_Sorghum\_I551\_L5 |
+| PI 157030 | 4558 | sorghum | cultivar | PI 157030 | diploid | 10 | 366100000 | [7dc07d64-36f5-4a67-a8d1-8efd03f688cc](https://purl.org/germplasm/id/7dc07d64-36f5-4a67-a8d1-8efd03f688cc) | IDTY\_PCRfree\_PI157030\_ATTACTCG-CCTATCCT\_Sorghum\_I549\_L1 |
+| PI 157033 | 4558 | sorghum | cultivar | PI 157033 | diploid | 10 | 366100000 | [5ff8d809-0864-40a6-9862-f00f1b8bb884](https://purl.org/germplasm/id/5ff8d809-0864-40a6-9862-f00f1b8bb884) | IECH\_PCRfree\_PI157033\_TCCGCGAA-ATAGAGGC\_Sorghum\_I558\_L1 |
+| PI 157035 | 4558 | sorghum | cultivar | PI 157035 | diploid | 10 | 366100000 | [52adbb27-4271-48e5-90ea-023b45472d2e](https://purl.org/germplasm/id/52adbb27-4271-48e5-90ea-023b45472d2e) | IECW\_PCRfree\_PI157035\_TCTCGCGC-CAGGACGT\_Sorghum\_I558\_L5 |
+| PI 157804 | 4558 | sorghum | cultivar | PI 157804 | diploid | 10 | 366100000 | [fb8dfe8a-05e9-4e39-abdc-101e10f6c111](https://purl.org/germplasm/id/fb8dfe8a-05e9-4e39-abdc-101e10f6c111) | IDUJ\_PCRfree\_PI157804\_TCCGGAGA-TAATCTTA\_Sorghum\_I549\_L5 |
+| PI 167093 | 4558 | sorghum | cultivar | PI 167093 | diploid | 10 | 366100000 | [bfd7cf43-7311-4a8d-88d4-a1c46ef72f49](https://purl.org/germplasm/id/bfd7cf43-7311-4a8d-88d4-a1c46ef72f49) | IDXW\_PCRfree\_PI167093\_TCCGCGAA-TATAGCCT\_Sorghum\_I552\_L1 |
+| PI 170787 | 4558 | sorghum | cultivar | PI 170787 | diploid | 10 | 366100000 | [228dfe4a-1f1f-4d4d-b988-531eb5f68311](https://purl.org/germplasm/id/228dfe4a-1f1f-4d4d-b988-531eb5f68311) | IECK\_PCRfree\_PI170787\_TCCGCGAA-AGGCGAAG\_Sorghum\_I558\_L2 |
+| PI 180348 | 4558 | sorghum | cultivar | PI 180348 | diploid | 10 | 366100000 | [0e5a007b-df9a-4616-8faf-904057a8b45f](https://purl.org/germplasm/id/0e5a007b-df9a-4616-8faf-904057a8b45f) | IECI\_PCRfree\_PI180348\_TCCGCGAA-CCTATCCT\_Sorghum\_I558\_L1 |
+| PI 181080 | 4558 | sorghum | cultivar | PI 181080 | diploid | 10 | 366100000 | [35c070d4-1acf-4326-984e-32cd1b3f9c5d](https://purl.org/germplasm/id/35c070d4-1acf-4326-984e-32cd1b3f9c5d) | IDZW\_PCRfree\_PI181080\_TCCGGAGA-CAGGACGT\_Sorghum\_I555\_L5 |
+| PI 181083 | 4558 | sorghum | cultivar | PI 181083 | diploid | 10 | 366100000 | [c6779b7c-12ef-49a0-a0cf-ed30728d1ee6](https://purl.org/germplasm/id/c6779b7c-12ef-49a0-a0cf-ed30728d1ee6) | IEBD\_PCRfree\_PI181083\_GAATTCGT-TAATCTTA\_Sorghum\_I556\_L8 |
+| PI 181899 | 4558 | sorghum | cultivar | PI 181899 | diploid | 10 | 366100000 | [a1a04e33-1176-4e5e-a656-07536860e054](https://purl.org/germplasm/id/a1a04e33-1176-4e5e-a656-07536860e054) | IDUX\_PCRfree\_PI181899\_GAGATTCC-ATAGAGGC\_Sorghum\_I550\_L1 |
+| PI 196049 | 4558 | sorghum | cultivar | PI 196049 | diploid | 10 | 366100000 | [05b00416-0c23-4335-808f-e4488d790763](https://purl.org/germplasm/id/05b00416-0c23-4335-808f-e4488d790763) | IDXR\_PCRfree\_PI196049\_CGGCTATG-AGGCGAAG\_Sorghum\_I551\_L7 |
+| PI 196583 | 4558 | sorghum | cultivar | PI 196583 | diploid | 10 | 366100000 | [ba518c0b-5bf1-41e5-a73b-36030fc07902](https://purl.org/germplasm/id/ba518c0b-5bf1-41e5-a73b-36030fc07902) | IDYF\_PCRfree\_PI196583\_TCTCGCGC-ATAGAGGC\_Sorghum\_I552\_L4 |
+| PI 196586 | 4558 | sorghum | cultivar | PI 196586 | diploid | 10 | 366100000 | [cfdb8b02-0823-497d-bd34-36a2f2f2ace1](https://purl.org/germplasm/id/cfdb8b02-0823-497d-bd34-36a2f2f2ace1) | IECL\_PCRfree\_PI196586\_TCCGCGAA-TAATCTTA\_Sorghum\_I558\_L2 |
+| PI 196598 | 4558 | sorghum | cultivar | PI 196598 | diploid | 10 | 366100000 | [12c47f50-3d9a-40e5-a369-a3c7641c40a4](https://purl.org/germplasm/id/12c47f50-3d9a-40e5-a369-a3c7641c40a4) | IDXB\_PCRfree\_PI196598\_CTGAAGCT-TAATCTTA\_Sorghum\_I551\_L2 |
+| PI 218112 | 4558 | sorghum | cultivar | PI 218112 | diploid | 10 | 366100000 | [9313a4f6-60cf-43a5-bfa9-3cb7d2ab3f50](https://purl.org/germplasm/id/9313a4f6-60cf-43a5-bfa9-3cb7d2ab3f50) | IDXT\_PCRfree\_PI218112\_CGGCTATG-CAGGACGT\_Sorghum\_I551\_L8 |
+| PI 221548 | 4558 | sorghum | cultivar | PI 221548 | diploid | 10 | 366100000 | [fec2048b-de47-4a97-aa96-b26b6c612800](https://purl.org/germplasm/id/fec2048b-de47-4a97-aa96-b26b6c612800) | IDXF\_PCRfree\_PI221548\_TAATGCGC-ATAGAGGC\_Sorghum\_I551\_L4 |
+| PI 221651 | 4558 | sorghum | cultivar | PI 221651 | diploid | 10 | 366100000 | [b58e8a7f-ff95-4709-aa95-c3e79f7ff039](https://purl.org/germplasm/id/b58e8a7f-ff95-4709-aa95-c3e79f7ff039) | IDWT\_PCRfree\_PI221651\_GAATTCGT-CAGGACGT\_Sorghum\_I550\_L8 |
+| PI 250583 | 4558 | sorghum | cultivar | PI 250583 | diploid | 10 | 366100000 | [8bf0e506-a26e-48d3-9401-d0fd769a1171](https://purl.org/germplasm/id/8bf0e506-a26e-48d3-9401-d0fd769a1171) | IECM\_PCRfree\_PI250583\_TCCGCGAA-CAGGACGT\_Sorghum\_I558\_L3 |
+| PI 251672 | 4558 | sorghum | cultivar | PI 251672 | diploid | 10 | 366100000 | [dc9854e7-cbc4-4783-8bb1-03d46528c155](https://purl.org/germplasm/id/dc9854e7-cbc4-4783-8bb1-03d46528c155) | IDYG\_PCRfree\_PI251672\_TCTCGCGC-CCTATCCT\_Sorghum\_I552\_L4 |
+| PI 253986 | 4558 | sorghum | cultivar | PI 253986 | diploid | 10 | 366100000 | [7b6de7da-add8-413e-92bb-c1ecf4fb0a98](https://purl.org/germplasm/id/7b6de7da-add8-413e-92bb-c1ecf4fb0a98) | IEBJ\_PCRfree\_PI253986\_CTGAAGCT-GGCTCTGA\_Sorghum\_I557\_L2 |
+| PI 255744 | 4558 | sorghum | cultivar | PI 255744 | diploid | 10 | 366100000 | [1b4ac98c-4308-4a1e-8a48-8a94b1a7dc60](https://purl.org/germplasm/id/1b4ac98c-4308-4a1e-8a48-8a94b1a7dc60) | IDWK\_PCRfree\_PI255744\_ATTCAGAA-CAGGACGT\_Sorghum\_I550\_L5 |
+| PI 257599 | 4558 | sorghum | cultivar | PI 257599 | diploid | 10 | 366100000 | [36d83cd2-ac8a-4dcb-8985-4afbbe7d1580](https://purl.org/germplasm/id/36d83cd2-ac8a-4dcb-8985-4afbbe7d1580) | IDYL\_PCRfree\_PI257599\_TCTCGCGC-GTACTGAC\_Sorghum\_I552\_L6 |
+| PI 257600 | 4558 | sorghum | cultivar | PI 257600 | diploid | 10 | 366100000 | [2ee81c14-8a8e-46f2-bb47-268b314b29ef](https://purl.org/germplasm/id/2ee81c14-8a8e-46f2-bb47-268b314b29ef) | IECS\_PCRfree\_PI257600\_TCTCGCGC-GGCTCTGA\_Sorghum\_I558\_L4 |
+| PI 266927 | 4558 | sorghum | cultivar | PI 266927 | diploid | 10 | 366100000 | [02d79c4e-6be4-4246-80ca-17482e53217b](https://purl.org/germplasm/id/02d79c4e-6be4-4246-80ca-17482e53217b) | IDTZ\_PCRfree\_PI266927\_ATTACTCG-GGCTCTGA\_Sorghum\_I549\_L2 |
+| PI 267573 | 4558 | sorghum | cultivar | PI 267573 | diploid | 10 | 366100000 | [0d628c4f-a845-4619-982e-4e2c2fc39c97](https://purl.org/germplasm/id/0d628c4f-a845-4619-982e-4e2c2fc39c97) | IDWD\_PCRfree\_PI267573\_GAGATTCC-GTACTGAC\_Sorghum\_I550\_L3 |
+| PI 273969 | 4558 | sorghum | cultivar | PI 273969 | diploid | 10 | 366100000 | [1d8d6d86-0165-4a92-b2a8-b74f487cc86f](https://purl.org/germplasm/id/1d8d6d86-0165-4a92-b2a8-b74f487cc86f) | IECN\_PCRfree\_PI273969\_TCCGCGAA-GTACTGAC\_Sorghum\_I558\_L3 |
+| PI 276837 | 4558 | sorghum | cultivar | PI 276837 | diploid | 10 | 366100000 | [88cbab38-8e12-40c2-9f06-37f628ce031a](https://purl.org/germplasm/id/88cbab38-8e12-40c2-9f06-37f628ce031a) | IDXQ\_PCRfree\_PI276837\_CGGCTATG-GGCTCTGA\_Sorghum\_I551\_L7 |
+| PI 291246 | 4558 | sorghum | cultivar | PI 291246 | diploid | 10 | 366100000 | [df661c1e-7915-48f6-94c8-67e3b42eba27](https://purl.org/germplasm/id/df661c1e-7915-48f6-94c8-67e3b42eba27) | IDXS\_PCRfree\_PI291246\_CGGCTATG-TAATCTTA\_Sorghum\_I551\_L8 |
+| PI 303658 | 4558 | sorghum | cultivar | PI 303658 | diploid | 10 | 366100000 | [0b983659-222d-4889-9248-00b202b0dc9d](https://purl.org/germplasm/id/0b983659-222d-4889-9248-00b202b0dc9d) | IECU\_PCRfree\_PI303658\_TCTCGCGC-TAATCTTA\_Sorghum\_I558\_L5 |
+| PI 329256 | 4558 | sorghum | cultivar | PI 329256 | diploid | 10 | 366100000 | [1ff1a460-083d-4c19-b44c-bd0905f15bb1](https://purl.org/germplasm/id/1ff1a460-083d-4c19-b44c-bd0905f15bb1) | IECF\_PCRfree\_PI329256\_CGGCTATG-GTACTGAC\_Sorghum\_I557\_L8 |
+| PI 329286 | 4558 | sorghum | cultivar | PI 329286 | diploid | 10 | 366100000 | [7a298e27-98da-4d29-8607-235898299c09](https://purl.org/germplasm/id/7a298e27-98da-4d29-8607-235898299c09) | IDUK\_PCRfree\_PI329286\_TCCGGAGA-CAGGACGT\_Sorghum\_I549\_L5 |
+| PI 329299 | 4558 | sorghum | cultivar | PI 329299 | diploid | 10 | 366100000 | [1b8a7a26-1b76-4f14-91f8-0d870e547f62](https://purl.org/germplasm/id/1b8a7a26-1b76-4f14-91f8-0d870e547f62) | IDUL\_PCRfree\_PI329299\_TCCGGAGA-GTACTGAC\_Sorghum\_I549\_L6 |
+| PI 329310 | 4558 | sorghum | cultivar | PI 329310 | diploid | 10 | 366100000 | [56b1cf84-8ab5-49c6-b938-59b23e817647](https://purl.org/germplasm/id/56b1cf84-8ab5-49c6-b938-59b23e817647) | IDXM\_PCRfree\_PI329310\_CGGCTATG-TATAGCCT\_Sorghum\_I551\_L6 |
+| PI 329319 | 4558 | sorghum | cultivar | PI 329319 | diploid | 10 | 366100000 | [d762f109-9def-4da5-9c60-dba8e953f592](https://purl.org/germplasm/id/d762f109-9def-4da5-9c60-dba8e953f592) | IDUM\_PCRfree\_PI329319\_CGCTCATT-TATAGCCT\_Sorghum\_I549\_L6 |
+| PI 329326 | 4558 | sorghum | cultivar | PI 329326 | diploid | 10 | 366100000 | [a919c28e-9eec-442b-84af-c1f6253dc29d](https://purl.org/germplasm/id/a919c28e-9eec-442b-84af-c1f6253dc29d) | IDUN\_PCRfree\_PI329326\_CGCTCATT-ATAGAGGC\_Sorghum\_I549\_L6 |
+| PI 329333 | 4558 | sorghum | cultivar | PI 329333 | diploid | 10 | 366100000 | [99578b94-f502-43bf-aed2-9c690048e46e](https://purl.org/germplasm/id/99578b94-f502-43bf-aed2-9c690048e46e) | IDUP\_PCRfree\_PI329333\_CGCTCATT-CCTATCCT\_Sorghum\_I549\_L7 |
+| PI 329338 | 4558 | sorghum | cultivar | PI 329338 | diploid | 10 | 366100000 | [d8b5f7cb-51f1-4b98-88d9-8dc8cde07b98](https://purl.org/germplasm/id/d8b5f7cb-51f1-4b98-88d9-8dc8cde07b98) | IDZX\_PCRfree\_PI329338\_TCCGGAGA-GTACTGAC\_Sorghum\_I555\_L6 |
+| PI 329351 | 4558 | sorghum | cultivar | PI 329351 | diploid | 10 | 366100000 | [72130377-b9d5-4253-92c3-f61c6faaa280](https://purl.org/germplasm/id/72130377-b9d5-4253-92c3-f61c6faaa280) | IDUQ\_PCRfree\_PI329351\_CGCTCATT-GGCTCTGA\_Sorghum\_I549\_L7 |
+| PI 329394 | 4558 | sorghum | cultivar | PI 329394 | diploid | 10 | 366100000 | [08395cfc-8c65-4291-825f-dbe408840c4b](https://purl.org/germplasm/id/08395cfc-8c65-4291-825f-dbe408840c4b) | IECG\_PCRfree\_PI329394\_TCCGCGAA-TATAGCCT\_Sorghum\_I558\_L1 |
+| PI 329440 | 4558 | sorghum | cultivar | PI 329440 | diploid | 10 | 366100000 | [aa87f259-21fa-406b-93bb-1db4639618a0](https://purl.org/germplasm/id/aa87f259-21fa-406b-93bb-1db4639618a0) | IDYH\_PCRfree\_PI329440\_TCTCGCGC-GGCTCTGA\_Sorghum\_I552\_L4 |
+| PI 329465 | 4558 | sorghum | cultivar | PI 329465 | diploid | 10 | 366100000 | [b157d565-1f4f-4134-a347-4b279b32e0fc](https://purl.org/germplasm/id/b157d565-1f4f-4134-a347-4b279b32e0fc) | IDXN\_PCRfree\_PI329465\_CGGCTATG-ATAGAGGC\_Sorghum\_I551\_L6 |
+| PI 329471 | 4558 | sorghum | cultivar | PI 329471 | diploid | 10 | 366100000 | [7fd503c4-6008-4358-bc6b-e5054cbb5284](https://purl.org/germplasm/id/7fd503c4-6008-4358-bc6b-e5054cbb5284) | IDUR\_PCRfree\_PI329471\_CGCTCATT-AGGCGAAG\_Sorghum\_I549\_L7 |
+| PI 329480 | 4558 | sorghum | cultivar | PI 329480 | diploid | 10 | 366100000 | [e16c3914-70f7-4a98-aff8-6e0a81ba97dd](https://purl.org/germplasm/id/e16c3914-70f7-4a98-aff8-6e0a81ba97dd) | IDZY\_PCRfree\_PI329480\_CGCTCATT-TATAGCCT\_Sorghum\_I555\_L6 |
+| PI 329506 | 4558 | sorghum | cultivar | PI 329506 | diploid | 10 | 366100000 | [5e36bbf5-8f22-464f-af4d-c375ee8e0a9c](https://purl.org/germplasm/id/5e36bbf5-8f22-464f-af4d-c375ee8e0a9c) | IDZZ\_PCRfree\_PI329506\_CGCTCATT-ATAGAGGC\_Sorghum\_I555\_L6 |
+| PI 329510 | 4558 | sorghum | cultivar | PI 329510 | diploid | 10 | 366100000 | [9c9a13b9-c2b6-403e-8a17-d2b81d98ccd0](https://purl.org/germplasm/id/9c9a13b9-c2b6-403e-8a17-d2b81d98ccd0) | IEAA\_PCRfree\_PI329510\_CGCTCATT-CCTATCCT\_Sorghum\_I555\_L7 |
+| PI 329511 | 4558 | sorghum | cultivar | PI 329511 | diploid | 10 | 366100000 | [28f61bbc-f7a9-4e8b-9489-0f908757ce79](https://purl.org/germplasm/id/28f61bbc-f7a9-4e8b-9489-0f908757ce79) | IDXP\_PCRfree\_PI329511\_CGGCTATG-CCTATCCT\_Sorghum\_I551\_L7 |
+| PI 329517 | 4558 | sorghum | cultivar | PI 329517 | diploid | 10 | 366100000 | [4ebd23ee-560d-444a-a4a5-ea23e66137f1](https://purl.org/germplasm/id/4ebd23ee-560d-444a-a4a5-ea23e66137f1) | IEAB\_PCRfree\_PI329517\_CGCTCATT-GGCTCTGA\_Sorghum\_I555\_L7 |
+| PI 329518 | 4558 | sorghum | cultivar | PI 329518 | diploid | 10 | 366100000 | [d08e56ba-f757-4ee9-b30a-57e4014ca257](https://purl.org/germplasm/id/d08e56ba-f757-4ee9-b30a-57e4014ca257) | IEAC\_PCRfree\_PI329518\_CGCTCATT-AGGCGAAG\_Sorghum\_I555\_L7 |
+| PI 329519 | 4558 | sorghum | cultivar | PI 329519 | diploid | 10 | 366100000 | [e9463819-64a1-45c9-8369-65bee2d184e2](https://purl.org/germplasm/id/e9463819-64a1-45c9-8369-65bee2d184e2) | IDUS\_PCRfree\_PI329519\_CGCTCATT-TAATCTTA\_Sorghum\_I549\_L8 |
+| PI 329569 | 4558 | sorghum | cultivar | PI 329569 | diploid | 10 | 366100000 | [32a02093-5dc1-440d-9556-b80d675c1ac2](https://purl.org/germplasm/id/32a02093-5dc1-440d-9556-b80d675c1ac2) | IEAD\_PCRfree\_PI329569\_CGCTCATT-TAATCTTA\_Sorghum\_I555\_L8 |
+| PI 329570 | 4558 | sorghum | cultivar | PI 329570 | diploid | 10 | 366100000 | [11ec5f7b-8bc2-4b70-bea0-30de936d2c1f](https://purl.org/germplasm/id/11ec5f7b-8bc2-4b70-bea0-30de936d2c1f) | IEAE\_PCRfree\_PI329570\_CGCTCATT-CAGGACGT\_Sorghum\_I555\_L8 |
+| PI 329584 | 4558 | sorghum | cultivar | PI 329584 | diploid | 10 | 366100000 | [85d37e21-3ea0-4ec5-aa85-ec3914c45a36](https://purl.org/germplasm/id/85d37e21-3ea0-4ec5-aa85-ec3914c45a36) | IDUT\_PCRfree\_PI329584\_CGCTCATT-CAGGACGT\_Sorghum\_I549\_L8 |
+| PI 329585 | 4558 | sorghum | cultivar | PI 329585 | diploid | 10 | 366100000 | [2b6f4615-f74b-49de-90d2-4257eb359bfb](https://purl.org/germplasm/id/2b6f4615-f74b-49de-90d2-4257eb359bfb) | IDUU\_PCRfree\_PI329585\_CGCTCATT-GTACTGAC\_Sorghum\_I549\_L8 |
+| PI 329605 | 4558 | sorghum | cultivar | PI 329605 | diploid | 10 | 366100000 | [f4a90dd8-d886-44fb-80e0-ce27fcc753be](https://purl.org/germplasm/id/f4a90dd8-d886-44fb-80e0-ce27fcc753be) | IDUW\_PCRfree\_PI329605\_GAGATTCC-TATAGCCT\_Sorghum\_I550\_L1 |
+| PI 365512 | 4558 | sorghum | cultivar | PI 365512 | diploid | 10 | 366100000 | [beb6a6fe-78f2-488d-9f38-1aaf7b93a45d](https://purl.org/germplasm/id/beb6a6fe-78f2-488d-9f38-1aaf7b93a45d) | IDTW\_PCRfree\_PI365512\_ATTACTCG-TATAGCCT\_Sorghum\_I549\_L1 |
+| PI 452542 | 4558 | sorghum | cultivar | PI 452542 | diploid | 10 | 366100000 | [0ff23ea5-344e-4f76-806a-de2a35025e97](https://purl.org/germplasm/id/0ff23ea5-344e-4f76-806a-de2a35025e97) | IDXK\_PCRfree\_PI452542\_TAATGCGC-CAGGACGT\_Sorghum\_I551\_L5 |
+| PI 452544 | 4558 | sorghum | cultivar | PI 452544 | diploid | 10 | 366100000 | [3feb277c-789f-400f-ba26-3908efe798be](https://purl.org/germplasm/id/3feb277c-789f-400f-ba26-3908efe798be) | IDUD\_PCRfree\_PI452544\_ATTACTCG-GTACTGAC\_Sorghum\_I549\_L3 |
+| PI 452619 | 4558 | sorghum | cultivar | PI 452619 | diploid | 10 | 366100000 | [6dfd16e6-f90c-4e80-8f9d-13497aca7e6a](https://purl.org/germplasm/id/6dfd16e6-f90c-4e80-8f9d-13497aca7e6a) | IDXL\_PCRfree\_PI452619\_TAATGCGC-GTACTGAC\_Sorghum\_I551\_L6 |
+| PI 452692 | 4558 | sorghum | cultivar | PI 452692 | diploid | 10 | 366100000 | [f5af3b3c-ac14-4cf8-a576-f82d021fac0f](https://purl.org/germplasm/id/f5af3b3c-ac14-4cf8-a576-f82d021fac0f) | IDUE\_PCRfree\_PI452692\_TCCGGAGA-TATAGCCT\_Sorghum\_I549\_L3 |
+| PI 455217 | 4558 | sorghum | cultivar | PI 455217 | diploid | 10 | 366100000 | [8c06b1f5-97c6-48cb-939c-6320263a8a84](https://purl.org/germplasm/id/8c06b1f5-97c6-48cb-939c-6320263a8a84) | IDUF\_PCRfree\_PI455217\_TCCGGAGA-ATAGAGGC\_Sorghum\_I549\_L4 |
+| PI 455301 | 4558 | sorghum | cultivar | PI 455301 | diploid | 10 | 366100000 | [fb9a7a64-6d35-4449-b9c3-ab98b9f4b258](https://purl.org/germplasm/id/fb9a7a64-6d35-4449-b9c3-ab98b9f4b258) | IDUG\_PCRfree\_PI455301\_TCCGGAGA-CCTATCCT\_Sorghum\_I549\_L4 |
+| PI 455307 | 4558 | sorghum | cultivar | PI 455307 | diploid | 10 | 366100000 | [a8380f3c-2b43-4c1e-9b26-175aca4e7d3b](https://purl.org/germplasm/id/a8380f3c-2b43-4c1e-9b26-175aca4e7d3b) | IDZR\_PCRfree\_PI455307\_TCCGGAGA-CCTATCCT\_Sorghum\_I555\_L4 |
+| PI 506030 | 4558 | sorghum | cultivar | PI 506030 | diploid | 10 | 366100000 | [2aaf9739-4b68-43d5-bf5a-04303f025923](https://purl.org/germplasm/id/2aaf9739-4b68-43d5-bf5a-04303f025923) | IEBP\_PCRfree\_PI506030\_TAATGCGC-TATAGCCT\_Sorghum\_I557\_L3 |
+| PI 511355 | 4558 | sorghum | cultivar | PI 511355 | diploid | 10 | 366100000 | [1410e337-f045-4b93-b25c-e21da7a40585](https://purl.org/germplasm/id/1410e337-f045-4b93-b25c-e21da7a40585) | IDYP\_PCRfree\_PI511355\_AGCGATAG-CCTATCCT\_Sorghum\_I552\_L7 |
+| PI 513898 | 4558 | sorghum | cultivar | PI 513898 | diploid | 10 | 366100000 | [f500b312-6f76-42d3-9967-537c8259a890](https://purl.org/germplasm/id/f500b312-6f76-42d3-9967-537c8259a890) | IDZH\_PCRfree\_PI513898\_ATTACTCG-ATAGAGGC\_Sorghum\_I555\_L1 |
+| PI 514456 | 4558 | sorghum | cultivar | PI 514456 | diploid | 10 | 366100000 | [3ede5f43-6773-4ba5-a70a-094b3483207e](https://purl.org/germplasm/id/3ede5f43-6773-4ba5-a70a-094b3483207e) | IEAF\_PCRfree\_PI514456\_CGCTCATT-GTACTGAC\_Sorghum\_I555\_L8 |
+| PI 521019 | 4558 | sorghum | cultivar | PI 521019 | diploid | 10 | 366100000 | [1ff6886f-7952-48b3-a3a2-b8da0aa88de1](https://purl.org/germplasm/id/1ff6886f-7952-48b3-a3a2-b8da0aa88de1) | IDZI\_PCRfree\_PI521019\_ATTACTCG-CCTATCCT\_Sorghum\_I555\_L1 |
+| PI 521280 | 4558 | sorghum | cultivar | PI 521280 | diploid | 10 | 366100000 | [ebee2281-408c-4883-87d7-ec87b3b48d7d](https://purl.org/germplasm/id/ebee2281-408c-4883-87d7-ec87b3b48d7d) | IDWL\_PCRfree\_PI521280\_ATTCAGAA-GTACTGAC\_Sorghum\_I550\_L6 |
+| PI 521281 | 4558 | sorghum | cultivar | PI 521281 | diploid | 10 | 366100000 | [86f55daa-fa33-4e66-8313-4429aa4d3406](https://purl.org/germplasm/id/86f55daa-fa33-4e66-8313-4429aa4d3406) | IDWM\_PCRfree\_PI521281\_GAATTCGT-TATAGCCT\_Sorghum\_I550\_L6 |
+| PI 521290 | 4558 | sorghum | cultivar | PI 521290 | diploid | 10 | 366100000 | [f306896b-51e4-44f6-bd8e-677041042956](https://purl.org/germplasm/id/f306896b-51e4-44f6-bd8e-677041042956) | IDXH\_PCRfree\_PI521290\_TAATGCGC-GGCTCTGA\_Sorghum\_I551\_L4 |
+| PI 524475 | 4558 | sorghum | cultivar | PI 524475 | diploid | 10 | 366100000 | [b366ee9f-1069-4da9-9121-af5d0b9885f7](https://purl.org/germplasm/id/b366ee9f-1069-4da9-9121-af5d0b9885f7) | IEBL\_PCRfree\_PI524475\_CTGAAGCT-TAATCTTA\_Sorghum\_I557\_L2 |
+| PI 526905 | 4558 | sorghum | cultivar | PI 526905 | diploid | 10 | 366100000 | [8bba5714-4bdb-43fe-91af-88e12cd7e980](https://purl.org/germplasm/id/8bba5714-4bdb-43fe-91af-88e12cd7e980) | IDWU\_PCRfree\_PI526905\_GAATTCGT-GTACTGAC\_Sorghum\_I550\_L8 |
+| PI 527045 | 4558 | sorghum | cultivar | PI 527045 | diploid | 10 | 366100000 | [c8ecfd05-39e7-4061-bbef-b106475995a8](https://purl.org/germplasm/id/c8ecfd05-39e7-4061-bbef-b106475995a8) | IEBS\_PCRfree\_PI527045\_TAATGCGC-GGCTCTGA\_Sorghum\_I557\_L4 |
+| PI 533902 | 4558 | sorghum | cultivar | PI 533902 | diploid | 10 | 366100000 | [66bb6b28-21b5-4be9-b6ba-6afbff849f7a](https://purl.org/germplasm/id/66bb6b28-21b5-4be9-b6ba-6afbff849f7a) | IEBW\_PCRfree\_PI533902\_TAATGCGC-CAGGACGT\_Sorghum\_I557\_L5 |
+| PI 533998 | 4558 | sorghum | cultivar | PI 533998 | diploid | 10 | 366100000 | [f9811360-6fdf-4f41-b520-8550af1f6090](https://purl.org/germplasm/id/f9811360-6fdf-4f41-b520-8550af1f6090) | IDXA\_PCRfree\_PI533998\_CTGAAGCT-AGGCGAAG\_Sorghum\_I551\_L2 |
+| PI 534047 | 4558 | sorghum | cultivar | PI 534047 | diploid | 10 | 366100000 | [369f58f5-a294-4ba7-83d9-5cef3a0c92e7](https://purl.org/germplasm/id/369f58f5-a294-4ba7-83d9-5cef3a0c92e7) | IDWX\_PCRfree\_PI534047\_CTGAAGCT-ATAGAGGC\_Sorghum\_I551\_L1 |
+| PI 534120 | 4558 | sorghum | cultivar | PI 534120 | diploid | 10 | 366100000 | [bcbd2bb7-0e8d-4c21-832d-cb3f319c3c5f](https://purl.org/germplasm/id/bcbd2bb7-0e8d-4c21-832d-cb3f319c3c5f) | IEBY\_PCRfree\_PI534120\_CGGCTATG-TATAGCCT\_Sorghum\_I557\_L6 |
+| PI 534165 | 4558 | sorghum | cultivar | PI 534165 | diploid | 10 | 366100000 | [d3b26dd8-9a0a-4732-b295-b0402df65208](https://purl.org/germplasm/id/d3b26dd8-9a0a-4732-b295-b0402df65208) | IEBT\_PCRfree\_PI534165\_TAATGCGC-AGGCGAAG\_Sorghum\_I557\_L5 |
+| PI 535783 | 4558 | sorghum | cultivar | PI 535783 | diploid | 10 | 366100000 | [7390bc3b-04ee-4b14-90db-5f1c5e75979f](https://purl.org/germplasm/id/7390bc3b-04ee-4b14-90db-5f1c5e75979f) | IECR\_PCRfree\_PI535783\_TCTCGCGC-CCTATCCT\_Sorghum\_I558\_L4 |
+| PI 535785 | 4558 | sorghum | cultivar | PI 535785 | diploid | 10 | 366100000 | [22484c33-6e65-48ef-8b2f-ba738c675569](https://purl.org/germplasm/id/22484c33-6e65-48ef-8b2f-ba738c675569) | IDYI\_PCRfree\_PI535785\_TCTCGCGC-AGGCGAAG\_Sorghum\_I552\_L5 |
+| PI 535792 | 4558 | sorghum | cultivar | PI 535792 | diploid | 10 | 366100000 | [38b6e3d0-f11e-493f-8a40-dcd069b96247](https://purl.org/germplasm/id/38b6e3d0-f11e-493f-8a40-dcd069b96247) | IEBU\_PCRfree\_PI535792\_TAATGCGC-TAATCTTA\_Sorghum\_I557\_L5 |
+| PI 535793 | 4558 | sorghum | cultivar | PI 535793 | diploid | 10 | 366100000 | [e5ee2337-6cdc-4f1e-8f39-4c5e819f6c3e](https://purl.org/germplasm/id/e5ee2337-6cdc-4f1e-8f39-4c5e819f6c3e) | IECQ\_PCRfree\_PI535793\_TCTCGCGC-ATAGAGGC\_Sorghum\_I558\_L4 |
+| PI 535794 | 4558 | sorghum | cultivar | PI 535794 | diploid | 10 | 366100000 | [f28e42c8-387d-4feb-bca9-54316e7ede3b](https://purl.org/germplasm/id/f28e42c8-387d-4feb-bca9-54316e7ede3b) | IDXC\_PCRfree\_PI535794\_CTGAAGCT-CAGGACGT\_Sorghum\_I551\_L3 |
+| PI 535795 | 4558 | sorghum | cultivar | PI 535795 | diploid | 10 | 366100000 | [9f8752e1-1c16-4bee-867a-7255b7b3f768](https://purl.org/germplasm/id/9f8752e1-1c16-4bee-867a-7255b7b3f768) | IDYJ\_PCRfree\_PI535795\_TCTCGCGC-TAATCTTA\_Sorghum\_I552\_L5 |
+| PI 535796 | 4558 | sorghum | cultivar | PI 535796 | diploid | 10 | 366100000 | [772465ef-e55e-420d-9224-148949383f5c](https://purl.org/germplasm/id/772465ef-e55e-420d-9224-148949383f5c) | IDYK\_PCRfree\_PI535796\_TCTCGCGC-CAGGACGT\_Sorghum\_I552\_L5 |
+| PI 540518 | 4558 | sorghum | cultivar | PI 540518 | diploid | 10 | 366100000 | [62adaab4-a4e5-442c-9b83-c0f9e61d17ac](https://purl.org/germplasm/id/62adaab4-a4e5-442c-9b83-c0f9e61d17ac) | IDWR\_PCRfree\_PI540518\_GAATTCGT-AGGCGAAG\_Sorghum\_I550\_L7 |
+| PI 550604 | 4558 | sorghum | cultivar | PI 550604 | diploid | 10 | 366100000 | [4963b150-6cd5-4eaf-9b36-f634d377888a](https://purl.org/germplasm/id/4963b150-6cd5-4eaf-9b36-f634d377888a) | IDXE\_PCRfree\_PI550604\_TAATGCGC-TATAGCCT\_Sorghum\_I551\_L3 |
+| PI 552851 | 4558 | sorghum | cultivar | PI 552851 | diploid | 10 | 366100000 | [84d36b66-9cb8-445b-9b2f-c4123e71b446](https://purl.org/germplasm/id/84d36b66-9cb8-445b-9b2f-c4123e71b446) | IECB\_PCRfree\_PI552851\_CGGCTATG-GGCTCTGA\_Sorghum\_I557\_L7 |
+| PI 561072 | 4558 | sorghum | cultivar | PI 561072 | diploid | 10 | 366100000 | [cbc9be05-6357-4332-a9fa-77362f96fa85](https://purl.org/germplasm/id/cbc9be05-6357-4332-a9fa-77362f96fa85) | IDWZ\_PCRfree\_PI561072\_CTGAAGCT-GGCTCTGA\_Sorghum\_I551\_L2 |
+| PI 562717 | 4558 | sorghum | cultivar | PI 562717 | diploid | 10 | 366100000 | [51939d24-7874-497c-9b11-3e4f1a64587d](https://purl.org/germplasm/id/51939d24-7874-497c-9b11-3e4f1a64587d) | IDWQ\_PCRfree\_PI562717\_GAATTCGT-GGCTCTGA\_Sorghum\_I550\_L7 |
+| PI 562732 | 4558 | sorghum | cultivar | PI 562732 | diploid | 10 | 366100000 | [82b90fb0-5d4f-4d65-beb0-c8fdfdecbabe](https://purl.org/germplasm/id/82b90fb0-5d4f-4d65-beb0-c8fdfdecbabe) | IDYC\_PCRfree\_PI562732\_TCCGCGAA-CAGGACGT\_Sorghum\_I552\_L3 |
+| PI 562781 | 4558 | sorghum | cultivar | PI 562781 | diploid | 10 | 366100000 | [b2ea3ee1-c26b-42c4-9c6a-dd590b3bcd59](https://purl.org/germplasm/id/b2ea3ee1-c26b-42c4-9c6a-dd590b3bcd59) | IEBB\_PCRfree\_PI562781\_GAATTCGT-GGCTCTGA\_Sorghum\_I556\_L7 |
+| PI 562897 | 4558 | sorghum | cultivar | PI 562897 | diploid | 10 | 366100000 | [bff0afb3-3368-4140-810d-9c5af9fa16bf](https://purl.org/germplasm/id/bff0afb3-3368-4140-810d-9c5af9fa16bf) | IDZT\_PCRfree\_PI562897\_TCCGGAGA-AGGCGAAG\_Sorghum\_I555\_L5 |
+| PI 562970 | 4558 | sorghum | cultivar | PI 562970 | diploid | 10 | 366100000 | [a61d2dd3-3a7b-4b0a-aa60-936d6057fd97](https://purl.org/germplasm/id/a61d2dd3-3a7b-4b0a-aa60-936d6057fd97) | IDUH\_PCRfree\_PI562970\_TCCGGAGA-GGCTCTGA\_Sorghum\_I549\_L4 |
+| PI 562971 | 4558 | sorghum | cultivar | PI 562971 | diploid | 10 | 366100000 | [f1431a30-c0db-4473-810d-60b34ab158a8](https://purl.org/germplasm/id/f1431a30-c0db-4473-810d-60b34ab158a8) | IDUI\_PCRfree\_PI562971\_TCCGGAGA-AGGCGAAG\_Sorghum\_I549\_L5 |
+| PI 562981 | 4558 | sorghum | cultivar | PI 562981 | diploid | 10 | 366100000 | [a1c4570c-d118-4c18-b7a0-32ada6a9355c](https://purl.org/germplasm/id/a1c4570c-d118-4c18-b7a0-32ada6a9355c) | IDUC\_PCRfree\_PI562981\_ATTACTCG-CAGGACGT\_Sorghum\_I549\_L3 |
+| PI 562982 | 4558 | sorghum | cultivar | PI 562982 | diploid | 10 | 366100000 | [476a7bc3-fb0a-4d8f-b4d7-45cdef06bf83](https://purl.org/germplasm/id/476a7bc3-fb0a-4d8f-b4d7-45cdef06bf83) | IDZM\_PCRfree\_PI562982\_ATTACTCG-CAGGACGT\_Sorghum\_I555\_L3 |
+| PI 562985 | 4558 | sorghum | cultivar | PI 562985 | diploid | 10 | 366100000 | [78d55afa-9f83-49a6-8388-690099b9ef8e](https://purl.org/germplasm/id/78d55afa-9f83-49a6-8388-690099b9ef8e) | IDTX\_PCRfree\_PI562985\_ATTACTCG-ATAGAGGC\_Sorghum\_I549\_L1 |
+| PI 562990 | 4558 | sorghum | cultivar | PI 562990 | diploid | 10 | 366100000 | [10fe1623-78de-425e-8cf3-9a6f8f1dd371](https://purl.org/germplasm/id/10fe1623-78de-425e-8cf3-9a6f8f1dd371) | IEBK\_PCRfree\_PI562990\_CTGAAGCT-AGGCGAAG\_Sorghum\_I557\_L2 |
+| PI 562991 | 4558 | sorghum | cultivar | PI 562991 | diploid | 10 | 366100000 | [f31303a7-f5e2-44bb-b6c2-75ffd9bd6198](https://purl.org/germplasm/id/f31303a7-f5e2-44bb-b6c2-75ffd9bd6198) | IDZU\_PCRfree\_PI562991\_TCCGGAGA-TAATCTTA\_Sorghum\_I555\_L5 |
+| PI 562997 | 4558 | sorghum | cultivar | PI 562997 | diploid | 10 | 366100000 | [8a02dc27-3b07-48e0-bd5b-35bb029b590a](https://purl.org/germplasm/id/8a02dc27-3b07-48e0-bd5b-35bb029b590a) | IDZN\_PCRfree\_PI562997\_ATTACTCG-GTACTGAC\_Sorghum\_I555\_L3 |
+| PI 562998 | 4558 | sorghum | cultivar | PI 562998 | diploid | 10 | 366100000 | [1145abd2-b0a4-4425-acda-256bea603200](https://purl.org/germplasm/id/1145abd2-b0a4-4425-acda-256bea603200) | IEBH\_PCRfree\_PI562998\_CTGAAGCT-ATAGAGGC\_Sorghum\_I557\_L1 |
+| PI 563002 | 4558 | sorghum | cultivar | PI 563002 | diploid | 10 | 366100000 | [73bbfc9e-c61a-4ec3-ada7-2a12b322692d](https://purl.org/germplasm/id/73bbfc9e-c61a-4ec3-ada7-2a12b322692d) | IDZP\_PCRfree\_PI563002\_TCCGGAGA-TATAGCCT\_Sorghum\_I555\_L3 |
+| PI 563009 | 4558 | sorghum | cultivar | PI 563009 | diploid | 10 | 366100000 | [e908e769-520f-40e2-9c8f-087be330742a](https://purl.org/germplasm/id/e908e769-520f-40e2-9c8f-087be330742a) | IDWF\_PCRfree\_PI563009\_ATTCAGAA-ATAGAGGC\_Sorghum\_I550\_L4 |
+| PI 563020 | 4558 | sorghum | cultivar | PI 563020 | diploid | 10 | 366100000 | [9dae9cfa-1492-402b-af0e-ca1da9472603](https://purl.org/germplasm/id/9dae9cfa-1492-402b-af0e-ca1da9472603) | IDWP\_PCRfree\_PI563020\_GAATTCGT-CCTATCCT\_Sorghum\_I550\_L7 |
+| PI 563021 | 4558 | sorghum | cultivar | PI 563021 | diploid | 10 | 366100000 | [ed4918f6-243a-49e3-8d12-79f63f4bdf1f](https://purl.org/germplasm/id/ed4918f6-243a-49e3-8d12-79f63f4bdf1f) | IEBN\_PCRfree\_PI563021\_CTGAAGCT-GTACTGAC\_Sorghum\_I557\_L3 |
+| PI 563022 | 4558 | sorghum | cultivar | PI 563022 | diploid | 10 | 366100000 | [19d587e8-731b-47e1-b412-17d055ec74e3](https://purl.org/germplasm/id/19d587e8-731b-47e1-b412-17d055ec74e3) | IDZQ\_PCRfree\_PI563022\_TCCGGAGA-ATAGAGGC\_Sorghum\_I555\_L4 |
+| PI 563032 | 4558 | sorghum | cultivar | PI 563032 | diploid | 10 | 366100000 | [4a014b39-ee29-4d19-889f-66ca2a76244a](https://purl.org/germplasm/id/4a014b39-ee29-4d19-889f-66ca2a76244a) | IDYM\_PCRfree\_PI563032\_AGCGATAG-TATAGCCT\_Sorghum\_I552\_L6 |
+| PI 563196 | 4558 | sorghum | cultivar | PI 563196 | diploid | 10 | 366100000 | [82f3ee4c-6402-49fe-be5c-b18ed9fb94d6](https://purl.org/germplasm/id/82f3ee4c-6402-49fe-be5c-b18ed9fb94d6) | IEBC\_PCRfree\_PI563196\_GAATTCGT-AGGCGAAG\_Sorghum\_I556\_L7 |
+| PI 563355 | 4558 | sorghum | cultivar | PI 563355 | diploid | 10 | 366100000 | [dc2f7250-f1db-40ce-8e09-c4833a14aee3](https://purl.org/germplasm/id/dc2f7250-f1db-40ce-8e09-c4833a14aee3) | IDZJ\_PCRfree\_PI563355\_ATTACTCG-GGCTCTGA\_Sorghum\_I555\_L2 |
+| PI 564163 | 4558 | sorghum | cultivar | PI 564163 | diploid | 10 | 366100000 | [0ba28636-e634-428a-aa58-4346a20de326](https://purl.org/germplasm/id/0ba28636-e634-428a-aa58-4346a20de326) | IDWY\_PCRfree\_PI564163\_CTGAAGCT-CCTATCCT\_Sorghum\_I551\_L1 |
+| PI 570073 | 4558 | sorghum | cultivar | PI 570073 | diploid | 10 | 366100000 | [93eac6b1-cf91-4118-9333-6dba799d71cd](https://purl.org/germplasm/id/93eac6b1-cf91-4118-9333-6dba799d71cd) | IEAG\_PCRfree\_PI570073\_GAGATTCC-TATAGCCT\_Sorghum\_I556\_L1 |
+| PI 570074 | 4558 | sorghum | cultivar | PI 570074 | diploid | 10 | 366100000 | [6b531a1a-0d6e-4512-9d45-143ae6fbaa68](https://purl.org/germplasm/id/6b531a1a-0d6e-4512-9d45-143ae6fbaa68) | IDUY\_PCRfree\_PI570074\_GAGATTCC-CCTATCCT\_Sorghum\_I550\_L1 |
+| PI 570076 | 4558 | sorghum | cultivar | PI 570076 | diploid | 10 | 366100000 | [7f4d43e9-30ea-4703-91fb-ebe70c034f51](https://purl.org/germplasm/id/7f4d43e9-30ea-4703-91fb-ebe70c034f51) | IEAH\_PCRfree\_PI570076\_GAGATTCC-ATAGAGGC\_Sorghum\_I556\_L1 |
+| PI 570085 | 4558 | sorghum | cultivar | PI 570085 | diploid | 10 | 366100000 | [3c3ad6dc-1791-4e2e-bc61-e25964713e5e](https://purl.org/germplasm/id/3c3ad6dc-1791-4e2e-bc61-e25964713e5e) | IEAI\_PCRfree\_PI570085\_GAGATTCC-CCTATCCT\_Sorghum\_I556\_L1 |
+| PI 570087 | 4558 | sorghum | cultivar | PI 570087 | diploid | 10 | 366100000 | [10cab820-2be9-48bd-a269-34b938c0d392](https://purl.org/germplasm/id/10cab820-2be9-48bd-a269-34b938c0d392) | IDUZ\_PCRfree\_PI570087\_GAGATTCC-GGCTCTGA\_Sorghum\_I550\_L2 |
+| PI 570090 | 4558 | sorghum | cultivar | PI 570090 | diploid | 10 | 366100000 | [1026d070-31cc-4935-b5aa-75fb2c3a49b9](https://purl.org/germplasm/id/1026d070-31cc-4935-b5aa-75fb2c3a49b9) | IEAJ\_PCRfree\_PI570090\_GAGATTCC-GGCTCTGA\_Sorghum\_I556\_L2 |
+| PI 570091 | 4558 | sorghum | cultivar | PI 570091 | diploid | 10 | 366100000 | [ced730b1-a155-4b62-9208-71287dd9d5a6](https://purl.org/germplasm/id/ced730b1-a155-4b62-9208-71287dd9d5a6) | IDWA\_PCRfree\_PI570091\_GAGATTCC-AGGCGAAG\_Sorghum\_I550\_L2 |
+| PI 570096 | 4558 | sorghum | cultivar | PI 570096 | diploid | 10 | 366100000 | [ea83f0dc-c993-4d59-999d-672ec5cf51e7](https://purl.org/germplasm/id/ea83f0dc-c993-4d59-999d-672ec5cf51e7) | IEAK\_PCRfree\_PI570096\_GAGATTCC-AGGCGAAG\_Sorghum\_I556\_L2 |
+| PI 570106 | 4558 | sorghum | cultivar | PI 570106 | diploid | 10 | 366100000 | [7b95b448-254c-4f4d-9f6b-6403f50f45a4](https://purl.org/germplasm/id/7b95b448-254c-4f4d-9f6b-6403f50f45a4) | IEAL\_PCRfree\_PI570106\_GAGATTCC-TAATCTTA\_Sorghum\_I556\_L2 |
+| PI 570110 | 4558 | sorghum | cultivar | PI 570110 | diploid | 10 | 366100000 | [a282fe91-60ae-40cb-81ac-0bd59757da96](https://purl.org/germplasm/id/a282fe91-60ae-40cb-81ac-0bd59757da96) | IEAM\_PCRfree\_PI570110\_GAGATTCC-CAGGACGT\_Sorghum\_I556\_L3 |
+| PI 570114 | 4558 | sorghum | cultivar | PI 570114 | diploid | 10 | 366100000 | [cb5e43ff-ca47-4e5f-a161-c89f744b1959](https://purl.org/germplasm/id/cb5e43ff-ca47-4e5f-a161-c89f744b1959) | IEAN\_PCRfree\_PI570114\_GAGATTCC-GTACTGAC\_Sorghum\_I556\_L3 |
+| PI 570145 | 4558 | sorghum | cultivar | PI 570145 | diploid | 10 | 366100000 | [dbf55f71-f80e-4dc5-b27c-216fe1636944](https://purl.org/germplasm/id/dbf55f71-f80e-4dc5-b27c-216fe1636944) | IEAP\_PCRfree\_PI570145\_ATTCAGAA-TATAGCCT\_Sorghum\_I556\_L3 |
+| PI 570371 | 4558 | sorghum | cultivar | PI 570371 | diploid | 10 | 366100000 | [fc81702d-48e8-4a7e-9ad5-b7c7be952eef](https://purl.org/germplasm/id/fc81702d-48e8-4a7e-9ad5-b7c7be952eef) | IDWB\_PCRfree\_PI570371\_GAGATTCC-TAATCTTA\_Sorghum\_I550\_L2 |
+| PI 570393 | 4558 | sorghum | cultivar | PI 570393 | diploid | 10 | 366100000 | [9a2050c9-9328-4f3c-aaa7-166aea92e1ac](https://purl.org/germplasm/id/9a2050c9-9328-4f3c-aaa7-166aea92e1ac) | IEAZ\_PCRfree\_PI570393\_GAATTCGT-ATAGAGGC\_Sorghum\_I556\_L6 |
+| PI 570400 | 4558 | sorghum | cultivar | PI 570400 | diploid | 10 | 366100000 | [8948c7cf-3a1a-4159-8430-78ef86a7cfb8](https://purl.org/germplasm/id/8948c7cf-3a1a-4159-8430-78ef86a7cfb8) | IEBF\_PCRfree\_PI570400\_GAATTCGT-GTACTGAC\_Sorghum\_I556\_L8 |
+| PI 573193 | 4558 | sorghum | cultivar | PI 573193 | diploid | 10 | 366100000 | [f420ac5b-104f-413e-8f33-afcf4e6e15e0](https://purl.org/germplasm/id/f420ac5b-104f-413e-8f33-afcf4e6e15e0) | IDZG\_PCRfree\_PI573193\_ATTACTCG-TATAGCCT\_Sorghum\_I555\_L1 |
+| PI 576399 | 4558 | sorghum | cultivar | PI 576399 | diploid | 10 | 366100000 | [f6d963f2-5f2f-4a7c-a04b-91e5249026d6](https://purl.org/germplasm/id/f6d963f2-5f2f-4a7c-a04b-91e5249026d6) | IECZ\_PCRfree\_PI576399\_AGCGATAG-ATAGAGGC\_Sorghum\_I558\_L6 |
+| PI 583832 | 4558 | sorghum | cultivar | PI 583832 | diploid | 10 | 366100000 | [62ccdfcf-43e1-4e0f-bb50-4436eff798db](https://purl.org/germplasm/id/62ccdfcf-43e1-4e0f-bb50-4436eff798db) | IEDA\_PCRfree\_PI583832\_AGCGATAG-CCTATCCT\_Sorghum\_I558\_L7 |
+| PI 585406 | 4558 | sorghum | cultivar | PI 585406 | diploid | 10 | 366100000 | [37019ec0-c054-4ed5-b0e5-76eaaec9c16a](https://purl.org/germplasm/id/37019ec0-c054-4ed5-b0e5-76eaaec9c16a) | IEAQ\_PCRfree\_PI585406\_ATTCAGAA-ATAGAGGC\_Sorghum\_I556\_L4 |
+| PI 585448 | 4558 | sorghum | cultivar | PI 585448 | diploid | 10 | 366100000 | [226bf366-66f6-423e-a38b-f8413a52fd96](https://purl.org/germplasm/id/226bf366-66f6-423e-a38b-f8413a52fd96) | IEAR\_PCRfree\_PI585448\_ATTCAGAA-CCTATCCT\_Sorghum\_I556\_L4 |
+| PI 585452 | 4558 | sorghum | cultivar | PI 585452 | diploid | 10 | 366100000 | [3ee7c971-6d0e-4844-9757-94ec28080fe2](https://purl.org/germplasm/id/3ee7c971-6d0e-4844-9757-94ec28080fe2) | IEAS\_PCRfree\_PI585452\_ATTCAGAA-GGCTCTGA\_Sorghum\_I556\_L4 |
+| PI 585454 | 4558 | sorghum | cultivar | PI 585454 | diploid | 10 | 366100000 | [b5fdbd20-d5ea-4d55-8f7e-c057c2de2934](https://purl.org/germplasm/id/b5fdbd20-d5ea-4d55-8f7e-c057c2de2934) | IEAT\_PCRfree\_PI585454\_ATTCAGAA-AGGCGAAG\_Sorghum\_I556\_L5 |
+| PI 585461 | 4558 | sorghum | cultivar | PI 585461 | diploid | 10 | 366100000 | [cb914303-77d2-4917-bc9d-da44277281fb](https://purl.org/germplasm/id/cb914303-77d2-4917-bc9d-da44277281fb) | IEAU\_PCRfree\_PI585461\_ATTCAGAA-TAATCTTA\_Sorghum\_I556\_L5 |
+| PI 585467 | 4558 | sorghum | cultivar | PI 585467 | diploid | 10 | 366100000 | [2b3438c6-8b3f-48d7-ad2b-cf3c7e8d48ec](https://purl.org/germplasm/id/2b3438c6-8b3f-48d7-ad2b-cf3c7e8d48ec) | IEAW\_PCRfree\_PI585467\_ATTCAGAA-CAGGACGT\_Sorghum\_I556\_L5 |
+| PI 585577 | 4558 | sorghum | cultivar | PI 585577 | diploid | 10 | 366100000 | [8e40e1e3-228b-4a22-b7b7-3eff781303ea](https://purl.org/germplasm/id/8e40e1e3-228b-4a22-b7b7-3eff781303ea) | IEAX\_PCRfree\_PI585577\_ATTCAGAA-GTACTGAC\_Sorghum\_I556\_L6 |
+| PI 585608 | 4558 | sorghum | cultivar | PI 585608 | diploid | 10 | 366100000 | [98b6133c-76f9-46ae-a6e1-e49f96a99d65](https://purl.org/germplasm/id/98b6133c-76f9-46ae-a6e1-e49f96a99d65) | IEAY\_PCRfree\_PI585608\_GAATTCGT-TATAGCCT\_Sorghum\_I556\_L6 |
+| PI 585961 | 4558 | sorghum | cultivar | PI 585961 | diploid | 10 | 366100000 | [33134da8-d34f-4d69-8b8c-fa6a0be70e49](https://purl.org/germplasm/id/33134da8-d34f-4d69-8b8c-fa6a0be70e49) | IDWC\_PCRfree\_PI585961\_GAGATTCC-CAGGACGT\_Sorghum\_I550\_L3 |
+| PI 585966 | 4558 | sorghum | cultivar | PI 585966 | diploid | 10 | 366100000 | [c19163c9-9d31-4688-a27b-d4cc1e4829b6](https://purl.org/germplasm/id/c19163c9-9d31-4688-a27b-d4cc1e4829b6) | IDUA\_PCRfree\_PI585966\_ATTACTCG-AGGCGAAG\_Sorghum\_I549\_L2 |
+| PI 586541 | 4558 | sorghum | cultivar | PI 586541 | diploid | 10 | 366100000 | [e2ac2553-bab5-4475-ba09-b59f3fffb060](https://purl.org/germplasm/id/e2ac2553-bab5-4475-ba09-b59f3fffb060) | IDYT\_PCRfree\_PI586541\_AGCGATAG-CAGGACGT\_Sorghum\_I552\_L8 |
+| PI 593916 | 4558 | sorghum | cultivar | PI 593916 | diploid | 10 | 366100000 | [e0e828f3-d623-49f6-a656-68ff40d9e9c3](https://purl.org/germplasm/id/e0e828f3-d623-49f6-a656-68ff40d9e9c3) | IDWW\_PCRfree\_PI593916\_CTGAAGCT-TATAGCCT\_Sorghum\_I551\_L1 |
+| PI 619807 | 4558 | sorghum | cultivar | PI 619807 | diploid | 10 | 366100000 | [f5e49050-1dd5-49c0-9d37-d189a7b820cd](https://purl.org/germplasm/id/f5e49050-1dd5-49c0-9d37-d189a7b820cd) | IDXU\_PCRfree\_PI619807\_CGGCTATG-GTACTGAC\_Sorghum\_I551\_L8 |
+| PI 619838 | 4558 | sorghum | cultivar | PI 619838 | diploid | 10 | 366100000 | [508a92cf-6c10-4053-b2e3-1a8a9534ee85](https://purl.org/germplasm/id/508a92cf-6c10-4053-b2e3-1a8a9534ee85) | IEBA\_PCRfree\_PI619838\_GAATTCGT-CCTATCCT\_Sorghum\_I556\_L7 |
+| PI 620072 | 4558 | sorghum | cultivar | PI 620072 | diploid | 10 | 366100000 | [6fc40ec5-74cb-4b7b-bbdf-1ead75e781bf](https://purl.org/germplasm/id/6fc40ec5-74cb-4b7b-bbdf-1ead75e781bf) | IDWE\_PCRfree\_PI620072\_ATTCAGAA-TATAGCCT\_Sorghum\_I550\_L3 |
+| PI 641824 | 4558 | sorghum | cultivar | PI 641824 | diploid | 10 | 366100000 | [494e57c1-d185-4ab1-802c-994c2336e948](https://purl.org/germplasm/id/494e57c1-d185-4ab1-802c-994c2336e948) | IDXY\_PCRfree\_PI641824\_TCCGCGAA-CCTATCCT\_Sorghum\_I552\_L1 |
+| PI 641834 | 4558 | sorghum | cultivar | PI 641834 | diploid | 10 | 366100000 | [7c6139e0-4f2b-4614-b4e6-4ffc419bfcf4](https://purl.org/germplasm/id/7c6139e0-4f2b-4614-b4e6-4ffc419bfcf4) | IECX\_PCRfree\_PI641834\_TCTCGCGC-GTACTGAC\_Sorghum\_I558\_L6 |
+| PI 651493 | 4558 | sorghum | cultivar | PI 651493 | diploid | 10 | 366100000 | [bc281712-b8c4-44a9-a75c-9c1c8b4398fe](https://purl.org/germplasm/id/bc281712-b8c4-44a9-a75c-9c1c8b4398fe) | IDYN\_PCRfree\_PI651493\_AGCGATAG-ATAGAGGC\_Sorghum\_I552\_L6 |
+| PI 653616 | 4558 | sorghum | cultivar | PI 653616 | diploid | 10 | 366100000 | [0fdae062-d68f-48c3-b896-b68465811415](https://purl.org/germplasm/id/0fdae062-d68f-48c3-b896-b68465811415) | IEDC\_PCRfree\_PI653616\_AGCGATAG-AGGCGAAG\_Sorghum\_I558\_L7 |
+| PI 653617 | 4558 | sorghum | cultivar | PI 653617 | diploid | 10 | 366100000 | [be98e010-af40-44d9-a764-3276e9ca58f7](https://purl.org/germplasm/id/be98e010-af40-44d9-a764-3276e9ca58f7) | IDXZ\_PCRfree\_PI653617\_TCCGCGAA-GGCTCTGA\_Sorghum\_I552\_L2 |
+| PI 655978 | 4558 | sorghum | cultivar | PI 655978 | diploid | 10 | 366100000 | [93fb4184-b29a-4ca1-b2dd-1364e267426d](https://purl.org/germplasm/id/93fb4184-b29a-4ca1-b2dd-1364e267426d) | IECA\_PCRfree\_PI655978\_CGGCTATG-CCTATCCT\_Sorghum\_I557\_L7 |
+| PI 655981 | 4558 | sorghum | cultivar | PI 655981 | diploid | 10 | 366100000 | [6402479f-541f-4fbd-a06f-df17bd5a347d](https://purl.org/germplasm/id/6402479f-541f-4fbd-a06f-df17bd5a347d) | IEBZ\_PCRfree\_PI655981\_CGGCTATG-ATAGAGGC\_Sorghum\_I557\_L6 |
+| PI 656015 | 4558 | sorghum | cultivar | PI 656015 | diploid | 10 | 366100000 | [1761b3c7-c458-4938-8557-1b63c8d64008](https://purl.org/germplasm/id/1761b3c7-c458-4938-8557-1b63c8d64008) | IDXG\_PCRfree\_PI656015\_TAATGCGC-CCTATCCT\_Sorghum\_I551\_L4 |
+| PI 656026 | 4558 | sorghum | cultivar | PI 656026 | diploid | 10 | 366100000 | [142bee4b-771f-4553-851d-86a9d9284866](https://purl.org/germplasm/id/142bee4b-771f-4553-851d-86a9d9284866) | IDXD\_PCRfree\_PI656026\_CTGAAGCT-GTACTGAC\_Sorghum\_I551\_L3 |
+| PI 656035 | 4558 | sorghum | cultivar | PI 656035 | diploid | 10 | 366100000 | [839a7af8-6143-4200-a1d9-a8096135d785](https://purl.org/germplasm/id/839a7af8-6143-4200-a1d9-a8096135d785) | IDZS\_PCRfree\_PI656035\_TCCGGAGA-GGCTCTGA\_Sorghum\_I555\_L4 |
+| PI 656056 | 4558 | sorghum | cultivar | PI 656056 | diploid | 10 | 366100000 | [5f9954f4-cd7a-41bb-ac34-d55362bae866](https://purl.org/germplasm/id/5f9954f4-cd7a-41bb-ac34-d55362bae866) | IEBX\_PCRfree\_PI656056\_TAATGCGC-GTACTGAC\_Sorghum\_I557\_L6 |
+| PI 656065 | 4558 | sorghum | cultivar | PI 656065 | diploid | 10 | 366100000 | [cd543f84-37f0-4b2b-9959-8d9aa43123c9](https://purl.org/germplasm/id/cd543f84-37f0-4b2b-9959-8d9aa43123c9) | IEBE\_PCRfree\_PI656065\_GAATTCGT-CAGGACGT\_Sorghum\_I556\_L8 |
+| PI 92270 | 4558 | sorghum | cultivar | PI 92270 | diploid | 10 | 366100000 | [7814b60e-4a5f-4b61-9d1d-d803db25b493](https://purl.org/germplasm/id/7814b60e-4a5f-4b61-9d1d-d803db25b493) | IDYE\_PCRfree\_PI92270\_TCTCGCGC-TATAGCCT\_Sorghum\_I552\_L3 |
+| rio | 4558 | sorghum | cultivar | PI 563295 | diploid | 10 | 366100000 | [ffe4e5ff-dbf1-4110-a4e3-8063de923fcf](https://purl.org/germplasm/id/ffe4e5ff-dbf1-4110-a4e3-8063de923fcf) | IEDE\_PCRfree\_rio\_AGCGATAG-CAGGACGT\_SorghumRio\_I558\_L8 |
+| rio | 4558 | sorghum | cultivar | PI 563295 | diploid | 10 | 366100000 | [ffe4e5ff-dbf1-4110-a4e3-8063de923fcf](https://purl.org/germplasm/id/ffe4e5ff-dbf1-4110-a4e3-8063de923fcf) | IEDF\_PCRfree\_rio\_AGCGATAG-GTACTGAC\_SorghumRio\_I558\_L8 |
+
