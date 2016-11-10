@@ -1,5 +1,6 @@
 #Maricopa Agricultural Center Experimental Design  
 
+## Season 1 (April - July 2016) 
 
 [Three hundred thirty one lines were planted in 2016](/user/sorghum_MAC_1.md). Plantings occurred both [under ](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=1066629008)and [west ](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=193038411)of the gantry system.
 
