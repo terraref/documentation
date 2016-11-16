@@ -1,4 +1,3 @@
-<!-- note: all edits should be done to the .Rmd source code version of this document, not the .md version which is generated when the Rmd file is compiled -->
 BETYdb
 ------
 
@@ -39,6 +38,12 @@ Also see the full documentation for accessing data from BETYdb.
 
 ### Summary of Available Data
 
+    ggplot(data = sorghum) + 
+      geom_histogram(aes(x = mean), bins = 100) + 
+      facet_wrap(~trait, scales = 'free')
+
+![](phenotype_analysis_files/figure-markdown_strict/phenotype_counts-1.png)
+
 ### Danfoth Phenotyping Facility
 
     danforth <- sorghum %>% 
@@ -50,6 +55,6 @@ Also see the full documentation for accessing data from BETYdb.
       #geom_line(aes(y = mean, group = entity), alpha = 0.1) +
       geom_smooth() +
       geom_point(alpha = 0.1, size = 0.5) +
-      facet_wrap(~trait, scales = 'free', ncol = 1)
+      facet_wrap(~trait, scales = 'free')
 
-![](phenotype_analysis_files/figure-markdown_strict/danforth-1.png)
+![](phenotype_analysis_files/figure-markdown_strict/danforth-phenotypes-1.png)
