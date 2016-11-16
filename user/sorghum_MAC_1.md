@@ -1,4 +1,6 @@
-# Sorghum Lines Planted at MAC (Year 1)
+# Sorghum Lines Planted at MAC 
+
+## Season 1 (April - July 2016)
 
 | **Entry** | **Code** | **Source** | **Pedigree**                                 | **Pedigree2**                                                                | **Seed color (R=red, W=white, Bn=brown)** | **Plant color (T=tan, P=pigmented, TP=segregating)** | **Ht (in)** | **Maturity group (e=early, m=medium, l=late)** | **Photoperiod Sensitivity** |
 |-----------|----------|------------|----------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------|------------------------------------------------------|-------------|------------------------------------------------|-----------------------------|
@@ -282,3 +284,5 @@
 | 401       | Richardson Seeds | 700D BMR        |
 
 PI=photoperiod insensitive PS=photoperiod sensitive MPS= moderately photoperiod sensitive
+
+## Season 2 (August - November 2016)

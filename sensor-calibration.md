@@ -4,7 +4,8 @@ This section describes sensor calibration processes and how to access additional
 
 
 
-##LemnaTec Scanalyzer Field
+## LemnaTec Field Scanalyzer
+
 ### Calibration protocols
 
 Calibration protocols have been defined by LemnaTec in cooperation with vendors and the TERRA-REF Sensor Steering Committee. Draft calibration protocols are currently in [Google Drive ](https://docs.google.com/document/d/132_dkGAIQJ3cG7bQkPIkX7-RgXyWLDoQWJFDj5c-5uU/edit)and have been incorporated into the [LemnaTec Scanalyzer Field sensor documentation](https://terraref.ncsa.illinois.edu/clowder/datasets/58178ee54f0ce77b66561602).
