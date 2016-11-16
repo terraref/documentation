@@ -36,5 +36,4 @@ time <- ymd("1970-01-01") + seconds(days * 24 * 60 * 60)
 
 plot(time, metdata$`par_sensor/Sensor_Photosynthetically_Active_Radiation`, type = 'l')
 
-plot(metdata$flx_spc_dwn)
 ```

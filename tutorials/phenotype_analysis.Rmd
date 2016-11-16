@@ -5,8 +5,6 @@ date: "`r Sys.Date()`"
 output: md_document
 ---
 
-<!-- note: all edits should be done to the .Rmd source code version of this document, not the .md version which is generated when the Rmd file is compiled -->
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 library(jsonlite)
@@ -44,13 +42,18 @@ head(sorghum)
 
 ### Summary of Available Data
 
-```{r}
+```{r phenotype_counts, fig.width=8, fig.height=4}
+
+ggplot(data = sorghum) + 
+  geom_histogram(aes(x = mean), bins = 100) + 
+  facet_wrap(~trait, scales = 'free')
 
 
 ```
 
+
 ### Danfoth Phenotyping Facility 
-```{r danforth, fig.width=2, fig.height=5}
+```{r danforth-phenotypes, fig.width=8, fig.height=4}
 danforth <- sorghum %>% 
   filter(author == 'Fahlgren, Noah') %>% 
   mutate(date = lubridate::ymd(date))
@@ -60,5 +63,5 @@ ggplot(data = danforth, aes(x = date, y = mean, color = cultivar)) +
   #geom_line(aes(y = mean, group = entity), alpha = 0.1) +
   geom_smooth() +
   geom_point(alpha = 0.1, size = 0.5) +
-  facet_wrap(~trait, scales = 'free', ncol = 1)
+  facet_wrap(~trait, scales = 'free')
 ```
