@@ -36,6 +36,9 @@ VCF format is also the format required by dbSNP, the largest public repository a
 
 Genomic coordinates are given in a BED format – gives the start and end positions of a feature in the genome \(for single nucleotides, start = end\). [http:\/\/www.ensembl.org\/info\/website\/upload\/bed.html](http://www.ensembl.org/info/website/upload/bed.html)BED files can be manipulated with bedtools.
 
+## See Also
+
+[Genomics Data Pipeline](/products/genomics-data.md)
 
 
 
