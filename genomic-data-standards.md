@@ -38,7 +38,7 @@ Genomic coordinates are given in a BED format – gives the start and end positi
 
 ## See Also
 
-[Genomics Data Pipeline](/products/genomics-data.md)
+[Genomics Data Pipeline](/genomic-data-product.md)
 
 
 
