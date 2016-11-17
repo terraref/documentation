@@ -2,7 +2,8 @@
     "plugins": [
         "footnote-string-to-number",
         "image-captions",
-        "edit-link"
+        "edit-link",
+        "github"
     ],
     "pluginsConfig": {
         "image-captions": {
