@@ -14,6 +14,9 @@
         "edit-link": {
             "base": "https://github.com/terraref/documentation/",
             "label": "Edit This Page"
+        },
+        "github": {
+            "url": "https://github.com/terraref/documentation"
         }
     },
     "variables": {
