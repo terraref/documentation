@@ -11,7 +11,7 @@ The following table lists available TERRA-REF data products. The table will be u
 | [Multispectral imaging data](/products/multispectral-imaging-data.md) | Imaging | Multispectral imaging data is collected using the PRI and NDVI sensors. Raw output is converted to timeseries data using the multispectral extractor. |
 | [Stereo imaging data](/products/stereo-imaging-data.md) | Imaging | Stereo imaging data is collected using the Prosilica cameras. Full-color images are reconstructed in GeoTIFF format using the de-mosaic extractor. A full-field mosaic is generated using the full-field mosaic extractor. |
 | [Environmental conditions](/products/environmental-conditions.md) | Environmental | Environment conditions are collected through the CO2 sensor and Theis Clima. Raw output is converted to netCFG using the environmental-logger extractor. |
-| [Meteorological data](/products/meteorological-data.md) | Environmental | postGIS\/netCDF |
+| [Meteorological data](/products/meteorological_data.md) | Environmental | postGIS\/netCDF |
 | [Phenotype data](/products/trait-data.md) |  | Phenotype data is derived from sensor output using the PlantCV extractor and imported into BETYdb. |
 | [Genomics data](/products/genomics-data.md) | Genomics |  FASTQ and VCF files available via Globus|
 | UAV and Phenotractor |  | Plot level data available in BETYdb |
