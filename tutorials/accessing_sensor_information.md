@@ -8,7 +8,7 @@ using the url
 
 For further information of the Sensor Metadata see
 
-Avaialble Sensor metadata
+Available Sensor metadata
 -------------------------
 
     sensor_datasets <- jsonlite::fromJSON("data/sensor_metadata_datasets.json")
