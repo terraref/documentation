@@ -12,7 +12,7 @@
             "variable_name": "pictures"
         },
         "edit-link": {
-            "base": "https://github.com/terraref/documentation/",
+            "base": "https://github.com/terraref/documentation/edit/master",
             "label": "Edit This Page"
         },
         "github": {
