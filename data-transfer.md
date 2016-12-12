@@ -9,7 +9,7 @@ Using Logstash [https:\/\/github.com\/terraref\/computing-pipeline\/issues\/106]
 
 **Transferring images**
 
-Data is sent to the gantry-cache server located inside the main UA-MAC building's telecom room via FTP over a private 10GbE interface.  Path to each file being transferred is logged to /var/log/xferlog.  Docker container running on the gantry-cache reads through this log file, tracking the last line it has read and scans the file regularly looking for more lines.  File paths are scraped from the log and are bundled into groups of 500 to be transferred to the Spectrum Scale file systems that backs the ROGER cluster at NCSA via the Globus Python API.  The log file is rolled daily and compressed to keep size in check.
+Data is sent to the gantry-cache server located inside the main UA-MAC building's telecom room via FTP over a private 10GbE interface.  Path to each file being transferred is logged to /var/log/xferlog.  Docker container running on the gantry-cache reads through this log file, tracking the last line it has read and scans the file regularly looking for more lines.  File paths are scraped from the log and are bundled into groups of 500 to be transferred to the Spectrum Scale file systems that backs the ROGER cluster at NCSA via the Globus Python API.  The log file is rolled daily and compressed to keep size in check.  Sensor directories on the gantry-cache are white listed for being monitored to prevent accidental or junk data from being ingested into the Clowder pipeline.
 
 A Docker container in the terra-clowder VM running in ROGER's Openstack environment gets pinged about incoming transfers and watches for when they complete, once completed the same files are queued to be ingested into Clowder.  
 
