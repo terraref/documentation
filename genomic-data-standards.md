@@ -1,11 +1,5 @@
 # Genomic Data Standards
 
-Related discussions:
-
-* https://github.com/terraref/reference-data/issues/19
-* https://github.com/terraref/documentation/blob/master/genomics_pipeline.md
-
-
 ## Overview
 
 Genomic data have reached a high level of standardization in the scientific community. Today, all high-impact journals typically ask the author to deposit their genomic data in either or both of these databases before publication.
