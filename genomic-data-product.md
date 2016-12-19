@@ -70,7 +70,7 @@ Download Sorghum bicolor v3.1 from [Phytozome](https://phytozome.jgi.doe.gov/pz/
 
 ### **Aligning reads to the reference**
 
-`bwa mem –M –R “@RG\tIDSAMPLEA_RG1\tPL:illumine\tPU: FLOWCELL_BARCODE.LANE.SAMPLE_BARCODE_RG_UNIT\tLB:libraryprep-lib1\tSM:SAMPLEA” Sbicolor_313_v3.0.fa SampleA_R1.PE.fastq.gz SampleA_R2.PE.fastq.gz > SAMPLEA.bwa.sam`
+`bwa mem –M –R “@RG\tIDSAMPLEA_RG1\tPL:illumina\tPU:FLOWCELL_BARCODE.LANE.SAMPLE_BARCODE_RG_UNIT\tLB:libraryprep-lib1\tSM:SAMPLEA” Sbicolor_313_v3.0.fa SampleA_R1.PE.fastq.gz SampleA_R2.PE.fastq.gz > SAMPLEA.bwa.sam`
 
 
 
