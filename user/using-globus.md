@@ -21,7 +21,7 @@ To request access to the Terraref endpoint, send your Globus id \(or University 
 
 To transfer data to your computer or server:
 
-1. Log into Globus [https:\/\/www.globus.org](https://www.globus.org/)
+1. Log into Globus [https://www.globus.org](https://www.globus.org/)
 
 2. Add an endpoint for the destination \(e.g. your local computer\) [https:\/\/www.globus.org\/app\/endpoints\/create-gcp](https://www.globus.org/app/endpoints/create-gcp)
 
