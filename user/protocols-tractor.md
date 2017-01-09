@@ -1,35 +1,58 @@
 # PhenoTractor Sensor Protocols 
 
-    Authors:
+    Authors: Matthew Maimaitiyiming and Wasit Wulamu
+    Center for Sustainability, Saint Louis University
+                       January 8, 2017
+
 
 ## Abstract
 
 
 ## Materials
 
-- Tractor
+See Andrade-Sanchez et al 2014.
+<!--TODO Pedro et al please summarize here -->
 
-- Sensors
+* Tractor
+* Sensors
+ * Sonar Transducer
+ * GreenSeeker Multispectral Radiometer
+ * Infrared Thermal Sensor
 
-  - Sonar Transducer
+![Picture of Phenotractor Sensors](/assets/phenotractor_sensors.JPG)
 
-  - GreenSeeker Multispectral Radiometer
+![Diagram of sensor attachments](/assets/phenotractor_sensor_diagram.JPG)
 
-  - Infrared Thermal Sensor
-
-<img src="../assets/phenotractor_sensors.JPG" width=350>
-
-<img src="../assets/phenotractor_sensor_diagram.JPG" width=350>
-
-<img src="../assets/phenotractor_sensor_offset.JPG" width=350>
+![Diagram of Sensor Offset](/assets/phenotractor_sensor_offset.JPG)
 
 ## Methods
 
-- Georeferencing
+The phenotractor was equipped with three types of sensors for measuring plant height, temperature and canopy spectral reflectance.  A RTK GPS was installed on top of the tractor, see the figure below.
 
-- Computing sensor location from sensor offset + tractor direction
+![Phenotractor system configuration](https://github.com/Mamatemenrs/test-repo/blob/master/tractor%20setting.jpg)
 
-- Calibration
+The distance from canopy to sensor position was measured with a sonar proximity sensor ($S_\rm{output}$, in mm).  Canopy height ($CH$) was determined by combining sonar and GPS elevation data (expressed as meter above sea level).  An elevation survey was conducted to determine a baseline reference elevation ($E_\rm{ref}$) for the gantry field.  CH was computed according to the following equation:
+
+$$CH = E_rm{s} – E_\rm{ref} - S_\rm{output}$$
+
+where  $E_rm{s}$ is sensor elevation, which was calculated by subtracting the vertical offset between the GPS antenna and sonar sensor from GPS antenna elevation.
+Infrared radiometer (IRT) sensors were used measure canopy temperature and temperature values were recoded as degree Celsius (°C).   
+Canopy spectral reflectance was measured with GreenSeeker sensors and the reflectance data were used to calculate NDVI (Normalized Difference Vegetation Index).  GreenSeeker sensors record reflected light energy in near infrared (780 ± 15 nm) and red (660 ± 10 nm ) portion electromagnetic spectrum from top of the canopy by using a self-illuminated light source. NDVI was calculated using following equation:
+
+$$NDVI = (\frac{\rho_\rm{NIR}-\rho_\rm{red}}{\rho_\rm{NIR}+\rho_\rm{red}}$$
+                                         
+Where $\rho_\rm{NIR}$ and $\rho_\rm{red}$ and ρ_red represent fraction of reflected energy in near infrared and red spectral regions, respectively.
+
+### Georeferencing
+
+Georefencing was carried out using a specially developed Quantum GIS (GGIS, www.qgis.org ) plug-in by Andrade-Sanchez et al. (2014) during post processing. Latitude and longitude coordinates were converted to UTM coordinate system.  Offset from the sensors to the GPS position on the tractor heading were computed and corrected.  Next, the tractor data, which uses UTM Zone 12 (MAC coordinates), was transformed to EPSG:4326 (WGS84) USDA coordinates by performing  a linear shifting as follows:   
+
+* Latitude: $U_y = M_y – 0.000015258894$
+* Longitude: $U_x = M_x + 0.000020308287$ 
+                                        
+where $U_y$ and $U_x$ are latitude and longitude in USDA coordinate system, and $M_y$ and $M_x$ are latitude and longitude in MAC coordinate system (see [section on geospatial coordinate systems](user/geospatial-information.md)).
+Finally, georeferenced tractor data was overlaid on the gantry field polygon and mean value for each plot/genotype was calculated using the data points that fall inside the plot polygon within ArcGIS Version 10.2 (ESRI. Redlands, CA).
+
 
 ## References
 
