@@ -20,7 +20,7 @@ theme_set(theme_bw())
 
 This tutorial will demonstrate how to access sensor metadata from within R. All of the sensor metadata is public, and can be queried via the API using the url `https://terraref.ncsa.illinois.edu/clowder/api/datasets/<id>/metadata.jsonld`.
 
-For further information of the Sensor Metadata see 
+For further information about sensor metadata see the [Sensor Data Standards](/sensor-data-standards.md) section.
 
 ## Avaialble Sensor metadata
 
