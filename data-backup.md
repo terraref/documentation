@@ -4,9 +4,9 @@
 
 Running nightly on ROGER.
 
-Script is hosted at: xxxxx
+Script is hosted at: /gpfs/smallblockFS/home/malone12/terra_backup
 
-Script selects data from all 2 days prior and bundles it into a .tar file, then uses pigz to compress it in parallel across 18 threads. This script is run as a job in the batch system, with variables passed with the date so if the batch system is busy, the backups won't need to preclude each other. The .tgz files are then sent over to NCSA Nearline using Globus, then purged from file system.
+Script uses the Spectrum Scale policy engine to find all files that were modified the day prior, and passes that list to a job in the batch system. The job bundles the files into a .tar file, then uses pigz to compress it in parallel across 18 threads. Since this script is run as a job in the batch system, with variables passed with the date, if the batch system is busy, the backups won't need to preclude each other. The .tgz files are then sent over to NCSA Nearline using Globus, then purged from file system.
 
 ## BETYdb
 
