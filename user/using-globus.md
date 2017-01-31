@@ -23,9 +23,9 @@ To transfer data to your computer or server:
 
 1. Log into Globus [https://www.globus.org](https://www.globus.org/)
 
-2. Add an endpoint for the destination \(e.g. your local computer\) [https:\/\/www.globus.org\/app\/endpoints\/create-gcp](https://www.globus.org/app/endpoints/create-gcp)
+2. Add an endpoint for the destination \(e.g. your local computer\) [https://www.globus.org/app/endpoints/create-gcp](https://www.globus.org/app/endpoints/create-gcp)
 
-3. Go to the 'transfer files' page: [https:\/\/www.globus.org\/app\/transfer](https://www.globus.org/app/transfer)
+3. Go to the 'transfer files' page: [https://www.globus.org/app/transfer](https://www.globus.org/app/transfer)
 
 4. Select source
 
@@ -39,7 +39,7 @@ To transfer data to your computer or server:
 
   * Select the endpoint that you set up above of your local computer or server
 
-  * Select the destination folder \(e.g. \/~\/Downloads\/\)
+  * Select the destination folder \(e.g. /~/Downloads/\)
 
 
 
