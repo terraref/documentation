@@ -8,7 +8,7 @@ This user manual is divided into the following sections:
 * [Data Access](how-to-access-data.md): Instructions for how to access the data products using Clowder, Globus, BETYdb, and CoGe
 * Description of the [scientific objectives and experimental design](scientific-objectives-and-experimental-design.md)
 * [Data use policy](data_release_policy.md): Information about data use and attribution
-* [User Tutorials](/user-tutorials.md): In-depth examples of how to access and use the TERRA-REF data
+* [User Tutorials](/tutorials.md): In-depth examples of how to access and use the TERRA-REF data
 
 ### What data is available?
 
@@ -28,4 +28,6 @@ The TERRA-REF reference dataset may be of interest to a variety of research comm
 * Genomics\/bioinformaticians \(genomics data\)
 
 ## 
+
+
 
