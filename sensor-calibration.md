@@ -8,7 +8,7 @@ This section describes sensor calibration processes and how to access additional
 
 ### Calibration protocols
 
-Calibration protocols have been defined by LemnaTec in cooperation with vendors and the TERRA-REF Sensor Steering Committee. Draft calibration protocols are currently in [Google Drive ](https://docs.google.com/document/d/132_dkGAIQJ3cG7bQkPIkX7-RgXyWLDoQWJFDj5c-5uU/edit)and have been incorporated into the [LemnaTec Scanalyzer Field sensor documentation](https://terraref.ncsa.illinois.edu/clowder/datasets/58178ee54f0ce77b66561602).
+Calibration protocols have been defined by LemnaTec in cooperation with vendors and the TERRA-REF Sensor Steering Committee. Draft calibration protocols are currently in [Google Drive ](https://docs.google.com/document/d/132_dkGAIQJ3cG7bQkPIkX7-RgXyWLDoQWJFDj5c-5uU/edit)and have been incorporated into the [LemnaTec Scanalyzer Field sensor documentation](https://terraref.ncsa.illinois.edu/clowder/collection/5873a6234f0cad7d81318e36).
 
 A detailed calibration process is also provided for the [Hyperspectral sensors](https://docs.google.com/document/d/1w_zHHlrPVKsy1mnW9wrVzAU2edVqZH8i1IZa5BZxVpo/edit#heading=h.jjfbhbos05cc), with further information below.
 
@@ -16,12 +16,9 @@ A detailed calibration process is also provided for the [Hyperspectral sensors](
 
 The following calibration targets are available:
 
-* [LabSphere Spectralon Diffuse Color Targets](https://terraref.ncsa.illinois.edu/clowder/datasets/5817c7c84f0c63f2a8ca5e6c)
-
-* [SphereOptics Zenith Polymer diffuse reflectance standards](https://terraref.ncsa.illinois.edu/clowder/datasets/5818bb544f0c63f2a8d20963)
-
+* [LabSphere Spectralon Diffuse Color Targets](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a8184f0cad7d8131a4dd)
+* [SphereOptics Zenith Polymer diffuse reflectance standards](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a9434f0cad7d8131b29a)
 * Aluminum 3D test object
-
 
 ### Sensor Calibration
 
@@ -36,7 +33,6 @@ Calibration reference data is available via Globus `/sites/ua-mac/EnvironmentLog
 Sources:
 
 * [Convert hyperspectral exposure image to reflectance](https://github.com/terraref/computing-pipeline/issues/88)
-
 * [Hyperspectral calibration protocols](https://docs.google.com/document/d/1w_zHHlrPVKsy1mnW9wrVzAU2edVqZH8i1IZa5BZxVpo)
 
 
@@ -46,19 +42,13 @@ To convert the hyperspectral exposure image to reflectance requires the waveleng
 **Dark reference measurement:**
 
 * VNIR
-
   * Dark measurement for VNIR camera is taken at exposure times 20, 25, 30, 35, 40, 45, 50, 55ms.
-
   * Data is in the same hypercube format with 180-200 lines, 955 bands, and 1600 pixel samples.
-
-  * Data is available in \/gantry\_data\/VNIR-DarkRef\/ or via [Google Drive.](https://drive.google.com/file/d/0B9h5V5JdLLXmSkdpTmd6QmN3dTQ/view?usp=sharing)
-
+  * Data is available on Globus in /gantry_data/VNIR-DarkRef/ or via [Google Drive.](https://drive.google.com/file/d/0B9h5V5JdLLXmSkdpTmd6QmN3dTQ/view?usp=sharing)
   * Measurement was done using Headwall software, so there is no LemnaTec json file. 
   * The name of the folder is the exposure time.   "current setting exposure" is showing the exposure time in ms.
   * Custom workflow to process the calibration files.
-
 * SWIR;
-
   * Dark counts handled internally, so no calibration files are necessary.
 
 
@@ -84,7 +74,7 @@ __________________________
 
 ## UAV calibration
 
-Source: https:\/\/github.com\/terraref\/computing-pipeline\/issues\/185
+Source: https://github.com/terraref/computing-pipeline/issues/185
 
 * There are calibrated reference panels and blackbody images taken with UAV sensors before and\/or after the each flight mission.
 
@@ -113,7 +103,6 @@ No per-wavelength analysis of light produced by the halogen lights is available 
 Relative spectral response data is available for the following sensors:
 
 * NDVI
-
 * PRI
 * PAR
 
@@ -121,5 +110,5 @@ Relative spectral response data is available for the following sensors:
 
 #### Calibration data
 
-Where available, per device calibration certificates are included in the [Device and Sensor information](https://terraref.ncsa.illinois.edu/clowder/datasets/5818bb544f0c63f2a8d20963) collections.
+Where available, per device calibration certificates are included in the [Device and Sensor information](https://terraref.ncsa.illinois.edu/clowder/collection/5873a6234f0cad7d81318e36) collections.
 
