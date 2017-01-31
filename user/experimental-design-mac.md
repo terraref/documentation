@@ -1,22 +1,40 @@
 #Maricopa Agricultural Center Experimental Design  
 
+Season 1 (April - July 2016) 
+Season 2 (August - November 2016)
+
+
+
+
 ## Season 1 (April - July 2016) 
 
-[Three hundred thirty one lines were planted in 2016](/user/sorghum_MAC_1.md). Plantings occurred both [under ](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=1066629008)and [west ](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=193038411)of the gantry system.
+[Three hundred thirty one lines were planted in Season 1](/user/sorghum_MAC_1.md). 
+
+####Planting maps
+- [Under the scanner system](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=1066629008)
+- [West the scanner system](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=193038411)
 
 ####Planting Design
 
-| **Location** | **Experiment** | **Reps** | **Treatments** | **Experimental design** |
-|----------------|--------------------|----------|-------------------------------------------------------------------------------------|------------------------------------------------------|
-| Gantry | BAP | 3 | 30 lines (12 PS, 12 sweet, 6 grain) | RCB with sorghum types nested in groups |
-| Gantry | Night illumination | 3 | 5 illumination levels x 2 PS lines (with check line separating illumination levels) | RCB |
-| Gantry | Row \# | 3 | 6 adjacent plot scenarios: 3 lines (forage, sweet, PS) x 2 sides (east or west) | RCB but not balanced with all treatments in all reps |
-| Gantry | Biomass | 3 | 5 sampling times x 3 lines (forage, sweet, PS) | RCB with sampling time as a repeated measure |
-| Gantry | Density | 3 | 3 densities (5, 15, 30 cm) x 3 lines (forage, sweet, PS) | RCB |
-| Gantry | RILs | 3 | 130 RILs plus 10 repeats of a single line/rep | Incomplete Block (row-column alpha lattice design) |
-| Gantry | Uniformity | 17 | 2 lines (forage, PS) | None - Same line planted in single range |
-| West of gantry | BAP | 1 | 30 lines (12 PS, 12 sweet, 6 grain) | None - single rep planted for observation |
-| West of gantry | RILs | 3 | 60 RILs | Incomplete Block (row-column alpha lattice design) |
+**Under scanner system**
+
+| **Experiment** | **Reps** | **Treatments** | **Experimental design** |
+|--------------------|----------|-------------------------------------------------------------------------------------|------------------------------------------------------|
+| BAP | 3 | 30 lines (12 PS, 12 sweet, 6 grain) | RCB with sorghum types nested in groups |
+| Night illumination | 3 | 5 illumination levels x 2 PS lines (with check line separating illumination levels) | RCB |
+| Row \# | 3 | 6 adjacent plot scenarios: 3 lines (forage, sweet, PS) x 2 sides (east or west) | RCB but not balanced with all treatments in all reps |
+| Biomass | 3 | 5 sampling times x 3 lines (forage, sweet, PS) | RCB with sampling time as a repeated measure |
+| Density | 3 | 3 densities (5, 15, 30 cm) x 3 lines (forage, sweet, PS) | RCB |
+| RILs | 3 | 130 RILs plus 10 repeats of a single line/rep | Incomplete Block (row-column alpha lattice design) |
+| Uniformity | 17 | 2 lines (forage, PS) | None - Same line planted in single range |
+
+
+**West of scanner system**
+
+| **Experiment** | **Reps** | **Treatments** | **Experimental design** |
+|--------------------|----------|-----------------------------------|---------------|
+| BAP | 1 | 30 lines (12 PS, 12 sweet, 6 grain) | None - single rep planted for observation |
+| RILs | 3 | 60 RILs | Incomplete Block (row-column alpha lattice design) |
 
 
 ________________
@@ -49,6 +67,19 @@ ____________
 
 PI=photoperiod insensitive PS=photoperiod sensitive MPS= moderately photoperiod sensitive
 
-## Season 2 (April - July 2016)
+## Season 2 (August - November 2016)
+[One hundred and seventy-six lines were planted in Season 2](/user/sorghum_MAC_1.md).
 
-COMING SOON
+####Planting map
+[Under the scanner system](https://docs.google.com/spreadsheets/d/107aijRIvO5i-HHwVDQTXn0-9sE02cXO_MdZk3DERzQ0/edit#gid=430934319)
+
+####Planting Design
+
+coming soon
+
+
+____________
+###Manually Collected Field Data
+
+
+coming soon
