@@ -1,12 +1,12 @@
 #Maricopa Agricultural Center Experimental Design  
 
-Season 1 (April - July 2016) 
-Season 2 (August - November 2016)
+Season 1 sorghum (April - July 2016) 
+Season 2 sorghum (August - November 2016)
+Durum wheat (January 2017 - 
 
 
 
-
-## Season 1 (April - July 2016) 
+## Season 1 soghum (April - July 2016) 
 
 [Three hundred thirty one lines were planted in Season 1](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=796817704). 
 
@@ -60,7 +60,7 @@ Twelve sensors are attached to the gantry system. Detailed information for each 
 
 ____________
 
-## Season 2 (August - November 2016)
+## Season 2 soghum (August - November 2016)
 [One hundred and seventy-six lines were planted in Season 2](https://docs.google.com/spreadsheets/d/107aijRIvO5i-HHwVDQTXn0-9sE02cXO_MdZk3DERzQ0/edit?usp=sharing).
 
 ####Planting map
@@ -81,3 +81,10 @@ same as season 1
  emergence final stand counts
  node and tiller counts on marked plants
  leaf length and width on marked plants, one date
+ 
+ ___________________
+ ##Durum wheat
+ 
+####[Experimental design](https://docs.google.com/spreadsheets/d/15hLUFquat4T-8-ejBKTHRYGgGO1LL3w6UwMQ6jxHA8E/edit#gid=1274912251) 
+
+####[Automatically and manually collected field data plan](https://docs.google.com/spreadsheets/d/15hLUFquat4T-8-ejBKTHRYGgGO1LL3w6UwMQ6jxHA8E/edit#gid=623178992)
