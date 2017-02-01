@@ -8,7 +8,7 @@ Season 2 (August - November 2016)
 
 ## Season 1 (April - July 2016) 
 
-[Three hundred thirty one lines were planted in Season 1](/user/sorghum_MAC_1.md). 
+[Three hundred thirty one lines were planted in Season 1](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=796817704). 
 
 ####Planting maps
 - [Under the scanner system](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=1066629008)
@@ -37,7 +37,7 @@ Season 2 (August - November 2016)
 | RILs | 3 | 60 RILs | Incomplete Block (row-column alpha lattice design) |
 
 
-________________
+
 ###Automated Phenotpying
 
 The [Lemnatec Scanalyzer Field Gantry System](http://www.lemnatec.com/products/hardware-solutions/scanalyzer-field/) is the largest field crop analytics robot in the world. This high-throughput phenotyping field-scanning robot has a 30-ton steel gantry that autonomously moves along two 200-meter steel rails while continuously imaging the crops growing below it with a diverse array of [cameras and sensors](http://terraref.org/articles/lemnatec-scanalyzer-field-sensors/).
@@ -45,7 +45,7 @@ The [Lemnatec Scanalyzer Field Gantry System](http://www.lemnatec.com/products/h
 
 Twelve sensors are attached to the gantry system. Detailed information for each sensor including name, variable measured, and field of view are [available here](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=1886254108&single=true&widget=true&headers=false). The planned sensor missions and their objectives for 2016 are [available here](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=2092320800&single=true&widget=true&headers=false).
 
-____________
+
 ###Manually Collected Field Data
 
  emergence vigor
@@ -58,6 +58,7 @@ ____________
  managements
  Incomplete harvest yield data
 
+____________
 
 ## Season 2 (August - November 2016)
 [One hundred and seventy-six lines were planted in Season 2](https://docs.google.com/spreadsheets/d/107aijRIvO5i-HHwVDQTXn0-9sE02cXO_MdZk3DERzQ0/edit?usp=sharing).
@@ -66,12 +67,12 @@ ____________
 [Under the scanner system](https://docs.google.com/spreadsheets/d/107aijRIvO5i-HHwVDQTXn0-9sE02cXO_MdZk3DERzQ0/edit#gid=430934319)
 
 ####Planting Design
-**Under scanner system**
+Under scanner system - same as season 1
 
+###Automated Phenotpying
 same as season 1
 
 
-____________
 ###Manually Collected Field Data
 
  plant heights 

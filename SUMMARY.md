@@ -17,7 +17,6 @@
     * [Experimental Design Genomics](user/experimental-design-genomics.md)
       * [Sorghum Lines Genomics](user/sorghum-lines-genomics.md)
     * [Experimental Design MAC](user/experimental-design-mac.md)
-      * [Sorghum Lines MAC](user/sorghum_MAC_1.md)
 * [User Manual](user/user-manual.md)
   * [What Data is Available](user/what-data-is-available.md)
   * [Data Products](user/data-products.md)
