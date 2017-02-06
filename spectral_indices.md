@@ -1,7 +1,7 @@
 | Reflectance index                                        | Acronym     | Equation                                          | References                       |
 |----------------------------------------------------------|-------------|---------------------------------------------------|----------------------------------|
 | Normalized Difference Vegetation Index                   | NDVI        | NDVI=(R900-R680)/(R900+R680)                      | Rouse et al. (1973)              |
-| Simple radio                                             | SR          | SR=R900/R680                                      | Rouse et al. (1973)              |
+| Simple ratio                                             | SR          | SR=R900/R680                                      | Rouse et al. (1973)              |
 | Optimized Soil-Adjusted Vegetation index                 | OSAVI       | OSAVI=(1+0.16)*(R800-R670)/(R800+R670+0.16)       | Rondeaux et al. (1996)           |
 | Water index                                              | WI          | WI=R900-R970                                      | Penuelas. et al. (1993)          |
 | Chlorophyll index                                        | Chl index   | Chl index= R750/R550                              | Gitelson and Merzlyak (1994)     |
@@ -10,7 +10,7 @@
 |                                                          | TCARI/OSAVI | TCARI/OSAVI                                       | Haboudane et al. (2002)          |
 | Carotenoid index (Chappelle)                             | CarChap     | CARChap =R760/R500                                | Chappelle et al. (1992)          |
 | Carotenoid index  (Blackburn)                            | Car1Black   | CAR1Black=R800/R470                               | Blackburn (1998)                 |
-| Carotenoid index  (Blackburn)                            | Car2Black   | CAR2Black=(R800 - R470)/(R800+R470)               | Blackburn (1998)                 |
+| Carotenoid index 2 (Blackburn)                            | Car2Black   | CAR2Black=(R800 - R470)/(R800+R470)               | Blackburn (1998)                 |
 | Photochemical reflectance index (570)                    | PRI570      | PRI=(R531-R570)/(R531+R570)                       | Gamon et al. (1992)              |
 | Structure intensive pigment index                        | SIPI        | SIPI=(R800-R450)/(R800+R650)                      | Penuelas. et al. (1995)          |
 | Anthocyanin (Gamon)                                      | AntGamon    | AntGamon =R650/R550                               | Gamon and Surfus (1999)          |
@@ -26,7 +26,7 @@
 | Red edge ratio index                                     | RERI        | RERI= R700/R670                                   | Part of TCARI index              |
 | Red edge                                                 | ZM          | ZM = R750/R710                                    | Zarco-Tejada et al. (2001)       |
 | Red edge position                                        | REP         | REP=700+40*{[(R670+R780)/2-R700] /(R740-R700)}    | Guyot and Baret, 1988            |
-| Normalized difference vegetation index                   | NDRE        | NDRE=(R790-R720)/(R790+R720)                      | Barnes et al. (2000)             |
+|  Normalized Difference Red Edge Index                   | NDRE        | NDRE=(R790-R720)/(R790+R720)                      | Barnes et al. (2000)             |
 | Triangular Vegetation Index                              | TVI         | TVI=0.5*(120*(R750-R550)-200*(R670-R550))         | Haboudaneet al. (2004)           |
 
 https://github.com/terraref/computing-pipeline/issues/183
