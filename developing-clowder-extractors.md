@@ -2,7 +2,7 @@
 
 Extractors are services that run silently alongside Clowder. They can be configured to wait for specific file types to be uploaded into Clowder, and automatically execute operations on those files to extract metadata.
 
-It is possible to develop extractors for new file types or tasks. See [the NCSA Extractor Development wiki](https://opensource.ncsa.illinois.edu/confluence/display/CATS/Extractor+Development#ExtractorDevelopment-Extractorbasics) for complete instructions
+It is possible to develop extractors for new file types or tasks. See [the NCSA Extractor Development wiki](https://opensource.ncsa.illinois.edu/confluence/display/CATS/Extractors) for complete instructions
 
 
 
