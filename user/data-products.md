@@ -15,7 +15,7 @@ The following table lists available TERRA-REF data products. The table will be u
 | [Meteorological data](/products/meteorological_data.md) |  postGIS/netCDF |
 | [Phenotype data](/products/trait-data.md) |  Phenotype data is derived from sensor output using the PlantCV extractor and imported into BETYdb. |
 | [Genomics data](/products/genomics-data.md) |   FASTQ and VCF files available via Globus|
-| UAV and Phenotractor |  | Plot level data available in BETYdb |
+| UAV and Phenotractor | Plot level data available in BETYdb |
 
 ## See also
 
