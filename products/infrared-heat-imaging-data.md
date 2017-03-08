@@ -8,9 +8,9 @@ Infrared heat imaging data is collected collected using the FLIR SC615 thermal s
 
 Thermal imaging data is available via Clowder and Globus:
 
-* **Clowder**: [flirIrCamera collection](https://terraref.ncsa.illinois.edu/clowder/collection/57278c4de4b03269d7053865)
+* **Clowder**: [flirIrCamera collection](https://terraref.ncsa.illinois.edu/clowder/collection/587171894f0cc129fb754b26)
 * **Globus**:  `/ua-mac/raw_data/flirIrCamera`
-* **Sensor information**: [FLIR Thermal Camera collection](https://terraref.ncsa.illinois.edu/clowder/datasets/5817877a4f0ce77b6655b320)
+* **Sensor information**: [FLIR Thermal Camera collection](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a7184f0cad7d8131994a)
 
 For details about using this data via Clowder or Globus, please see [Data Access](/how-to-access-data.md) section.
 

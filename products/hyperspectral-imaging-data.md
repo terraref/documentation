@@ -10,8 +10,8 @@ Hyperspectral data is available via Clowder and Globus:
 
 * **Clowder**:
 
-  * [SWIR Collection](https://terraref.ncsa.illinois.edu/clowder/collection/5728c2b3e4b03269d707a126)
-  * [VNIR Collection](https://terraref.ncsa.illinois.edu/clowder/collection/57223ccfe4b082fbf2a8f5dc)
+  * [SWIR Collection](https://terraref.ncsa.illinois.edu/clowder/collection/58713c934f0cc129fb5b8894)
+  * [VNIR Collection](https://terraref.ncsa.illinois.edu/clowder/collection/587021414f0c0dbad1a6dd3d)
 
 * **Globus**:
 
@@ -20,8 +20,8 @@ Hyperspectral data is available via Clowder and Globus:
 
 * **Sensor information**:
 
-  * [Headwall SWIR](https://terraref.ncsa.illinois.edu/clowder/datasets/5817870c4f0ce77b6655aecd) 
-  * [Headwall VNIR](https://terraref.ncsa.illinois.edu/clowder/datasets/581787264f0ce77b6655b125) 
+  * [Headwall SWIR](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a79e4f0cad7d81319f5f) 
+  * [Headwall VNIR](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a7bb4f0cad7d8131a0b7) 
 
 
 For details about using this data via Clowder or Globus, please see [Data Access](/how-to-access-data.md) section.

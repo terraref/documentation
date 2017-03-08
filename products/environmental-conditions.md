@@ -8,9 +8,9 @@ Data is available via Clowder and Globus:
 
 * **Clowder**:
 
-  * [co2sensor](https://terraref.ncsa.illinois.edu/clowder/collection/57226fc1e4b082fbf2a94702) collection \(Viasala CO<sub>2</sub>\)
+  * co2sensor \(Viasala CO<sub>2</sub>\)
   * EnvironmentalLogger \(Thies Clima\)
-  * irrigation, lightning and [weather ](https://terraref.ncsa.illinois.edu/clowder/collection/57e043964f0cb775be5f158c)collections \(MAC Weather Station\)
+  * irrigation, lightning and [weather ](https://terraref.ncsa.illinois.edu/clowder/collection/5893a6da4f0c06726b1b03a9)collections \(MAC Weather Station\)
 
 * **Globus**:
 
@@ -22,8 +22,8 @@ Data is available via Clowder and Globus:
 
 * **Sensor information**:
 
-  * [Vaisala CO<sub>2</sub> Sensor collection](https://terraref.ncsa.illinois.edu/clowder/datasets/581787d94f0ce77b6655b819)
-  * [Thies Clima Sensor collection ](https://terraref.ncsa.illinois.edu/clowder/datasets/58178a744f0ce77b6655d38a)
+  * [Vaisala CO<sub>2</sub> Sensor collection](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a9924f0cad7d8131b648)
+  * [Thies Clima Sensor collection ](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a9724f0cad7d8131b4d3)
 
 
 ### Computational pipeline

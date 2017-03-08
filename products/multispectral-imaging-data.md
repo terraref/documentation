@@ -10,8 +10,8 @@ Data is available via Clowder and Globus:
 
 * **Clowder**:
 
-  * [ndviSensor collection](https://terraref.ncsa.illinois.edu/clowder/collection/5728bb50e4b03269d7078786)
-  * [priSensor collection](https://terraref.ncsa.illinois.edu/clowder/collection/5728bb6ae4b03269d7078844)
+  * [ndviSensor collection](https://terraref.ncsa.illinois.edu/clowder/collection/5880f0444f0c94eefbb159a6)
+  * priSensor collection
 
 * **Globus**:
 
@@ -20,8 +20,8 @@ Data is available via Clowder and Globus:
 
 * **Sensor information**:
 
-  * [Skye PRI collection](https://terraref.ncsa.illinois.edu/clowder/datasets/581789524f0ce77b6655ccf9) 
-  * [Skye NDVI collection](https://terraref.ncsa.illinois.edu/clowder/datasets/581787524f0ce77b6655b2c7)
+  * [Skye PRI collection](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a9174f0cad7d8131b09a) 
+  * [Skye NDVI collection](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a8f64f0cad7d8131af54)
 
 
 For details about using this data via Clowder or Globus, please see [Data Access](/how-to-access-data.md) section.

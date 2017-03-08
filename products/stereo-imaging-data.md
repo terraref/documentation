@@ -8,9 +8,9 @@ Stereo imaging data is collected using the Prosilica RGB cameras.
 
 Data is available via Clowder and Globus:
 
-* **Clowder**:  [stereoTop collection](https://terraref.ncsa.illinois.edu/clowder/collection/5728bb56e4b03269d70787b4)
+* **Clowder**:  stereoTop collection
 * **Globus**: `/ua-mac/raw_data/stereoTop`
-* **Sensor information**: [Prosilica RGB collection](https://terraref.ncsa.illinois.edu/clowder/datasets/5817873d4f0ce77b6655b269) 
+* **Sensor information**: [Prosilica RGB collection](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a8ae4f0cad7d8131ac0e) 
 
 For details about using this data via Clowder or Globus, please see [Data Access](/how-to-access-data.md) section.
 
