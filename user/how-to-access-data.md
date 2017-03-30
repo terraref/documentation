@@ -16,7 +16,7 @@ For more information, see [Using Clowder](/user/using-clowder.md).
 
 ### Globus Connect
 
-Raw data is transferred to the primary TERRA-REF compute pipeline on the [Resource Open Geospatial Education and Research](https://wiki.ncsa.illinois.edu/display/ROGER/ROGER+System+Information?src=contextnavchildmode) \(ROGER\) system using Globus Online. Data is available for Globus transfer via the [Terraref endpoint](https://www.globus.org/app/endpoints/403204c4-6004-11e6-8316-22000b97daec/overview). Direct access to ROGER is restricted.
+Raw data is transferred to the primary TERRA-REF compute pipeline on the [Resource Open Geospatial Education and Research](https://wiki.ncsa.illinois.edu/display/ROGER/ROGER+System+Information?src=contextnavchildmode) (ROGER) system using Globus Online. Data is available for Globus transfer via the [Terraref endpoint](https://www.globus.org/app/endpoints/403204c4-6004-11e6-8316-22000b97daec/overview). Direct access to ROGER is restricted.
 
 Use Globus Online when you want to transfer data from the TERRA-REF system for local analysis. 
 
@@ -42,6 +42,6 @@ For more information, see [Using CoGe](/user/using-coge.md).
 
 * Calibration protocols
 
-* Field scanner operational log [https:\/\/github.com\/terraref\/computing-pipeline\/issues\/128](https://github.com/terraref/computing-pipeline/issues/128)
+* Field scanner operational log https://github.com/terraref/computing-pipeline/issues/128
 
 
