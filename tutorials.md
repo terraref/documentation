@@ -1,6 +1,3 @@
-We are developing a set of tutorials. Because there are so many software dependencies, a we have set up a 
+We are developing a set of tutorials described here https://github.com/terraref/tutorials/blob/master/README.md
 
-Instructions for gettings started with the workbench are here: [file:///C:/Users/dlebauer/Documents/GitHub/tutorials/workbench/ndslabs\_workbench\_intro.html](http://htmlpreview.github.io/?https://raw.githubusercontent.com/terraref/tutorials/master/workbench/ndslabs_workbench_intro.html)
-
-
-
+Note that the tutorials assume that you are using terraref.ndslabs.org which provides all of the software dependencies along with data access.
