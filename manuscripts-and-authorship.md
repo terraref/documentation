@@ -57,7 +57,7 @@ Note that the last author position may be appropriate to assign in some cases. F
 
 --- 
 
-## Contributions Warrinting Co-authorship
+## Contributions Warranting Co-authorship
 
 Authorship must be earned through a _substantial contribution._ Traditionally, project initiation and framing, data analysis and interpretation, and manuscript preparation are all authorship-worthy contributions, and remain so for TERRA REF manuscripts. However, TERRA REF collaborators have also agreed that collaborators who lead a site from which data are being used in a paper can also opt-in as co-authors, under the following conditions: **(1)** the collaborators&#39; site has contributed data being used in the paper's analysis; and **(2)** that this collaborator makes additional contributions to the particular manuscript, including data analysis, writing, or editing. For coauthorship on opt-out papers, each individual must be able to check **at least two** boxes in the rubric, including contribution to the writing process. _These guidelines apply equally to manuscripts led by graduate students._
 
