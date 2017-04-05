@@ -45,7 +45,7 @@ Steps:
 
 6. **Lead authors should** keep an email list of co-authors and **communicate regularly** about progress including sharing drafts of analyses, figures, and text as often as is productive and practical.
 
-7. **Lead authors should** circulate complete drafts among co-authors and consider comments and changes. Given the wide variety of ideas and suggestions provided on each NutNet paper, co-authors should recognize the final decisions belong to the lead author.
+7. **Lead authors should** circulate complete drafts among co-authors and consider comments and changes. Given the wide variety of ideas and suggestions provided on each TERRA REF paper, co-authors should recognize the final decisions belong to the lead author.
 
 8. **Final manuscripts should be reviewed and approved by each co-author before submission.**
 
@@ -59,7 +59,7 @@ Note that the last author position may be appropriate to assign in some cases. F
 
 ## Contributions Warrinting Co-authorship
 
-Authorship must be earned through a _substantial contribution._ Traditionally, project initiation and framing, data analysis and interpretation, and manuscript preparation are all authorship-worthy contributions, and remain so for NutNet manuscripts. However, NutNet collaborators have also agreed that collaborators who lead a site from which data are being used in a paper can also opt-in as co-authors, under the following conditions: **(1)** the collaborators&#39; site has contributed data being used in the paper's analysis; and **(2)** that this collaborator makes additional contributions to the particular manuscript, including data analysis, writing, or editing. For coauthorship on opt-out papers, each individual must be able to check **at least two** boxes in the rubric, including contribution to the writing process. _These guidelines apply equally to manuscripts led by graduate students._
+Authorship must be earned through a _substantial contribution._ Traditionally, project initiation and framing, data analysis and interpretation, and manuscript preparation are all authorship-worthy contributions, and remain so for TERRA REF manuscripts. However, TERRA REF collaborators have also agreed that collaborators who lead a site from which data are being used in a paper can also opt-in as co-authors, under the following conditions: **(1)** the collaborators&#39; site has contributed data being used in the paper's analysis; and **(2)** that this collaborator makes additional contributions to the particular manuscript, including data analysis, writing, or editing. For coauthorship on opt-out papers, each individual must be able to check **at least two** boxes in the rubric, including contribution to the writing process. _These guidelines apply equally to manuscripts led by graduate students._
 
 Manuscripts published by TERRA REF will be accompanied by a supplemental table indicating authorship contributions. You can create and share a standard authorship table using google docs (https://goo.gl/Z7qv4L). For opt-in papers, a co-author is expected to have at least two of the following areas checked in the authorship rubric.
 
