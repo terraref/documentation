@@ -11,7 +11,7 @@ _This document is based on the Nutrient Network Authorship Guidelines,_ [http://
 
 We plan to quickly make data and software available for use with attribution, under [CC-By 4.0](https://creativecommons.org/licenses/by/4.0/), [MIT](https://opensource.org/licenses/MIT) compatable license, or Ft. Lauderdale Agreement as described in our [Data Use Guidelines](https://terraref.gitbooks.io/terraref-documentation/content/user/data_release_policy.html). Such data can be used with attribution (e.g. citation); co-authorship opportunities are welcome where warranted (see below) by specific contributions to the manuscript (e.g. help in interpreting data beyond technical support).
 
-We will make data available early as &#39;pre-release&#39; with restrictive use policies. In these cases, people who wish to use the data for publication prior to official open release should coordinate co-authorship with the person responsible for collecting the data
+We are making data available early for users under the condition that manuscripts led within the team not be scooped. In these cases, people who wish to use the data for publication prior to official open release date of November 2018 should coordinate co-authorship with the person responsible for collecting the data. 
 
 ## Overview of the TERRA REF authorship process:
 
@@ -22,7 +22,7 @@ Our primary goals in the TERRA REF authorship process are to consistently, accur
 Steps:
 
 1. **Read these authorship policies** and guidelines.
-2. ** Consult the TERRA REF website** ( [http://terraref.org/manuscripts](https://docs.google.com/spreadsheets/d/1MB6CvX2GxPepEMZ4Spi5bDVFW3HWGOqIa9kXo4Hv_Ks/pubhtml?gid=0&amp;single=true)) for current proposals and active manuscripts, contact the listed lead author on any similar proposal to minimize overlap, or to join forces. Also carefully read these guidelines.
+2. **Consult the current list of manuscripts** ([http://terraref.org/manuscripts](https://docs.google.com/spreadsheets/d/1MB6CvX2GxPepEMZ4Spi5bDVFW3HWGOqIa9kXo4Hv_Ks/pubhtml?gid=0&amp;single=true)) for current proposals and active manuscripts, contact the listed lead author on any similar proposal to minimize overlap, or to join forces. Also carefully read these guidelines.
 3. **Prepare a manuscript proposal**. Your proposal will list the lead author(s), the title and abstract body, and the specific data types that you will use. You can also specify more detail about response and predictor variables (if appropriate), and indicate a timeline for analysis and writing. Submit your proposal through [this form](http://goo.gl/forms/NgWutmGJZlmFkfxG3).
 
     Proposed ideas are reviewed by the authorship committee primarily to facilitate appropriate collaborations, identify potential duplication of effort, and to support the scientists who generate data while allowing the broader research community access to data as quickly and openly as possible. The authorship committee may suggest altering or combining analyses and papers to resolve issues of overlap.
@@ -37,19 +37,19 @@ Steps:
 
     The right point to share your working draft and solicit co-authors is different for each manuscript, but in general:
 
-1.  sharing early drafts or figures allows for more effective co-author contribution. While ideally this would mean circulating the manuscript at a very early stage for opt-in to the entire network, it is acceptable and even typical to share early drafts or figures among a smaller group of core authors.
-2. circulating essentially complete manuscripts does not allow the opportunity for meaningful contribution from co-authors, and is discouraged.
+   1.  sharing early drafts or figures allows for more effective co-author contribution. While ideally this would mean circulating the manuscript at a very early stage for opt-in to the entire network, it is acceptable and even typical to share early drafts or figures among a smaller group of core authors.
+   2. circulating essentially complete manuscripts does not allow the opportunity for meaningful contribution from co-authors, and is discouraged.
 5. **Potential co-authors** should signal their intention to opt-in by responding by email to the lead author before the stated deadline.
 6. **Lead authors should** keep an email list of co-authors and **communicate regularly** about progress including sharing drafts of analyses, figures, and text as often as is productive and practical.
 7. **Lead authors should** circulate complete drafts among co-authors and consider comments and changes. Given the wide variety of ideas and suggestions provided on each TERRA REF paper, co-authors should recognize the final decisions belong to the lead author.
 8. **Final manuscripts should be reviewed and approved by each co-author before submission.**
-9. **All authors and co-authors should** fill out their contribution in the authorship rubric and attach it as supplementary material to any TERRA REF manuscript. Lead authors are responsible for ensuring consistency in credit given for contributions, and may alter co-author&#39;s entries in the table to do so. An easy way to manage the author table is with the TERRA REF authorship template https://goo.gl/Z7qv4L.
+9. **All authors and co-authors should** fill out their contribution in the authorship rubric and attach it as supplementary material to any TERRA REF manuscript. Lead authors are responsible for ensuring consistency in credit given for contributions, and may alter co-author&#39;s entries in the table to do so. 
+   
+  An easy way to manage the author table is with the [TERRA REF authorship workbook](https://goo.gl/Z7qv4L).
 
-Note that the last author position may be appropriate to assign in some cases. For example, this would be appropriate for advisors of lead authors who are graduate students or postdocs and for papers that two people worked very closely to produce.
+  Note that the last author position may be appropriate to assign in some cases. For example, this would be appropriate for advisors of lead authors who are graduate students or postdocs and for papers that two people worked very closely to produce.
 
 10. **The lead author should** carefully review the authorship contribution table to ensure that all authors have contributed at a level that warrants authorship and that contributions are consistently attributed among authors. Has each author made contributions in at least two areas in the authorship rubric? Did each author provide thoughtful, detailed feedback on the manuscript? Authors are encouraged to contact the TERRA REF PI (Mockler) or authorship committee (Jeff White, Geoff Morris, Todd Mockler, David LeBauer, Wasit Wulamu, Nadia Shakoor) about any confusion or conflicts.
-
---- 
 
 ## Contributions Warranting Co-authorship
 
