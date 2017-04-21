@@ -45,7 +45,7 @@ Steps:
 8. **Final manuscripts should be reviewed and approved by each co-author before submission.**
 9. **All authors and co-authors should** fill out their contribution in the authorship rubric and attach it as supplementary material to any TERRA REF manuscript. Lead authors are responsible for ensuring consistency in credit given for contributions, and may alter co-author&#39;s entries in the table to do so. 
    
-  An easy way to manage the author table is with the [TERRA REF authorship workbook](https://goo.gl/Z7qv4L).
+  The [authorship rubric](https://goo.gl/Z7qv4L) provides a framework for this process.
 
   Note that the last author position may be appropriate to assign in some cases. For example, this would be appropriate for advisors of lead authors who are graduate students or postdocs and for papers that two people worked very closely to produce.
 
@@ -55,7 +55,7 @@ Steps:
 
 Authorship must be earned through a _substantial contribution._ Traditionally, project initiation and framing, data analysis and interpretation, and manuscript preparation are all authorship-worthy contributions, and remain so for TERRA REF manuscripts. However, TERRA REF collaborators have also agreed that collaborators who lead a site from which data are being used in a paper can also opt-in as co-authors, under the following conditions: **(1)** the collaborators&#39; site has contributed data being used in the paper's analysis; and **(2)** that this collaborator makes additional contributions to the particular manuscript, including data analysis, writing, or editing. For coauthorship on opt-out papers, each individual must be able to check **at least two** boxes in the rubric, including contribution to the writing process. _These guidelines apply equally to manuscripts led by graduate students._
 
-Manuscripts published by TERRA REF will be accompanied by a supplemental table indicating authorship contributions. You can create and share a standard authorship table using google docs (https://goo.gl/Z7qv4L). For opt-in papers, a co-author is expected to have at least two of the following areas checked in the authorship rubric.
+Manuscripts published by TERRA REF will be accompanied by a supplemental table indicating authorship contributions. You can copy and share the [authorship rubric](https://goo.gl/Z7qv4L). For opt-in papers, a co-author is expected to have at least two of the following areas checked in the authorship rubric.
 
 | rubric item | example contribution meriting a checked box |
 | --- | --- |
