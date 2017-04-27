@@ -5,20 +5,13 @@ Genome resequencing data is available for 384 accessions of sorghum from the [Bi
 ## Raw data \(Bzip2 FASTQ\): 
 
 ```
-/sites/hudson-alpha/raw_data/year1/
-/sites/hudson-alpha/raw_data/year2/
+/genomics/raw_data/bap/resequencing/
 ```
 
 ## Processed data \(Gzipped VCF\):
 
 ```
-/sites/hudson-alpha/derived_data/year1/
-/sites/hudson-alpha/derived_data/year2/
+/genomics/derived_data/bap/resequencing/
 ```
 
 The output data are in variant call format \(VCF\), which contains single-nucleotide polymorphism \(SNP\) and insertion-deletion \(indel\) variation relative to the reference _Sorghum bicolor_ [v3.1 genome](https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Sbicolor).
-
-
-
-
-
