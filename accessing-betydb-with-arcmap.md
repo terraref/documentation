@@ -56,7 +56,9 @@ ssh -Nf -L 5432:localhost:5432 <login>@bety6.ncsa.illinois.edu
 
 > _note for PuTTY  Users:_  you can configure Putty to remember these settings. In the navigation tree on the left-hand side, click Connection > SSH > Tunnels. Enter '5432' under Source port and 'localhost:5432' in the Destination field. Then click  session and save this configuration for future use.
 
-The remainder of the guide will discuss accessing BETYdb using ArcMap but the instructions for setting up a SSH tunnel will also work psql, pgAdmin3, QGIS, and other clients. 
+The next section of the guide will discuss accessing BETYdb using ArcMap, querying plots and joining these to the traits and experiments tables. The instructions for setting up a SSH tunnel will also work psql, pgAdmin3, QGIS, and other clients. Instructions for connecting via QGIS and ArcGIS Pro are provided below.
+
+## Using ArcMAP
 
 ### Add BETYdb Layer or Table to ArcMap
 
@@ -145,4 +147,37 @@ from bety.public.traits_and_yields_view prior to the join.
 8. Under the Show section, choose Quantities --> Graduated Colors
 9. Under the Fields Value selection choose mean
 10.  Click OK
+
+## Connecting to Other GIS Software
+
+Below connection instructions assume an SSH tunnel exists.
+
+### ArcGIS Pro
+
+This assumes you have followed instructions for ArcMAP to create a database connection file.
+
+* Open ArcCatalog
+  * Under database connections, you will find the connection made above, called 'TERRA REF BETYdb.sde'
+  * right click this and select 'properties'
+  * copy the file path (it should look like `C:\Users\<USER NAME>\AppData\Roaming\ESRI\Desktop10.4\ArcCatalog\TERRA REF BETYdb.sde`
+* Open ArcGIS Pro
+   * Under the Insert tab, select connections --> 'add database'
+   * paste the path to 'TERRA REF BETYdb.sde' in the directory navigation bar
+   * select 'TERRA REF BETYdb.sde'
+
+### QGIS
+
+* Open QGIS
+* In left 'browser panel', right-click the PostGIS icon
+* select 'New Connection'
+* Enter connection properties
+  * Name: TERRA REF BETYdb trait database
+  * Service: blank
+  * Host: localhost
+  * Port: 5432
+  * Database: bety
+  * SSL mode: disable
+  * Username: viewer
+  * Password: DelchevskoOro
+  * Options: select 'Also list tables with no geometry'
 
