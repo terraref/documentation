@@ -46,6 +46,11 @@ This is done by inversing G2M. This formula can be used to convert tractor data 
 
 Note: Assume left --> right X axis for `Gx`; need to do `Gx' = -Gx` to create X on Gantry's right --> left X axis.
 
+### Conversion b/w XY in meters and latlon for USDA
+- XY from USDA reference is in UTM zone 12 (either EPSG:32612 WGS 84 / UTM zone 12N or EPSG:26912 NAD83 / UTM zone 12N)
+- latlon projection code is EPSG:4326
+- The conversion b/w XY and latlon can be done by a lot of GIS software, e.g., PROJ4 (thus GDAL)
+
 ### sites table processing
 - Input: gantry coord (x,y) for plot corner points
 - Output: postgis sql statements (.sql) with a geom column in USDA coord (G2U), plot id, gantry_x, gantry_y, ...
