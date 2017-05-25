@@ -54,6 +54,7 @@
   * [Data Storage](data-storage.md)
   * [Data Transfer](data-transfer.md)
   * [Data Processing Pipeline](data-processing-pipeline.md)
+      * [Geospatial Time Series Structure](geostreams-structure.md)
   * [Data Backup](data-backup.md)
   * [Data Collection](data-collection.md)
   * [Data Product Creation](data-product-creation.md)
