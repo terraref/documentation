@@ -1,13 +1,13 @@
 # PhenoTractor Sensor Protocols 
 
-    Authors: Matthew Maimaitiyiming and Wasit Wulamu
-    Center for Sustainability, Saint Louis University
-                       January 8, 2017
+Authors: Matthew Maimaitiyiming, Wasit Wulamu, and David LeBauer
 
+Center for Sustainability, Saint Louis University, St. Louis, MO 63108
 
 ## Abstract
 
-<!-- needs summary-->
+This document provides a brief summary of methods, procedures, and workflows to process the tractor data. 
+
 Content modified from [Andrade-Sanchez et al 2014](http://www.publish.csiro.au/fp/FP13126). 
 
 ## Materials
