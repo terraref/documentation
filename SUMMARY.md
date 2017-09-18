@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-  * [Field Sites and Platforms](field-sites-and-platforms.md)
+  * [Data Sources](data-sources.md)
   * [Software](software.md)
 * [Scientific Objectives and Experimental Design](user/scientific-objectives-and-experimental-design.md)
   * [Protocols](user/protocols.md)
