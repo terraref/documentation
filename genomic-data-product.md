@@ -109,3 +109,11 @@ Download Sorghum bicolor v3.1 from [Phytozome](https://phytozome.jgi.doe.gov/pz/
 `java –Xmx8g –jar GenomeAnalysisTK.jar –T HaplotypeCaller –R Sbicolor_313_v3.0.fa –I SAMPLEA.dedup.realigned.bam --emitRefConfidence GVCF --pcr_indel_model NONE -o SAMPLEA.output.raw.snps.indels.g.vcf`
 
 
+
+## CoGE Pipeline
+
+Reproduces Danforth Pipeline, but using CoGe
+
+Provides analysis and visualization tools and provenance 
+
+
