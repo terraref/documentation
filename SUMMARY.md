@@ -27,7 +27,7 @@
     * [Geospatial information](user/geospatial-information.md)
     * [Hyperspectral imaging data](products/hyperspectral-imaging-data.md)
     * [Infrared heat imaging data](products/infrared-heat-imaging-data.md)
-    * [Multispectral imaging data](products/multispectral-imaging-data.md)
+    * [Multispectral radiometer data](products/multispectral-radiometer-data.md)
     * [Meteorological data](products/meteorological_data.md)
     * [Phenotype data](products/trait-data.md)
     * [Point Cloud Data](products/point-cloud-data.md)
