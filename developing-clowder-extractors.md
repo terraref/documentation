@@ -33,7 +33,7 @@ Modules include:
 * [sensors](https://github.com/terraref/terrautils/blob/master/terrautils/sensors.py) Standard sensor information resources
 * [spatial](https://github.com/terraref/terrautils/blob/master/terrautils/spatial.py) Geospatial metadata management
 
-###Science packages
+### Science packages
 
 To keep code and algorithms broadly applicable, TERRA-REF is developing a series of science-driven packages to collect methods and algorithms that are generic to an input and output from the pipeline. That is, these packages should not refer to Clowder or extraction pipelines, but instead can be used in applications to manipulate data products. They are organized by sensor.
 
@@ -44,7 +44,7 @@ These packages will also include test suites to verify that any changes are cons
 * [scanner_3d](https://github.com/terraref/scanner_3d) laser 3D scanner (scanner3DTop in raw_Data, laser3d_ elsewhere)
 
 
-###Extractor repositories
+### Extractor repositories
 
 Extractors can be considered wrapper scripts that call methods in the science packages to do work, but include the necessary components to communicate with TERRA's RabbitMQ message bus to process incoming data as it arrives and upload outputs to Clowder. There should be no science-oriented code in the extractor repos - this code should be implemented in science packages instead so it is easier for future developers to leverage.
 
@@ -59,7 +59,8 @@ Each repository includes extractors in the workflow chain corresponding to the n
 * [extractors-lemnatec-indoor](https://github.com/terraref/extractors-lemnatec-indoor)
 
 ### Contact:
-  * Extractor development and deployment: [Max Burnette](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=mburnet2)
-  * Development environments: [Craig Willis](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=willis8)
-  * On our [Slack Channel](https://terra-ref.slack.com/)
-  * On [GitHub](https://github.com/terraref)
+
+* Extractor development and deployment: [Max Burnette](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=mburnet2)
+* Development environments: [Craig Willis](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=willis8)
+* On our [Slack Channel](https://terra-ref.slack.com/)
+* On [GitHub](https://github.com/terraref)
