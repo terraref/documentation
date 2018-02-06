@@ -15,10 +15,9 @@ Currently, only raw data are available. The pipeline for processing these data h
 
 For details about using this data via Clowder or Globus, please see [Data Access](/how-to-access-data.md) section.
 
-### Computational pipeline
+## Computational pipeline
 
-[**Multispectral extractor**](https://github.com/terraref/extractors-multispectral)
-
+[**Multispectral extractor**](https://github.com/terraref/extractors-multispectral). 
 
 ## Data Access
 
@@ -69,9 +68,6 @@ Data is available via [Globus](https://www.globus.org/) and the [TERRA REF Workb
 ```
 
 
-
-
 ### See also
 
 * [Geospatial information](/user/geospatial-information.md)
-
