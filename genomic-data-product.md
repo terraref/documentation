@@ -155,3 +155,18 @@ tassel-5-standalone/run_pipeline.pl -Xms75G -Xmx290G -fork1 -vcf \
 ```
 
 ## KSU Genomics Pipeline / GBS/RIL analysis 
+
+## Data Access
+
+On Globus and Workbench
+
+### Raw Data 
+
+* `genomics/raw_data/ril/gbs/
+   * `H5JYFBCXY_1_fastq.txt`
+   * `H5JYFBCXY_2_fastq.txt`
+   * `Key_ril_terra`
+
+### Derived Data 
+
+* `genomics/derived_data/ril/gbs/kansas_state/version1/imp_TERRA_RIL_SNP.vcf
