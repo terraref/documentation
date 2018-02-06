@@ -2,7 +2,6 @@
 
 Environment conditions data is collected using the Vaisala CO<sub>2</sub>, Thies Clima weather sensors as well as lightning, irrigation, and weather data collected at the Maricopa site.
 
-
 Data formats follow the [Climate and Forecast (CF) conventions](http://cfconventions.org/) for variable names and units. Environmental data are stored in the Geostreams database.
 
 ## Data sources
@@ -20,7 +19,7 @@ Data formats follow the [Climate and Forecast (CF) conventions](http://cfconvent
 Level 1 meteorological data is aggregated to from 1 Hz raw data to 5 minute averages or sums.
 
 
-#### netCDF: 1 Hz data
+#### netCDF: 5s (12 per minute) observations
 
 On Globus or Workbench you can find these data provided in both hourly and daily files. These files contain data at the original temporal resolution of 1/s. In addition, they contain the high resolution spectral radiometer data. 
 
@@ -29,15 +28,20 @@ On Globus or Workbench you can find these data provided in both hourly and daily
 * hourly files: `YYYY-MM-DD_HH-MM-SS_environmentallogger.nc`
 * daily files: `envlog_netcdf_L1_ua-mac_YYYY-MM-DD.nc`
 
-
-
-#### Geostreams: 5 minute
+#### Geostreams: 5 minute observations
 
 
 Data can be accessed using the geostreams API or the PEcAn meteorological workflow. These are illustrated in the [sensor data tutorials](https://github.com/terraref/tutorials/blob/master/sensors/01-meteorological-data.Rmd). 
 
 
 Here is the json representation of a single five-minute observation:
+
+Data can be accessed using the geostreams API or the PEcAn meteorological workflow. 
+
+These are illustrated in the [sensor data tutorials](https://github.com/terraref/tutorials/blob/master/sensors/01-meteorological-data.Rmd). 
+
+
+Here is the json representation of a single five-minute observation from Geostreams:
 
 ```
 [
@@ -65,8 +69,6 @@ Here is the json representation of a single five-minute observation:
       }
    },
 ```
-
-
 
 #### Variable names and units
 
@@ -103,26 +105,23 @@ Data is available via Globus or Workbench:
   * `/ua-mac/raw_data/weather`
 
 
-### Sensor information:
+## Sensor information:
 
   * [Vaisala CO<sub>2</sub> Sensor collection](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a9924f0cad7d8131b648)
   * [Thies Clima Sensor collection ](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a9724f0cad7d8131b4d3)
 
 
-### Computational pipeline
+## Computational pipeline
 
 [**Environmental Logger**](https://github.com/terraref/extractors-environmental)
 
 * **Description:** EnvironmentalLogger raw files are converted to netCDF.
-* **Output**: `/ua-mac/Level_1/EnvironmentLogger`
 
 ## Known Issues
-
 
 Known issue: the irrigation data stream does not currently handle variable irrigation rates within the field. Specifically, we have not yet accounted for the Summer 2014 drought experiments. See [terraref/reference-data#196](https://github.com/terraref/reference-data/issues/196) for more information.
 
 
-## See also 
 
 ### Github Issues
 

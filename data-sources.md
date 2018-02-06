@@ -29,8 +29,5 @@ The [Bellwether Foundation Phenotyping Facility](https://www.danforthcenter.org/
 ------------------
 ## Genomics
 
-#### HudsonAlpha Institute for Biotechnology. Alabama
-
-coming 2017
-
+Genomic data includes whole-genome resequencing data from the HudsonAlpha Institute for Biotechnology, Alabama for 384 samples for accessions from the sorghum Bioenergy Association Panel (BAP) and genotyping-by-sequencing (GBS) data from Kansas State University for 768 samples from a population of sorghum recombinant inbred lines (RIL).
 
