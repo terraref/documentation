@@ -18,5 +18,7 @@ These backups are copied using crashplan to a central location and should allow 
 
 ## See Also
 
-* https://github.com/terraref/computing-pipeline/issues/87
-* https://github.com/terraref/computing-pipeline/issues/384
+* Description of Blue Water's nearline storage system https://bluewaters.ncsa.illinois.edu/data
+* Github issues: 
+  * https://github.com/terraref/computing-pipeline/issues/87
+  * https://github.com/terraref/computing-pipeline/issues/384
