@@ -8,7 +8,10 @@ Project website: [http://plantcv.danforthcenter.org](http://plantcv.danforthcent
 
 Full documentation: [http://plantcv.readthedocs.io/en/latest](http://plantcv.readthedocs.io/en/latest/)
 
-Publication: [http://dx.doi.org/10.1016/j.molp.2015.06.005](http://dx.doi.org/10.1016/j.molp.2015.06.005)
+Publications:
+
+* [https://doi.org/10.7717/peerj.4088](https://doi.org/10.7717/peerj.4088)
+* [http://dx.doi.org/10.1016/j.molp.2015.06.005](http://dx.doi.org/10.1016/j.molp.2015.06.005)
 
 To learn more about PlantCV, you can find examples in the [terraref/tutorials](https://github.com/terraref/tutorials) repository, which is accessible on GitHub and in the TERRA REF [workbench](https://www.workbench.terraref.org) under tutorials/plantcv
 * an ipython notebook demonstration of PlantCV   [plantcv/plantcv_jupyter_demo.ipynb](https://github.com/terraref/computing-pipeline/blob/master/plantcv/00-clowder-plantcv.ipynb).
@@ -29,9 +32,9 @@ _Input_
 
 * Evaluation is triggered whenever a file is added to a dataset
 * Following images must be found
-  * 4x NIR side-view = NIR_SV_0, NIR_SV_90, NIR_SV_180, NIR_SV_270
+  * 2x NIR side-view = NIR_SV_0, NIR_SV_90
   * 1x NIR top-view = NIR_TV
-  * 4x VIS side-view = VIS_SV_0, VIS_SV_90, VIS_SV_180, VIS_SV_270
+  * 2x VIS side-view = VIS_SV_0, VIS_SV_90
   * 1x VIS top-view = VIS_TV
 
 * Per-image metadata in Clowder is required for BETYdb submission; this is how barcode/genotype/treatment/timestamp are determined.
@@ -39,7 +42,7 @@ _Input_
 _Output_
 
 * Each image will have new metadata appended in Clowder including measures like height, area, perimeter, and longest_axis
-* Average traits for the dataset (10 images) are inserted into a CSV file and added to the Clowder dataset
+* Average traits for the dataset (3 VIS or 3 NIR images) are inserted into a CSV file and added to the Clowder dataset
 * If configured, the CSV will also be sent to BETYdb
 
 ## **Data access**
@@ -53,6 +56,6 @@ For details about accessing BETYdb, please see [Data Access](../user/how-to-acce
 
 ### Raw Data
 
-* **Clowder**: [Bellweather Phenotyping Facility Space ](https://terraref.ncsa.illinois.edu/clowder/spaces/571fbfefe4b032ce83d96006)
+* **Clowder**: [Bellwether Phenotyping Facility Space](https://terraref.ncsa.illinois.edu/clowder/spaces/571fbfefe4b032ce83d96006)
 * **Globus and Workbench**: 
   * `/sites/danforth/raw_data/<experiment name>`
