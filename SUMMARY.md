@@ -29,7 +29,7 @@
     * [Infrared heat imaging data](products/infrared-heat-imaging-data.md)
     * [Multispectral radiometer data](products/multispectral-radiometer-data.md)
     * [Meteorological data](products/meteorological_data.md)
-    * [Phenotype data](products/trait-data.md)
+    * [Controlled Environment phenotype data](products/plantcv-trait-data.md)
     * [Point Cloud Data](products/point-cloud-data.md)
   * [How to Access Data](user/how-to-access-data.md)
     * [Using Clowder (Sensor and Genomics data)](user/using-clowder.md)

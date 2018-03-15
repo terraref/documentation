@@ -11,8 +11,7 @@ A step-by-step process is given below.
 
 ## Configuration used for these instructions
 
-* ArcMap 10.3 or later
-   * ArcMap implies Windows operating system
+* ArcMap 10.3 or later (Requires Windows operating system)
 * Instructions for using QGIS and other GIS software are provided below  
 * PuTTY: ssh client for Windows that can be downloaded here:  [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
@@ -182,9 +181,9 @@ This assumes you have followed instructions for ArcMAP to create a database conn
   * Password: DelchevskoOro
   * Options: select 'Also list tables with no geometry'
 
-### Dumping a Shapefile
+### How to export plots from PostGIS as a Shapefile
 
-This does not require GIS software. While connecting directly to the database within GIS software is handy, it is also straightforward to dump out Shapefiles.
+This does not require GIS software other than the PostGIS traits database. While connecting directly to the database within GIS software is handy, it is also straightforward to export Shapefiles.
 
 After you have connected via ssh to the PostGIS server, the `pgsql2shp` function is available and can be used to dump out all of the plot and site definitions (names and geometries) thus:
 
