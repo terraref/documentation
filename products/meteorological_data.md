@@ -20,6 +20,7 @@ Here are some examples (note that we can change from canonical units to match th
 | surface_downwelling_photosynthetic_photon_flux_in_air | mol m-2 s-1                        |
 | precipitation_flux                       | kg m-2 s-1                         |
 | irrigation_flux                          | kg m-2 s-1                         |
+| irrigation_transport                     | kg s-1                         |
 | wind_speed                               | m/s                                |
 | eastward_wind                            | m/s                                |
 | northward_wind                           | m/s                                |

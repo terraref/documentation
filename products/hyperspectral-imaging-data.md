@@ -2,21 +2,30 @@
 
 ## Summary
 
-Hyperspectral imaging data is collected using the Headwall VNIR and SWIR sensors.
+Hyperspectral imaging data is collected using the Headwall VNIR and SWIR sensors. In the  Nov 2017 Beta Release only VNIR data is provided because we do not have the measurements of downwelling spectral radiation required by the pipeline. 
 
-### Raw data access
+Please see the [README hyperspectral pipeline README](https://github.com/terraref/extractors-hyperspectral/tree/v1.0) for more information about how the data are generated and known issues.
 
-Hyperspectral data is available via Clowder and Globus:
+## Hyperspectral Algorithm and pipeline
+
+See **[Hyperspectral extractor](https://github.com/terraref/extractors-hyperspectral)**
+
+## Data Access
+
+### Level 1 data access
+
+Hyperspectral data is available via Clowder, [Globus #Terraref endpoint](https://www.globus.org/), the [TERRA REF Workbench](https://workbench.terraref.org), and our [THREDDS server](https://terraref.ncsa.illinois.edu/thredds):
 
 * **Clowder**:
 
-  * [SWIR Collection](https://terraref.ncsa.illinois.edu/clowder/collection/58713c934f0cc129fb5b8894)
-  * [VNIR Collection](https://terraref.ncsa.illinois.edu/clowder/collection/587021414f0c0dbad1a6dd3d)
+  * [VNIR Hyperspectral NetCDFs](https://terraref.ncsa.illinois.edu/clowder/collection/5a0cc7e64f0ca87e15ba3163)
+  * SWIR Collection: _Level 1 data not available_
 
-* **Globus**:
 
-  * `/ua-mac/raw_data/SWIR`
-  * `/ua-mac/raw_data/VNIR`
+* **Globus and Workbench**:
+
+  * VNIR: `/sites/ua-mac/Level_1/vnir_netcdf`
+  * SWIR: _Level 1 data not available_
 
 * **Sensor information**:
 
@@ -26,12 +35,28 @@ Hyperspectral data is available via Clowder and Globus:
 
 For details about using this data via Clowder or Globus, please see [Data Access](/how-to-access-data.md) section.
 
-### Computational pipeline
+### Level 2 data access
 
-**[Hyperspectral extractor](https://github.com/terraref/extractors-hyperspectral)**
+Level 2 data are spectral indices computed at the same resolution as Level 1. These can be found in the same Level 1 directories as their parents, but the files are appended *_ind.nc. 
 
-* **Description**: Processes HDF files into netCDF
-* **Output**: `/sites/ua_mac/Level_1/hyperspectral`
+
+To get a list of hyperspectral indices currently generated:
+
+```{r}
+traits::
+```
+
+### Level 3 data access
+
+### Raw Data
+
+Raw data is available in the filesystem, accessible via Workbench and Globus in the following directories:
+
+* VNIR: `/sites/ua-mac/raw_data/VNIR`
+* SWIR: `/sites/ua-mac/raw_data/SWIR`
+
+These files are uncalibrated; see the hyperspectral pipeline repository for information on how these can be processed. 
+
 
 ### See also
 
