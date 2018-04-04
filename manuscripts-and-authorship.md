@@ -53,18 +53,20 @@ Steps:
 
 ## Contributions Warranting Co-authorship
 
-Authorship must be earned through a _substantial contribution._ Traditionally, project initiation and framing, data analysis and interpretation, and manuscript preparation are all authorship-worthy contributions, and remain so for TERRA REF manuscripts. However, TERRA REF collaborators have also agreed that collaborators who lead a site from which data are being used in a paper can also opt-in as co-authors, under the following conditions: **(1)** the collaborators&#39; site has contributed data being used in the paper's analysis; and **(2)** that this collaborator makes additional contributions to the particular manuscript, including data analysis, writing, or editing. For coauthorship on opt-out papers, each individual must be able to check **at least two** boxes in the rubric, including contribution to the writing process. _These guidelines apply equally to manuscripts led by graduate students._
+Authorship must be earned through a _substantial contribution._ Traditionally, project initiation and framing, data analysis and interpretation, software or algorithm development, and manuscript preparation are all authorship-worthy contributions, and remain so for TERRA REF manuscripts. However, TERRA REF collaborators have also agreed that collaborators who lead a site from which data are being used in a paper can also opt-in as co-authors, under the following conditions: **(1)** the collaborators&#39; site has contributed data being used in the paper's analysis; and **(2)** that this collaborator makes additional contributions to the particular manuscript, including data analysis, writing, or editing. For coauthorship on opt-out papers, each individual must be able to check **at least two** boxes in the rubric, including contribution to the writing process. _These guidelines apply equally to manuscripts led by graduate students._
 
-Manuscripts published by TERRA REF will be accompanied by a supplemental table indicating authorship contributions. You can copy and share the [authorship rubric](https://goo.gl/Z7qv4L). For opt-in papers, a co-author is expected to have at least two of the following areas checked in the authorship rubric.
+Manuscripts published by TERRA REF will be accompanied by a supplemental table indicating authorship contributions. You can copy and share the [authorship rubric](https://goo.gl/Z7qv4L). For opt-in papers, a co-author usually should have at least two of the following areas checked in the authorship rubric.
 
 | rubric item | example contribution meriting a checked box |
 | --- | --- |
-| Developed and framed research question(s) | Originated idea for current analysis of TERRA REF data; contributed significantly to framing the ideas in this analysis at early stage of manuscript |
+| Developed and framed research question(s) | Originated idea for current analysis of TERRA REF data; contributed significantly to framing the ideas in this analysis at early stage of manuscript. |
 | Analyzed data | Generated models (conceptual, statistical and/or mathematical), figures, tables, maps, etc.; contributed key components to the computing pipeline. |
-| Contributed Data | generated a dataset being used in this manuscript&#39;s analysis. |
-| Contributed to data analyses | Provided comments, suggestions, and code for data analysis |
-| Wrote the paper | Wrote the majority of at least one of the sections of the paper |
-| Contributed to paper writing | Provided suggestions such as restructuring ideas, text and citations linking to new literature areas, copy editing |
+| Contributed data | Generated a dataset being used in this manuscript&#39;s analysis. |
+| Developed software | Developed or implemented computer code or supporting algorithms. |
+| Contributed to data analyses | Provided comments, suggestions, and code for data analysis. |
+| Validated results or software | Verified the overall replicability of research products, including independent testing of algorithms or software tools. |
+| Wrote the paper | Wrote the majority of at least one of the sections of the paper. |
+| Contributed to paper writing | Provided suggestions such as restructuring ideas, text and citations linking to new literature areas, copy editing. |
 | Site level coordinator | Coordinated data collection, proofing, and submission of unreleased data for at least one site used in this manuscript. |
 
 ## Publications committee
