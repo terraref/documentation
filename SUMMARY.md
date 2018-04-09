@@ -16,6 +16,7 @@
             * [Sorghum Lines Danforth](user/sorghum_danforth_1.md)
         * [Experimental Design Genomics](user/experimental-design-genomics.md)
             * [Sorghum Lines Genomics Year 1](user/sorghum-lines-genomics.md)
+            * [Sorghum Lines Genomics Year 1 (continued)](user/sorghum-lines-genomics-2.md)
             * [Sorghum Lines Genomics Year 2](user/sorghum-lines-genomics-year-2.md)
         * [Experimental Design MAC](user/experimental-design-mac.md)
 * [User Manual](user/user-manual.md)
