@@ -19,8 +19,8 @@ Our objectives are to ensure that the software and data in the reference data an
 ## Versions
 
 * The first edition (alpha release) was published **November 2016**.
-* The second edition (beta release) will be published **March 2018** 
-* The third edition (version 1.0) will be published **March 2019**
+* The second edition (beta release) will be published **November 2018** 
+* The third edition (version 1.0) will be published **November 2019**
 
 ## Building the book
 
@@ -45,4 +45,5 @@ docker run --rm -v "$PWD:/gitbook" -p 4000:4000 billryan/gitbook gitbook serve
 # build
 docker run --rm -v "$PWD:/gitbook" -p 4000:4000 billryan/gitbook gitbook build
 ```
+
 

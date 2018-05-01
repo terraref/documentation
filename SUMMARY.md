@@ -42,7 +42,7 @@
         * [Using Analysis Workbench (all data)](user/using-analysis-workbench.md)
     * [Data Use Policy](user/data_release_policy.md)
     * [Manuscripts and Authorship Guidelines](manuscripts-and-authorship.md)
-    * [Release \/ reprocessing schedule](user/release_schedule.md)
+    * [Release / reprocessing schedule](user/release_schedule.md)
 * [Technical Documentation](technical-documentation.md)
     * [Data Standards](data-standards.md)
         * [Existing Data Standards](existing_data_standards.md)
