@@ -119,9 +119,15 @@ Data is available via Globus or Workbench:
 
 ## Known Issues
 
-Known issue: the irrigation data stream does not currently handle variable irrigation rates within the field. Specifically, we have not yet accounted for the Summer 2014 drought experiments. See [terraref/reference-data#196](https://github.com/terraref/reference-data/issues/196) for more information.
+Known issue: the irrigation data stream does not currently handle variable irrigation rates within the field. Specifically, we have not yet accounted for the Summer 2017 drought experiments. See [terraref/reference-data#196](https://github.com/terraref/reference-data/issues/196) for more information.
 
+When the full field is irrigated (as is typical), the irrigated area is 5466.1 m2 (=215.2 m x 25.4 m) 
 
+In 2017:
+
+* Full field irrigated area from the start of the season to August 1 (103 dap) is 5466.1 m2 (=215.2 m x 25.4 m).
+* Well-watered treatment zones from August 1 to 15 (103 to 116 dap): 2513.5 m2 (=215.2 m x 11.68 m) in total, combined areas of non-contiguous blocks
+* Well-watered treatment zones from August 15 - 30 (116 to 131 dap): 3169.9 m2 (=215.2 m x 14.73 m), again in total as the combined areas of non-contiguous blocks
 
 ### Github Issues
 
