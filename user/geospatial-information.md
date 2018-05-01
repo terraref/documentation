@@ -11,10 +11,13 @@ The Scanalyzer system itself does not have a reliable GPS unit on the sensor box
 ![](https://cloud.githubusercontent.com/assets/464871/15622807/5e86cb98-2432-11e6-901d-967d6ac0f70d.png)
 
 EPSG:4326 coordinates for the four corners of the Scanalyzer system (bound by the rails above) are as follows:
+
 * **NW**: 33° 04.592' N, -111° 58.505' W
 * **NE**: 33° 04.591' N, -111° 58.487' W
 * **SW**: 33° 04.474' N, -111° 58.505' W
 * **SE**: 33° 04.470' N, -111° 58.485' W
+
+In the trait database, this site is named the ["MAC Field Scanner Field"](https://terraref.ncsa.illinois.edu/bety/sites/6000000001) and its bounding polygon is ["POLYGON ((-111.9747967 33.0764953 358.682, -111.9747966 33.0745228 358.675, -111.9750963 33.074485715 358.62, -111.9750964 33.0764584 358.638, -111.9747967 33.0764953 358.682))"](https://terraref.ncsa.illinois.edu/bety/api/v1/sites?key=9999999999999999999999999999999999999999&id=6000000001)
 
 **Scanalyzer coordinates**  
 Finally, the Scanalyzer coordinate system is right-handed - the origin is in the SE corner, X increases going from south to north, and Y increases from east to the west.
