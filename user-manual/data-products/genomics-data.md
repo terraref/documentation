@@ -4,12 +4,12 @@ Genomic data includes whole-genome resequencing data from the HudsonAlpha Instit
 
 These data are available to Beta Users and require permission to access. A link to sign up for our beta user program can be found at [http://terraref.org/data](http://terraref.org/data). Once you have signed up for our beta user program you can access genomics data in one of the following locations:
 
-* Download via [Globus](../how-to-access-data/using-globus-sensor-and-genomics-data.md).
-* The NDS Analysis Workbench, which provides container-based computing environments including Jupyter, Rstudio, and Python IDE.
-* The CyVerse Data Store for download or use within the CyVerse computing environment.
-* The [CoGe](../how-to-access-data/using-coge-genomics.md) computing environment.
+* Download via [Globus](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-globus.md).
+* The [NDS Analysis Workbench](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-analysis-workbench.md), which provides container-based computing environments including Jupyter, Rstudio, and Python IDE.
+* The [CyVerse Data Store](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-cyverse.md) for download or use within the CyVerse computing environment.
+* The [CoGe](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-coge.md) computing environment.
 
-See [Data use policy](../data-use-policy.md) before continuing.
+See [Data use policy](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/data_release_policy.md) before continuing.
 
 The data is structured on both the TERRA-REF and CyVerse Data Store infrastructures as follows:
 
@@ -34,7 +34,7 @@ The data is structured on both the TERRA-REF and CyVerse Data Store infrastructu
 
 ### Raw data
 
-Raw data are in bzip2 FASTQ format, one per read pair \(\*\_R1.fastq.bz2 and \*\_R2.fastq.bz2\). 384 samples are available. For a list of the lines sequenced, see the [sample table](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/sorghum-lines-genomics.md).
+Raw data are in bzip2 FASTQ format, one per read pair \(\*\_R1.fastq.bz2 and \*\_R2.fastq.bz2\). 384 samples are available. For a list of the lines sequenced, see the sample table.
 
 ### Derived data
 
