@@ -34,7 +34,7 @@ The data is structured on both the TERRA-REF and CyVerse Data Store infrastructu
 
 ### Raw data
 
-Raw data are in bzip2 FASTQ format, one per read pair \(\*\_R1.fastq.bz2 and \*\_R2.fastq.bz2\). 384 samples are available. For a list of the lines sequenced, see the sample table.
+Raw data are in bzip2 FASTQ format, one per read pair \(\*\_R1.fastq.bz2 and \*\_R2.fastq.bz2\). 384 samples are available. For a list of the lines sequenced, see the [sample table](https://gist.github.com/dlebauer/6b7b0e181cc5ae5034b992f725712ba4#file-sorghum-lines-genomics-md).
 
 ### Derived data
 
@@ -44,7 +44,7 @@ Data derived from analysis of the raw resequencing data at the Danforth Center \
 
 ### Raw data
 
-Raw data are in gzip FASTQ format. 768 samples are available. For a list of lines sequenced, see the [sample table](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/genotyping-by-sequencing.md).
+Raw data are in gzip FASTQ format. 768 samples are available. For a list of lines sequenced, see the [sample table](https://gist.github.com/dlebauer/6b7b0e181cc5ae5034b992f725712ba4#file-sorghum_mac_1-md).
 
 ### Derived data
 
