@@ -12,7 +12,7 @@ To create an account, sign up at the [TERRA-REF Clowder site](https://terraref.n
 
 ## **Data organization**
 
-Data is organized into **spaces, collections, **and **datasets**, **collections**.
+Data is organized into **spaces, collections,** and **datasets**, **collections**.
 
 * **Spaces** contain collections and datasets. TERRA-REF uses one space for each of the phenotyping platforms.
 * **Collections** consist of one or more datasets. TERRA-REF collections are organized by acquisition date and sensor. Users can also create their own collections.

@@ -28,7 +28,7 @@ An extensive API reference can be found [_here_](https://terraref.ncsa.illinois.
 
 Some files, e.g. those transferred via Globus, will be moved to the server without triggering Clowder's normal upload paths. These must be transmitted in a certain way to ensure proper handling.
 
-1. Log into [_Globus _](https://docs.globus.org/)and click 'Transfer Files'.
+1. Log into [_Globus_ ](https://docs.globus.org/)and click 'Transfer Files'.
 2. Select your source endpoint, and Terraref as the destination. You need to contact NCSA to ensure you have the necessary credentials and folder space to utilize Globus - unrecognized Globus accounts will not be trusted.
 3. Transfer your files. You will receive a Task ID when the transfer starts.
 4. Send this Task ID and requisite information about the transfer to the TERRAREF Globus Monitor API as a JSON object:

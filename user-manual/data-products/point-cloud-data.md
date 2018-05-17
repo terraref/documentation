@@ -18,11 +18,11 @@ For details about using this data via Clowder or Globus, please see [Data Access
 
 Raw sensor output \(PLY\) is converted to LAS format using the `ply2las` extractor
 
-[**ply2las**](https://github.com/terraref/extractors-3dscanner)[** extractor**](https://github.com/terraref/extractors-3dscanner)
+[**ply2las**](https://github.com/terraref/extractors-3dscanner)[ **extractor**](https://github.com/terraref/extractors-3dscanner)
 
 * **Description**: PLY data is converted to LAS using the 3D point cloud extractor
 * **Output**: 
-  * **Clowder: **LAS file is added to the dataset
+  * **Clowder:** LAS file is added to the dataset
   * **Globus**: `/sites/ua_mac/Level_1/scanner3DTop`
 
 ## See also

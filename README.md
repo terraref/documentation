@@ -22,27 +22,3 @@ Our objectives are to ensure that the software and data in the reference data an
 * The second edition \(beta release\) will be published **November 2018** 
 * The third edition \(version 1.0\) will be published **November 2019**
 
-## Building the book
-
-### Dependencies
-
-```bash
-apt-get install -y curl gnupg
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-apt-get install nodejs
-npm install -g gitbook-cli
-```
-
-### Docker
-
-from: [https://github.com/billryan/docker-gitbook](https://github.com/billryan/docker-gitbook)
-
-```bash
-# init
-docker run --rm -v "$PWD:/gitbook" -p 4000:4000 billryan/gitbook gitbook init
-# serve
-docker run --rm -v "$PWD:/gitbook" -p 4000:4000 billryan/gitbook gitbook serve
-# build
-docker run --rm -v "$PWD:/gitbook" -p 4000:4000 billryan/gitbook gitbook build
-```
-
