@@ -60,6 +60,8 @@
   * [Data Product Creation](technical-documentation/data-product-creation/README.md)
     * [Genomic Data](technical-documentation/data-product-creation/genomic-data.md)
     * [Hyperspectral Data](technical-documentation/data-product-creation/hyperspectral-data.md)
+  * Infrastructure
+     * [System Configuration](systems-configuration.md)
   * [Quality Assurance and Quality Control](technical-documentation/quality-assurance-and-quality-control.md)
 * [Developer Manual](developer-manual/README.md)
   * [Submitting data to Clowder](developer-manual/submitting-data-to-clowder.md)
