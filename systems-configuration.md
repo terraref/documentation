@@ -8,7 +8,7 @@ Following is the overview of the system as it is running now:
 ![](/assets/systems.png)
 
 - terraref is the frontend for everything, runs nginx
-- terra-clowder runs the data management system clowder, connected to terra-mongo-[123], terra-es-[123], terra-postgres and roger filesystem (using NFS mount)
+- terra-clowder runs the data management system clowder, connected to terra-mongo-[123], terra-es-[123], terra-postgres and the [NCSA storage condo](https://wiki.ncsa.illinois.edu/display/NRE/About+NCSA#AboutNCSA-StorageCondo) (using NFS mount)
 - terra-geodashboard runs the geodashboard software, connected to terra-clowder
 - terra-thredds runs the thredds server (experimental), connected to roger filesystem (using NFS moutn)
 - terra-es-[123] run elasticsearch 2.4 and for a cluster
