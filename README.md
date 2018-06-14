@@ -1,12 +1,16 @@
-# TERRA-REF Documentation
+# Introduction
+
+## 
 
 ## About this book
 
-This book describes the TERRA-REF data collection, computing, and analysis pipelines.
+This book describes the TERRA-REF data collection, computing, and analysis pipelines. The following links provide quick access to
 
-* [What data is available?](/user/what-data-is-available.md)
-* [Where do I get the data?](/user/how-to-access-data.md)
-* [User tutorials](/tutorials.md)
+* [Available Data](user-manual/what-data-is-available.md)
+* [How to access data](user-manual/how-to-access-data/)
+* [Hands on tutorials](tutorials.md)
+
+## 
 
 ## About TERRA-REF
 
@@ -18,4 +22,9 @@ Our objectives are to ensure that the software and data in the reference data an
 
 ## Versions
 
-The first edition will be published in **November 2016**.
+* The first edition \(alpha release\) was published **November 2016**.
+* The second edition \(beta release\) will be published **November 2018** 
+* The third edition \(version 1.0\) will be published **November 2019**
+
+
+
