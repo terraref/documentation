@@ -1,12 +1,16 @@
-# TERRA-REF Documentation
+# Introduction
+
+## 
 
 ## About this book
 
-This book describes the TERRA-REF data collection, computing, and analysis pipelines. The following links provide quick access to 
+This book describes the TERRA-REF data collection, computing, and analysis pipelines. The following links provide quick access to
 
-* [Available Data](/user/what-data-is-available.md)
-* [How to access data](/user/how-to-access-data.md)
-* [Hands on tutorials](/tutorials.md)
+* [Available Data](user-manual/what-data-is-available.md)
+* [How to access data](user-manual/how-to-access-data/)
+* [Hands on tutorials](tutorials.md)
+
+## 
 
 ## About TERRA-REF
 
@@ -18,30 +22,9 @@ Our objectives are to ensure that the software and data in the reference data an
 
 ## Versions
 
-* The first edition (alpha release) was published **November 2016**.
-* The second edition (beta release) will be published **March 2018** 
-* The third edition (version 1.0) will be published **March 2019**
+* The first edition \(alpha release\) was published **November 2016**.
+* The second edition \(beta release\) will be published **November 2018** 
+* The third edition \(version 1.0\) will be published **November 2019**
 
-## Building the book
 
-### Dependencies
 
-```sh
-apt-get install -y curl gnupg
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-apt-get install nodejs
-npm install -g gitbook-cli 
-```
-
-### Docker
-
-from: https://github.com/billryan/docker-gitbook
-
-```sh
-# init
-docker run --rm -v "$PWD:/gitbook" -p 4000:4000 billryan/gitbook gitbook init
-# serve
-docker run --rm -v "$PWD:/gitbook" -p 4000:4000 billryan/gitbook gitbook serve
-# build
-docker run --rm -v "$PWD:/gitbook" -p 4000:4000 billryan/gitbook gitbook build
-```

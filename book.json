@@ -2,7 +2,6 @@
     "plugins": [
         "footnote-string-to-number",
         "image-captions",
-        "edit-link",
         "github"
     ],
     "pluginsConfig": {
@@ -10,10 +9,6 @@
             "caption": "_CAPTION_",
             "align": "left",
             "variable_name": "pictures"
-        },
-        "edit-link": {
-            "base": "https://github.com/terraref/documentation/edit/master",
-            "label": "Edit This Page"
         },
         "github": {
             "url": "https://github.com/terraref/documentation"
