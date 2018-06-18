@@ -57,5 +57,6 @@ For details about accessing BETYdb, please see [Data Access](../user/how-to-acce
 ### Raw Data
 
 * **Clowder**: [Bellwether Phenotyping Facility Space](https://terraref.ncsa.illinois.edu/clowder/spaces/571fbfefe4b032ce83d96006)
+
 * **Globus and Workbench**: 
   * `/sites/danforth/raw_data/<experiment name>`

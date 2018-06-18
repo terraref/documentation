@@ -30,7 +30,7 @@
     * [Infrared heat imaging data](user-manual/data-products/infrared-heat-imaging-data.md)
     * Multispectral imaging data
     * [Meteorological data](user-manual/data-products/meteorological-data.md)
-    * Phenotype data
+    * [Controlled Environment phenotype data](products/plantcv-trait-data.md) 
     * [Point Cloud Data](user-manual/data-products/point-cloud-data.md)
   * [How to Access Data](user-manual/how-to-access-data/README.md)
     * [Using Clowder \(Sensor and Genoomics data\)](user-manual/how-to-access-data/using-clowder-sensor-and-genoomics-data.md)
