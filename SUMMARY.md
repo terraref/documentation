@@ -16,8 +16,8 @@
       * [Sorghum Lines Danforth](scientific-objectives-and-experimental-design/experimental-design/experimental-design-danforth/sorghum-lines-danforth.md)
     * [Experimental Design Genomics](scientific-objectives-and-experimental-design/experimental-design/experimental-design-genomics/README.md)
       * [Sorghum Lines Genomics Year 1](scientific-objectives-and-experimental-design/experimental-design/experimental-design-genomics/sorghum-lines-genomics-year-1.md)
-      * Sorghum Lines Genomics Year 1 \(continued\)
-      * Sorghum Lines Genomics Year 2
+      * [Sorghum Lines Genomics Year 1 \(continued\)](scientific-objectives-and-experimental-design/experimental-design/experimental-design-genomics/sorghum-lines-genomics-year-1-continued.md)
+      * [Sorghum Lines Genomics Year 2](scientific-objectives-and-experimental-design/experimental-design/experimental-design-genomics/sorghum-lines-genomics-year-2.md)
     * [Experimental Design MAC](scientific-objectives-and-experimental-design/experimental-design/experimental-design-mac.md)
 * [User Manual](user-manual/README.md)
   * [What Data is Available](user-manual/what-data-is-available.md)
@@ -28,9 +28,9 @@
     * [Geospatial information](user-manual/data-products/geospatial-information.md)
     * [Hyperspectral imaging data](user-manual/data-products/hyperspectral-imaging-data.md)
     * [Infrared heat imaging data](user-manual/data-products/infrared-heat-imaging-data.md)
-    * Multispectral imaging data
+    * [Multispectral imaging data](user-manual/data-products/multispectral-imaging-data.md)
     * [Meteorological data](user-manual/data-products/meteorological-data.md)
-    * [Controlled Environment phenotype data](products/plantcv-trait-data.md) 
+    * [Controlled Environment phenotype data](user-manual/data-products/plantcv-trait-data.md)
     * [Point Cloud Data](user-manual/data-products/point-cloud-data.md)
   * [How to Access Data](user-manual/how-to-access-data/README.md)
     * [Using Clowder \(Sensor and Genoomics data\)](user-manual/how-to-access-data/using-clowder-sensor-and-genoomics-data.md)

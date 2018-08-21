@@ -58,7 +58,7 @@ Authorship must be earned through a _substantial contribution._ Traditionally, p
 Manuscripts published by TERRA REF will be accompanied by a supplemental table indicating authorship contributions. You can copy and share the [authorship rubric](https://goo.gl/Z7qv4L). For opt-in papers, a co-author is expected to have at least two of the following areas checked in the authorship rubric.
 
 | rubric item | example contribution meriting a checked box |
-| --- | --- |
+| :--- | :--- |
 | Developed and framed research question\(s\) | Originated idea for current analysis of TERRA REF data; contributed significantly to framing the ideas in this analysis at early stage of manuscript |
 | Analyzed data | Generated models \(conceptual, statistical and/or mathematical\), figures, tables, maps, etc.; contributed key components to the computing pipeline. |
 | Contributed Data | generated a dataset being used in this manuscript's analysis. |

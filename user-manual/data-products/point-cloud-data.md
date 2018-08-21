@@ -6,8 +6,7 @@
 
 Level 1 data products are provided in both .las and .ply formats.
 
-For each scan, there are two .ply files representing two lasers, one on the left and the other on the right. These are combined in the .las files.  
-
+For each scan, there are two .ply files representing two lasers, one on the left and the other on the right. These are combined in the .las files.
 
 ## Sensor information
 
@@ -26,15 +25,15 @@ Data is available via Clowder, Globus, and Workbench.
 
 ## Computational pipeline
 
-Raw sensor output (PLY) is converted to LAS format using the `ply2las` extractor
+Raw sensor output \(PLY\) is converted to LAS format using the `ply2las` extractor
 
-[**ply2las**](https://github.com/terraref/extractors-3dscanner)**[ extractor](https://github.com/terraref/extractors-3dscanner)**
-
+[**ply2las**](https://github.com/terraref/extractors-3dscanner)[ **extractor**](https://github.com/terraref/extractors-3dscanner)
 
 ## See also
 
-* [Geospatial information](/user/geospatial-information.md)
+* [Geospatial information](https://github.com/terraref/documentation/tree/a6e3a2c5990b2e866d233fbb0f61a4dd6acc1b9e/user/geospatial-information.md)
 
 ## Known issues
 
-* The position of the lasers is affected by temperature. We plan to add a correction for temperature that will adjust for this effect. See [terraref/reference-data#161](https://github.com/terraref/reference-data/issues/161)
+* The position of the lasers is affected by temperature. We plan to add a correction for temperature that will adjust for this effect. See [terraref/reference-data\#161](https://github.com/terraref/reference-data/issues/161)
+

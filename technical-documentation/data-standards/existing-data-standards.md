@@ -29,7 +29,7 @@ MIAPPE was developed by members of the European Phenotyping Network \(EPPN\) and
 The MIAPPE standard is available from the transPlant [standards portal](http://cropnet.pl/phenotypes/?page_id=71) and is compatible with the [ISA-Tools suite](http://isa-tools.org/) framework. The transPLANT standards portal also provides example configuration for the ISA toolset.
 
 | Section | Recommended ontologies |
-| --- | --- |
+| :--- | :--- |
 | General metadata | Ongtology for Biomedical Investigations \(OBI\), Crop Research Ontology \(CRO\) |
 | Timing and location | OBI, Gazetteer \(GAZ\) |
 | Biosource | UNIPROT taxonomy, NCBI taxonomy |

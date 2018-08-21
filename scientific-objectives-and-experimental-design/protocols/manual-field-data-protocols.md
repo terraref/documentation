@@ -28,7 +28,7 @@
 ### Procedures
 
 | Variable |  |
-| --- | --- |
+| :--- | :--- |
 | Canopy Height | Canopy height for single row of central 2 data rows of 4-row plot. Measured in cm using meter stick, taken at the height representing the plot 'potential', ignoring stunted plants. The canopy height was measured as the height of the foliage \(not the inflorescence\) at the general top of the canopy where the upper leaves bend and/or establish a canopy surface that would support a very light horizontal object \(imagining a light sheet of rigid plastic foam\), discounting rare or exceptional leaves in the upper-most 2 or 3 percentile. |
 | Panicle Height | Height of the top of the inflorescence panicle for single central data row of 4-row plot, when panicle extends notably above canopy height. |
 | Seedling Vigor and Emergence | Count the number of emerging seedlings at about 20% emergence, and then repeat every other day until final stand is achieved. A seedling is defined as emerged when the coleoptile is visible above the soil surface. Final stand is defined as when a similar count +/- 5% is achieved on successive counts 1-2 days apart. Count seedlings in the entire plot. Two Alternatives 1. Explicitly count number of plants emerged 2. For each plot, assess % germination in categories \(e.g. \[0,20\], \[20,40\], …\) This is the standard method |

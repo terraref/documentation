@@ -187,7 +187,7 @@ _SWIR_
 There are 864 \(54\*16\) plots in total and the plot layout is described in the [plot plan](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo) table.
 
 | dimension | value |
-| --- | --- |
+| :--- | :--- |
 | \# rows | 32 |
 | \# rows / plot | 2 |
 | \# plots \(2 rows ea\) | 864 |
