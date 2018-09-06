@@ -2,6 +2,16 @@
 
 In 2018 the decision was made to split Clowder-specific extractor code from the actual science code that performs critical conversion and analysis on sensor data.
 
+### Contributing
+
+Science package functions should be simple and not rely on Clowder or other external resources.
+* takes a single file or set of files as input
+* produces a single output file/return value or set of outputs
+
+As much as possible, these should function outside the TERRA-REF pipeline and potentially be applicable in other contexts.
+
+Pull requests can be made against science package repositories for evaluation by the internal development team.
+
 ### General Structure
 
 The general directory structure is as follows:
