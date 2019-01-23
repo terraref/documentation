@@ -10,7 +10,7 @@ All of the web-based software below provides the ability to organize projects hi
 
 * [**Github** github.com/terraref](https://github.com/terraref) project management, website content and hosting, collaborative software development 
 * **Google Drive** collaborative editing of documents that we create \(notes, manuscripts, etc\)
-* [**Slack:** terra-ref.slack.com](https://terra-ref.slack.com) \([signup](https://terra-ref.slack.com/x-48104590209-103908330007/signup)\)
+* [**Slack:** terra-ref.slack.com](https://terra-ref.slack.com) ([signup](https://terraref-slack-invite.herokuapp.com/))
 
 ## GitHub
 
