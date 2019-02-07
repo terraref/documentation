@@ -28,19 +28,17 @@ We prefer that potential users of these sequence data contact the individuals li
 
 ## Software and Algorithms
 
-For algorithms, we intend to release via [MIT](https://opensource.org/licenses/MIT) or MIT compatible license \(e.g. BSD, UIUC/NCSA, Apache v2\).
+For algorithms, we intend to release via BSD 3 clause or MIT / BSD compatible license.
 
 ## Images, Phenotypes, and Other Raw Data
 
-For other raw data, such as phenotypic data and associated metadata, we intend to release via [Creative Commons with Attribution \(CC by 4.0\)](http://creativecommons.org/licenses/by/4.0/).
+For other raw data, such as phenotypic data and associated metadata, we intend to release data under [CC0: Creative Commons with No Rights Reserved - Public Domain)](https://creativecommons.org/share-your-work/public-domain/cc0/). This is to enable reuse of these data, but **Scientists are expected cite our data and research publications.** For more information, see related discussion and links in https://github.com/terraref/reference-data/issues/216.
 
 ## Contacts
 
-Todd Mockler, Project/Genomics Lead \(email: tmockler AT danforthcenter DOT org\)
+Todd Mockler, Project/Genomics Lead (email: tmockler@danforthcenter.org)
 
-David LeBauer, Computing Pipeline Lead \(email: dlebauer AT illinois DOT edu\)
+David LeBauer, Computing Pipeline Lead (email: dlebauer@email.arizona.edu)
 
-Erica Fishel, Technology Transfer Lead \(email: efischel AT danforthcenter DOT org\)
-
-Nadia Shakoor, Associate Project Director \(email: nshakoor AT danforthcenter DOT org\)
+Nadia Shakoor, Project Director (email: nshakoor@danforthcenter.org)
 
