@@ -41,10 +41,6 @@ The Maricopa field site is located at the the University of Arizona Maricopa Agr
 * **UAV** data: weekly flights with RGB and multispectral cameras
 * **Manually Collected Field Data** - Data will are collected manually using standard field methods. These measurements are used to calibrate and validate phenotypes derived from sensor-collected data.
 
-### Kansas State University
-
-* Tractor - coming 2017
-* UAV - coming 2017
 
 ## Controlled-environment phenotyping
 
