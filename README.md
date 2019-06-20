@@ -21,4 +21,3 @@ Our objectives are to ensure that the software and data in the reference data an
 * The first edition \(alpha release\) was published **November 2016**.
 * The second edition \(beta release\) will be published **November 2018** 
 * The third edition \(version 1.0\) will be published **November 2019**
-
