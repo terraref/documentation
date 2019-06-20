@@ -1,5 +1,5 @@
 rmd_subdir: true
-rmd_files: ["index.Rmd", "README.Rmd", "data-sources.Rmd", 
+rmd_files: ["index.Rmd", "Intro.Rmd", "data-sources.Rmd", 
 "software.Rmd", "scientific-objectives-and-experimental-design/README.Rmd",
 "scientific-objectives-and-experimental-design/protocols/README.Rmd",
 "scientific-objectives-and-experimental-design/protocols/controlled-environment-protocols.Rmd",
