@@ -32,13 +32,13 @@ For algorithms, we intend to release via BSD 3 clause or MIT / BSD compatible li
 
 ## Images, Phenotypes, and Other Raw Data
 
-For other raw data, such as phenotypic data and associated metadata, we intend to release data under [CC0: Creative Commons with No Rights Reserved - Public Domain)](https://creativecommons.org/share-your-work/public-domain/cc0/). This is to enable reuse of these data, but **Scientists are expected cite our data and research publications.** For more information, see related discussion and links in https://github.com/terraref/reference-data/issues/216.
+For other raw data, such as phenotypic data and associated metadata, we intend to release data under [CC0: Creative Commons with No Rights Reserved - Public Domain\)](https://creativecommons.org/share-your-work/public-domain/cc0/). This is to enable reuse of these data, but **Scientists are expected cite our data and research publications.** For more information, see related discussion and links in [https://github.com/terraref/reference-data/issues/216](https://github.com/terraref/reference-data/issues/216).
 
 ## Contacts
 
-Todd Mockler, Project/Genomics Lead (email: tmockler@danforthcenter.org)
+Todd Mockler, Project/Genomics Lead \(email: tmockler@danforthcenter.org\)
 
-David LeBauer, Computing Pipeline Lead (email: dlebauer@email.arizona.edu)
+David LeBauer, Computing Pipeline Lead \(email: dlebauer@email.arizona.edu\)
 
-Nadia Shakoor, Project Director (email: nshakoor@danforthcenter.org)
+Nadia Shakoor, Project Director \(email: nshakoor@danforthcenter.org\)
 
