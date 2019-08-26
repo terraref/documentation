@@ -1,6 +1,8 @@
 # Developing Clowder Extractors
 
-## Developing the Computing Pipeline with Clowder Extractors
+## Developing Clowder Extractors
+
+### Developing the Computing Pipeline with Clowder Extractors
 
 The TERRA REF computing pipeline and data management is managed by Clowder. The pipeline consists of 'extractors' that take a file or other piece of information and generate new files or information. In this way, each extractor is a step in the pipeline.
 
@@ -13,106 +15,106 @@ If you want to add an algorithm to the TERRAREF pipeline, or use the Clowder sof
 3. Using the Clowder API
 4. Using the pyClowder [pyClowder](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/pyclowder/browse) [pyClowder](https://opensource.ncsa.illinois.edu/bitbucket/projects/CATS/repos/pyclowder/browse) to add an analytical or technical component to the pipeline.
 
-# What does it take to contribute an extractor?
+## What does it take to contribute an extractor?
 
-## Overview 
+### Overview
 
-The purpose of this document is to define the requirements for contributing and maintaining algorithms to the TERRA REF pipeline. 
+The purpose of this document is to define the requirements for contributing and maintaining algorithms to the TERRA REF pipeline.
 
 How does an extractor developer get from drafting to deploying an extractor?
 
 The stereo-rgb extractor is a good example of a completed extractor:
-* https://github.com/terraref/extractors-stereo-rgb
+
+* [https://github.com/terraref/extractors-stereo-rgb](https://github.com/terraref/extractors-stereo-rgb)
 
 ISDA has an overview of some common Python conventions for reference:
-* https://docs.google.com/document/d/1n8iQHdb32u0EOkiNQSRK51XlAjGDsxg75W2SUAAMouM/edit#heading=h.wd4g4fd6q72u
 
-## Roles
+* [https://docs.google.com/document/d/1n8iQHdb32u0EOkiNQSRK51XlAjGDsxg75W2SUAAMouM/edit\#heading=h.wd4g4fd6q72u](https://docs.google.com/document/d/1n8iQHdb32u0EOkiNQSRK51XlAjGDsxg75W2SUAAMouM/edit#heading=h.wd4g4fd6q72u)
 
-* Science Developer (e.g. Zongyang, Sean, Patrick)
-    * Writes, tests, documents science code
-    * Works with pipeline developer to integrate and deploy 
-    * Works with end users of data to assess quality 
-  
-* Pipeline Developer / Operator (e.g. Max, Todd)
-    * Develops workflow code
-    * Maintains real-time processing 
-    * Coordinates annual re-processing
-  
-* End User 
-    * Scientist who will be using the output data
-    * Defines specifications 
-    * Identifies data that can be used for calibration and validation
-    * Reviews output during development and continuous operation
+### Roles
 
-## The Extractor Lifecycle
+* Science Developer \(e.g. Zongyang, Sean, Patrick\)
+  * Writes, tests, documents science code
+  * Works with pipeline developer to integrate and deploy 
+  * Works with end users of data to assess quality 
+* Pipeline Developer / Operator \(e.g. Max, Todd\)
+  * Develops workflow code
+  * Maintains real-time processing 
+  * Coordinates annual re-processing
+* End User
+  * Scientist who will be using the output data
+  * Defines specifications 
+  * Identifies data that can be used for calibration and validation
+  * Reviews output during development and continuous operation
 
-Lets define three stages of extractor development. This is iterative, and there should be open communication  among the Science Developer, Pipeline Developer, and End User throughout the process.
+### The Extractor Lifecycle
+
+Lets define three stages of extractor development. This is iterative, and there should be open communication among the Science Developer, Pipeline Developer, and End User throughout the process.
 
 1. Define the extractor
-    * Create an issue in Github to track development (information can later be added to README file)
-    * Inputs (with examples)
-    * Outputs 
-        * Add (or use) a citation, variable, and method in BETYdb
-    * Data for ground truthing, testing, validation
+   * Create an issue in Github to track development \(information can later be added to README file\)
+   * Inputs \(with examples\)
+   * Outputs 
+     * Add \(or use\) a citation, variable, and method in BETYdb
+   * Data for ground truthing, testing, validation
 2. Draft the extractor
-    * Create a working ‘feature’ branch on GitHub
-    * This should be updated regularly; this helps collaborators keep up to date
-    * Use docstring for inline documentation https://www.python.org/dev/peps/pep-0257
+   * Create a working ‘feature’ branch on GitHub
+   * This should be updated regularly; this helps collaborators keep up to date
+   * Use docstring for inline documentation [https://www.python.org/dev/peps/pep-0257](https://www.python.org/dev/peps/pep-0257)
 3. Request feedback on initial draft and sample output
-    * From Pipeline Developer
-    * From End User
-    * Revise based on feedback 
+   * From Pipeline Developer
+   * From End User
+   * Revise based on feedback 
 4. Beta Release
-    * Create a Pull Request when extractor is ready to deploy. The PR should be reviewed by both the Pipeline Operator and End User, who will either request changes or approve the PR.
-    * A complete extractor is defined below
+   * Create a Pull Request when extractor is ready to deploy. The PR should be reviewed by both the Pipeline Operator and End User, who will either request changes or approve the PR.
+   * A complete extractor is defined below
 5. Deployment
-    * Extractor deployed
-        * First on live data stream. Data should indicate beta status of extractor
-        * Then for reprocessing
-    * Extractor added to the list in gitbook
-    * Example of how to access actual output generated by extractor (e.g. BETYdb API call)
-    * Versioned and pushed to PyPi if science package was extended
+   * Extractor deployed
+     * First on live data stream. Data should indicate beta status of extractor
+     * Then for reprocessing
+   * Extractor added to the list in gitbook
+   * Example of how to access actual output generated by extractor \(e.g. BETYdb API call\)
+   * Versioned and pushed to PyPi if science package was extended
 6. Operation
-    * Output of extractor is vetted both by domain expert and code provider
-    * Improvement
+   * Output of extractor is vetted both by domain expert and code provider
+   * Improvement
 
-## When is an extractor ready to be deployed?
+### When is an extractor ready to be deployed?
 
 All of the following are required for an extractor to be considered ‘complete’:
 
 1. Expected test input 
-    * Expected test input may either be placed in in repository if <1MB or linked to Clowder metadata / filesystem location. If > 1MB, place the test input to Globus or under the tests/ directory in the Workbench..
-    * This should include both real and simulated data representing a range of successful and failure conditions
+   * Expected test input may either be placed in in repository if  1MB, place the test input to Globus or under the tests/ directory in the Workbench..
+   * This should include both real and simulated data representing a range of successful and failure conditions
 2. Expected test output
 3. Implementation
 4. Example of output
 5. Output is vetted by domain expert
 6. Wrapped as extractor
-7. Inline documentation with docstrings https://www.python.org/dev/peps/pep-0257
+7. Inline documentation with docstrings [https://www.python.org/dev/peps/pep-0257](https://www.python.org/dev/peps/pep-0257)
 8. Documentation in README
-    * Authors
-        * One should be identified as maintainer / point of contact
-    * Overview
-        * Description
-        * Inputs
-        * outputs
-    * Implementation (algorithm details)
-        * Libraries used
-        * References
-        * Rationale (e.g. why method x over y)	
-    * QA/QC 
-        * Automated checks done in real time
-        * Failure conditions
-        * Known issues
-    * Further Reading and Citations
-        * Related Github issues
-        * References
-9. Documentation in extractor_info.json with documentation (maybe use @FILE to read file into json document)
+   * Authors
+     * One should be identified as maintainer / point of contact
+   * Overview
+     * Description
+     * Inputs
+     * outputs
+   * Implementation \(algorithm details\)
+     * Libraries used
+     * References
+     * Rationale \(e.g. why method x over y\)    
+   * QA/QC 
+     * Automated checks done in real time
+     * Failure conditions
+     * Known issues
+   * Further Reading and Citations
+     * Related Github issues
+     * References
+9. Documentation in extractor\_info.json with documentation \(maybe use @FILE to read file into json document\)
 
-## TERRA-REF Extractor Resources
+### TERRA-REF Extractor Resources
 
-### terrautils
+#### terrautils
 
 To make working with the TERRA-REF pipeline as easy as possible, the [terrautils](https://github.com/terraref/terrautils) Python library was written. By importing this library in an extractor script, developers can ensure that code duplication is minimized and standard practices are used for common tasks such as GeoTIFF creation and georeferencing. It also provides modules for managing metadata, downloading and uploading, and BETYdb/geostreams API wrapping.
 
@@ -130,7 +132,7 @@ Modules include:
 * [sensors](https://github.com/terraref/terrautils/blob/master/terrautils/sensors.py) Standard sensor information resources
 * [spatial](https://github.com/terraref/terrautils/blob/master/terrautils/spatial.py) Geospatial metadata management
 
-### Science packages
+#### Science packages
 
 To keep code and algorithms broadly applicable, TERRA-REF is developing a series of science-driven packages to collect methods and algorithms that are generic to an input and output from the pipeline. That is, these packages should not refer to Clowder or extraction pipelines, but instead can be used in applications to manipulate data products. They are organized by sensor.
 
@@ -140,7 +142,7 @@ These packages will also include test suites to verify that any changes are cons
 * [flir\_ir](https://github.com/terraref/flir_ir) FLIR infrared camera \(flirIrCamera in raw_Data, ir_ prefix elsewhere\)
 * [scanner\_3d](https://github.com/terraref/scanner_3d) laser 3D scanner \(scanner3DTop in raw_Data, laser3d_ elsewhere\)
 
-### Extractor repositories
+#### Extractor repositories
 
 Extractors can be considered wrapper scripts that call methods in the science packages to do work, but include the necessary components to communicate with TERRA's RabbitMQ message bus to process incoming data as it arrives and upload outputs to Clowder. There should be no science-oriented code in the extractor repos - this code should be implemented in science packages instead so it is easier for future developers to leverage.
 
@@ -154,7 +156,7 @@ Each repository includes extractors in the workflow chain corresponding to the n
 * [extractors-environmental](https://github.com/terraref/extractors-environmental)
 * [extractors-lemnatec-indoor](https://github.com/terraref/extractors-lemnatec-indoor)
 
-### Contact:
+#### Contact:
 
 * Extractor development and deployment: [Max Burnette](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=mburnet2)
 * Development environments: [Craig Willis](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=willis8)

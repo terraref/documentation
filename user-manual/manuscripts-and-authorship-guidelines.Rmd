@@ -49,7 +49,7 @@ Steps:
 
    Note that the last author position may be appropriate to assign in some cases. For example, this would be appropriate for advisors of lead authors who are graduate students or postdocs and for papers that two people worked very closely to produce.
 
-10. **The lead author should** carefully review the authorship contribution table to ensure that all authors have contributed at a level that warrants authorship and that contributions are consistently attributed among authors. Has each author made contributions in at least two areas in the authorship rubric? Did each author provide thoughtful, detailed feedback on the manuscript? Authors are encouraged to contact the TERRA REF PI (Mockler) or authorship committee (Jeff White, Geoff Morris, Todd Mockler, David LeBauer, Wasit Wulamu, Nadia Shakoor) about any confusion or conflicts.
+10. **The lead author should** carefully review the authorship contribution table to ensure that all authors have contributed at a level that warrants authorship and that contributions are consistently attributed among authors. Has each author made contributions in at least two areas in the authorship rubric? Did each author provide thoughtful, detailed feedback on the manuscript? Authors are encouraged to contact the TERRA REF PI \(Mockler\) or authorship committee \(Jeff White, Geoff Morris, Todd Mockler, David LeBauer, Wasit Wulamu, Nadia Shakoor\) about any confusion or conflicts.
 
 ## Contributions Warranting Co-authorship
 
@@ -59,8 +59,8 @@ Manuscripts published by TERRA REF will be accompanied by a supplemental table i
 
 | rubric item | example contribution meriting a checked box |
 | :--- | :--- |
-| Developed and framed research question(s) | Originated idea for current analysis of TERRA REF data; contributed significantly to framing the ideas in this analysis at early stage of manuscript |
-| Analyzed data | Generated models (conceptual, statistical and / or mathematical), figures, tables, maps, etc.; contributed key components to the computing pipeline. |
+| Developed and framed research question\(s\) | Originated idea for current analysis of TERRA REF data; contributed significantly to framing the ideas in this analysis at early stage of manuscript |
+| Analyzed data | Generated models \(conceptual, statistical and / or mathematical\), figures, tables, maps, etc.; contributed key components to the computing pipeline. |
 | Contributed Data | generated a dataset being used in this manuscript's analysis. |
 | Contributed to data analyses | Provided comments, suggestions, and code for data analysis |
 | Wrote the paper | Wrote the majority of at least one of the sections of the paper |

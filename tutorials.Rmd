@@ -1,12 +1,8 @@
 # Tutorials
 
-We have developed a set of tutorials that aim to provide users with 'quick start' introductions to the range of different TERRA REF datasets.
-
-Tutorials for accesssing trait data, sensor data, and genomics data are organized by directory \("traits", "sensors", and "genomics"\). These are in various states of development, and your mission is not only to learn, but to identify bugs, request help, and suggest improvements.
+We have developed a set of tutorials that aim to provide users with 'quick start' introductions to the range of different TERRA REF datasets. Tutorials for accessing trait data, sensor data, and genomics data are organized by directory \("traits", "sensors", and "genomics"\). These can be found at [terraref.org/tutorials](https://terraref.org/tutorials).
 
 Many of the tutorials can be run on your own computer with Python or R installed. However, some require access to the filesystem or databases that can not be made public. To 'easiest' \(guaranteed easier than collecting the data yourself!\) place to start is on the terraref workbench, which provides all of the software dependencies and access to all of the data.
-
-You can find the tutorials in [https://github.com/terraref/tutorials/](https://github.com/terraref/tutorials/); scroll down for a description of the contents and how to get started in the [README](https://github.com/terraref/tutorials/blob/master/README.md).
 
 ## Data Access
 
