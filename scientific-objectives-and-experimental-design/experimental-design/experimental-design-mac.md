@@ -16,7 +16,7 @@ Season 1 sorghum \(April - July 2016\) Season 2 sorghum \(August - November 2016
 **Under scanner system**
 
 | **Experiment** | **Reps** | **Treatments** | **Experimental design** |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | BAP | 3 | 30 lines \(12 PS, 12 sweet, 6 grain\) | RCB with sorghum types nested in groups |
 | Night illumination | 3 | 5 illumination levels x 2 PS lines \(with check line separating illumination levels\) | RCB |
 | Row \# | 3 | 6 adjacent plot scenarios: 3 lines \(forage, sweet, PS\) x 2 sides \(east or west\) | RCB but not balanced with all treatments in all reps |
@@ -28,7 +28,7 @@ Season 1 sorghum \(April - July 2016\) Season 2 sorghum \(August - November 2016
 **West of scanner system**
 
 | **Experiment** | **Reps** | **Treatments** | **Experimental design** |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | BAP | 1 | 30 lines \(12 PS, 12 sweet, 6 grain\) | None - single rep planted for observation |
 | RILs | 3 | 60 RILs | Incomplete Block \(row-column alpha lattice design\) |
 

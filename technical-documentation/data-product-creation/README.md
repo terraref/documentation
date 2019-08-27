@@ -5,7 +5,7 @@
 Data products are processed at various levels ranging from Level 0 to Level 4. Level 0 products are raw data at full instrument resolution. At higher levels, the data are converted into more useful parameters and formats. These are derived from NASA and NEON
 
 | Level | Description |  |
-| :--- | :--- |
+| :--- | :--- | :--- |
 | 0 | Reconstructed, unprocessed, full resolution instrument data; artifacts and duplicates removed. |  |
 | 1a | Level 0 plus time-referenced and annotated with calibration coefficients and georeferencing parameters \(level 0 is fully recoverable from level 1a data\). |  |
 | 1b | Level 1a processed to sensor units \(level 0 not recoverable\) |  |

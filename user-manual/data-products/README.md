@@ -3,7 +3,7 @@
 The following table lists available TERRA-REF data products. The table will be updated as new datasets are released. Links are provided to pages with detailed information about each data product including sensor descriptions, algorithm \(extractor\) information, protocols, and data access instructions.
 
 | Data product | Description |
-| --- | --- | --- |
+| :--- | :--- |
 | [3D point cloud data](point-cloud-data.md) | 3D point cloud data \(LAS\) of the field constructed from the Fraunhofer 3D scanner output \(PLY\). |
 | [Fluorescence intensity imaging](fluorescence-intensity-imaging.md) | Fluorescence intensity imaging is collected using the PSII LemnaTec camera. Raw camera output is converted to \(netCDF/GeoTIFF\) |
 | [Hyperspectral imaging data](hyperspectral-imaging-data.md) | Hyperspectral imaging data from the SWIR and VNIR Headwall Inspector sensors are converted to netCDF output using the hyperspectral extractor. |
