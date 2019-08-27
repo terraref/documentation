@@ -40,32 +40,69 @@ Steps:
    2. circulating essentially complete manuscripts does not allow the opportunity for meaningful contribution from co-authors, and is discouraged.
 
 5. **Potential co-authors** should signal their intention to opt-in by responding by email to the lead author before the stated deadline.
-6. **Lead authors should** keep an email list of co-authors and **communicate regularly** about progress including sharing drafts of analyses, figures, and text as often as is productive and practical.
-7. **Lead authors should** circulate complete drafts among co-authors and consider comments and changes. Given the wide variety of ideas and suggestions provided on each TERRA REF paper, co-authors should recognize the final decisions belong to the lead author.
-8. **Final manuscripts should be reviewed and approved by each co-author before submission.**
-9. **All authors and co-authors should** fill out their contribution in the authorship rubric and attach it as supplementary material to any TERRA REF manuscript. Lead authors are responsible for ensuring consistency in credit given for contributions, and may alter co-author's entries in the table to do so.
+6. **Potential co-authors** should inform the lead author of any additional candidates for co-authorship who should be considered.
+7. **Lead authors should** is responsible for making sure that any who have made contributions warranting co-authorship have actively opted in or out \(authors should not be excluded due to a missed email or a misunderstanding of the scope of the manuscript and their contributions\). The goal is to ensure that the author list is inclusive and consistent.
+8. **Lead authors should** keep an email list of co-authors and **communicate regularly** about progress including sharing drafts of analyses, figures, and text as often as is productive and practical.
+9. **Lead authors should** circulate complete drafts among co-authors and consider comments and changes. Given the wide variety of ideas and suggestions provided on each TERRA REF paper, co-authors should recognize the final decisions belong to the lead author.
+10. **Final manuscripts should be reviewed and approved by each co-author before submission.**
+11. **All authors and co-authors should** fill out their contribution in the authorship rubric and attach it as supplementary material to any TERRA REF manuscript. Lead authors are responsible for ensuring consistency in credit given for contributions, and may alter co-author's entries in the table to do so.
 
-   The [authorship rubric](https://docs.google.com/forms/d/1auDy2NdY5RLMdL0gTXNr0vxEP9jQ3SJLC1mMOK81_FI/edit) provides a framework for the opt-in process. Lead authors should copy the template and edit the contents for a specific manuscript, then circulate to potential co-authors.
+    The [authorship rubric](https://docs.google.com/forms/d/1auDy2NdY5RLMdL0gTXNr0vxEP9jQ3SJLC1mMOK81_FI/edit) provides a framework for the opt-in process. Lead authors should copy the template and edit the contents for a specific manuscript, then circulate to potential co-authors.
 
-   Note that the last author position may be appropriate to assign in some cases. For example, this would be appropriate for advisors of lead authors who are graduate students or postdocs and for papers that two people worked very closely to produce.
+    Note that the last author position may be appropriate to assign in some cases. For example, this would be appropriate for advisors of lead authors who are graduate students or postdocs and for papers that two people worked very closely to produce.
 
-10. **The lead author should** carefully review the authorship contribution table to ensure that all authors have contributed at a level that warrants authorship and that contributions are consistently attributed among authors. Has each author made contributions in at least two areas in the authorship rubric? Did each author provide thoughtful, detailed feedback on the manuscript? Authors are encouraged to contact the TERRA REF PI \(Mockler\) or authorship committee \(Jeff White, Geoff Morris, Todd Mockler, David LeBauer, Wasit Wulamu, Nadia Shakoor\) about any confusion or conflicts.
+12. **The lead author should** carefully review the authorship contribution table to ensure that all authors have contributed at a level that warrants authorship and that contributions are consistently attributed among authors. The lead author should also ensure that all contributions that warrant co-authorship.
 
-## Contributions Warranting Co-authorship
+    * Has each author made contributions in at least two areas in the authorship rubric?
+    * Did each author provide thoughtful, detailed feedback on the manuscript?
+    * Have all qualified contributors actively opted in or out of co-authorship?
 
-Authorship must be earned through a _substantial contribution._ Traditionally, project initiation and framing, data analysis and interpretation, and manuscript preparation are all authorship-worthy contributions, and remain so for TERRA REF manuscripts. However, TERRA REF collaborators have also agreed that collaborators who lead a site from which data are being used in a paper can also opt-in as co-authors, under the following conditions: **\(1\)** the collaborators' site has contributed data being used in the paper's analysis; and **\(2\)** that this collaborator makes additional contributions to the particular manuscript, including data analysis, writing, or editing. For coauthorship on opt-out papers, each individual must be able to check **at least two** boxes in the rubric, including contribution to the writing process. _These guidelines apply equally to manuscripts led by graduate students._
+Authors are encouraged to contact the TERRA REF PI \(Mockler\) or authorship committee \(Jeff White, Geoff Morris, Todd Mockler, David LeBauer, Wasit Wulamu, Nadia Shakoor\) about any confusion or conflicts.
 
-Manuscripts published by TERRA REF will be accompanied by a supplemental table indicating authorship contributions. You can copy and share the [authorship rubric](https://goo.gl/Z7qv4L). For opt-in papers, a co-author is expected to have at least two of the following areas checked in the authorship rubric.
+## Co-authorship
 
-| rubric item | example contribution meriting a checked box |
+Authorship must be earned through a _substantial contribution._ Traditionally, project initiation and framing, data analysis and interpretation, software or algorithm development, and manuscript preparation are all authorship-worthy contributions, and remain so for TERRA REF manuscripts. However, TERRA REF collaborators have also agreed that collaborators who lead a site from which data are being used in a paper can also opt-in as co-authors, under the following conditions: **\(1\)** the collaborators' site has contributed data being used in the paper's analysis; and **\(2\)** that this collaborator makes additional contributions to the particular manuscript, including data analysis, writing, or editing. For co-authorship on opt-out papers, each individual must be able to check **at least two** boxes in the rubric in addition to contribution to the writing process. _These guidelines apply equally to manuscripts led by graduate students._
+
+### Co-author Expectations
+
+_This section is derived from the International Committee of Medical Journal Editors \(ICMJE\)_ [_Uniform Requirements for Manuscripts Submitted to Biomedical Journals_](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html#two)_._
+
+Each author is expected to meet all of the following conditions:
+
+* Substantial contributions to conception and design, acquisition of data, or analysis and interpretation of data, and
+* Drafting the article _or_ revising it critically for important intellectual content, and
+* Final approval of the version to be published, and
+* Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.
+
+### Types of Author Contributions
+
+Manuscripts published by TERRA REF will be accompanied by a supplemental table indicating authorship contributions. You can copy and share the [authorship rubric](https://goo.gl/Z7qv4L). For opt-in papers, a co-author usually should contribute to writing and revision as well as at least two of the following areas checked in the authorship rubric. This follows the CRediT Taxonomy as published in the [PLOS ONE authorship guidelines](https://journals.plos.org/plosone/s/authorship).
+
+| Contributor Role | Role Definition |
 | :--- | :--- |
-| Developed and framed research question\(s\) | Originated idea for current analysis of TERRA REF data; contributed significantly to framing the ideas in this analysis at early stage of manuscript |
-| Analyzed data | Generated models \(conceptual, statistical and / or mathematical\), figures, tables, maps, etc.; contributed key components to the computing pipeline. |
-| Contributed Data | generated a dataset being used in this manuscript's analysis. |
-| Contributed to data analyses | Provided comments, suggestions, and code for data analysis |
-| Wrote the paper | Wrote the majority of at least one of the sections of the paper |
-| Contributed to paper writing | Provided suggestions such as restructuring ideas, text and citations linking to new literature areas, copy editing |
-| Site level coordinator | Coordinated data collection, proofing, and submission of unreleased data for at least one site used in this manuscript. |
+| **Conceptualization** | Ideas; formulation or evolution of overarching research goals and aims. |
+| **Data Curation** | Management activities to annotate \(produce metadata\), scrub data and maintain research data \(including software code, where it is necessary for interpreting the data itself\) for initial use and later reuse. |
+| **Formal Analysis** | Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data. |
+| **Funding Acquisition** | Acquisition of the financial support for the project leading to this publication. |
+| **Investigation** | Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection. |
+| **Methodology** | Development or design of methodology; creation of models |
+| **Project Administration** | Management and coordination responsibility for the research activity planning and execution. |
+| **Resources** | Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools. |
+| **Software** | Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components. |
+| **Supervision** | Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team. |
+| **Validation** | Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs. |
+| **Visualization** | Preparation, creation and/or presentation of the published work, specifically visualization/data presentation. |
+| **Writing – Original Draft Preparation** | Creation and/or presentation of the published work, specifically writing the initial draft \(including substantive translation\). |
+| **Writing – Review & Editing** | Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages. |
+
+### Author Order
+
+By default, we will follow the conventions of the scientific community that is the target audience of the journal in which the article is published. This should typically follow:
+
+* First is lead author
+* Last is the supervisor of the lead author.
+* if &gt; 1 lead or senior authors these will be listed first and last, respectively, and identified in the author contributions section of the acknowledgements.
+* All other contributors are listed alphabetically.
 
 ## Publications committee
 
