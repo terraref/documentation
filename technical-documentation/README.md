@@ -12,5 +12,5 @@ This section includes the following:
 * [Data Product Creation](data-product-creation/)
 * [Sensor Calibration](../scientific-objectives-and-experimental-design/protocols/sensor-calibration.md)
 * [Quality Assurance and Quality Control](quality-assurance-and-quality-control.md)
-* Systems Configuration
+* [Systems Configuration](systems-configuration.md)
 

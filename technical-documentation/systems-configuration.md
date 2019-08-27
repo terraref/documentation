@@ -4,7 +4,7 @@ The software that makes up the terraref system runs on different VM's. Some of t
 
 Following is the overview of the system as it is running now:
 
-![](.gitbook/assets/systems.png)
+![](../.gitbook/assets/systems.png)
 
 
 
