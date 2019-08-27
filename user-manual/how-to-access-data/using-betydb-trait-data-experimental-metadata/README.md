@@ -45,5 +45,5 @@ The _search map_ may be used in conjunction with search terms to restrict search
 
 * [BETYdb Data Access Guide](https://pecan.gitbooks.io/betydb-data-access/content/)
 
-Produced with Gitbook version 
+Produced with Gitbook version
 

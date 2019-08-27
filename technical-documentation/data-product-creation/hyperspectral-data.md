@@ -6,7 +6,7 @@ The TERRA hyperspectral data pipeline processes imagery from hyperspectral camer
 
 **Software dependencies**
 
-The pipeline currently depends on three pre-requisites: __[_netCDF Operators \(NCO\)_](http://nco.sf.net)_._ [Python netCDF4](http://fxm).
+The pipeline currently depends on three pre-requisites: _\_\[\_netCDF Operators \(NCO\)_\]\([http://nco.sf.net\)\_.\_](http://nco.sf.net%29_._) [Python netCDF4](http://fxm).
 
 **Pipeline source code**
 
