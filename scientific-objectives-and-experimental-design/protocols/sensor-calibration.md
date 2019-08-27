@@ -54,14 +54,14 @@ For the SWIR and VNIR sensors, factory calibration is repeated each year using t
   * The name of the folder is the exposure time. Data are 1600 sample, 955 bands and 268-298 lines. White reference is located in the lines between 60 to 100 and in the samples between 600 to 1000.
   * Data is available via [Google Drive.](https://drive.google.com/file/d/0ByXIACImwxA7akhfLTdTS01vTTA/view?usp=sharing)
 
-    The white reference scans was done at around 1pm \( one hour after solar noon\). I don’t see the saturation with 20ms and 25ms exposure time. 
+    The white reference scans was done at around 1pm \( one hour after solar noon\). I don’t see the saturation with 20ms and 25ms exposure time.
 
   * For the calibration, this needs to be subtracted from the dark current in the same sample, band and exposure time.
   * In the following file, I stored an extra file named "CorrectedWhite\_raw". This file includes only a single white pixel\( one line, one sample\) in 955 bands for each exposure time. Data is stored in the similar format but it doesnot include any extra files like frameIndex, image, header ,..
 
     https:\/\/drive.google.com\/file\/d\/0ByXIACImwxA7dVNHa3pTYkFjdWc\/view?usp=sharing
 
-    Let me know if you have issue with opening the files. 
+    Let me know if you have issue with opening the files.
 
 #### Stereo 3D height scanner
 

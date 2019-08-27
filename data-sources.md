@@ -25,7 +25,7 @@ The Maricopa field site is located at the the University of Arizona Maricopa Agr
 | PAR Sensor | [Quantum SQ-300](http://www.apogeeinstruments.com/quantum/) | 180° | Spectral Range 410 to 655 nm |
 | VNIR Spectrometer \(downwelling radiance\) | [Ocean Optics STS-Vis](http://oceanoptics.com/product/sts-vis-microspectrometer/) |  | Range: 337-824 nm @ 1/2 nm |
 | SWIR Spectrometer \(downwelling radiance\) | [Ocean Optics STS-Vis](http://oceanoptics.com/product/sts-vis-microspectrometer/) |  | 800-2500 nm |
-| Laser Scanner| [Custom Frauhofer 3D](http://www.ipm.fraunhofer.de/en/bu/object-shape-detection/technologies/mobile-laser-scanning.html) | 0.5m width | Resolution: 0.3-0.9 mm |
+| Laser Scanner | [Custom Frauhofer 3D](http://www.ipm.fraunhofer.de/en/bu/object-shape-detection/technologies/mobile-laser-scanning.html) | 0.5m width | Resolution: 0.3-0.9 mm |
 | Stereo RGB Cameras | [GT3300 C](http://www.1stvision.com/cameras/AVT/Prosilica-GT3300-B-C.html) | 53° |  |
 | Active Reflectance | [Crop Circle ACS430P](http://hollandscientific.com/product/crop-circle-acs-430-active-crop-canopy-sensor/) |  | Bands: 670, 730, 780 nm |
 | Fluorescence Measurement | [Lemnatec PSII](http://www.lemnatec.com/products/imaging-modules/psii-imaging/) | 25° x 19° | PSII Fluorescence Response |

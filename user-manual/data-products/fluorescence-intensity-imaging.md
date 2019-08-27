@@ -8,7 +8,7 @@ Fluorescence intensity data is collected using the PSII camera.
 
 Fluorescence intensity data is available via Clowder and Globus:
 
-* **Clowder**:  __[ps2Top collection](https://terraref.ncsa.illinois.edu/clowder/collection/58714b584f0cc129fb5ea660)
+* **Clowder**:  \_\_[ps2Top collection](https://terraref.ncsa.illinois.edu/clowder/collection/58714b584f0cc129fb5ea660)
 * **Globus path**:  `/sites/ua-mac/raw_data/ps2top`
 * **Sensor information**: [LemnaTec PSII](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a84b4f0cad7d8131a73d)
 

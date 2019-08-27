@@ -28,7 +28,7 @@ Content modified from [Andrade-Sanchez et al 2014](http://www.publish.csiro.au/f
 
 ### Tractor
 
-The Tractor-based plant phenotyping system \(Phenotractor\) was built on a LeeAgra 3434 DL open rider sprayer. The vehicle has a clearance of 1.93 m. A boom attached to the front end of the tractor frame holds the sensors, data loggers, and other instrumentation components including enclosure boxes and cables.  The boom can be moved up and down with sensors remaining on a horizonal plane. An isolated secondary power source supplies 12-V direct current to the electronic components used for phenotyping.
+The Tractor-based plant phenotyping system \(Phenotractor\) was built on a LeeAgra 3434 DL open rider sprayer. The vehicle has a clearance of 1.93 m. A boom attached to the front end of the tractor frame holds the sensors, data loggers, and other instrumentation components including enclosure boxes and cables. The boom can be moved up and down with sensors remaining on a horizonal plane. An isolated secondary power source supplies 12-V direct current to the electronic components used for phenotyping.
 
 ![Phenotractor system configuration](https://github.com/Mamatemenrs/test-repo/blob/master/tractor%20setting.jpg)
 
@@ -40,8 +40,6 @@ The phenotractor was equipped with three types of sensors for measuring plant he
 
 The distance from canopy to sensor position was measured with a sonar proximity sensor \($S_\rm{output}$, in mm\). Canopy height \($CH$\) was determined by combining sonar and GPS elevation data \(expressed as meter above sea level\). An elevation survey was conducted to determine a baseline reference elevation \($E_\rm{ref}$\) for the gantry field. CH was computed according to the following equation:
 
-
-
 where $E\_rm{s}$ is sensor elevation, which was calculated by subtracting the vertical offset between the GPS antenna and sonar sensor from GPS antenna elevation.
 
 ### Thermal Sensor
@@ -51,8 +49,6 @@ An [Apogee SI-121](https://www.apogeeinstruments.com/narrow-field-of-view-infrar
 ### Multispectral Radiometer
 
 Canopy spectral reflectance was measured with GreenSeeker sensors and the reflectance data were used to calculate NDVI \(Normalized Difference Vegetation Index\). GreenSeeker sensors record reflected light energy in near infrared \(780 ± 15 nm\) and red \(660 ± 10 nm \) portion electromagnetic spectrum from top of the canopy by using a self-illuminated light source. NDVI was calculated using following equation:
-
-
 
 Where $\rho_\rm{NIR}$ and $\rho_\rm{red}$ and ρ\_red represent fraction of reflected energy in near infrared and red spectral regions, respectively.
 

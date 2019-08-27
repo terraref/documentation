@@ -1,8 +1,8 @@
-# Data Use Policy {#data_use_policy}
+# Data Use Policy
 
 ## Release with Attribution
 
-We plan to make data from the Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform (TERRA-REF) project available for use with attribution. Each type of data will include or point to the appropriate attribution policy.
+We plan to make data from the Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform \(TERRA-REF\) project available for use with attribution. Each type of data will include or point to the appropriate attribution policy.
 
 ## Timing and Control of Release
 
@@ -16,9 +16,9 @@ We plan to release the data in stages or tiers. For pre-release access please co
 
 ### Restrictions on dataset usage
 
-Genomic data for the _Sorghum bicolor_ Bioenergy Association Panel (BAP) from the TERRA-REF project is available pre-publication to maximize the community benefit of these resources. Use of the raw and processed data that is available should follow the principles of the [Fort Lauderdale Agreement](https://www.genome.gov/pages/research/wellcomereport0303.pdf) and the [Department of Energy's Joint Genome Institute (JGI) early release policies](http://genome.jgi.doe.gov/pages/data-usage-policy.jsf).
+Genomic data for the _Sorghum bicolor_ Bioenergy Association Panel \(BAP\) from the TERRA-REF project is available pre-publication to maximize the community benefit of these resources. Use of the raw and processed data that is available should follow the principles of the [Fort Lauderdale Agreement](https://www.genome.gov/pages/research/wellcomereport0303.pdf) and the [Department of Energy's Joint Genome Institute \(JGI\) early release policies](http://genome.jgi.doe.gov/pages/data-usage-policy.jsf).
 
-By accessing these data, you agree not to publish any articles containing analyses of genes or genomic data on a whole genome or chromosome scale prior to publication by TERRA-REF and/or its collaborators of a comprehensive genome analysis ("Reserved Analyses"). "Reserved analyses" include the identification of complete (whole genome) sets of genomic features such as genes, gene families, regulatory elements, repeat structures, GC content, or any other genome feature, and whole-genome- or chromosome-scale comparisons with other species. The embargo on publication of Reserved Analyses by researchers outside of the TERRA-REF project is expected to extend until the publication of the results of the sequencing project is accepted. Scientific users are free to publish papers dealing with specific genes or small sets of genes using the sequence data. If these data are used for publication, the following acknowledgment should be included: 'These sequence data were produced by the US Department of Energy Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform (TERRA-REF) Project'. These data may be freely downloaded and used by all who respect the restrictions in the previous paragraphs. The assembly and sequence data should not be redistributed or repackaged without permission from TERRA-REF. Any redistribution of the data during the embargo period should carry this notice: "The TERRA-REF project provides these data in good faith, but makes no warranty, expressed or implied, nor assumes any legal liability or responsibility for any purpose for which the data are used. Once the sequence is moved to unreserved status, the data will be freely available for any subsequent use."
+By accessing these data, you agree not to publish any articles containing analyses of genes or genomic data on a whole genome or chromosome scale prior to publication by TERRA-REF and/or its collaborators of a comprehensive genome analysis \("Reserved Analyses"\). "Reserved analyses" include the identification of complete \(whole genome\) sets of genomic features such as genes, gene families, regulatory elements, repeat structures, GC content, or any other genome feature, and whole-genome- or chromosome-scale comparisons with other species. The embargo on publication of Reserved Analyses by researchers outside of the TERRA-REF project is expected to extend until the publication of the results of the sequencing project is accepted. Scientific users are free to publish papers dealing with specific genes or small sets of genes using the sequence data. If these data are used for publication, the following acknowledgment should be included: 'These sequence data were produced by the US Department of Energy Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform \(TERRA-REF\) Project'. These data may be freely downloaded and used by all who respect the restrictions in the previous paragraphs. The assembly and sequence data should not be redistributed or repackaged without permission from TERRA-REF. Any redistribution of the data during the embargo period should carry this notice: "The TERRA-REF project provides these data in good faith, but makes no warranty, expressed or implied, nor assumes any legal liability or responsibility for any purpose for which the data are used. Once the sequence is moved to unreserved status, the data will be freely available for any subsequent use."
 
 We prefer that potential users of these sequence data contact the individuals listed under Contacts with their plans to ensure that proposed usage of sequence data are not considered Reserved Analyses.
 
@@ -32,8 +32,7 @@ For other raw data, such as phenotypic data and associated metadata, we intend t
 
 ## Contacts
 
-* Todd Mockler, Project/Genomics Lead (email: tmockler@danforthcenter.org)
-* David LeBauer, Computing Pipeline Lead (email: dlebauer@email.arizona.edu)
-* Nadia Shakoor, Project Director (email: nshakoor@danforthcenter.org)
-
+* Todd Mockler, Project/Genomics Lead \(email: tmockler@danforthcenter.org\)
+* David LeBauer, Computing Pipeline Lead \(email: dlebauer@email.arizona.edu\)
+* Nadia Shakoor, Project Director \(email: nshakoor@danforthcenter.org\)
 
