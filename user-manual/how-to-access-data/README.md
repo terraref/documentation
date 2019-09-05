@@ -2,9 +2,17 @@
 
 ## Overview
 
-TERRA-REF data is available through four different approaches: Globus Connect, Clowder, BETYdb, and CoGe. Raw data is transfered to the primary compute pipeline using Globus Online. Data is ingested into Clowder to support exploratory analysis. The Clowder extractor system is used to transform the data and create derived data products, which are either available via Clowder or published to specialized services, such as BETYdb.
+TERRA-REF data can be accessed through many different interfaces: Globus, Clowder, BETYdb, CyVerse, and CoGe. Raw data is transfered to the primary compute pipeline using Globus Online. Data is ingested into Clowder to support exploratory analysis. The Clowder extractor system is used to transform the data and create derived data products, which are either available via Clowder or published to specialized services, such as BETYdb.
 
-For more information, see the [Architecture Documentation](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/architecture-documentation.md).
+| Resource | Use | URL |
+| :--- | :--- | :--- |
+| Clowder | Browse and Download small Sensor Data | terraref.org/clowder |
+| BETYdb | Trait and Agronomic Metadata | terraref.org/bety |
+| Globus | Browse directories; transfer large sensor files | globus.org \#TERRAREF endpoint |
+| CyVerse | Download Genomics data | terraref.org/cyverse-genomics |
+| CoGe | Download, process, visualize Genomics data | terraref.org/coge |
+| Traitvis | View available trait data | terraref.org/traitvis |
+| Advanced Search | Search across sensor and trait data | search.terraref.org \(under development\) |
 
 ## Clowder
 
