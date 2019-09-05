@@ -1,11 +1,8 @@
 # Genomics data
 
-Genomic data includes whole-genome resequencing data from the HudsonAlpha Institute for Biotechnology, Alabama for 384 samples for accessions from the sorghum [Bioenergy Association Panel](http://doi.org/10.1534/genetics.115.183947) \(BAP\) and genotyping-by-sequencing \(GBS\) data from Kansas State University for 768 samples from a population of sorghum recombinant inbred lines \(RIL\).
-
-These data are available to Beta Users and require permission to access. The form to sign up for our beta user program is at [http://terraref.org/beta](http://terraref.org/beta). Once you have signed up for our beta user program you can access genomics data in one of the following locations:
+You can access genomics data in one of the following locations:
 
 * Download via [Globus](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-globus.md).
-* The [NDS Analysis Workbench](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-analysis-workbench.md), which provides container-based computing environments including Jupyter, Rstudio, and Python IDE.
 * The [CyVerse Data Store](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-cyverse.md) for download or use within the CyVerse computing environment.
 * The [CoGe](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-coge.md) computing environment.
 

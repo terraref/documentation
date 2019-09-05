@@ -33,7 +33,7 @@
     * [Controlled Environment phenotype data](user-manual/data-products/plantcv-trait-data.md)
     * [Point Cloud Data](user-manual/data-products/point-cloud-data.md)
   * [How to Access Data](user-manual/how-to-access-data/README.md)
-    * [Using Clowder \(Sensor and Genoomics data\)](user-manual/how-to-access-data/using-clowder-sensor-and-genoomics-data.md)
+    * [Using Clowder \(Sensor and Genomics data\)](user-manual/how-to-access-data/using-clowder-sensor-and-genoomics-data.md)
     * [Using Globus \(Sensor and Genomics data\)](user-manual/how-to-access-data/using-globus-sensor-and-genomics-data.md)
     * [Using BETYdb \(trait data, experimental metadata\)](user-manual/how-to-access-data/using-betydb-trait-data-experimental-metadata/README.md)
       * [Accessing BETYdb via ArcMap and other GIS software](user-manual/how-to-access-data/using-betydb-trait-data-experimental-metadata/accessing-betydb-via-arcmap-and-other-gis-software.md)

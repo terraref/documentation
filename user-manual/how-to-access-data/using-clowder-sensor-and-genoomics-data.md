@@ -1,4 +1,4 @@
-# Using Clowder \(Sensor and Genoomics data\)
+# Using Clowder \(Sensor and Genomics data\)
 
 ## About Clowder
 
