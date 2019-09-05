@@ -1,8 +1,14 @@
-# Experimental Design MAC
+# Maricopa Experiments
 
-Season 1 sorghum \(April - July 2016\) Season 2 sorghum \(August - November 2016\) Durum wheat \(January 2017 -
+## Published Experiments
 
-## Season 1 soghum \(April - July 2016\)
+### Season 4
+
+### Season 6
+
+## Unpublished Experiments
+
+## Season 1 sorghum \(April - July 2016, unpublished\)
 
 [Three hundred thirty one lines were planted in Season 1](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=796817704).
 
@@ -42,7 +48,7 @@ Twelve sensors are attached to the gantry system. Detailed information for each 
 
 emergence vigor emergence final stand counts plant heights node and tiller counts on marked plants phenology growth stage data leaf desiccation ratings radiation interception managements Incomplete harvest yield data
 
-## Season 2 soghum \(August - November 2016\)
+## Season 2 sorghum \(August - November 2016, unpublished\)
 
 [One hundred and seventy-six lines were planted in Season 2](https://docs.google.com/spreadsheets/d/107aijRIvO5i-HHwVDQTXn0-9sE02cXO_MdZk3DERzQ0/edit?usp=sharing).
 
@@ -62,7 +68,7 @@ same as season 1
 
 plant heights managements emergence vigor emergence final stand counts node and tiller counts on marked plants leaf length and width on marked plants, one date
 
-## Durum wheat
+## Durum wheat \(unpublished\)
 
 #### [Experimental design](https://docs.google.com/spreadsheets/d/15hLUFquat4T-8-ejBKTHRYGgGO1LL3w6UwMQ6jxHA8E/edit#gid=1274912251)
 

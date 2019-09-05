@@ -18,7 +18,7 @@
       * [Sorghum Lines Genomics Year 1](scientific-objectives-and-experimental-design/experimental-design/experimental-design-genomics/sorghum-lines-genomics-year-1.md)
       * [Sorghum Lines Genomics Year 1 \(continued\)](scientific-objectives-and-experimental-design/experimental-design/experimental-design-genomics/sorghum-lines-genomics-year-1-continued.md)
       * [Sorghum Lines Genomics Year 2](scientific-objectives-and-experimental-design/experimental-design/experimental-design-genomics/sorghum-lines-genomics-year-2.md)
-    * [Experimental Design MAC](scientific-objectives-and-experimental-design/experimental-design/experimental-design-mac.md)
+    * [Maricopa Experiments](scientific-objectives-and-experimental-design/experimental-design/experimental-design-mac.md)
 * [User Manual](user-manual/README.md)
   * [What Data is Available](user-manual/what-data-is-available.md)
   * [Data Products](user-manual/data-products/README.md)
