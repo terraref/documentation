@@ -8,5 +8,5 @@ The following protocols have been contributed by TERRA-REF team members:
 * [**Phenotractor**](phenotractor-protocols.md)
 * [**UAV**](uav-protocols.md)
 
-A template for documenting protocols [is available here](template-protocol.md).
+A template for documenting protocols [is available here]().
 

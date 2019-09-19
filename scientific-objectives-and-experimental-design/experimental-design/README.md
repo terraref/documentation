@@ -7,7 +7,7 @@
 
 ## Controlled-environment phenotyping
 
-* [Donald Danforth Plant Science Center, Missouri](experimental-design-danforth/)
+* [Donald Danforth Plant Science Center, Missouri](experimental-design-danforth.md)
 
 ## Genomics
 

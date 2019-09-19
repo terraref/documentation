@@ -106,7 +106,7 @@ By default, we will follow the conventions of the scientific community that is t
 
 ## Publications committee
 
-Members: David LeBauer, Todd Mockler, Geoff Morris, Nadia Shakoor, Jeff White, Wasit Wulamu
+Members: David LeBauer, Todd Mockler, Geoff Morris, Duke Pauli, Nadia Shakoor, Wasit Wulamu
 
 The publications committee ensures communication across projects to avoid overlap of manuscripts, works to provide guidance on procedures and authorship guidelines, and serves as the body of last resort for resolution of authorship disputes within the Network.
 
