@@ -18,11 +18,11 @@ Content modified from [Andrade-Sanchez et al 2014](http://www.publish.csiro.au/f
   * GreenSeeker Multispectral Radiometer
   * Infrared Thermal Sensor
 
-![Picture of Phenotractor Sensors](../../.gitbook/assets/phenotractor_sensors.JPG)
+![Picture of Phenotractor Sensors](../.gitbook/assets/phenotractor_sensors.JPG)
 
-![Diagram of sensor attachments](../../.gitbook/assets/phenotractor_sensor_diagram.JPG)
+![Diagram of sensor attachments](../.gitbook/assets/phenotractor_sensor_diagram.JPG)
 
-![Diagram of Sensor Offset](../../.gitbook/assets/phenotractor_sensor_offset.JPG)
+![Diagram of Sensor Offset](../.gitbook/assets/phenotractor_sensor_offset.JPG)
 
 ## Methods
 

@@ -1,3 +1,10 @@
+---
+description: >-
+  Data were collected manually using standard field methods. These measurements
+  are used to calibrate and validate phenotypes derived from sensor-collected
+  data.
+---
+
 # Manual Field Data Protocols
 
 ### Abstract

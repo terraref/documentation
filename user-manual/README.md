@@ -6,7 +6,7 @@ This user manual is divided into the following sections:
 
 * [Data Products](data-products/): A summary of the available data products and the processes used to create them
 * [Data Access](../how-to-access-data.md): Instructions for how to access the data products using Clowder, Globus, BETYdb, and CoGe
-* Description of the [scientific objectives and experimental design](../scientific-objectives-and-experimental-design/)
+* Description of the [scientific objectives and experimental design](../scientific-objectives-and-experimental-design.md)
 * [Data use policy](data-use-policy.md): Information about data use and attribution
 * [User Tutorials](): In-depth examples of how to access and use the TERRA-REF data
 

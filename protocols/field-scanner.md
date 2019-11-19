@@ -1,6 +1,4 @@
-# Data Sources
-
-## Lemnatec Field Scanner
+# Field Scanner
 
 This section describes the sensors deployed on the Lemnatec Field Scanner in Maricopa, AZ. Device and sensor information, including technical specifications, calibration data, and calibration targets are stored in the [TERRA REF Clowder database](https://terraref.ncsa.illinois.edu/clowder/spaces/594bda394f0cf8bbab271dfb).   
 
@@ -29,35 +27,5 @@ The [**Lemnatec Scanalyzer Field System**](http://www.lemnatec.com/products/hard
 | Environmental Sensors | Thies ClimaSensorD \([web](http://www.thiesclima.com/ClimaSensorUS_e.html)\) \([specs](https://terraref.ncsa.illinois.edu/clowder/datasets/5873a9724f0cad7d8131b4d3)\) |  | Wind, Air T, Humidity, Pressure, Light, Precipitation |  |
 | Open Path CO2 Sensor | [GMP 343](http://www.vaisala.com/en/products/carbondioxide/Pages/GMP343.aspx) |  | Range: 0-1000 ppm |  |
 
-#### Maricopa Agricultural Center \(MAC\), Arizona
-
-The Maricopa field site is located at the the University of Arizona Maricopa Agricultural Center and USDA Arid Land Research Station in Maricopa, Arizona. At this site, we have deployed the following phenotyping platforms.
-
-## UAV Data
-
-
-
-* weekly flights with RGB and multispectral cameras
-
-## Manually Collected Field Data
-
-Data were collected manually using standard field methods. These measurements are used to calibrate and validate phenotypes derived from sensor-collected data.
-
-## Controlled-environment phenotyping
-
-#### Donald Danforth Plant Science Center, Missouri
-
-The [Bellwether Foundation Phenotyping Facility](https://www.danforthcenter.org/scientists-research/core-technologies/phenotyping) is a climate controlled 70 m2 growth house with a conveyor belt system for moving plants to and from fluorescence, color, and near infrared imaging cabinets. This automated, high-throughput platform allows repeated non-destructive time-series image capture and multi-parametric analysis of 1,140 plants in a single experiment.
-
-The Scanalyzer 3D platform at the [Bellwether Foundation Phenotyping Facility at the Donald Danforth Plant Science Center ](https://www.danforthcenter.org/scientists-research/core-technologies/phenotyping)consists of multiple digital imaging chambers connected to the Conviron growth house by a conveyor belt system, resulting in a continuous imaging loop. Plants are imaged from the top and/or multiple sides, followed by digital construction of images for analysis.
-
-* RGB imaging allows visualization and quantification of plant color and structural morphology, such as leaf area, stem diameter and plant height.
-* NIR imaging enables visualization of water distribution in plants in the near infrared spectrum of 900–1700 nm.
-* Fluorescent imaging uses red light excitation to visualize chlorophyll fluorescence between 680 – 900 nm. The system is equipped with a dark adaptation tunnel preceding the fluorescent imaging chamber, allowing the analysis of photosystem II efficiency.
-
-The LemnaTec software suite is used to program and control the Scanalyzer platform, analyze the digital images and mine resulting data. Data and images are saved and stored on a secure server for further review or reanalysis.
-
-## Genomics
-
-Genomic data includes whole-genome resequencing data from the HudsonAlpha Institute for Biotechnology, Alabama for 384 samples for accessions from the sorghum Bioenergy Association Panel \(BAP\) and genotyping-by-sequencing \(GBS\) data from Kansas State University for 768 samples from a population of sorghum recombinant inbred lines \(RIL\).
+#### 
 

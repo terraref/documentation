@@ -1,4 +1,10 @@
-# Maricopa Experiments
+---
+description: >-
+  The Maricopa field site is located at the the University of Arizona Maricopa
+  Agricultural Center and USDA Arid Land Research Station in Maricopa, Arizona.
+---
+
+# The Maricopa Agricultural Center \(MAC\)
 
 ## Published Experiments
 

@@ -51,7 +51,7 @@ These files are uncalibrated; see the hyperspectral pipeline repository for info
 
 ### See also
 
-* [Sensor calibration](../../scientific-objectives-and-experimental-design/protocols/sensor-calibration.md)
-* [Hyperspectral data pipeline](../../technical-documentation/data-product-creation/hyperspectral-data.md)
+* [Sensor calibration](../../protocols/sensor-calibration.md)
+* [Hyperspectral data pipeline](../../protocols/hyperspectral-data.md)
 * [Geospatial information](geospatial-information.md)
 

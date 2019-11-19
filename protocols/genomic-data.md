@@ -151,3 +151,47 @@ tassel-5-standalone/run_pipeline.pl -Xms75G -Xmx290G -fork1 -vcf \
   all_combined_Genotyped_lines_vcftools.filtered.recode.sorted.vcf -export -exportType Hapmap -runfork1
 ```
 
+## CoGe genomics pipeline
+
+CoGe has integrated the tools that make up the Danforth Center’s variant calling pipeline into their easy point and click GUI, allowing users to reproduce a majority of the TERRA SNP analysis.  Below, we detail how to run sequence data through CoGe’s system.
+
+* Goto [https://genomevolution.org/coge/](https://genomevolution.org/coge/) or click [create an account](https://genomevolution.org/wiki/index.php/How_to_get_a_CoGe_account) to get started.
+* If this is your initial attempt, you will need to create a Genome.
+
+  1. Under Tools, click [Load Genome](https://genomevolution.org/coge/LoadGenome.pl) or use this link.
+
+  \*\*\*\*
+
+* Under Tools, click [Load Experiment](https://genomevolution.org/coge/LoadExperiment.pl) or use this link.
+* **Select Data:** to use the TERRA data click Community Data or choose from CoGe’s other data options.
+* **Select Options:** This outlines CoGe’s choices for data processing and analysis.  To reproduce pipeline used to create the TERRA SNPs, you can reference the exact tools and parameters used in the Danforth analysis above and enter the appropriate values into their equivalent drop downs or fields.
+
+For the TERRA SNP the following were used: 
+
+**FASTQ Format**
+
+* Read Type: Paired-end 
+* Encoding: phred33
+
+**Trimming**
+
+* Trimmer: BBDuk
+* BBDuk parameters: k=23, mink=11, hdist=1, check mark both tpe and tbo,  qtrim=rl, trimq=20, minlen=20, set trim adapters to both ends
+
+**Alignment**
+
+* Aligner: BWA-MEM
+* BWA-MEM parameters: check mark -M, fill in [Read Groups](https://gatkforums.broadinstitute.org/gatk/discussion/6472/read-groups) ID \(identifier\), PL \(sequence platform\), LB \(library prep\), SM \(sample name\)
+
+**SNP Analysis**
+
+* Check mark Enable which expands this section
+* Method: GATK HaplotypeCaller \(single-sample GVCF\) using the default parameters but you can choose to use Realign reads around INDELS
+
+**General Options**
+
+* Checkmark both options to add results to your notebook and receive an email when pipeline has completed. 
+
+**Describe Experiment:** Enter an experiment name \(required\), your data processing version ie 1 for first time, Source if using TERRA Data, it’s TERRA \(required\), and Genome \(required and if you start typing it will find your loaded genome but be sure to verify version and id .\)  
+
+

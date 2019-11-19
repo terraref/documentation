@@ -1,4 +1,4 @@
-# Scientific Objectives and Experimental Design
+# Scientific Objectives
 
 ### Phenotyping
 
