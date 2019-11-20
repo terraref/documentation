@@ -4,7 +4,7 @@
 
 TERRA’s data standards facilitate the exchange of genomic and phenomic data across teams and external researchers. Applying common standards makes it easier to exchange analytical methods and data across domains and to leverage existing tools.
 
-When practical, existing conventions and standards have been used to create data standards. Spatial data adopts Federal Geographic Data Committee \(FGDC\) and Open Geospatial Consortium \(OGC\) data and meta-data standards. CF variable naming convention was adopted for meteorological data and biophysical data. Data formats and variable naming conventions were adapted from NEON and NASA.
+When practical, existing conventions and standards have been used to create data standards. Spatial data adopts [Federal Geographic Data Committee \(FGDC\)](https://www.fgdc.gov/standards) and [Open Geospatial Consortium \(OGC\)](http://www.opengeospatial.org/docs/is) data and meta-data standards. CF variable naming convention was adopted for meteorological data and biophysical data. Data formats and variable naming conventions were adapted from NEON and NASA.
 
 Feedback from data creators and users were used to define the types of data formats, semantics, and interfaces, file formats, and representations of space, time, and genetic identity based on existing standards, commonly used file formats, and user needs.
 

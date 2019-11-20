@@ -17,22 +17,6 @@ TERRA Project Standards Committee representatives are expected to represent the 
 
 If we can efficiently agree on and adopt conventions, we will have more flexibility to use these workshops to train researchers, remove obstacles, and identify opportunities. This will be an opportunity for researchers to work with developers at NCSA and from the broader TERRA informatics and computing teams to identify what works, prioritize features, and move forward on research questions that require advanced computing.
 
-## Project Timeline
-
-* August 2015: Establish committee, form a data plan
-* January 2016: v0 file standards
-* January 2017: v1 file standards, sample data sets
-* January 2018: mock data cube generator, standardized data products, simulated data
-* January 2019: standardized data products, simulated data
-
-## Data Standards Participants
-
-* TERRA Project Representatives \(6\)
-* ARPA-E Program Representatives \(2\)
-* Board of External Advisors \(6\)
-
-\(numbers in parentheses are targets, for which we have funding\)
-
 ### People
 
 | Name | Institution | Email |

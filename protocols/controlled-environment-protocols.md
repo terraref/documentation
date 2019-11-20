@@ -10,7 +10,8 @@ Automated VIS and NIR imaging in a controlled growth environment
 
 ## Materials
 
-ProMix BRK20 + 14-14-14 Osmocote pots; pre-filled by Hummert Sorghum seed
+* ProMix BRK20 + 14-14-14 Osmocote pots
+* pre-filled by Hummert Sorghum seed
 
 ## Equipment
 

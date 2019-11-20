@@ -1,37 +1,36 @@
 # Scientific Objectives
 
-### Phenotyping
+## Combining advanced sensing with novel analytical approaches to accelerate breeding
 
-The TERRA-REF project is phenotyping the same genotypes of sorghum at multiple locations
+The [ARPA-E](https://arpa-e.energy.gov/)-funded [Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform](http://terraref.org/) \(TERRA-REF\) program aims to transform plant breeding by using remote sensing to quantify plant traits such as plant architecture, carbon uptake, tissue chemistry, water use, and other features to predict the yield potential and stress resistance of 400+ diverse Sorghum lines.
 
-* Automated Lemnatec Scanalyzer Field System at [Maricopa Agricultural Center ](experimental-design/experimental-design-mac.md)\(MAC\)
-* [PhenoTractors ](protocols/phenotractor-protocols.md)on parallel plots at [MAC ](experimental-design/experimental-design-mac.md)and Kansas State University \(KSU\)
-* [UAV ](protocols/uav-protocols.md)platform on parallel plots at KSU
-* [Controlled-environment phenotyping systems](protocols/controlled-environment-protocols.md) at the [Danforth Center](experimental-design/experimental-design-danforth.md)
-  * [Manually collected field data](protocols/manual-field-data-protocols.md) at all locations
+## Conducting high-throughput phenotyping to connect discoveries to field performance
 
-### Genotyping
+Breeding is currently limited by the speed at which phenotypes can be measured, and the information that can be extracted from these measurements. Current instruments used to quantify plant traits do not scale to the thousands or tens of thousands of individual plants that need to be evaluated in a breeding program. The TERRA-REF field scanner system scans over 1 acre of plants, collecting thousands of daily measurements throughout the growing season that are used to determine plant phenotypes and inform breeding decisions.
 
-[Whole genome resequencing](experimental-design/experimental-design-genomics.md) is being carried out on ~[400 sorghum accessions]() to understand the landscape of genetic variation in the selected germplasm and enable high-resolution mapping of bioenergy traits with genome wide association studies \(GWAS\). Additionally, ~200 sorghum recombinant inbred lines \(RILs\) will be characterized with ~400,000 genetic markers using genotyping-by-sequencing \([Morris et al., 2013](http://www.g3journal.org/content/early/2013/09/13/g3.113.008417)\) for trait dissection in the RIL population and testcross hybrids of the RIL population.
+The field level phenotypic data combined with the genomic data is helping us to identify the differences between each line and the reference genome sequence for sorghum. We are using bioinformatics and quantitative genetics to characterize the observed genetic variation and identify genomic regions controlling biomass, plant architecture, and photosynthetic traits.
 
-## Maricopa Agricultural Center \(MAC\), Arizona
+![](.gitbook/assets/terra-ref-scanner.jpg)
 
-Three hundred thirty one [lines were planted in 2016](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=239932660&single=true&widget=true&headers=false). Plantings occurred both under and west of the gantry system.
+![](.gitbook/assets/associations.jpg)
 
-* [Experiments planned for 2016](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=890543376&single=true&widget=true&headers=false)
-* Field layouts [under the gantry](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=1231399646&single=true&widget=true&headers=false) and [west of the gantry](https://docs.google.com/spreadsheets/d/1Nfabx_n1rNlO6NW3olD8MAibJ3KHnOMmMwOYYw4wwGc/pubhtml?gid=728631369&single=true&widget=true&headers=false) in 2016.
+## Using large-scale genome sequencing to drive phenotype-genotype associations and gene discovery
 
-## Automated controlled-environment phenotyping, Missouri
+There is enormous potential for sorghum crop improvement. There are 50,000 sorghum accessions in the U.S. germplasm collection and most are unused and unstudied. TERRA-REF is analyzing a sorghum bioenergy association panel \(BAP\) that includes diverse sweet and biomass lines from all five sorghum races. The BAP captures geographic, racial, and genomic diversity.
+
+![](.gitbook/assets/diversity.png)
+
+TERRA-REF has already sequenced 384 of the lines with an average sequence coverage of 20x per line. Genome-wide association studies \(GWAS\) are now underway.
+
+## Providing reference quality data as a community resource
+
+TERRA-REF is developing a data storage and computing system that provides researchers with access to all of the ‘raw’ data and derived plant phenotypes \(traits\). Data from sensors at a variety of locations across the US will be transferred to one location.
+
+The reference data will facilitate data sharing and re-use of data by providing metadata, provenance for derived data sets, and standardized data processing workflows. It will include geospatial infrastructure for efficiently querying and transforming key datasets and tools that enable researchers to access, archive, use, and contribute data products. The technical documentation for this data pipeline is detailed in this book.
+
+The data storage and computing system provides researchers with access to the reference phenotyping data and analytics resources using a high performance computing environment. The reference phenotyping data includes direct measurements and sensor observations, derived plant phenotypes, and genetic and genomic data.
+
+Our objectives are to ensure that the software and data in the reference data and computing pipeline are interoperable, reusable, extensible, and understandable. Providing clear definitions of common formats will make it easier to analyze and exchange data and results.
 
 
-
-## Kansas State University
-
-* **PhenoTractor** - Coming 2017
-* **UAV** - Coming 2017
-* **Manually collected field data** - Coming 2017
-
-## HudsonAlpha - Genomics
-
-* Coming 2017
 
