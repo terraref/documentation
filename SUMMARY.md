@@ -18,6 +18,7 @@
 * [Data](user-manual/README.md)
   * [Data Products](user-manual/data-products/README.md)
     * [Environmental conditions](user-manual/data-products/environmental-conditions.md)
+    * [Phenotype Data](user-manual/data-products/phenotype-data.md)
     * [Fluorescence intensity imaging](user-manual/data-products/fluorescence-intensity-imaging.md)
     * [Genomics data](user-manual/data-products/genomics-data.md)
     * [Geospatial information](user-manual/data-products/geospatial-information.md)
