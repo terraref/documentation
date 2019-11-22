@@ -2,11 +2,11 @@
 
 You can access genomics data in one of the following locations:
 
-* Download via [Globus](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-globus.md).
-* The [CyVerse Data Store](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-cyverse.md) for download or use within the CyVerse computing environment.
-* The [CoGe](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/using-coge.md) computing environment.
+* Download via [Globus](../how-to-access-data.md#globus-browse-and-transfer-files).
+* The [CyVerse Data Store](../how-to-access-data.md#cyverse) for download or use within the CyVerse computing environment.
+* The [CoGe](../how-to-access-data.md#coge) computing environment.
 
-See [Data use policy](https://github.com/terraref/documentation/tree/56f669dc870b3c3921bfc029914545574e70f8df/products/user/data_release_policy.md) before continuing.
+Please review our [data use policy](../data-use-policy.md).
 
 The data is structured on both the TERRA-REF strorage \(accessible via Globus and Workbench\) and CyVerse Data Store infrastructures as follows:
 
@@ -46,4 +46,17 @@ Raw data are in gzip FASTQ format. 768 samples are available. For a list of line
 ### Derived data
 
 Combined genotype calls are available in VCF format.
+
+## KSU Genomics Pipeline / GBS/RIL analysis
+
+### Raw Data
+
+* genomics/raw\_data/ril/gbs
+  *  H5JYFBCXY\_1\_fastq.txt
+  *  H5JYFBCXY\_2\_fastq.txt
+  * Key\_ril\_terra
+
+### Derived Data
+
+* genomics/derived\_data/ril/gbs/kansas\_state/version1/imp\_TERRA\_RIL\_SNP.vcf
 

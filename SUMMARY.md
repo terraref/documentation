@@ -15,7 +15,7 @@
   * [Phenotractor Protocols](protocols/phenotractor-protocols.md)
   * [UAV Protocols](protocols/uav-protocols.md)
   * [Genomic Data](protocols/genomic-data.md)
-* [Data Use](user-manual/README.md)
+* [Data](user-manual/README.md)
   * [Data Products](user-manual/data-products/README.md)
     * [Environmental conditions](user-manual/data-products/environmental-conditions.md)
     * [Fluorescence intensity imaging](user-manual/data-products/fluorescence-intensity-imaging.md)
@@ -27,6 +27,7 @@
     * [Meteorological data](user-manual/data-products/meteorological-data.md)
     * [Controlled Environment phenotype data](user-manual/data-products/plantcv-trait-data.md)
     * [Point Cloud Data](user-manual/data-products/point-cloud-data.md)
+    * [Maricopa UAV Data](user-manual/data-products/maricopa-uav-data.md)
   * [How to Access Data](user-manual/how-to-access-data.md)
   * [Data Use Policy](user-manual/data-use-policy.md)
   * [Manuscripts and Authorship Guidelines](user-manual/manuscripts-and-authorship-guidelines.md)
@@ -58,4 +59,5 @@
   * [Communication and Collaboration](appendix/collaboration-tools.md)
   * [Glossary](appendix/glossary.md)
 * [References](references.md)
+* [TODO](todo.md)
 

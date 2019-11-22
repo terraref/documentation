@@ -197,3 +197,16 @@ For the TERRA SNP the following were used:
 **Describe Experiment:** Enter an experiment name \(required\), your data processing version ie 1 for first time, Source if using TERRA Data, it’s TERRA \(required\), and Genome \(required and if you start typing it will find your loaded genome but be sure to verify version and id .\)  
 
 
+## KSU Genomics Pipeline / GBS/RIL Analysis
+
+### Data Access
+
+On Globus and Workbench
+
+
+
+* * |  |  |  |  |
+    | :--- | :--- | :--- | :--- |
+    |  |  |  |  \* |
+    |  |  |  |  \* |
+

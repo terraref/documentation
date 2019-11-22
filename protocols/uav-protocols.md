@@ -6,6 +6,8 @@ Authors: Rick Ward
 
 ## Abstract
 
+Multispectral data collected during seasons 1-5 at Maricopa using small unmanned aircraft systems, i.e. UAVs. Workflow includes image capture with cameras on UAV platforms, generation of georeferenced orthomosic reflectance and index \(e.g. NDVI\) geotiffs, extraction of plot level statistics within qgis with the aid of polygon shape files in which plot attributes are stored. Downstream users can access the radiometric and index data from the reflectance map geotiffs directly, or from the plot level data uploads.
+
 ## Materials
 
 ### Platforms
@@ -44,4 +46,5 @@ QGIS software was used to confirm geospatial alignment of NDVI geotiffs with sha
 * MicaSense: [https://www.micasense.com](https://www.micasense.com)
 * SenseFly [https://www.sensefly.com](https://www.sensefly.com)
 * QGIS [https://www.qgis.org](https://www.qgis.org)
+* Pix4D [https://www.Pix4D.com ](https://www.Pix4D.com%20)
 
