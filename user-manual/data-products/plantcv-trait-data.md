@@ -11,7 +11,7 @@ Full documentation: [http://plantcv.readthedocs.io/en/latest](http://plantcv.rea
 Publications:
 
 * [https://doi.org/10.7717/peerj.4088](https://doi.org/10.7717/peerj.4088)
-* [http://dx.doi.org/10.1016/j.molp.2015.06.005](http://dx.doi.org/10.1016/j.molp.2015.06.005)
+* [https://doi.org/10.1016/j.molp.2015.06.005](https://doi.org/10.1016/j.molp.2015.06.005)
 
 To learn more about PlantCV, you can find examples in the [terraref/tutorials](https://github.com/terraref/tutorials) repository, which is accessible on GitHub and in the TERRA REF [workbench](https://www.workbench.terraref.org) under tutorials/plantcv
 
