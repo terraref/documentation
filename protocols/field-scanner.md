@@ -68,7 +68,7 @@ Twelve sensors are attached to the gantry system. Detailed information for each 
       <td
       style="text-align:left">44.5&#xB0;</td>
         <td style="text-align:left">1.4 x 1.0</td>
-        <td style="text-align:left">900-2500 nm @ 2/3 nm resolution</td>
+        <td style="text-align:left">900-2500 nm @ 12 nm resolution</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
