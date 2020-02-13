@@ -1,4 +1,4 @@
-# Genomic Data
+# Genomic Protocols
 
 Genomic data includes whole-genome resequencing data from the [HudsonAlpha Institute for Biotechnology](https://hudsonalpha.org/), Alabama for 384 samples for accessions from the sorghum Bioenergy Association Panel \(BAP\) and genotyping-by-sequencing \(GBS\) data from Kansas State University for 768 samples from a population of sorghum recombinant inbred lines \(RIL\).
 
@@ -194,19 +194,5 @@ For the TERRA SNP the following were used:
 
 * Checkmark both options to add results to your notebook and receive an email when pipeline has completed. 
 
-**Describe Experiment:** Enter an experiment name \(required\), your data processing version ie 1 for first time, Source if using TERRA Data, it’s TERRA \(required\), and Genome \(required and if you start typing it will find your loaded genome but be sure to verify version and id .\)  
-
-
-## KSU Genomics Pipeline / GBS/RIL Analysis
-
-### Data Access
-
-On Globus and Workbench
-
-
-
-* * |  |  |  |  |
-    | :--- | :--- | :--- | :--- |
-    |  |  |  |  \* |
-    |  |  |  |  \* |
+**Describe Experiment:** Enter an experiment name \(required\), your data processing version ie 1 for first time, Source if using TERRA Data, it’s TERRA \(required\), and Genome \(required and if you start typing it will find your loaded genome but be sure to verify version and id .\)
 

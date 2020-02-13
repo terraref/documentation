@@ -14,7 +14,7 @@
   * [Manual Field Data Protocols](protocols/manual-field-data-protocols.md)
   * [Phenotractor Protocols](protocols/phenotractor-protocols.md)
   * [UAV Protocols](protocols/uav-protocols.md)
-  * [Genomic Data](protocols/genomic-data.md)
+  * [Genomic Protocols](protocols/genomic-data.md)
 * [Data](user-manual/README.md)
   * [Data Products](user-manual/data-products/README.md)
     * [Environmental conditions](user-manual/data-products/environmental-conditions.md)
