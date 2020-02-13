@@ -32,7 +32,6 @@
   * [How to Access Data](user-manual/how-to-access-data.md)
   * [Data Use Policy](user-manual/data-use-policy.md)
   * [Manuscripts and Authorship Guidelines](user-manual/manuscripts-and-authorship-guidelines.md)
-  * [Release / reprocessing schedule](user-manual/release-reprocessing-schedule.md)
 * [Technical Documentation](technical-documentation/README.md)
   * [Software](technical-documentation/software.md)
   * [Data Standards](technical-documentation/data-standards/README.md)
