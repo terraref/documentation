@@ -2,7 +2,9 @@
 
 ## Release with Attribution
 
-We plan to make data from the Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform \(TERRA-REF\) project available for use with attribution. Each type of data will include or point to the appropriate attribution policy.
+We plan to make data from the Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform \(TERRA-REF\) project available for use with attribution.
+
+Please consider engaging with team members to collaborate on new research with these data. You can learn more about our approach to co-authorship and also about planned research papers in the section [Manuscripts and Authorship Guidelines](manuscripts-and-authorship-guidelines.md).  
 
 ## Timing and Control of Release
 
@@ -28,7 +30,7 @@ For algorithms, we intend to release via BSD 3 clause or MIT / BSD compatible li
 
 ## Images, Phenotypes, and Other Raw Data
 
-For other raw data, such as phenotypic data and associated metadata, we intend to release data under [CC0: Creative Commons with No Rights Reserved - Public Domain\)](https://creativecommons.org/share-your-work/public-domain/cc0/). This follows the requirements of [Dryad](https://datadryad.org/stash/faq#info-cc0) where the data will be published. The goal is to enable the broadest reuse of these data, but **data users are expected cite our data and research in publications.**
+For other raw data, such as phenotypic data and associated metadata, we intend to release data under [CC0: Creative Commons with No Rights Reserved - Public Domain\)](https://creativecommons.org/share-your-work/public-domain/cc0/). This follows the requirements of  [Dryad](https://datadryad.org) where the data will be published, and you can learn more about the motivation for putting data in the public domain [on their blog](https://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/); briefly: the CC0 license allows wide use of these data; **data users are expected cite our data and research in publications:** _acknowledgement of our efforts is not required by law, but by scientific ethics._
 
 ## Citing Data and Software
 
