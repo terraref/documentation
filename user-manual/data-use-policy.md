@@ -28,7 +28,19 @@ For algorithms, we intend to release via BSD 3 clause or MIT / BSD compatible li
 
 ## Images, Phenotypes, and Other Raw Data
 
-For other raw data, such as phenotypic data and associated metadata, we intend to release data under [CC0: Creative Commons with No Rights Reserved - Public Domain\)](https://creativecommons.org/share-your-work/public-domain/cc0/). This is to enable reuse of these data, but **Scientists are expected cite our data and research publications.** For more information, see related discussion and links in [https://github.com/terraref/reference-data/issues/216](https://github.com/terraref/reference-data/issues/216).
+For other raw data, such as phenotypic data and associated metadata, we intend to release data under [CC0: Creative Commons with No Rights Reserved - Public Domain\)](https://creativecommons.org/share-your-work/public-domain/cc0/). This follows the requirements of [Dryad](https://datadryad.org/stash/faq#info-cc0) where the data will be published. The goal is to enable the broadest reuse of these data, but **data users are expected cite our data and research in publications.**
+
+## Citing Data and Software
+
+**Images, Phenotypes, Genomics, and other Data: Dryad Citation TBD**
+
+**Data Processing Pipeline**: Burnette, Maxwell, et al. "TERRA-REF data processing infrastructure." Proceedings of the Practice and Experience on Advanced Research Computing. 2018. 1-7. [doi:10.1145/3219104.3219152](https://doi.org/10.1145/3219104.3219152) 
+
+Individual Software and Documentation Components can be found on Zenodo: [https://zenodo.org/search?page=1&size=20&q=terraref](https://zenodo.org/search?page=1&size=20&q=terraref)
+
+
+
+
 
 ## Contacts
 
