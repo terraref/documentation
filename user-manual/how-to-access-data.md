@@ -4,14 +4,14 @@
 
 TERRA-REF data can be accessed through many different interfaces: Globus, Clowder, BETYdb, CyVerse, and CoGe. Raw data is transfered to the primary compute pipeline using Globus Online. Data is ingested into Clowder to support exploratory analysis. The Clowder extractor system is used to transform the data and create derived data products, which are either available via Clowder or published to specialized services, such as BETYdb.
 
-| Resource | Use | URL | API | clients |
+| Resource | Use | Web User Interface | API\* | clients |
 | :--- | :--- | :--- | :--- | :--- |
 | **Sensor Data** |  |  |  |  |
-|   Globus | Browse directories; transfer large sensor files | globus.org \#TERRAREF endpoint | yes | R, Python |
-|   Clowder | Browse and Download small Sensor Data | terraref.org/clowder | yes | Python |
+|   Globus | Browse directories; transfer large sensor files | globus.org \#TERRAREF endpoint | [docs.globus.org/api/](https://docs.globus.org/api/) | R, Python |
+|   Clowder | Browse and Download small Sensor Data | terraref.org/clowder | [terraref.org/clowder/swaggerUI](https://terraref.org/clowder/swaggerUI) | Python |
 | **Trait Data** |  |  |  |  |
-|   BETYdb | Trait and Agronomic Metadata | terraref.org/bety | yes | R, Python |
-|   traitvis | View available trait data | terraref.org/traitvis | yes | NA |
+|   BETYdb | Trait and Agronomic Metadata | terraref.org/bety | [terraref.org/bety/api/v1](https://terraref.org/bety/api/v1) and [terraref.org/brapi/v1/ui](https://terraref.org/brapi/v1/ui/) | R, Python |
+|   traitvis | View available trait data | terraref.org/traitvis | NA | NA |
 | **Genomics Data** |  |  |  |  |
 |   CyVerse | Download Genomics data | terraref.org/cyverse-genomics | yes |  |
 |   CoGe | Download, process, visualize Genomics data | terraref.org/coge | yes |  |
