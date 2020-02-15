@@ -1,12 +1,14 @@
-# Geospatial Time Series Structure
+# Time Series Data in Geostreams
 
-Several extractors push data to the Clowder Geostreams API, which allows registration of data streams that accumulate datapoints over time. These streams can then be queried, visualized and downloaded to get time series of various measurements across plots and sensors.
+Several extractors push data to the Clowder Geostreams database, which allows registration of data streams that accumulate datapoints over time. These streams can then be queried, visualized and downloaded to get time series of various measurements across plots and sensors. Learn more about data in this database in this tutorial
 
-TERRA-REF organizes data into three levels:
+The TERRA-REF Geostreams database organizes data into three levels:
 
 * Location \(e.g. plot, or a stationary sensor\)
   * Information stream \(a particular instrument's data, or a subset of one instrument's data\)
     * Datapoint \(a single observation from the information stream at a particular point in time\)
+
+![Generalized schema for the Geostreams database \(part of clowder\). ](../.gitbook/assets/image%20%281%29.png)
 
 ## Sensor destinations
 

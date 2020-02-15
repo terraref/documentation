@@ -1,12 +1,12 @@
 # Data Processing Pipeline
 
-![](../../.gitbook/assets/pipeline.jpg)
+![](../.gitbook/assets/pipeline.jpg)
 
 ## Maricopa Agricultural Center, Arizona
 
 ## Automated controlled-environment phenotyping, Missouri
 
-![](../../.gitbook/assets/terraref-danforth-pipline-v3.jpg)
+![](../.gitbook/assets/terraref-danforth-pipline-v3.jpg)
 
 At two points in the processing pipeline, metadata derived from collected data is inserted into BETYdb:
 

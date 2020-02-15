@@ -21,7 +21,7 @@ Additional reference data is available for some sensors:
 * Factory calibration data for the LabSphere and SphereOptics calibration targets.
 * Relative spectral response \(RSR\) information for sensors
 * Calibration data for the environmental logger
-* Dark\/white reference data for the SWIR and VNIR sensors.
+* Dark/white reference data for the SWIR and VNIR sensors.
 
 ## Standardization Efforts
 
