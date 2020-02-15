@@ -2,21 +2,15 @@
 
 ## Release with Attribution
 
-We plan to make data from the Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform \(TERRA-REF\) project available for use with attribution.
+We plan to make data from the Transportation Energy Resources from Renewable Agriculture Phenotyping Reference Platform \(TERRA-REF\) project available for use with attribution. Each type of data will include or point to the appropriate attribution policy.
 
-Please consider engaging with team members to collaborate on new research with these data. You can learn more about our approach to co-authorship and also about planned research papers in the section [Manuscripts and Authorship Guidelines](manuscripts-and-authorship-guidelines.md).  
+## Timing and Control of Release
 
-## Timing and of Data Releases
+We plan to release the data in stages or tiers. For pre-release access please complete the [beta tester application](https://terraref.org/beta).
 
-We plan to release the data in stages. For access to unreleased data, please complete the [beta user application](https://terraref.org/beta) to access data that has not yet been fully processed or validated.
-
-Any access to data prior to publication is granted with the understanding that the contributions and interests of the TERRA-REF team should be recognized and respected by the users of the data. The TERRA-REF team reserves the right to analyze and published its own data. Resource users should appropriately cite the source of the data and acknowledge the resource produces. The publication of the data, as suggested in the [TERRA-REF Authorship Guidelines](manuscripts-and-authorship-guidelines.md), should specify the collaborative nature of the project, and authorship is expected to include all those TERRA-REF team members contributing significantly to the work. 
-
-The **first data publication** in Spring 2020 will provide access to data from the Maricopa field site Seasons 4 and 6 \(on Dryad, citation forthcoming\).
-
-Planned **future releases** include Sorghum Season 9, data from experiments at Kansas State University, and data from the Danforth Indoor Phenotyping Facility. 
-
-Additional seasons can be requested as needed. We can provide the raw data and software required to process it. We can also collaborate with you to process the data, but this will typically require new funding sources.
+1. The **first tier** will be an internal release to the TERRA-REF team and the standards committee. This first tier release will be to quality check and calibrate the data and will take place as data sets are produced and compiled. 
+2. The **second tier** will enable the release of the data generated solely by the TERRA-REF team to other TERRA teams as well as non-TERRA entities. Release of the data to the second tier may occur prior to publication and that access is granted with the understanding that the contributions and interests of the TERRA-REF team should be recognized and respected by the users of the data. The TERRA-REF team reserves the right to analyze and published its own data. Resource users should appropriately cite the source of the data and acknowledge the resource produces. The publication of the data, as suggested in the TERRA-REF Authorship Guidelines, should specify the collaborative nature of the project, and authorship is expected to include all those TERRA-REF team members contributing significantly to the work. 
+3. The **third tier** will provide the public with access to curated datasets from the TERRA REF program. It is an objective of the TERRA-REF team to release of the data to the public by November 2019. These will be released under the conditions described below. 
 
 ## Genomic Data
 
@@ -30,19 +24,11 @@ We prefer that potential users of these sequence data contact the individuals li
 
 ## Software and Algorithms
 
-For algorithms, we intend to release via BSD 3 clause or MIT / BSD compatible license. Algorithms are available on GitHub in the terraref organization: github.com/terraref. Algorithms have been versioned and released on Zenodo \(see [https://zenodo.org/search?q=terraref](https://zenodo.org/search?page=1&size=20&q=terraref)\).
+For algorithms, we intend to release via BSD 3 clause or MIT / BSD compatible license. Algorithms are available on GitHub in the terraref organization: github.com/terraref.
 
 ## Images, Phenotypes, and Other Raw Data
 
-For other raw data, such as phenotypic data and associated metadata, we intend to release data under [CC0: Creative Commons with No Rights Reserved - Public Domain\)](https://creativecommons.org/share-your-work/public-domain/cc0/). This follows the requirements of  [Dryad](https://datadryad.org) where the data will be published, and you can learn more about the motivation for putting data in the public domain [on their blog](https://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/); briefly: the CC0 license allows wide use of these data and while it does not legally bind users to acknowledge the source **data users are expected cite our data and research in publications, presentations, and other products.**
-
-## Citing Data and Software
-
-**Images, Phenotypes, Genomics, and other Data: Dryad Citation TBD**
-
-**Data Processing Pipeline**: Burnette, Maxwell, et al. "TERRA-REF data processing infrastructure." Proceedings of the Practice and Experience on Advanced Research Computing. 2018. 1-7. [doi:10.1145/3219104.3219152](https://doi.org/10.1145/3219104.3219152) 
-
-Individual Software and Documentation Components can be found on Zenodo: [https://zenodo.org/search?page=1&size=20&q=terraref](https://zenodo.org/search?page=1&size=20&q=terraref)
+For other raw data, such as phenotypic data and associated metadata, we intend to release data under [CC0: Creative Commons with No Rights Reserved - Public Domain\)](https://creativecommons.org/share-your-work/public-domain/cc0/). This is to enable reuse of these data, but **Scientists are expected cite our data and research publications.** For more information, see related discussion and links in [https://github.com/terraref/reference-data/issues/216](https://github.com/terraref/reference-data/issues/216).
 
 ## Contacts
 
