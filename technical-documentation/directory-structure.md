@@ -1,6 +1,6 @@
 # Directory Structure
 
-The data processing pipeline transmits data from origination sites to a controlled directory structure on the [ROGER](https://wiki.ncsa.illinois.edu/display/ROGER/ROGER+System+Information) CyberGIS supercomputer.
+The data processing pipeline transmits data from origination sites to a controlled directory structure on the Nebula computer at NCSA where it is available for [transfer via Globus](../user-manual/how-to-access-data.md#globus-browse-and-transfer-files). This directory structure is visible when accessing data via the Globus interface.
 
 The data is generally structured as follows:
 
@@ -25,9 +25,5 @@ The data is generally structured as follows:
       /extractor3_outputs
 ```
 
-...where raw outputs from sensors per site are stored in a `raw_data` subdirectory and corresponding outputs from different extractor algorithms are stored in `Level_1` \(and eventually `Level_2`, etc\) subdirectories.
-
-When possible, sensor directories will be divided into days and then into individual datasets.
-
-This directory structure is visible when accessing data via the Globus interface.
+...where raw outputs from sensors per site are stored in a `raw_data` subdirectory and corresponding outputs from different extractor algorithms are stored in `Level_1` \(and `Level_2`, etc\) subdirectories \(see [data product levels](data-product-creation.md)\). When possible, sensor directories are divided into days and then into individual datasets. 
 
