@@ -54,7 +54,6 @@
   * [Developing Clowder Extractors](developer-manual/developing-clowder-extractors.md)
 * [Code of Conduct](code-of-conduct.md)
 * [Appendix](appendix/README.md)
-  * [Communication and Collaboration](appendix/collaboration-tools.md)
   * [Glossary](appendix/glossary.md)
 * [References](references.md)
 
