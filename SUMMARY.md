@@ -55,5 +55,6 @@
 * [Code of Conduct](code-of-conduct.md)
 * [Appendix](appendix/README.md)
   * [Glossary](appendix/glossary.md)
+  * [Accessing BETYdb with GIS Software](appendix/accessing-betydb-with-gis-software.md)
 * [References](references.md)
 

@@ -89,7 +89,7 @@ The easiest way to access data is to use the [R traits package](https://cran.r-p
 2. create an account at the TERRA-REF BETYdb: [terraref.org/bety](https://terraref.org/bety) \(_not_ betydb.org\)
 3. email dlebauer@email.arizona.edu for your account to be approved.
 
-### Using SQL and PostGIS \(Advanced Users\)
+### Using SQL and PostGIS with Docker \(Advanced Users\)
 
 The fastest and most comprehensive way to access the database using SQL and other database interfaces \(such as the R package dplyr interface described below, or GIS programs described in . You can run an instance of the database using docker, as described below
 
@@ -121,6 +121,13 @@ bety_src <- src_postgres(dbname = "bety",
                          user = 'bety',
                          port = 5433)
 ```
+
+#### GIS software
+
+Interested researchers can access BETYdb directly from GIS software such as ESRI ArcMap and QGIS.  
+In some cases direct access can simplify the use of spatial data in BETYdb. ****See the Appendix [Accessing BETYdb with GIS Software](../appendix/accessing-betydb-with-gis-software.md) for more information.
+
+\*\*\*\*
 
 ## Clowder: Sensor Data and Metadata Browser
 
