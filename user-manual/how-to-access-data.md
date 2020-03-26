@@ -10,7 +10,7 @@ TERRA-REF data can be accessed through many different interfaces: Globus, Clowde
 |   Globus | Browse directories; transfer large sensor files | globus.org \#TERRAREF endpoint | [docs.globus.org/api/](https://docs.globus.org/api/) | R, Python |
 |   Clowder | Browse and Download small Sensor Data | terraref.org/clowder | [terraref.org/clowder/swaggerUI](https://terraref.org/clowder/swaggerUI) | Python |
 | **Trait Data** |  |  |  |  |
-|   BETYdb | Trait and Agronomic Metadata | terraref.org/bety | [terraref.org/bety/api/v1](https://terraref.org/bety/api/v1) and [terraref.org/brapi/v1/ui](https://terraref.org/brapi/v1/ui/) | R traits package, Python: terrautils |
+|   BETYdb | Trait and Agronomic Metadata | terraref.org/bety | [terraref.org/bety/api/v1](https://terraref.org/bety/api/v1) and [terraref.org/brapi/v1/ui](https://terraref.org/brapi/v1/ui/) | R traits package, Python: terrautils; SQL: Postgres in Docker |
 |   traitvis | View available trait data | terraref.org/traitvis | NA | NA |
 | **Genomics Data** |  |  |  |  |
 |   CyVerse | Download Genomics data | terraref.org/cyverse-genomics | yes |  |
@@ -53,7 +53,7 @@ To access data via Globus, you must first have a Globus account and endpoint.
 4. Add an endpoint for the destination \(e.g. your local computer\) [https://www.globus.org/app/endpoints/create-gcp](https://www.globus.org/app/endpoints/create-gcp)
 5. Go to the 'transfer files' page: [https://www.globus.org/app/transfer](https://www.globus.org/app/transfer)
 6. Select source
-   * Endpoint: Terraref
+   * Endpoint: \#Terraref
    * Path: Navigate to the subdirectory that you want.
    * Select \(click\) a folder
    * Select \(highlight\) files that you want to download at destination
@@ -75,7 +75,9 @@ To request access to unpublished data, send your Globus id to David LeBauer \(dl
 
 BETYdb contains the derived trait data with plot locations and other information associated with agronomic experimental design.
 
-The easiest way to access data is to use the [R traits package](https://cran.r-project.org/web/packages/traits/index.html) as described in the [tutorials](https://terraref.org/tutorials).
+### Accessing data in R
+
+The easiest way to access data is to use the [R traits package](https://cran.r-project.org/web/packages/traits/index.html). This is documented in the [tutorials](https://terraref.org/tutorials).
 
 ![](../.gitbook/assets/betydb.png)
 
@@ -86,6 +88,39 @@ The easiest way to access data is to use the [R traits package](https://cran.r-p
 1. fill out the [terraref.org/beta](https://terraref.org/beta) user form
 2. create an account at the TERRA-REF BETYdb: [terraref.org/bety](https://terraref.org/bety) \(_not_ betydb.org\)
 3. email dlebauer@email.arizona.edu for your account to be approved.
+
+### Using SQL and PostGIS \(Advanced Users\)
+
+The fastest and most comprehensive way to access the database using SQL and other database interfaces \(such as the R package dplyr interface described below, or GIS programs described in . You can run an instance of the database using docker, as described below
+
+This is how you can access the TERRA REF trait database. It requires that you install the Docker software on your computer.
+
+The easiest way to get the entire database, including metadata. Assuming you are familiar with the  Postgres and / or the R dbplyr library documentation. See the [TERRA REF Tutorials](https://terraref.org/tutorials) terraref.org/tutorials, the [BETYdb Data Access guide](https://pecan.gitbook.io/betydb-data-access/) for additional examples.
+
+```text
+#git clone https://github.com/terraref/data-paper 
+cd data-paper/code/betydb_docker 
+docker-compose up -d postgres
+docker-compose run --rm bety initialize
+docker-compose run --rm bety sync
+```
+
+#### psql
+
+```text
+psql -d bety -U bety -W bety
+```
+
+#### R
+
+```text
+library(dplyr)
+bety_src <- src_postgres(dbname = "bety", 
+                         password = 'bety',
+                         host = 'localhost', 
+                         user = 'bety',
+                         port = 5433)
+```
 
 ## Clowder: Sensor Data and Metadata Browser
 
