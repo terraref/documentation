@@ -4,6 +4,10 @@
 
 LeBauer, D.S., Burnette, M.A., Demieville, J., Fahlgren, N., French, A.N., Garnett, R., Hu, Z., Huynh, K., Kooper, R., Li, Z., Maimaitijiang, M., Mao, J., Mockler, T.C., Morris, G.P., Newcomb, M., Ottman, M., Ozersky, P., Paheding, S., Pauli, D., Pless, R., Qin, W., Riemer, K., Rohde, G.S., Rooney, W.L., Sagan, V., Shakoor, N., Stylianou, A., Thorp, K., Ward, R., White, J.W., Willis, C., and Zender C.S. \(2020\). TERRA-REF, An Open Reference Data Set From High Resolution Genomics, Phenomics, and Imaging Sensors. Dryad Digital Repository. [http://doi.org/10.5061/dryad.4b8gtht99](http://doi.org/10.5061/dryad.4b8gtht99)
 
+AZMet Weather Data available on Dryad should be cited as
+
+Brown, P. W., and B. Russell. 1996. “AZMET, the Arizona Meteorological Network. Arizona Cooperative Extension.” [https://cals.arizona.edu/AZMET/](https://cals.arizona.edu/AZMET/). 
+
 #### Software
 
 Burnette, Max, David LeBauer, Solmaz Hajmohammadi, Zongyang Li, Craig Willis, Wei Qin, Patrick, and JD Maloney. 2019. _terraref/extractors-multispectral: Season 6 Data Publication \(2019\)_ \(version S6\_Pub\_2019\). Zenodo. [https://doi.org/10.5281/zenodo.3406311](https://doi.org/10.5281/zenodo.3406311).
@@ -46,10 +50,6 @@ Brenton, Zachary W., Elizabeth A. Cooper, Mathew T. Myers, Richard E. Boyles, Na
 #### Soil Data
 
 Babaeian, Ebrahim, Juan R. Gonzalez-Cena, Mohammad Gohardoust, Xiaobo Hou, Scott A. White, and Markus Tuller. 2020. “Physicochemical and Hydrologic Characterization Terra-Ref South Field.” _In Prep_.
-
-#### AZMet Weather
-
-Brown, P. W., and B. Russell. 1996. “AZMET, the Arizona Meteorological Network. Arizona Cooperative Extension.” [https://cals.arizona.edu/AZMET/](https://cals.arizona.edu/AZMET/).
 
 #### **Genomics**
 
