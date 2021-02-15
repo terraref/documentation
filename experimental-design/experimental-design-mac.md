@@ -2,6 +2,25 @@
 
 The Maricopa field site is located at the the [University of Arizona Maricopa Agricultural Center](http://cals-mac.arizona.edu/) and [USDA Arid Land Research Station in Maricopa](https://www.ars.usda.gov/pacific-west-area/maricopa-arizona/us-arid-land-agricultural-research-center/), Arizona.
 
+## Overview of Experiments During the TERRA REF project
+
+
+
+| Season | Crop | Experiments | Populations\(1\) | Planting Date | Harvest |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Sorghum | Density | BAP, RIL | 2016-04-20 | 2016-07-16 |
+| 2 | Sorghum | Uniformity Trials\(2\) | Stay Green RILs F10 | 2016-07-27 | 2016-12-02 |
+| 3 | Durum Wheat |  | Diversity Panel | 2016-12-15 | 2017-04-05 |
+| 4 | Sorghum | Late Season Drought |  | 2017-04-13 | 2017-09-21 |
+| 5 | Durum Wheat |  | Diversity Panel | 2017-11-20 | 2018-04-05 |
+| 6 | Sorghum |  | BAP | 2018-04-20 | 2018-08-02 |
+| 7 | Sorghum | Hybrid Uniformity Blocks | Stay Green RILs, Mutants, F2 families | 2018-08-23 | 2018-11-01 |
+| 8 | Durum Wheat | Uniformity Trials | Diversity Panel | 2019-01-01 | 2019-03-31 |
+| 9 S | Sorghum |  | GRASSL x RIO RILs | 2019-05-01 | 2019-07-28 |
+| 9 N\(3\) | Sorghum |  | SAP | 2019-04-29 | 2019-09-05 |
+
+\(1\) IL = Recombinant Inbred Lines, BAP = Bioenergy Association Panel, SAP = Sorghum Association Panel \(2\). Uniformity Trial = same lines planted in strips across field \(3\) In season 9 a second field ‘North’ was added, and separate trials were conducted
+
 ## Season 1 sorghum \(April - July 2016\)
 
 [Three hundred thirty one lines were planted in Season 1](https://docs.google.com/spreadsheets/d/1QQaWc0UaQQKfEtnSO1G2za8tKU2huC0_VYMBqm5CKAo/edit#gid=796817704).
@@ -25,42 +44,4 @@ The Maricopa field site is located at the the [University of Arizona Maricopa Ag
 | Uniformity | 17 | 2 lines \(forage, PS\) | None - Same line planted in single range |
 
 ### 
-
-## Season 2 sorghum \(August - November 2016, unpublished\)
-
-[One hundred and seventy-six lines were planted in Season 2](https://docs.google.com/spreadsheets/d/107aijRIvO5i-HHwVDQTXn0-9sE02cXO_MdZk3DERzQ0/edit?usp=sharing).
-
-#### Planting map
-
-[Under the scanner system](https://docs.google.com/spreadsheets/d/107aijRIvO5i-HHwVDQTXn0-9sE02cXO_MdZk3DERzQ0/edit#gid=430934319)
-
-#### Planting Design
-
-Under scanner system - same as season 1
-
-### Automated Phenotpying
-
-same as season 1
-
-### Manually Collected Field Data
-
-plant heights managements emergence vigor emergence final stand counts node and tiller counts on marked plants leaf length and width on marked plants, one date
-
-## Season 3 Durum wheat 
-
-#### [Experimental design](https://docs.google.com/spreadsheets/d/15hLUFquat4T-8-ejBKTHRYGgGO1LL3w6UwMQ6jxHA8E/edit#gid=1274912251)
-
-#### [Automatically and manually collected field data plan](https://docs.google.com/spreadsheets/d/15hLUFquat4T-8-ejBKTHRYGgGO1LL3w6UwMQ6jxHA8E/edit#gid=623178992)
-
-## Season 4
-
-## Season 5
-
-## Season 6
-
-## Season 7
-
-## Season 8
-
-## Season 9
 
