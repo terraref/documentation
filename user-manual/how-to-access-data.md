@@ -35,7 +35,9 @@ These can be found at [terraref.org/tutorials](https://terraref.org/tutorials).
 
 ![](../.gitbook/assets/globus.png)
 
-Raw data is transferred to the primary TERRA-REF file system at the National Center for Computing Applications at the University of Illinois. Data is available for Globus transfer via the [Terraref endpoint](https://www.globus.org/app/endpoints/403204c4-6004-11e6-8316-22000b97daec/overview). Direct access to ROGER is restricted.
+Raw data is transferred to the primary TERRA-REF file system at the National Center for Computing Applications at the University of Illinois. 
+
+Public domain data is available for Globus transfer via the [ncsa\#terra-public](https://app.globus.org/file-manager?origin_id=e8feaff4-96cd-11ea-bf90-0e6cccbb0103&origin_path=%2F). Non-public \(but available with permission\) data are at the  [\#Terraref](https://app.globus.org/file-manager?origin_id=403204c4-6004-11e6-8316-22000b97daec&origin_path=%2F) endpoint
 
 Use Globus Online when you want to transfer data from the TERRA-REF system for local analysis.
 
@@ -159,7 +161,7 @@ TERRA-REF genomics data is accessible on the CyVerse Data Store and Discovery En
 
 Genomics data can be browsed and downloaded from the CyVerse data store at [http://datacommons.cyverse.org/browse/iplant/home/shared/terraref](http://datacommons.cyverse.org/browse/iplant/home/shared/terraref)
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%281%29%20%281%29.png)
 
 
 
